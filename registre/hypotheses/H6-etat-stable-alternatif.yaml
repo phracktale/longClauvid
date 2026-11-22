@@ -4,7 +4,7 @@ statut: ouverte
 creee_le: 2026-11-22
 endotype: null
 pistes: [P11, P02]
-sources: [kashi-2019, craddock-2015]
+sources: [kashi-2019, craddock-2015, craddock-2015-plos]
 
 enonce: >-
   La maladie serait un second état d'équilibre d'un système de régulation, pas une lésion.
@@ -34,3 +34,11 @@ historique:
       publiés, sortir du piège demande des mois à des années, donc un traitement bref ne suffit pas.
       L'effet d'ordre n'est pas testable dans un modèle à une seule variable.
       Détail dans simulateurs/niveau2/RESULTATS.md.
+  - date: 2026-11-22
+    evenement: >-
+      Moteur de réseaux logiques construit (simulateurs/niveau2/reseau_logique.py) et vérifié
+      sur deux réseaux de démonstration. Dans ce formalisme, l'ordre des interventions peut
+      décider du résultat : freiner une conséquence avant sa cause échoue. C'est une propriété
+      du formalisme, pas un résultat biologique. Le réseau de Craddock 2015 n'est pas reproduit :
+      ses interactions ne figurent que dans une figure, non lue. Transpositions T01 et T04 :
+      le VIH et le lupus fournissent le plan d'essai de la prédiction, l'arrêt programmé du traitement.

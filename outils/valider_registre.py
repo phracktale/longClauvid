@@ -11,7 +11,9 @@ Ce que le script contrôle
 - chaque piste a un niveau de preuve (A à D) et ne cite que des sources existantes ;
 - chaque hypothèse a un énoncé, une prédiction, une réfutation, un test et un historique,
   et ne cite que des pistes, des sources et un endotype existants ;
-- chaque endotype renvoie à une hypothèse existante.
+- chaque endotype renvoie à une hypothèse existante ;
+- chaque transposition dit ce qui a déjà été tenté, porte un degré de maîtrise connu
+  et ne renvoie qu'à des sources, pistes, hypothèses et endotypes existants.
 
 Usage : python3 outils/valider_registre.py
 """
@@ -27,6 +29,7 @@ TYPES_DE_SOURCE = {"article", "prepublication", "registre", "institution",
                    "communique", "presse", "forum"}
 NIVEAUX_DE_PREUVE = {"A", "B", "C", "D"}
 STATUTS = {"ouverte", "soutenue", "affaiblie", "réfutée", "abandonnée"}
+MAITRISES = {"guérison", "rémission", "contrôle", "prévention", "échec"}
 LONGUEUR_MINIMALE = 40    # caractères : une prédiction tient au moins en une phrase
 
 CHAMPS_SOURCE = ["id", "titre", "url", "type", "lu_le"]
@@ -34,6 +37,8 @@ CHAMPS_PISTE = ["id", "nom", "resultat", "inexploite", "niveau", "sources"]
 CHAMPS_ENDOTYPE = ["id", "nom", "marqueurs", "candidats"]
 CHAMPS_HYPOTHESE = ["id", "titre", "statut", "creee_le", "pistes", "enonce",
                     "prediction", "refutation", "test", "historique"]
+CHAMPS_TRANSPOSITION = ["id", "nom", "processus", "maladie", "maitrise", "levier", "preuve",
+                        "deja_tente", "lecon", "prochain_test", "niveau", "liens", "sources"]
 
 
 def charger(dossier=REGISTRE):
@@ -49,6 +54,7 @@ def charger(dossier=REGISTRE):
         "sources": lire(dossier / "sources.yaml"),
         "pistes": lire(dossier / "pistes.yaml"),
         "endotypes": lire(dossier / "endotypes.yaml"),
+        "transpositions": lire(dossier / "transpositions.yaml"),
         "hypotheses": hypotheses,
     }
 
@@ -79,6 +85,7 @@ def erreurs_du_registre(registre):
     pistes = identifiants(registre["pistes"], "pistes", erreurs)
     endotypes = identifiants(registre["endotypes"], "endotypes", erreurs)
     hypotheses = identifiants(registre["hypotheses"], "hypothèses", erreurs)
+    identifiants(registre["transpositions"], "transpositions", erreurs)
 
     for source in registre["sources"]:
         nom = f"source {source.get('id')}"
@@ -120,6 +127,17 @@ def erreurs_du_registre(registre):
             if texte and len(texte) < LONGUEUR_MINIMALE:    # vide : déjà signalé plus haut
                 erreurs.append(f"{nom} : « {champ} » trop courte pour être testable")
 
+    for transposition in registre["transpositions"]:
+        nom = f"transposition {transposition.get('id')}"
+        signaler_champs_vides(transposition, CHAMPS_TRANSPOSITION, nom, erreurs)
+        if transposition.get("maitrise") not in MAITRISES:
+            erreurs.append(f"{nom} : maîtrise inconnue « {transposition.get('maitrise')} »")
+        if transposition.get("niveau") not in NIVEAUX_DE_PREUVE:
+            erreurs.append(f"{nom} : niveau de preuve inconnu « {transposition.get('niveau')} »")
+        signaler_inconnus(transposition.get("sources"), sources, nom, "source", erreurs)
+        signaler_inconnus(transposition.get("liens"), pistes | hypotheses | endotypes,
+                          nom, "fiche liée", erreurs)
+
     return erreurs
 
 
@@ -133,6 +151,8 @@ def sources_jamais_citees(registre):
     for endotype in registre["endotypes"]:
         for candidat in endotype.get("candidats") or []:
             citees.update(candidat.get("sources") or [])
+    for transposition in registre["transpositions"]:
+        citees.update(transposition.get("sources") or [])
     return sorted({source["id"] for source in registre["sources"]} - citees)
 
 
@@ -141,7 +161,8 @@ def main():
     erreurs = erreurs_du_registre(registre)
 
     print(f"Registre : {len(registre['hypotheses'])} hypothèses, {len(registre['pistes'])} pistes,"
-          f" {len(registre['endotypes'])} endotypes, {len(registre['sources'])} sources.")
+          f" {len(registre['endotypes'])} endotypes, {len(registre['transpositions'])} transpositions,"
+          f" {len(registre['sources'])} sources.")
     orphelines = sources_jamais_citees(registre)
     if orphelines:
         print(f"À noter : {len(orphelines)} sources de contexte, citées par aucune fiche :"

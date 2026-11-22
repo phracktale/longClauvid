@@ -1,0 +1,322 @@
+# Transpositions : ce qu'une maladie mieux maîtrisée apprend sur un processus partagé.
+#
+# Une transposition entre ici si elle remplit les trois critères du protocole :
+#   1. le processus biologique est documenté dans la maladie de référence,
+#      et au moins soupçonné dans le COVID long ou l'EM/SFC ;
+#   2. un levier a été testé en clinique sur ce processus dans la maladie de référence ;
+#   3. ce qui a déjà été tenté dans nos maladies est consigné, échecs compris.
+#
+# maitrise : guérison   = la maladie disparaît et le traitement s'arrête
+#            rémission  = plus de signes sans traitement, rechute possible
+#            contrôle   = maladie tenue en respect tant que le traitement dure
+#            prévention = on empêche la maladie d'apparaître
+#            échec      = le levier a échoué dans la maladie de référence (contre-exemple)
+# niveau   : solidité de la preuve que le processus est à l'œuvre dans le COVID long
+#            ou l'EM/SFC, sur l'échelle A à D des pistes.
+# liens    : pistes (P), hypothèses (H) et endotypes (E) du registre concernés.
+#
+# Les sources de ce fichier ont été lues sous forme de résumé ou d'extrait le 2026-11-22.
+# Leur lecture intégrale reste à faire en phase 1.
+# « Aucun essai repéré » signifie : aucun dans la revue du 2026-11-22.
+#
+# Les leviers cités sont des médicaments à risque, parfois grave. Ce sont des
+# hypothèses à tester en essai, pas des recommandations.
+
+- id: T01
+  nom: "VIH : vider un réservoir viral"
+  processus: >-
+    Un virus ou ses antigènes persistent dans un réservoir tissulaire que le traitement
+    n'atteint pas, et la maladie reprend quand le traitement s'arrête.
+  maladie: Infection par le VIH
+  maitrise: rémission
+  levier: >-
+    Anticorps neutralisants à large spectre, donnés avant une interruption programmée
+    du traitement antiviral.
+  preuve: >-
+    Essai RIO, randomisé en double aveugle sur 68 participants : trois quarts des personnes
+    sous anticorps ont pu arrêter leur traitement au moins 20 semaines, et 6 sur 34 contrôlent
+    le virus depuis au moins deux ans. Essai FRESH : 4 participants sur 20 en contrôle prolongé.
+    Trois autres voies n'aboutissent pas encore. Greffe de moelle : sept guérisons rapportées
+    en 2024, mais la procédure est réservée aux cancers du sang. Ciseaux génétiques CRISPR
+    (EBT-101) : bien tolérés, mais le virus est revenu chez les trois personnes qui ont arrêté
+    leur traitement. Immunostimulant N-803 : pas de retard notable du rebond.
+  deja_tente: >-
+    Anticorps monoclonal AER002 : 36 patients, pas d'efficacité globale (prépublication).
+    Nirmatrelvir-ritonavir 15 ou 25 jours : 959 adultes, aucun bénéfice (RECOVER-VITAL).
+    Deux antiviraux du VIH, Truvada et maraviroc, contre placebo pendant 90 jours :
+    essai de phase 2 en recrutement, 90 participants visés (NCT06511063).
+  lecon: >-
+    Un agent seul ne vide pas un réservoir : la recherche sur le VIH conclut à la nécessité
+    de combinaisons. L'interruption programmée mesure une rémission, pas un effet sous
+    traitement : c'est le plan d'essai que demande H6. Sans mesure du réservoir, un échec
+    ne dit pas si le médicament a manqué sa cible ou si la cible est fausse.
+  prochain_test: >-
+    Dans les essais antiviraux et anticorps déjà terminés, vérifier si l'antigène plasmatique
+    a baissé sous traitement. Lire le résultat de l'essai Truvada–maraviroc à sa publication.
+  niveau: B
+  liens: [P14, H4, H6, E4]
+  sources: [vih-rio-2026, vih-remission-2025, vih-croi-2026, vih-crispr-2024,
+            vih-guerisons-greffe-2024, vih-cas-de-guerison, aer002-prepublication,
+            recover-vital-nih, vih-antiviraux-covid-long, vih-combinaisons-1998,
+            vih-ucsf-2026]
+
+- id: T02
+  nom: "VIH : l'inflammation qui reste quand le virus est contrôlé"
+  processus: >-
+    Une activation immunitaire chronique persiste alors que le virus est supprimé.
+    L'enzyme IDO1 dégrade le tryptophane en kynurénine, les lymphocytes Th17 de l'intestin
+    se raréfient et des produits bactériens passent dans le sang.
+  maladie: Infection par le VIH sous traitement antirétroviral
+  maitrise: contrôle
+  levier: >-
+    Aucun levier validé contre cette inflammation résiduelle. Ce qui se transpose est
+    la mesure : rapport kynurénine/tryptophane et CD14 soluble dans le plasma.
+  preuve: >-
+    Le traitement antirétroviral réduit l'activité d'IDO sans la normaliser. Un rapport
+    kynurénine/tryptophane élevé prédit une mauvaise remontée des CD4 et une mortalité accrue.
+    L'inflammation persiste sous traitement efficace, surtout quand il a commencé tard.
+  deja_tente: >-
+    Leronlimab, anticorps anti-CCR5 venu du VIH : essai exploratoire sur 55 patients pendant
+    8 semaines. Les patients améliorés partaient d'un CCR5 bas, à l'inverse de l'hypothèse
+    de départ d'une immunité suractivée. Nicotinamide riboside : voir T09.
+  lecon: >-
+    Supprimer le virus n'éteint pas l'inflammation : un antiviral efficace peut donc échouer
+    sur les symptômes. Interprétation de ce dépôt : le sens de l'anomalie compte. Dans le VIH,
+    IDO1 est suractivée ; le modèle de Kashi suppose au contraire une IDO1 freinée par un excès
+    de tryptophane dans la cellule. Les deux situations appellent des leviers opposés.
+  prochain_test: >-
+    Doser le rapport kynurénine/tryptophane et le CD14 soluble dans une cohorte existante,
+    par endotype. Un rapport élevé oriente vers une IDO1 induite par l'interféron (H2) ;
+    un rapport normal ou bas laisse ouverte l'hypothèse du piège métabolique.
+  niveau: B
+  liens: [P09, P03, H2, E2]
+  sources: [vih-ido-th17-2010, vih-ido-sous-traitement-2014, vih-kt-mortalite-2014,
+            vih-inflammation-2022, vih-dysfonction-residuelle-2021, leronlimab-2022,
+            leronlimab-ucla-2022, wong-2023, kashi-2019]
+
+- id: T03
+  nom: "VIH : agir avant que la maladie s'installe"
+  processus: >-
+    Les premiers jours de l'infection pèsent sur la suite : taille du réservoir
+    et niveau d'inflammation à long terme.
+  maladie: Infection par le VIH
+  maitrise: prévention
+  levier: Antiviraux pris avant l'exposition (PrEP), et traitement dès le début de l'infection.
+  preuve: >-
+    PrEP orale : 44 % de réduction du risque dans l'essai iPrEx, où l'observance était
+    partielle ; 86 % dans les essais Ipergay et PROUD. Lénacapavir injectable : 96 % de réduction
+    dans l'essai PURPOSE 2. Sous traitement, l'inflammation reste plus forte quand
+    il a été commencé en phase chronique.
+  deja_tente: >-
+    Metformine 14 jours pendant l'infection aiguë : dans l'essai COVID-OUT, 6,3 % de COVID long
+    à 300 jours contre 10,4 % sous placebo (rapport de risque 0,59), sur un critère secondaire.
+    Essai ACTIV-6 : réduction relative de 50 % à six mois, selon un communiqué universitaire.
+    Vaccination avant l'infection : risque plus bas dans les études d'observation, sans essai
+    randomisé. Aucune étude de la metformine sur un COVID long déjà installé.
+  lecon: >-
+    La fenêtre la plus efficace précède la maladie. Pour les patients déjà malades, cette
+    transposition ne donne pas de traitement ; elle dit qu'un processus des premiers jours
+    détermine la suite, et qu'il reste à identifier.
+  prochain_test: >-
+    Dans COVID-OUT et ACTIV-6, comparer les profils des COVID longs survenus sous metformine
+    et sous placebo, pour savoir quel processus la prévention évite.
+  niveau: B
+  liens: [P14, H4]
+  sources: [vih-prep-niaid, vih-prep-essais-2018, vih-prep-lenacapavir-2024,
+            vih-inflammation-2022, covid-out-2023, activ6-metformine-2026,
+            metformine-revue-2026, vaccination-meta-2025, vaccination-revue-2023]
+
+- id: T04
+  nom: "Lupus : remettre à zéro les lymphocytes B"
+  processus: Des auto-anticorps sont entretenus par des lymphocytes B et des plasmocytes.
+  maladie: Lupus systémique réfractaire
+  maitrise: rémission
+  levier: Cellules CAR-T anti-CD19, qui détruisent les lymphocytes B de façon profonde et transitoire.
+  preuve: >-
+    Cinq patients : rémission sans traitement, maintenue après le retour des lymphocytes B
+    (en moyenne 110 jours après l'injection). Suivi à long terme de 11 patients, médiane
+    de 2,5 ans : rémission sans traitement, une seule poussée.
+  deja_tente: >-
+    Daratumumab, qui vise les plasmocytes : pilote ouvert, 6 patientes sur 10 nettement
+    améliorées. Les essais de CAR-T dans le COVID long ou l'EM/SFC n'ont pas été recherchés :
+    travail de la phase 1.
+  lecon: >-
+    La rémission survit au retour des lymphocytes B : c'est la signature d'un changement
+    d'état, ce que prédit H6. La cible diffère de celle de H1 : l'anti-CD19 épargne
+    les plasmocytes à longue durée de vie. Les deux approches prédisent des répondeurs différents.
+  prochain_test: >-
+    Dans l'essai randomisé du daratumumab, mesurer la durée de la réponse après l'arrêt
+    et doser les IgG fonctionnelles avant et après traitement.
+  niveau: A
+  liens: [P01, P02, H1, H6, E1]
+  sources: [car-t-lupus-2022, car-t-lupus-suivi-2025, fluge-2025]
+
+- id: T05
+  nom: "Myasthénie : abaisser les IgG"
+  processus: Des auto-anticorps de type IgG circulent et provoquent les symptômes.
+  maladie: Myasthénie généralisée
+  maitrise: contrôle
+  levier: >-
+    Efgartigimod, fragment d'anticorps qui bloque le récepteur FcRn et accélère
+    l'élimination des IgG.
+  preuve: >-
+    Essai ADAPT de phase 3 sur 167 patients : parmi les porteurs d'anticorps anti-récepteur
+    de l'acétylcholine, 68 % de répondeurs sous efgartigimod contre 30 % sous placebo.
+  deja_tente: >-
+    Essai de phase 2 dans la tachycardie posturale post-COVID : 53 participants, 24 semaines.
+    Pas d'amélioration cliniquement significative contre placebo ; développement arrêté en 2024.
+  lecon: >-
+    Abaisser toutes les IgG chez des patients non sélectionnés n'a pas suffi. Deux lectures
+    s'opposent : les IgG ne causent pas ce tableau, ou seule une partie des patients porte
+    des IgG pathogènes. Le simulateur de niveau 1 montre qu'un essai tout-venant de cette
+    taille ne voit pas un effet limité à une minorité. Seul un test fonctionnel départage.
+  prochain_test: >-
+    Savoir si des échantillons de cet essai existent, pour tester la fixation des IgG
+    aux neurones chez les participants améliorés et non améliorés.
+  niveau: A
+  liens: [P01, H1, E1, E5]
+  sources: [efgartigimod-myasthenie-2021, efgartigimod-myasthenie-resume,
+            efgartigimod-pots-2024, efgartigimod-pots-registre]
+
+- id: T06
+  nom: "Hépatite C : supprimer l'antigène guérit la vascularite"
+  processus: >-
+    Un antigène viral persistant entretient des complexes immuns et une inflammation
+    des petits vaisseaux.
+  maladie: Vascularite cryoglobulinémique de l'hépatite C
+  maitrise: guérison
+  levier: Antiviraux à action directe, qui éliminent le virus chez plus de 95 % des patients.
+  preuve: >-
+    Sofosbuvir et daclatasvir : réponse clinique complète chez 37 patients (90,2 %),
+    tous débarrassés du virus. La vascularite peut toutefois persister ou rechuter
+    après la guérison virale.
+  deja_tente: >-
+    Nirmatrelvir-ritonavir 15 ou 25 jours : aucun bénéfice. Anticorps AER002 :
+    pas d'efficacité globale.
+  lecon: >-
+    Quand l'antigène disparaît vraiment, la maladie immune régresse le plus souvent :
+    c'est la preuve de principe de H4. Deux différences pèsent. L'hépatite C a un marqueur
+    de guérison, l'ARN viral indétectable ; le COVID long n'a pas de dosage validé.
+    Et des clones de lymphocytes B peuvent devenir autonomes : traiter tard peut ne plus suffire.
+  prochain_test: >-
+    Vérifier dans RECOVER-VITAL et AER002 si l'antigène plasmatique a baissé sous traitement.
+    S'il n'a pas baissé, ces essais n'ont pas testé H4.
+  niveau: B
+  liens: [P14, P08, H4, E4]
+  sources: [vhc-cryoglobulinemie-2017, vhc-cryoglobulinemie-2020,
+            vhc-cryoglobulinemie-rechute-2022, recover-vital-nih, aer002-prepublication]
+
+- id: T07
+  nom: "Hémoglobinurie paroxystique nocturne : bloquer le complément"
+  processus: >-
+    Le complément terminal s'active sans frein, détruit des cellules et favorise les thromboses.
+  maladie: Hémoglobinurie paroxystique nocturne
+  maitrise: contrôle
+  levier: Eculizumab, anticorps dirigé contre la protéine C5 du complément.
+  preuve: >-
+    Essai randomisé contre placebo positif en 2006. Suivi de 195 patients sur 66 mois :
+    survie nettement améliorée. Ce n'est pas une guérison : le traitement ne corrige pas la cause.
+  deja_tente: Aucun essai d'inhibiteur du complément repéré dans le COVID long.
+  lecon: >-
+    Le complément terminal se bloque durablement chez l'humain. La question ouverte est
+    en amont : quels patients ont un complément réellement activé, et est-ce une cause
+    ou une conséquence ?
+  prochain_test: >-
+    Étude de marqueurs d'abord : mesurer le complexe terminal du complément par endotype,
+    avant d'envisager un essai.
+  niveau: B
+  liens: [P08, H4, E4]
+  sources: [eculizumab-hpn-2006, eculizumab-hpn-2013, hpn-complement-2019, cervia-hasler-2024]
+
+- id: T08
+  nom: "Interféronopathies : bloquer le récepteur de l'interféron"
+  processus: Le signal de l'interféron de type I s'entretient de lui-même.
+  maladie: Lupus systémique et interféronopathies génétiques (SAVI, CANDLE)
+  maitrise: contrôle
+  levier: Anifrolumab, anticorps dirigé contre le récepteur de l'interféron ; inhibiteurs de JAK.
+  preuve: >-
+    Anifrolumab autorisé dans le lupus à partir de 2021, bien qu'un des deux essais de phase 3
+    ait manqué son critère principal. Dans les interféronopathies génétiques, il normalise
+    la signature interféron et soulage davantage qu'un inhibiteur de JAK seul.
+  deja_tente: "Baricitinib, inhibiteur de JAK : essai REVERSE-LC en recrutement."
+  lecon: >-
+    Ces maladies fournissent à la fois le levier et le marqueur de sélection :
+    la signature interféron. Elles montrent aussi qu'un anti-JAK peut ne pas suffire
+    à éteindre le signal.
+  prochain_test: >-
+    Stratifier REVERSE-LC sur la signature interféron à l'inclusion. N'envisager un blocage
+    du récepteur que chez des patients à signature élevée et non répondeurs aux anti-JAK.
+  niveau: C
+  liens: [P03, H2, E2]
+  sources: [anifrolumab-interferonopathies-2024, anifrolumab-lupus-2024,
+            anifrolumab-essais-2019, reverse-lc]
+
+- id: T09
+  nom: "Maladie de Hartnup : le tryptophane mal absorbé"
+  processus: >-
+    L'intestin absorbe mal le tryptophane, d'où un manque de niacine et de sérotonine.
+  maladie: Maladie de Hartnup ; pellagre
+  maitrise: prévention
+  levier: Niacine ou nicotinamide, et alimentation riche en protéines.
+  preuve: >-
+    Les crises se préviennent et se traitent par le nicotinamide. Le transporteur intestinal
+    du tryptophane (B0AT1) a besoin de la protéine ACE2 pour atteindre la surface de la cellule.
+  deja_tente: >-
+    Nicotinamide riboside 2 000 mg par jour : essai randomisé sur 58 participants.
+    Le NAD+ sanguin a monté en 5 semaines, sans amélioration significative de la cognition,
+    de la fatigue, du sommeil ni de l'humeur contre placebo. Dix-huit participants seulement
+    ont suivi tout le protocole.
+  lecon: >-
+    Remonter le NAD+ ne suffit pas. ACE2, porte d'entrée du SARS-CoV-2, est aussi nécessaire
+    à l'absorption du tryptophane : c'est un pont à vérifier avec la piste P09.
+  prochain_test: >-
+    Doser tryptophane, kynurénine et sérotonine avant tout essai de supplémentation.
+    Un tel essai n'a de sens que chez les patients à tryptophane bas.
+  niveau: B
+  liens: [P09, H2]
+  sources: [hartnup-msd, hartnup-medlineplus, b0at1-ace2-2020, nicotinamide-riboside-2025,
+            nicotinamide-riboside-mgb, wong-2023]
+
+- id: T10
+  nom: "Épilepsie TRPM3 : un canal réglable dans les deux sens"
+  processus: Le canal calcique TRPM3 fonctionne mal.
+  maladie: Encéphalopathie épileptique par gain de fonction de TRPM3
+  maitrise: contrôle
+  levier: Primidone, antiépileptique qui inhibe TRPM3.
+  preuve: >-
+    Deux enfants améliorés sous primidone (rapport de cas). Les variants en cause suractivent
+    le canal et surchargent la cellule en calcium ; la primidone corrige cet excès in vitro.
+  deja_tente: >-
+    Naltrexone faible dose, censée restaurer TRPM3 : essai randomisé négatif en tout-venant.
+  lecon: >-
+    L'anomalie est de sens opposé : trop d'activité dans l'épilepsie, pas assez dans l'EM/SFC
+    selon la piste P05. Ce qui se transpose n'est donc pas le médicament mais une prédiction :
+    si TRPM3 est causal (H7), un inhibiteur comme la primidone devrait aggraver ces patients.
+  prochain_test: >-
+    Pharmacovigilance : chercher dans les bases de santé si les patients EM/SFC ou COVID long
+    exposés à la primidone pour une autre raison s'aggravent. Sans signal, la cible
+    est probablement non causale.
+  niveau: C
+  liens: [P05, H7, E5]
+  sources: [trpm3-primidone-2023, trpm3-gain-de-fonction-2023, trpm3-2025, naik-2026]
+
+- id: T11
+  nom: "Sclérose latérale amyotrophique : les chaperons chimiques, contre-exemple"
+  processus: Stress du réticulum endoplasmique et protéines mal repliées.
+  maladie: Sclérose latérale amyotrophique
+  maitrise: échec
+  levier: Phénylbutyrate de sodium et taurursodiol, deux chaperons chimiques.
+  preuve: >-
+    Autorisé aux États-Unis en 2022 sur un essai de phase 2, puis retiré du marché en 2024
+    après un essai de phase 3 négatif sur 664 patients (PHOENIX).
+  deja_tente: Aucun essai repéré dans nos maladies ; données sur cellules seulement (piste P04).
+  lecon: >-
+    Un mécanisme plausible et un essai de phase 2 positif n'ont pas tenu en phase 3.
+    Aucune maladie repérée dans cette revue n'est maîtrisée par ce levier :
+    H3 doit d'abord être testée par des marqueurs, pas par un médicament.
+  prochain_test: >-
+    Mesurer WASF3 et les marqueurs de stress du réticulum sur des biopsies existantes,
+    avant d'envisager un chaperon.
+  niveau: B
+  liens: [P04, H3, E3]
+  sources: [chaperons-sla-2025, chaperons-sla-retrait-2024, chaperons-alzforum, wang-2023]
