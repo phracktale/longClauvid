@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-22, 21 h 15. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-22, 21 h 30. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -34,7 +34,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 
 | Chantier | État | Détail |
 | --- | --- | --- |
-| Banque d'hypothèses | 21 pistes relues : 14 vérifiées, 5 écartées, 2 à vérifier | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
+| Banque d'hypothèses | 21 pistes relues : 15 vérifiées, 3 écartées, 3 à vérifier ; les mises à l'écart ont eu un contradicteur | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
 | Lot 2, suivi après l'arrêt des traitements | Six demandes envoyées ; une réponse automatique, rien sur le fond | `analyses/lot-2/` |
 | Lot 1, échantillons déjà collectés | Deux demandes envoyées, aucune réponse | `analyses/lot-1/` |
 | Fiche T03, metformine | Corrigée : deux essais sur un COVID long installé, sans bénéfice montré | `registre/transpositions.yaml` |
@@ -45,11 +45,12 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
 
-1. **Faire relire les cinq mises à l'écart** par quelqu'un d'autre : orexine (B003), FOXP4 (B014),
-   grossesse (B015), apnée du sommeil (B016), antibiotiques (B021). Un seul décideur a tranché.
-2. **Lire en entier quatre articles** que les programmes ne peuvent pas ouvrir. Pour B008 : l'étude
-   de 2009 de la revue In Vivo (PMID 19567398). Pour B009 : PMID 41475665 et PMID 27401397.
+1. **Lire en entier quatre articles** que les programmes ne peuvent pas ouvrir : trois pistes en dépendent.
+   Pour B008 : l'étude de 2009 de la revue In Vivo (PMID 19567398). Pour B009 : PMID 41475665 et PMID 27401397.
    Pour B016 : l'article de la revue Sleep (PMID 37166330). Une personne avec un accès de bibliothèque suffit.
+2. **Faire attaquer les quinze pistes gardées** : seules les mises à l'écart ont eu un contradicteur.
+   La relecture contradictoire a levé deux mises à l'écart sur cinq ; l'inverse est possible.
+   Une relecture par une personne du métier vaudrait mieux qu'un programme de plus.
 3. **Choisir les pistes vérifiées à promouvoir** au registre : décision du porteur du projet.
    Trois tests ne demandent aucun laboratoire. B011 : relire deux gènes dans un jeu de données public (GSE130353).
    B013 et B020 : des statistiques résumées, à demander pour DecodeME. B002 : demander les plasmalogènes
@@ -76,7 +77,8 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
 - Une case « non trouvé » ne s'écrit qu'après une seconde source.
 - Les agents de recherche déposent hors du dépôt ; l'intégration dans la banque est faite à part.
 - Relire une piste : `outils/sources_banque.py`, puis `outils/relecture_banque.py`, avec
-  `outils/consigne-relecteur.md`. La marche à suivre est à la fin de `analyses/banque/RELECTURE.md`.
+  `outils/consigne-relecteur.md`. Une piste écartée passe ensuite devant un contradicteur,
+  avec `outils/consigne-contradicteur.md`. La marche à suivre est à la fin de `analyses/banque/RELECTURE.md`.
 - Un site qui répond par un contrôle anti-robot n'est pas contourné : la source est notée bloquée.
 
 ## 6. Ce qui ne survit pas à un changement de session
