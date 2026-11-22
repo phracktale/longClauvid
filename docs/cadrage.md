@@ -113,8 +113,8 @@ Vérification faite, aucune de ces quatre paires n'a de mesure conjointe publié
 
 | Hypothèses | Ce qui existe | Ce qui manque | Suite |
 | --- | --- | --- | --- |
-| 4 et 5 | L'antigène par sexe dans la cohorte LIINC : pas plus fréquent chez les femmes, rapport de prévalence des hommes aux femmes 1,68, intervalle de confiance à 95 % de 0,93 à 3,04 ([prépublication](https://medrxiv.org/content/10.1101/2023.10.24.23297114.full.pdf)) | La fréquence par sexe chez [706 personnes](https://pure.psu.edu/en/publications/measurement-of-circulating-viral-antigens-post-sars-cov-2-infecti/) ; le statut hormonal | Une demande de chiffres agrégés, prête |
-| 2 et 4 | Des sous-groupes à [signature interféron](https://pmc.ncbi.nlm.nih.gov/articles/PMC10252177) et l'antigène chez 706 personnes, avec des auteurs communs | Savoir si des participants sont communs, puis le tableau croisé | Une demande de chiffres agrégés, prête |
+| 4 et 5 | L'antigène par sexe dans la cohorte LIINC : pas plus fréquent chez les femmes, rapport de prévalence des hommes aux femmes 1,68, intervalle de confiance à 95 % de 0,93 à 3,04 ([prépublication](https://medrxiv.org/content/10.1101/2023.10.24.23297114.full.pdf)) | La fréquence par sexe chez [706 personnes](https://pure.psu.edu/en/publications/measurement-of-circulating-viral-antigens-post-sars-cov-2-infecti/) ; le statut hormonal | Une demande de chiffres agrégés, envoyée le 2026-11-22 |
+| 2 et 4 | Des sous-groupes à [signature interféron](https://pmc.ncbi.nlm.nih.gov/articles/PMC10252177) et l'antigène chez 706 personnes, avec des auteurs communs | Savoir si des participants sont communs, puis le tableau croisé | Une demande de chiffres agrégés, envoyée le 2026-11-22 |
 | 1 et 4 | Le complément dosé à [Zurich](https://pubmed.ncbi.nlm.nih.gov/38236961/) et à [Cardiff](https://www.medrxiv.org/content/10.1101/2023.10.26.23297597v1.full), l'antigène dosé ailleurs | Les deux dosages sur les mêmes plasmas | Une équipe habilitée |
 | 1 et 2 | Plasma et cellules sanguines conservés par [REVERSE-LC](https://www.sctweb.org/presentations/2026/INVITED_SESSION_16_Jason_Liang.pdf) | Une biobanque confirmée côté daratumumab ; la mesure de la fixation des IgG | La fin des essais |
 
@@ -310,7 +310,7 @@ Ce document produit des hypothèses classées, pas des traitements : rien ici ne
 
 - [x] Choisir le premier lot à instruire : le lot 2, le suivi après l'arrêt du traitement.
 - [x] Envoyer les six demandes du lot 2 aux équipes : fait le 2026-11-22.
-- [ ] Lot 1 : envoyer les deux demandes de chiffres agrégés, prêtes dans `analyses/lot-1/DEMANDES.md`.
+- [x] Lot 1 : envoyer les deux demandes de chiffres agrégés : fait le 2026-11-22.
 - [ ] Lot 1 : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 - [ ] Relever les réponses aux demandes du lot 2 ; constater les absences à partir du 2027-01-22.
 - [x] Ouvrir le dépôt Git et le registre des hypothèses (phase 0).

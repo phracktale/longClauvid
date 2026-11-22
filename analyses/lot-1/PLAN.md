@@ -107,3 +107,15 @@ indépendantes est inscrite comme telle dans la fiche de l'hypothèse.
 - Le recoupement des participants entre les deux études est une supposition, tirée des listes d'auteurs.
 - Deux articles n'ont été lus que par extraits : l'étude des 706 et celle de la signature interféron.
 - Une absence de détection de l'antigène dans le sang ne dit rien de sa présence dans les tissus.
+
+## Modifications
+
+### 2026-11-22, après l'envoi des demandes : une précision sur la paire H2 et H4
+
+La première page de l'article sur la signature interféron a pu être lue. La cohorte compte
+55 patients, recrutés dans une étude de Seattle. Aucune donnée n'a été reçue.
+
+Conséquence : le seuil de 20 porteurs d'antigène de la section 5 risque de ne pas être atteint.
+Le croisement serait alors non informatif. Le seuil n'est pas abaissé pour l'accueillir.
+
+Source : [article](https://www.nature.com/articles/s41467-023-38682-4.pdf).
