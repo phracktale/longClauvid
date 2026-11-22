@@ -111,14 +111,14 @@ Cinq dosages sur les mêmes sérums : fixation des IgG aux neurones sensitifs, s
 
 ### Lot 2, retenu en premier : le suivi après l'arrêt du traitement
 
-L'hypothèse 6 se confronte aux autres par une même observation : ce que deviennent les répondeurs quand le traitement s'arrête. Vérification faite essai par essai, un seul traitement a déjà publié ce suivi. Le plan d'analyse, écrit avant toute donnée, est dans `analyses/lot-2/PLAN.md` du dépôt.
+L'hypothèse 6 se confronte aux autres par une même observation : ce que deviennent les répondeurs quand le traitement s'arrête. Vérification faite essai par essai, un seul traitement a déjà publié ce suivi ; trois essais en cours ou prévus en comportent un. Le plan d'analyse, écrit avant toute donnée, est dans `analyses/lot-2/PLAN.md` du dépôt.
 
 | Hypothèses | Essai | Suivi hors traitement | Ce qu'il faut demander |
 | --- | --- | --- | --- |
 | 1 et 6 | Daratumumab : [pilote publié](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1607353/full), [ResetME](https://mrr.mecfs-research.org/en/mrr/projects/Kc46hyZDSCyX9ump8KepRA) en cours | Pilote : 5 répondeuses sur 6 encore améliorées à 12–24 mois, IgG totales remontées. ResetME : 46 semaines après la dernière injection | La fixation des IgG aux neurones sur les sérums du suivi |
-| 2 et 6 | Baricitinib, [REVERSE-LC](https://clinicaltrials.gov/study/NCT06631287), 24 semaines | Non trouvé | Une évaluation après l'arrêt |
-| 3 et 6 | Rapamycine, [étude ouverte](https://pubmed.ncbi.nlm.nih.gov/40502741/) | Aucun arrêt programmé | Le devenir des patients qui ont arrêté |
-| 4 et 6 | Anticorps anti-spike, [AER002](https://classic.clinicaltrials.gov/show/NCT05877508), une perfusion | 3 mois | Le dosage de l'antigène dans le temps |
+| 2 et 6 | Baricitinib, [REVERSE-LC](https://clinicaltrials.gov/study/NCT06631287), 6 mois | Une visite à 12 mois, six mois après l'arrêt ([projet](https://www.icudelirium.org/projects/reverse-lc)) | Les résultats à 12 mois, par bras |
+| 3 et 6 | Rapamycine, [étude ouverte](https://pmc.ncbi.nlm.nih.gov/articles/PMC12538759/) | Aucun dans l'étude publiée ; l'essai suivant prévoit un retrait randomisé, poursuite ou placebo pendant 60 jours | Les résultats de ce retrait, par bras |
+| 4 et 6 | Anticorps anti-spike, [AER002](https://classic.clinicaltrials.gov/show/NCT05877508), une perfusion | Jusqu'à un an ([fiche](https://reaganudall.org/clinical-trial/anti-sars-cov-2-monoclonal-antibodies-long-covid-covid-19)) | Le dosage de l'antigène dans le temps |
 
 La paire 6 et 7 quitte ce lot : les deux essais de la naltrexone s'arrêtent à 16 semaines, sans évaluation après l'arrêt ([protocole canadien](https://pubmed.ncbi.nlm.nih.gov/38740499/), [Brave-LC](https://clinicaltrials.gov/study/NCT07916259)). Le résultat du pilote va dans le sens de l'hypothèse 6, mais l'hypothèse 1 le prédit aussi : seule la mesure sur les sérums du suivi les départage.
 

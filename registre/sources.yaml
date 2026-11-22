@@ -743,3 +743,15 @@
   url: https://clinicaltrials.gov/study/NCT07916259
   type: registre
   lu_le: 2026-11-22
+
+- id: aer002-fiche
+  titre: "Anti-SARS-CoV-2 monoclonal antibodies for Long COVID : évaluations jusqu'à un an après la perfusion (Reagan-Udall Foundation)"
+  url: https://reaganudall.org/clinical-trial/anti-sars-cov-2-monoclonal-antibodies-long-covid-covid-19
+  type: registre
+  lu_le: 2026-11-22
+
+- id: recover-tlc-2026-07
+  titre: "RECOVER-TLC July 2026 update: Long COVID clinical trial progress (Autoimmune Institute)"
+  url: https://www.autoimmuneinstitute.org/covid_timeline/recover-tlc-july-2026-update-long-covid-clinical-trial-progress/
+  type: presse
+  lu_le: 2026-11-22
