@@ -4,7 +4,7 @@ statut: ouverte
 creee_le: 2026-11-22
 endotype: E4
 pistes: [P14, P08]
-sources: [recover-vital-nih, sicktimes-2026-05, antigene-liinc-2023, antigene-706]
+sources: [recover-vital-nih, sicktimes-2026-05, antigene-liinc-2023, antigene-706, anrs-symposium-2026]
 
 enonce: >-
   Un antiviral bloque la réplication mais n'élimine pas la protéine spike déjà présente.
@@ -33,3 +33,12 @@ historique:
       rapport de prévalence des hommes aux femmes 1,68, intervalle de confiance à 95 %
       de 0,93 à 3,04, sur 171 personnes. Dans cette cohorte, l'antigène n'explique donc pas
       la surreprésentation des femmes. Résultat descriptif, niveau C : statut inchangé.
+  - date: 2026-11-22
+    evenement: >-
+      Symposium ANRS MIE du 2026-11-12, lu dans le résumé publié par l'agence. Une étude cas-témoins
+      de l'Institut Cochin rapporte que le virus persiste dans les mégacaryocytes et les plaquettes,
+      et que des plaquettes portent du virus infectieux. Cela relie la persistance aux plaquettes,
+      donc à la thrombo-inflammation, mais va contre l'idée que la réplication ne joue aucun rôle.
+      La cohorte nationale française rapporte, à titre préliminaire, une signature endothéliale
+      et inflammatoire persistante. Résultats de conférence, non relus dans un article :
+      niveau C, statut inchangé.

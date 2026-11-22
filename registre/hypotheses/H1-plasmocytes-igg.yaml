@@ -4,7 +4,7 @@ statut: ouverte
 creee_le: 2026-11-22
 endotype: E1
 pistes: [P01, P02]
-sources: [bc007-annonce, iampoco, fluge-2025]
+sources: [bc007-annonce, iampoco, fluge-2025, anrs-symposium-2026]
 
 enonce: >-
   Retirer les IgG (immunoadsorption) ou neutraliser les auto-anticorps anti-récepteurs
@@ -42,3 +42,9 @@ historique:
       alors que les IgG totales sont remontées. Compatible avec l'hypothèse si les IgG
       revenues ne sont pas celles qui se fixent aux neurones : la mesure reste à faire
       sur les sérums du suivi. Statut inchangé.
+  - date: 2026-11-22
+    evenement: >-
+      Symposium ANRS MIE du 2026-11-12, lu dans le résumé publié par l'agence. L'étude CLIIM,
+      78 participants, résultats préliminaires, ne trouve pas d'excès global d'auto-anticorps.
+      Résultat contraire, à consigner. Il porte sur la quantité d'auto-anticorps, pas sur
+      la fixation des IgG aux neurones que vise l'hypothèse. Statut inchangé.

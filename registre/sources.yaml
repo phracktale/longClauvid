@@ -849,3 +849,23 @@
   url: https://clinicaltrials.ucsf.edu/trial/NCT06631287
   type: registre
   lu_le: 2026-11-22
+
+# --- Ressources signalées par le porteur du projet -------------------------------
+
+- id: apresj20-bibliotheque
+  titre: "ApresJ20_LongCovid_Library : bibliothèque Zotero de l'association #ApresJ20, douze collections sur le COVID long"
+  url: https://www.zotero.org/groups/5562177/apresj20_longcovid_library
+  type: institution
+  lu_le: 2026-11-22
+
+- id: anrs-symposium-2026
+  titre: "Covid long : l'ANRS MIE au rendez-vous de la 4e conférence internationale ; résumés des présentations du symposium du 12 novembre 2026"
+  url: https://anrs.fr/actualites/actualites/covid-long-lanrs-mie-au-rendez-vous-de-la-4e-conference-internationale/
+  type: communique
+  lu_le: 2026-11-22
+
+- id: anrs-symposium-programme-2026
+  titre: "Hallmarks and potential biomarkers of Long COVID: implications for patient treatment ; programme du symposium ANRS MIE du 12 novembre 2026"
+  url: https://anrs.fr/wp-content/uploads/2026/08/final-programme-symposium-anrs-covid-long-2026.pdf
+  type: institution
+  lu_le: 2026-11-22

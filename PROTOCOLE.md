@@ -96,6 +96,8 @@ trouvées dans la littérature. Elle sert à ne rien perdre, pas à conclure.
 - Pour passer à « vérifiée », chaque source est rouverte par quelqu'un d'autre que le déposant,
   et la piste passe la grille de relecture statistique, déposée dans `outils/grille-statistique.md`
   avec les premières entrées.
+- L'affirmation « inexplorée » se teste aussi contre la bibliothèque de l'association #ApresJ20,
+  qui recense la littérature du COVID long. Une absence dans cette bibliothèque ne prouve rien.
 - Une entrée vérifiée peut être promue en piste ; elle suit alors les règles du registre.
 - Une entrée écartée reste dans la banque, avec son motif. Un échec se consigne aussi.
 
