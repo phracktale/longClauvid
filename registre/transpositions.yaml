@@ -112,11 +112,17 @@
     à 300 jours contre 10,4 % sous placebo (rapport de risque 0,59), sur un critère secondaire.
     Essai ACTIV-6 : réduction relative de 50 % à six mois, selon un communiqué universitaire.
     Vaccination avant l'infection : risque plus bas dans les études d'observation, sans essai
-    randomisé. Aucune étude de la metformine sur un COVID long déjà installé.
+    randomisé. Metformine sur un COVID long déjà installé : deux essais randomisés, aucun bénéfice
+    montré. Essai REVIVE, au Brésil : 399 adultes fatigués depuis 90 jours à 24 mois ; le bras
+    metformine, 111 participants, a été arrêté pour futilité après un changement de dose, et son
+    résultat est jugé non concluant. Essai coréen : 14 jours de metformine chez 132 adultes,
+    63,6 % de rétablis contre 68,2 % sous placebo. Correction du 2026-11-22 : la fiche disait
+    « aucune étude » ; voir JOURNAL.md.
   lecon: >-
     La fenêtre la plus efficace précède la maladie. Pour les patients déjà malades, cette
     transposition ne donne pas de traitement ; elle dit qu'un processus des premiers jours
-    détermine la suite, et qu'il reste à identifier.
+    détermine la suite, et qu'il reste à identifier. Les deux essais de la metformine sur un
+    COVID long installé vont dans ce sens, sans le prouver : l'un est court, l'autre non concluant.
   prochain_test: >-
     Dans COVID-OUT et ACTIV-6, comparer les profils des COVID longs survenus sous metformine
     et sous placebo, pour savoir quel processus la prévention évite.
@@ -124,7 +130,8 @@
   liens: [P14, H4]
   sources: [vih-prep-niaid, vih-prep-essais-2018, vih-prep-lenacapavir-2024,
             vih-inflammation-2022, covid-out-2023, activ6-metformine-2026,
-            metformine-revue-2026, vaccination-meta-2025, vaccination-revue-2023]
+            metformine-revue-2026, vaccination-meta-2025, vaccination-revue-2023,
+            revive-2026, revive-registre, metformine-udca-2026]
 
 - id: T04
   nom: "Lupus : remettre à zéro les lymphocytes B"

@@ -70,3 +70,4 @@ Une absence de réponse se constate à partir du 2027-01-22.
 | --- | --- | --- |
 | 2026-11-22 | David Walt, pour l'étude des 706 | Lettre envoyée |
 | 2026-11-22 | Troy Torgerson et Juliana McElrath, pour la signature interféron | Lettre envoyée ; la formule d'appel a été adaptée aux auteurs correspondants |
+| 2026-11-22 | Relevé de la boîte du projet | Aucune réponse aux deux lettres |
