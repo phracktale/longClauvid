@@ -20,7 +20,25 @@ et un comité d'éthique.
 | 5. Validation | Tests des prédictions sur données et échantillons existants | Analyses pré-enregistrées | Résultat retrouvé sur un second jeu de données |
 | 6. Passage clinique | Essais N-de-1, essais enrichis par biomarqueur, plateforme adaptative | Protocole d'essai | Avis d'un comité d'éthique ; patients associés à la conception |
 
-Le critère de la phase 0 est automatisé : `python3 outils/valider_registre.py`.
+Les critères des phases 0 et 3 sont automatisés : `python3 outils/valider_registre.py`.
+Celui de la phase 3 vérifie que chaque paire d'hypothèses a deux prédictions différentes ;
+il ne remplace pas la relecture contradictoire.
+
+## Confronter deux hypothèses
+
+Les hypothèses ne s'excluent pas : plusieurs peuvent être vraies chez des patients différents.
+Une confrontation demande, pour un patient ou une réponse donnés, laquelle est à l'œuvre.
+Chaque fiche de `registre/confrontations.yaml` dit quelle mesure le montre, et où cette mesure
+est possible :
+
+| Accès | Définition |
+| --- | --- |
+| échantillons existants | Du sang déjà conservé par un essai ou une cohorte |
+| suivi d'essais | Des données de suivi après l'arrêt d'un traitement |
+| nouvelle collecte | Une biopsie, des cellules fraîches ou des prélèvements répétés |
+
+Les confrontations se traitent par lots : celles qui partagent les mêmes échantillons
+et les mêmes dosages s'instruisent ensemble.
 
 ## Une piste est « sous-exploitée » si elle remplit trois critères
 

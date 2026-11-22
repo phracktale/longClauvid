@@ -1,8 +1,9 @@
 """
 Valide le registre des hypothèses.
 
-C'est le critère de passage de la phase 0 du protocole :
-« chaque hypothèse porte une prédiction réfutable », et rien n'est affirmé sans source.
+Il automatise deux critères de passage du protocole :
+- phase 0 : « chaque hypothèse porte une prédiction réfutable », et rien n'est affirmé sans source ;
+- phase 3 : « au moins une prédiction opposée par paire d'hypothèses ».
 
 Ce que le script contrôle
 -------------------------
@@ -13,12 +14,15 @@ Ce que le script contrôle
   et ne cite que des pistes, des sources et un endotype existants ;
 - chaque endotype renvoie à une hypothèse existante ;
 - chaque transposition dit ce qui a déjà été tenté, porte un degré de maîtrise connu
-  et ne renvoie qu'à des sources, pistes, hypothèses et endotypes existants.
+  et ne renvoie qu'à des sources, pistes, hypothèses et endotypes existants ;
+- chaque paire d'hypothèses a sa confrontation, avec deux prédictions différentes.
 
 Usage : python3 outils/valider_registre.py
 """
 
 import sys
+from collections import Counter
+from itertools import combinations
 from pathlib import Path
 
 import yaml
@@ -30,6 +34,7 @@ TYPES_DE_SOURCE = {"article", "prepublication", "registre", "institution",
 NIVEAUX_DE_PREUVE = {"A", "B", "C", "D"}
 STATUTS = {"ouverte", "soutenue", "affaiblie", "réfutée", "abandonnée"}
 MAITRISES = {"guérison", "rémission", "contrôle", "prévention", "échec"}
+ACCES = {"échantillons existants", "suivi d'essais", "nouvelle collecte"}
 LONGUEUR_MINIMALE = 40    # caractères : une prédiction tient au moins en une phrase
 
 CHAMPS_SOURCE = ["id", "titre", "url", "type", "lu_le"]
@@ -39,6 +44,8 @@ CHAMPS_HYPOTHESE = ["id", "titre", "statut", "creee_le", "pistes", "enonce",
                     "prediction", "refutation", "test", "historique"]
 CHAMPS_TRANSPOSITION = ["id", "nom", "processus", "maladie", "maitrise", "levier", "preuve",
                         "deja_tente", "lecon", "prochain_test", "niveau", "liens", "sources"]
+CHAMPS_CONFRONTATION = ["paire", "question", "mesure", "si_premiere", "si_seconde",
+                        "acces", "donnees"]
 
 
 def charger(dossier=REGISTRE):
@@ -55,6 +62,7 @@ def charger(dossier=REGISTRE):
         "pistes": lire(dossier / "pistes.yaml"),
         "endotypes": lire(dossier / "endotypes.yaml"),
         "transpositions": lire(dossier / "transpositions.yaml"),
+        "confrontations": lire(dossier / "confrontations.yaml"),
         "hypotheses": hypotheses,
     }
 
@@ -138,6 +146,30 @@ def erreurs_du_registre(registre):
         signaler_inconnus(transposition.get("liens"), pistes | hypotheses | endotypes,
                           nom, "fiche liée", erreurs)
 
+    paires_vues = []
+    for confrontation in registre["confrontations"]:
+        paire = tuple(confrontation.get("paire") or [])
+        nom = f"confrontation {'-'.join(paire)}"
+        paires_vues.append(tuple(sorted(paire)))
+        signaler_champs_vides(confrontation, CHAMPS_CONFRONTATION, nom, erreurs)
+        signaler_inconnus(paire, hypotheses, nom, "hypothèse", erreurs)
+        signaler_inconnus(confrontation.get("sources"), sources, nom, "source", erreurs)
+        if confrontation.get("acces") not in ACCES:
+            erreurs.append(f"{nom} : accès inconnu « {confrontation.get('acces')} »")
+        if confrontation.get("si_premiere") == confrontation.get("si_seconde"):
+            erreurs.append(f"{nom} : les deux prédictions sont identiques")
+        for champ in ("si_premiere", "si_seconde"):
+            texte = confrontation.get(champ)
+            if texte and len(texte) < LONGUEUR_MINIMALE:
+                erreurs.append(f"{nom} : « {champ} » trop courte pour être testable")
+
+    paires_attendues = set(combinations(sorted(hypotheses), 2))
+    for paire in sorted(paires_attendues - set(paires_vues)):
+        erreurs.append(f"confrontations : paire manquante {paire[0]}-{paire[1]}")
+    for paire, nombre in sorted(Counter(paires_vues).items()):
+        if nombre > 1:
+            erreurs.append(f"confrontations : paire en double {'-'.join(paire)}")
+
     return erreurs
 
 
@@ -151,8 +183,8 @@ def sources_jamais_citees(registre):
     for endotype in registre["endotypes"]:
         for candidat in endotype.get("candidats") or []:
             citees.update(candidat.get("sources") or [])
-    for transposition in registre["transpositions"]:
-        citees.update(transposition.get("sources") or [])
+    for fiche in registre["transpositions"] + registre["confrontations"]:
+        citees.update(fiche.get("sources") or [])
     return sorted({source["id"] for source in registre["sources"]} - citees)
 
 
@@ -162,7 +194,10 @@ def main():
 
     print(f"Registre : {len(registre['hypotheses'])} hypothèses, {len(registre['pistes'])} pistes,"
           f" {len(registre['endotypes'])} endotypes, {len(registre['transpositions'])} transpositions,"
-          f" {len(registre['sources'])} sources.")
+          f" {len(registre['confrontations'])} confrontations, {len(registre['sources'])} sources.")
+    par_acces = Counter(confrontation.get("acces") for confrontation in registre["confrontations"])
+    print("Confrontations selon l'accès aux données : "
+          + " ; ".join(f"{acces}, {nombre}" for acces, nombre in par_acces.most_common()))
     orphelines = sources_jamais_citees(registre)
     if orphelines:
         print(f"À noter : {len(orphelines)} sources de contexte, citées par aucune fiche :"

@@ -92,6 +92,39 @@ Relie : canal TRPM3, essai naltrexone négatif. Avec 160 patients, un effet limi
 
 Prédiction : la réponse à la naltrexone croît avec le défaut initial de TRPM3. Réfutée, et TRPM3 écarté comme cible, si aucun gradient n'apparaît ; l'essai Brave-LC, qui prévoit une analyse en sous-groupes, peut accueillir ce test.
 
+## Confrontations : neuf paires d'hypothèses sur vingt et une se tranchent sans nouveau prélèvement
+
+Quatre paires se départagent sur du sang déjà conservé, cinq sur le suivi d'essais après l'arrêt du traitement. Les douze autres exigent une biopsie musculaire, des cellules fraîches ou des prélèvements répétés. Cet accès est estimé d'après ce que le registre sait des essais ; le contenu réel des biobanques reste à confirmer auprès des équipes.
+
+Les sept hypothèses ne s'excluent pas : plusieurs peuvent être vraies chez des patients différents. Chaque confrontation dit, pour un patient ou une réponse donnés, quelle mesure désigne l'hypothèse à l'œuvre. Les 21 fiches sont dans `registre/confrontations.yaml` du dépôt. Elles n'ont pas encore reçu la relecture contradictoire que prévoit la phase 3.
+
+### Lot 1 : un même panel sanguin, sur des échantillons déjà collectés
+
+Cinq dosages sur les mêmes sérums : fixation des IgG aux neurones sensitifs, signature interféron, antigène spike, complément terminal et hormones sexuelles.
+
+| Hypothèses | Question | Si la première est à l'œuvre | Si c'est la seconde |
+| --- | --- | --- | --- |
+| 1 et 2 | Anticorps ou interféron : lequel désigne le bon traitement ? | La réponse au daratumumab suit la fixation des IgG | La réponse aux anti-JAK suit la signature interféron |
+| 1 et 4 | Le complément est-il activé par des anticorps ou par un antigène viral ? | Complément activé chez les patients à IgG fixantes, avec ou sans antigène | Complément activé seulement chez les porteurs d'antigène |
+| 2 et 4 | Le signal interféron s'entretient-il seul ? | Signature interféron aussi fréquente sans antigène | Signature concentrée chez les porteurs d'antigène |
+| 4 et 5 | La surreprésentation des femmes tient-elle à l'antigène ou aux hormones ? | Antigène plus fréquent chez les femmes | Antigène aussi fréquent dans les deux sexes |
+
+### Lot 2 : une seule demande aux équipes d'essais, publier le suivi après l'arrêt
+
+L'hypothèse 6 se confronte à cinq autres par la même observation : ce que deviennent les répondeurs quand le traitement s'arrête.
+
+| Hypothèses | Traitement suivi | Si l'hypothèse 6 est à l'œuvre |
+| --- | --- | --- |
+| 1 et 6 | Daratumumab | La rémission tient alors que les IgG fixantes sont revenues |
+| 2 et 6 | Anti-JAK | La rémission tient après l'arrêt, au-delà d'une certaine durée de traitement |
+| 3 et 6 | Rapamycine | L'amélioration tient après l'arrêt chez les patients traités assez longtemps |
+| 4 et 6 | Anticorps anti-spike | Des patients devenus négatifs pour l'antigène restent malades |
+| 6 et 7 | Naltrexone | Le bénéfice persiste après l'arrêt, sans lien avec la fonction de TRPM3 |
+
+### Lot 3 : douze paires attendent une nouvelle collecte
+
+Les hypothèses 3, 5 et 7 ne se confrontent aux autres qu'avec une biopsie musculaire, des prélèvements répétés sur un cycle ou des cellules fraîches. Une de ces paires relie deux pistes jusqu'ici séparées : le canal TRPM3 est activé par un neurostéroïde ([eLife 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC9886277)), ce qui donnerait un mécanisme au terrain hormonal de l'hypothèse 5.
+
 ## Typologies de patients : cinq endotypes de travail, définis par des marqueurs et non par des symptômes
 
 Les regroupements par symptômes changent avec l'algorithme utilisé : sur [6 031 patients et 162 symptômes](https://pmc.ncbi.nlm.nih.gov/articles/PMC13284999/), trois méthodes donnent trois découpages. Le protocole classe donc les patients par mécanisme mesurable.
@@ -263,7 +296,7 @@ Ce document produit des hypothèses classées, pas des traitements : rien ici ne
 
 ### Prochaines étapes
 
-- [ ] Choisir la première hypothèse à instruire : les hypothèses 1 et 4 sont testables sur des échantillons déjà collectés.
+- [ ] Choisir le premier lot à instruire : le lot 1 départage les hypothèses 1, 2 et 4 sur du sang déjà conservé.
 - [x] Ouvrir le dépôt Git et le registre des hypothèses (phase 0).
 - [x] Créer le dépôt vide phracktale/longClauvid sur GitHub, pour y pousser les trois commits.
 - [x] Construire le niveau 2 en reproduisant le modèle de Kashi 2019.
