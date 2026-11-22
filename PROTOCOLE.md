@@ -106,6 +106,8 @@ trouvées dans la littérature. Elle sert à ne rien perdre, pas à conclure.
   les doutes de la grille à la fin de son champ `risques`.
 - Une mise à l'écart passe devant un contradicteur, qui défend la piste contre son motif
   en suivant `outils/consigne-contradicteur.md`. Son avis et le motif d'origine restent dans la piste.
+- Une piste gardée passe devant un contradicteur chargé de l'attaquer, qui suit
+  `outils/consigne-contradicteur-piste-gardee.md`. Son avis et la décision d'origine restent dans la piste.
 - L'affirmation « inexplorée » se teste aussi contre la bibliothèque de l'association #ApresJ20,
   qui recense la littérature du COVID long. Une absence dans cette bibliothèque ne prouve rien.
   La recherche se fait sur une copie locale (`outils/bibliotheque_apresj20.py`), pas en ligne.

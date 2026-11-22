@@ -6,7 +6,8 @@ en suivant outils/consigne-relecteur.md. Il rend un fichier de relecture où cha
 de la piste porte un verdict et une citation de la source.
 
 Une piste écartée passe ensuite devant un contradicteur, qui la défend contre son motif
-en suivant outils/consigne-contradicteur.md. Ses citations sont contrôlées de la même façon.
+en suivant outils/consigne-contradicteur.md. Une piste gardée passe devant un contradicteur qui l'attaque,
+en suivant outils/consigne-contradicteur-piste-gardee.md. Leurs citations sont contrôlées de la même façon.
 
 Une citation qu'on ne retrouve pas mot pour mot dans la copie locale est signalée :
 c'est le contrôle négatif de la relecture, qu'elle soit faite par une personne ou par un programme.
@@ -28,6 +29,12 @@ import yaml
 from sources_banque import BANQUE, COPIE, INDEX, RACINE
 
 DOSSIERS = RACINE / "cache" / "relecture"
+
+# Les deux contradicteurs : sous-dossier de leurs fichiers, champ de leurs arguments, sens de ces arguments.
+CONTRADICTEURS = (
+    ("contre", "defense", "pour la piste"),       # défend une piste écartée
+    ("attaque", "attaque", "contre la piste"),    # attaque une piste gardée
+)
 
 
 def copies_d_une_source(source, index):
@@ -96,16 +103,17 @@ def controler():
         for affirmation in introuvables:
             print(f"      introuvable [{affirmation['verdict']}] {affirmation['affirmation'][:110]}")
 
-    for fichier in sorted((DOSSIERS / "contre").glob("B*.json")):
-        contre = json.loads(fichier.read_text(encoding="utf-8"))
-        verdicts = Counter(affirmation["verdict"] for affirmation in contre["affirmations"])
-        introuvables = citations_introuvables(contre["affirmations"] + contre["defense"])
-        print(f"{contre['id']}  contradicteur : « {contre['avis']} » ; faits du motif : "
-              + ", ".join(f"{nombre} {verdict}" for verdict, nombre in verdicts.most_common())
-              + f" ; {len(contre['defense'])} argument(s) pour la piste"
-              + f" ; {len(introuvables)} citation(s) introuvable(s)")
-        for element in introuvables:
-            print(f"      introuvable {(element.get('affirmation') or element.get('argument'))[:110]}")
+    for sous_dossier, champ, sens in CONTRADICTEURS:
+        for fichier in sorted((DOSSIERS / sous_dossier).glob("B*.json")):
+            contre = json.loads(fichier.read_text(encoding="utf-8"))
+            verdicts = Counter(affirmation["verdict"] for affirmation in contre["affirmations"])
+            introuvables = citations_introuvables(contre["affirmations"] + contre[champ])
+            print(f"{contre['id']}  contradicteur : « {contre['avis']} » ; faits contrôlés : "
+                  + ", ".join(f"{nombre} {verdict}" for verdict, nombre in verdicts.most_common())
+                  + f" ; {len(contre[champ])} argument(s) {sens}"
+                  + f" ; {len(introuvables)} citation(s) introuvable(s)")
+            for element in introuvables:
+                print(f"      introuvable {(element.get('affirmation') or element.get('argument'))[:110]}")
 
 
 def main():

@@ -24,6 +24,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/sources_banque.py` | Copie locale des sources de la banque, en texte intégral quand une interface officielle le donne |
 | `outils/consigne-relecteur.md` | La consigne remise au relecteur d'une piste, telle quelle |
 | `outils/consigne-contradicteur.md` | La consigne remise à celui qui défend une piste écartée |
+| `outils/consigne-contradicteur-piste-gardee.md` | La consigne remise à celui qui attaque une piste gardée |
 | `outils/consigne-relecteur-de-plan.md` | La consigne remise à celui qui relit un plan d'analyse avant l'ouverture des données |
 | `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur et du contradicteur |
 | `analyses/banque/` | Le compte rendu de la relecture, les termes du test « inexplorée » et les calculs d'effectifs |
