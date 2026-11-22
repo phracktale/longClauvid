@@ -5,6 +5,9 @@ Le relecteur lit une piste et les copies locales de ses sources (outils/sources_
 en suivant outils/consigne-relecteur.md. Il rend un fichier de relecture où chaque affirmation
 de la piste porte un verdict et une citation de la source.
 
+Une piste écartée passe ensuite devant un contradicteur, qui la défend contre son motif
+en suivant outils/consigne-contradicteur.md. Ses citations sont contrôlées de la même façon.
+
 Une citation qu'on ne retrouve pas mot pour mot dans la copie locale est signalée :
 c'est le contrôle négatif de la relecture, qu'elle soit faite par une personne ou par un programme.
 
@@ -63,17 +66,20 @@ def sans_espaces(texte):
     return " ".join(texte.split())
 
 
-def citations_introuvables(relecture, copies=COPIE):
-    """Renvoie les affirmations dont la citation n'est pas mot pour mot dans la copie locale nommée."""
+def citations_introuvables(elements, copies=COPIE):
+    """Renvoie les éléments dont la citation n'est pas mot pour mot dans la copie locale nommée.
+
+    Un élément est une affirmation, avec son verdict, ou un argument du contradicteur, sans verdict.
+    """
     introuvables = []
-    for affirmation in relecture["affirmations"]:
-        citation = sans_espaces(affirmation.get("citation") or "")
-        fichier = copies / Path(affirmation.get("fichier") or "absent").name
+    for element in elements:
+        citation = sans_espaces(element.get("citation") or "")
+        fichier = copies / Path(element.get("fichier") or "absent").name
         if not citation:
-            if affirmation["verdict"] == "confirmée":      # une confirmation sans citation ne vaut rien
-                introuvables.append(affirmation)
+            if element.get("verdict", "confirmée") == "confirmée":   # sans citation, ni confirmation ni argument
+                introuvables.append(element)
         elif not fichier.is_file() or citation not in sans_espaces(fichier.read_text(encoding="utf-8")):
-            introuvables.append(affirmation)
+            introuvables.append(element)
     return introuvables
 
 
@@ -82,13 +88,24 @@ def controler():
         relecture = json.loads(fichier.read_text(encoding="utf-8"))
         verdicts = Counter(affirmation["verdict"] for affirmation in relecture["affirmations"])
         doutes = [str(q["question"]) for q in relecture["grille"] if q["doute"] == "oui"]
-        introuvables = citations_introuvables(relecture)
+        introuvables = citations_introuvables(relecture["affirmations"])
         print(f"{relecture['id']}  {len(relecture['affirmations'])} affirmations : "
               + ", ".join(f"{nombre} {verdict}" for verdict, nombre in verdicts.most_common())
               + f" ; doutes aux questions {', '.join(doutes) or 'aucune'}"
               + f" ; {len(introuvables)} citation(s) introuvable(s)")
         for affirmation in introuvables:
             print(f"      introuvable [{affirmation['verdict']}] {affirmation['affirmation'][:110]}")
+
+    for fichier in sorted((DOSSIERS / "contre").glob("B*.json")):
+        contre = json.loads(fichier.read_text(encoding="utf-8"))
+        verdicts = Counter(affirmation["verdict"] for affirmation in contre["affirmations"])
+        introuvables = citations_introuvables(contre["affirmations"] + contre["defense"])
+        print(f"{contre['id']}  contradicteur : « {contre['avis']} » ; faits du motif : "
+              + ", ".join(f"{nombre} {verdict}" for verdict, nombre in verdicts.most_common())
+              + f" ; {len(contre['defense'])} argument(s) pour la piste"
+              + f" ; {len(introuvables)} citation(s) introuvable(s)")
+        for element in introuvables:
+            print(f"      introuvable {(element.get('affirmation') or element.get('argument'))[:110]}")
 
 
 def main():
