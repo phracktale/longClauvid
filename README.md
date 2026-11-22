@@ -19,6 +19,9 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `registre/banque.yaml` | La banque d'hypothèses à vérifier, alimentée par des agents de recherche ; rien n'y est vérifié tant que le statut le dit |
 | `analyses/` | Les plans d'analyse, déposés avant toute donnée, et les demandes aux équipes |
 | `outils/valider_registre.py` | Refuse une hypothèse sans prédiction réfutable ou une affirmation sans source |
+| `outils/bibliotheque_apresj20.py` | Copie locale de la bibliothèque de l'association #ApresJ20, pour y chercher sans la solliciter |
+| `outils/grille-statistique.md` | Dix questions pour relire une piste de la banque |
+| `REPRISE.md` | Où en est le projet et quoi faire ensuite, pour reprendre dans une nouvelle session |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
 | `simulateurs/niveau2/` | Modèles mécanistes : le piège métabolique IDO de Kashi 2019, et le réseau logique de Craddock 2015 |
 | `verifier.py` | Lance tous les contrôles du dépôt |
@@ -39,7 +42,7 @@ python3 simulateurs/niveau2/craddock_2015.py     # environ une minute
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 140 sources |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 140 sources ; 21 pistes en banque, non relues |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
