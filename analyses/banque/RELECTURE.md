@@ -126,3 +126,16 @@ python3 analyses/banque/inexploree.py                 # test « inexplorée »
 ```
 
 Les copies et les fichiers de relecture restent dans `cache/`, hors du dépôt : ils citent les articles.
+
+## Suite donnée
+
+Le porteur du projet a retenu trois pistes vérifiées dont le premier test ne demande aucun laboratoire.
+Elles sont promues au registre le 2026-11-22 et suivent désormais ses règles.
+
+| Piste de la banque | Piste du registre | Premier test |
+| --- | --- | --- |
+| B011, humanine et MOTS-c | P15 | Relire deux gènes dans un jeu de données public (GSE130353) |
+| B013, région HLA | P16 | Quatre comparaisons fixées d'avance sur les statistiques résumées |
+| B020, nombre de copies d'ADN mitochondrial | P17 | Refaire la randomisation mendélienne sur un autre jeu de cas |
+
+Un plan d'analyse se dépose avant toute donnée, comme pour les lots 1 et 2.

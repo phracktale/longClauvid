@@ -887,3 +887,57 @@
   url: https://anrs.fr/wp-content/uploads/2026/08/final-programme-symposium-anrs-covid-long-2026.pdf
   type: institution
   lu_le: 2026-11-22
+
+- id: peptides-mito-2019
+  titre: "A possible role for mitochondrial-derived peptides humanin and MOTS-c in patients with Q fever fatigue syndrome and chronic fatigue syndrome (Journal of Translational Medicine)"
+  url: https://pubmed.ncbi.nlm.nih.gov/31088495/
+  type: article
+  lu_le: 2026-11-22
+
+- id: vesicules-humanine-2022
+  titre: "SARS-CoV-2 and Mitochondrial Proteins in Neural-Derived Exosomes of COVID-19 (Annals of Neurology ; résumé)"
+  url: https://pubmed.ncbi.nlm.nih.gov/35285072/
+  type: article
+  lu_le: 2026-11-22
+
+- id: vesicules-humanine-2023
+  titre: "Prediction of Post-Acute-Sequelae of COVID-19 by Cargo Protein Biomarkers of Blood Total Extracellular Vesicles in Acute COVID-19 (American Journal of Medicine ; résumé)"
+  url: https://pubmed.ncbi.nlm.nih.gov/37072092/
+  type: article
+  lu_le: 2026-11-22
+
+- id: covid-long-23andme-2024
+  titre: "Multi-ancestry GWAS of Long COVID identifies immune-related loci and etiological links to chronic fatigue syndrome, fibromyalgia and depression (medRxiv, 23andMe)"
+  url: https://www.medrxiv.org/content/10.1101/2024.10.07.24315052v1.full
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: hla-emsfc-norvege-2020
+  titre: "Human Leukocyte Antigen alleles associated with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (Scientific Reports ; résumé)"
+  url: https://pubmed.ncbi.nlm.nih.gov/32210306/
+  type: article
+  lu_le: 2026-11-22
+
+- id: hla-emsfc-norvege-2021
+  titre: "Fine mapping of the major histocompatibility complex in ME/CFS suggests involvement of both HLA class I and class II loci (Brain, Behavior, and Immunity ; résumé)"
+  url: https://pubmed.ncbi.nlm.nih.gov/34403736/
+  type: article
+  lu_le: 2026-11-22
+
+- id: adn-mito-randomisation-2026
+  titre: "Insights into Pathophysiological Pathways in ME/CFS Through Genetic Correlation and Mendelian Randomization (Research Square)"
+  url: https://www.researchsquare.com/article/rs-9363637/v2.pdf
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: adn-mito-emsfc-2013
+  titre: "Could mitochondrial dysfunction be a differentiating marker between chronic fatigue syndrome and fibromyalgia? (Antioxidants & Redox Signaling ; résumé)"
+  url: https://pubmed.ncbi.nlm.nih.gov/23600892/
+  type: article
+  lu_le: 2026-11-22
+
+- id: adn-mito-covid-long-2024
+  titre: "HbA1c and leukocyte mtDNA levels as major factors associated with post-COVID-19 syndrome in type 2 diabetes patients (Scientific Reports ; résumé)"
+  url: https://pubmed.ncbi.nlm.nih.gov/39462048/
+  type: article
+  lu_le: 2026-11-22

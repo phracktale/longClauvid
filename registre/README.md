@@ -6,7 +6,7 @@ sur quelle source, et ce qui pourrait le réfuter.
 | Fichier | Contenu |
 | --- | --- |
 | `sources.yaml` | Chaque page consultée : adresse, type, date de lecture |
-| `pistes.yaml` | Les 14 pistes sous-exploitées, avec leur niveau de preuve |
+| `pistes.yaml` | Les 17 pistes sous-exploitées, avec leur niveau de preuve ; les trois dernières viennent de la banque |
 | `endotypes.yaml` | Les 5 typologies de patients, leurs marqueurs et les candidats à tester |
 | `transpositions.yaml` | Les 11 transpositions : ce qu'une maladie mieux maîtrisée apprend sur un processus partagé |
 | `confrontations.yaml` | Les 21 confrontations : pour chaque paire d'hypothèses, la mesure qui les départage |
