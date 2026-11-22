@@ -160,21 +160,21 @@
   resultat: >-
     Dans les vésicules extracellulaires d'origine neuronale du sang, l'humanine et MOTS-c,
     deux peptides codés par l'ADN mitochondrial, sont abaissés chez les patients COVID long
-    à manifestations neuropsychiatriques, et pas chez les autres. Dans la fatigue après fièvre Q
-    et l'EM/SFC, l'expression de leurs gènes est abaissée dans les monocytes, sur 10 personnes
-    par groupe ; les peptides eux-mêmes n'y diffèrent pas dans le sang.
-    Relu le 2026-11-22 sur les données déposées : cet écart d'expression n'existe que dans une
-    des deux séries de bibliothèques, où il suit l'ARN ribosomique du cytoplasme. Lecture fixée
-    d'avance : indécidable. Cherché dans trois autres jeux de données publics, 41 patients
-    et 47 témoins, EM/SFC et COVID long, le même écart n'y est pas : +0,01, −0,19 et +0,35 log2.
-    Détail : analyses/P15/RESULTATS.md.
+    à manifestations neuropsychiatriques, et pas chez les autres. C'est le seul appui de la piste.
+    Un second appui a été retiré le 2026-11-22, par décision du porteur du projet : la baisse
+    d'expression de leurs gènes dans les monocytes, publiée en 2019 pour la fatigue après fièvre Q
+    et l'EM/SFC. Relue sur les données déposées, elle n'existe que dans une des deux séries
+    de bibliothèques, où elle vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique.
+    Elle n'est pas retrouvée dans trois autres jeux de données publics, sur 41 patients et 47 témoins :
+    écarts de +0,01, −0,19 et +0,35 log2. Dans l'étude de 2019, les peptides eux-mêmes ne diffèrent pas
+    dans le sang. Détail : analyses/P15/RESULTATS.md.
   inexploite: >-
-    Aucun essai enregistré. Les deux résultats viennent chacun d'une seule équipe et ne mesurent
-    pas la même chose. L'écart d'expression de 2019, de 21 à 37 fois, est trop grand
-    pour être cru sans réplication. Premier test, sans laboratoire : relire les deux gènes
-    dans les données d'expression déposées par l'étude de 2019 (jeu GSE130353).
-    Plan déposé le 2026-11-22, avant l'ouverture des données : analyses/P15/PLAN.md.
-    Ce test est fait : voir le résultat ci-dessus.
+    Aucun essai enregistré. Le résultat des vésicules n'a pas été refait par une autre équipe,
+    et il ne porte que sur un sous-groupe de patients COVID long. Aucune mesure ne soutient la piste
+    dans l'EM/SFC. Le premier test, sans laboratoire, est fait : plan déposé avant l'ouverture
+    des données, analyses/P15/PLAN.md. Sa lecture fixée d'avance était « indécidable » ;
+    le retrait de l'appui de 2019 est une décision, pas le produit de la règle.
+    La suite demande un laboratoire : refaire le dosage des deux peptides dans les vésicules.
   niveau: C
   sources: [peptides-mito-2019, vesicules-humanine-2022, vesicules-humanine-2023]
 
@@ -214,5 +214,7 @@
     Le test sans laboratoire prévu à la promotion, refaire l'analyse sur un autre jeu de cas,
     n'est pas faisable aujourd'hui : aucun jeu public et indépendant ne dépasse 18 % de puissance,
     et il faudrait environ 16 400 cas. Plan déposé le 2026-11-22 : analyses/P17/PLAN.md.
+    La piste reste au registre par décision du porteur du projet, le 2026-11-22,
+    dans l'attente d'un jeu de cas assez grand.
   niveau: C
   sources: [adn-mito-randomisation-2026, adn-mito-emsfc-2013, adn-mito-covid-long-2024, decodeme-acces]

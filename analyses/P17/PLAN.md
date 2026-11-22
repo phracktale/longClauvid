@@ -116,4 +116,5 @@ La piste a été promue pour ce test. Le porteur du projet décide si elle reste
 
 ## Modifications
 
-Aucune à ce jour.
+**2026-11-22.** La règle n'est pas modifiée. Le porteur du projet garde la piste P17 au registre,
+bien que son premier test ne soit pas faisable aujourd'hui. Elle y attend un jeu de cas assez grand.
