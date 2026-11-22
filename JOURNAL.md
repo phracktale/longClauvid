@@ -3,6 +3,29 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Premier dépôt en banque : 21 pistes, aucune relue
+
+**Fait.** Les deux agents ont déposé : douze pistes de biologie (B001 à B012), neuf signaux
+statistiques (B013 à B021). Le contrôle à l'intégration est formel : champs présents,
+chaque source avec son adresse et son mode de lecture. Aucune source n'a été rouverte.
+Toutes les pistes sont « à vérifier ».
+
+**Fait.** Le statisticien a rédigé la grille de relecture (`outils/grille-statistique.md`)
+et ses calculs d'effectifs (`analyses/banque/`). Il n'a pas encore relu les pistes de biologie.
+
+**Remarque à vérifier.** Selon le statisticien, l'essai REVIVE teste la metformine sur un COVID
+long installé, ce que la fiche T03 ne dit pas.
+
+**Décision du porteur du projet.** Dépenser moins : la bibliothèque #ApresJ20 est copiée une fois,
+lentement, par un script ; les recherches se font ensuite sur la copie, sans requête.
+Les lectures en nombre iront à un modèle moins coûteux.
+
+**Choix.** Un fichier `REPRISE.md` dit où en est le projet, pour repartir dans une nouvelle
+session sans dépendre du fil de la conversation.
+
+**Écarté.** Verser la copie de la bibliothèque au dépôt : c'est le travail de l'association,
+on le consulte, on ne le republie pas.
+
 ## 2026-11-22 — Deux ressources signalées par le porteur du projet
 
 **Fait.** La bibliothèque Zotero de l'association #ApresJ20 est inscrite aux sources :

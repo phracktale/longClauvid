@@ -8,4 +8,1138 @@
 # Statuts : à vérifier, vérifiée, promue (champ promue_en), écartée (champ motif).
 # Chaque source dit si la page a été ouverte (« page ») ou seulement son extrait (« extrait »).
 
-[]
+- id: B001
+  titre: La pyruvate déshydrogénase est freinée par ses kinases dans l'EM/SFC, comme dans le sepsis, et ce frein
+    se mesure dans le sang
+  domaine_source: Déficit en pyruvate déshydrogénase de l'enfant ; sepsis ; cholangite biliaire primitive
+  processus_commun: Expression des kinases PDK1, PDK2 et PDK4 dans les cellules mononucléées du sang ; baisse des
+    acides aminés sériques qui alimentent le cycle de Krebs
+  enonce: Chez une partie des patients EM/SFC, et peut-être COVID long, les kinases PDK inactivent durablement la
+    pyruvate déshydrogénase. Le pyruvate est alors détourné vers le lactate à l'effort. Si c'est vrai, la hausse
+    de PDK1, PDK2 et PDK4 se retrouve dans une cohorte indépendante, y compris de COVID long.
+  pourquoi_inexploree: 'Europe PMC, « pyruvate dehydrogenase » ou « dichloroacetate » avec les termes EM/SFC ou
+    COVID long : 12 résultats. Une seule étude de mesure (Fluge 2016, 200 patients et 102 témoins) et une série
+    ouverte de dichloroacétate sur 22 patients (Comhaire 2018). Avec les seuls termes COVID long : 0 résultat. ClinicalTrials.gov,
+    « dichloroacetate » et ces maladies : 0 essai. Aucune réplication indépendante n''a été trouvée. Non trouvé
+    ne veut pas dire inexistant.'
+  test_propose: Mesurer l'ARN de PDK1, PDK2 et PDK4 dans des cellules du sang déjà conservées, chez des patients
+    et des témoins d'une cohorte indépendante, et refaire le profil d'acides aminés du sérum. La piste est réfutée
+    si l'expression des kinases ne diffère pas de celle des témoins, ou si le profil d'acides aminés de 2016 ne
+    se retrouve pas.
+  donnees_existantes: 'UK ME/CFS Biobank : sérum, cellules mononucléées et sang pour ARN de 340 patients et 136
+    témoins sains. Biobanque RECOVER pour le COVID long : sérum et cellules mononucléées.'
+  risques: 'Résultat d''une seule équipe. Les anticorps anti-pyruvate déshydrogénase de la cholangite biliaire primitive
+    sont absents dans l''EM/SFC (1 patient sur 161) : le mécanisme n''est pas celui-là. Une petite étude de spectroscopie
+    du muscle trouvait un couplage mitochondrial normal chez 8 patients EM/SFC. Le dichloroacétate est un médicament
+    à risque : dans un essai sur le syndrome MELAS, il a provoqué une neuropathie périphérique qui a fait arrêter
+    l''essai. Dans le déficit en pyruvate déshydrogénase de l''enfant, l''essai de phase 3 a manqué son critère
+    principal à 4 mois. La série ouverte de 2018 n''a pas de groupe témoin : 10 patients améliorés sur 22 ne prouvent
+    rien.'
+  niveau: C
+  sources:
+  - titre: Metabolic profiling indicates impaired pyruvate dehydrogenase function in myalgic encephalopathy/chronic
+      fatigue syndrome, JCI Insight 2016 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/28018972/
+    lu: page
+  - titre: 'Treating patients suffering from ME/CFS with sodium dichloroacetate: an open-label, proof-of-principle
+      pilot trial, Medical Hypotheses 2018 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/29602463/
+    lu: page
+  - titre: Phase III trial of sodium dichloroacetate for pyruvate dehydrogenase complex deficiency in children,
+      JCI Insight 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42770298/
+    lu: page
+  - titre: 'Dichloroacetate causes toxic neuropathy in MELAS: a randomized, controlled clinical trial, Neurology
+      2006 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/16476929/
+    lu: page
+  - titre: Metabolic Dysfunction in ME/CFS Not Due to Anti-mitochondrial Antibodies, Frontiers in Medicine 2020
+      (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/32296708/
+    lu: page
+  - titre: 'Pilot study of peripheral muscle function in primary biliary cirrhosis: potential implications for fatigue
+      pathogenesis, Clinical Gastroenterology and Hepatology 2008 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/18691944/
+    lu: page
+  - titre: Sepsis alters pyruvate dehydrogenase kinase activity in skeletal muscle, Molecular and Cellular Biochemistry
+      1999 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/10497885/
+    lu: page
+  - titre: UK ME/CFS Biobank, Samples & Data
+    url: https://cureme.lshtm.ac.uk/?p=431
+    lu: page
+  - titre: Over 1.4 million biosamples available in RECOVER's biorepository to support Long COVID research
+    url: https://recovercovid.org/news/over-14-million-biosamples-available-recovers-biorepository-support-long-covid-research
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B002
+  titre: 'Les peroxysomes fonctionnent mal après l''infection : les plasmalogènes baissent dans l''EM/SFC et les
+    peroxysomes se raréfient dans le poumon et l''intestin après le SARS-CoV-2'
+  domaine_source: Biologie des peroxysomes et réparation des tissus après une infection virale ; plasmalogènes dans
+    la maladie d'Alzheimer
+  processus_commun: Plasmalogènes et éthers de phospholipides du plasma ; abondance des peroxysomes dans les macrophages
+    et l'épithélium intestinal
+  enonce: Un défaut de fonction des peroxysomes persisterait après l'infection chez une partie des patients. Il
+    se lirait dans le sang par une baisse des plasmalogènes. Si c'est vrai, les patients COVID long ont des plasmalogènes
+    plus bas que des personnes rétablies de la même infection.
+  pourquoi_inexploree: 'Europe PMC, « plasmalogen » avec les termes EM/SFC ou COVID long : 4 résultats, dont une
+    seule étude de mesure (Che 2022, 106 patients EM/SFC et 91 témoins). Une revue de 2023 écrit que les plasmalogènes
+    n''ont pas encore été mesurés dans le COVID long. En élargissant à « peroxisome » : deux études expérimentales
+    récentes sur les séquelles du COVID, dans le poumon (2025) et l''intestin (2026). ClinicalTrials.gov, « plasmalogen
+    OR fenofibrate OR phenylbutyrate OR peroxisome » et ces maladies : 0 essai. Non trouvé ne veut pas dire inexistant.'
+  test_propose: Doser les plasmalogènes et les éthers de phospholipides dans du sérum ou du plasma déjà conservés,
+    chez des patients COVID long et des témoins rétablis, puis dans une seconde cohorte EM/SFC. La piste est réfutée
+    si les taux ne diffèrent pas, ou si la baisse de 2022 ne se reproduit pas.
+  donnees_existantes: UK ME/CFS Biobank (plasma et sérum) ; biobanque RECOVER (sérum). Aucun jeu de données de lipidomique
+    public n'a été vérifié dans cette recherche.
+  risques: La baisse des plasmalogènes vient d'une seule cohorte, et ses auteurs demandent une validation. Elle
+    peut refléter autre chose qu'un défaut des peroxysomes. Les deux études sur le COVID portent surtout sur l'animal
+    et sur des séquelles pulmonaires ou digestives, pas sur la fatigue. Dans la maladie d'Alzheimer débutante, un
+    essai de 328 patients avec des plasmalogènes oraux n'a pas atteint son critère principal. Le phénylbutyrate
+    de sodium, utilisé chez l'animal dans ces études, a échoué dans la SLA (fiche T11 du registre). Le communiqué
+    de l'université dit que d'autres recherches sont nécessaires avant tout usage dans le COVID long.
+  niveau: C
+  sources:
+  - titre: Metabolomic Evidence for Peroxisomal Dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome,
+      International Journal of Molecular Sciences 2022 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/35887252/
+    lu: page
+  - titre: Macrophage peroxisomes guide alveolar regeneration and limit SARS-CoV-2 tissue sequelae, Science 2025
+      (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/40048515/
+    lu: page
+  - titre: Communiqué de l'université de Virginie sur l'étude Science 2025 (EurekAlert)
+    url: https://www.eurekalert.org/news-releases/1076763
+    lu: page
+  - titre: Impaired VLCFA-peroxisome-mediated intestinal epithelial repair causes gastrointestinal sequelae of long
+      COVID, Developmental Cell 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/41494535/
+    lu: page
+  - titre: Chronic inflammation, neuroglial dysfunction, and plasmalogen deficiency as a new pathobiological hypothesis
+      addressing the overlap between post-COVID-19 symptoms and ME/CFS, Brain Research Bulletin 2023 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/37423295/
+    lu: page
+  - titre: Efficacy and Blood Plasmalogen Changes by Oral Administration of Plasmalogen in Patients with Mild Alzheimer's
+      Disease and Mild Cognitive Impairment, EBioMedicine 2017 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/28259590/
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B003
+  titre: Le SARS-CoV-2 abaisse durablement l'orexine de l'hypothalamus, le neuropeptide qui manque dans la narcolepsie
+    de type 1
+  domaine_source: Narcolepsie de type 1
+  processus_commun: Taux d'orexine A (hypocrétine-1) dans le liquide céphalo-rachidien
+  enonce: Une partie des patients COVID long ou EM/SFC aurait un déficit partiel en orexine, le neuropeptide de
+    l'éveil. Ce déficit contribuerait à la somnolence et au sommeil non réparateur. Si c'est vrai, leur orexine
+    A du liquide céphalo-rachidien est plus basse que celle de témoins.
+  pourquoi_inexploree: 'Europe PMC, « orexin OR hypocretin » avec les termes EM/SFC ou COVID long : 15 résultats.
+    On y trouve des revues, une étude chez la souris (2026), un cas de narcolepsie de type 1 après COVID (2026)
+    et un dosage dans le plasma de 14 survivants de réanimation (2025). Aucun dosage dans le liquide céphalo-rachidien
+    de patients COVID long ou EM/SFC n''a été trouvé. ClinicalTrials.gov, « orexin OR hypocretin OR daridorexant
+    OR suvorexant OR oveporexton » et ces maladies : 0 essai. Non trouvé ne veut pas dire inexistant.'
+  test_propose: Doser l'orexine A dans du liquide céphalo-rachidien déjà prélevé chez des patients et des témoins.
+    La piste est réfutée si les taux sont normaux, y compris chez les patients les plus somnolents.
+  donnees_existantes: Liquide céphalo-rachidien de l'étude du NIH (16 patients EM/SFC post-infectieuse, 21 témoins),
+    de 7 patients neuro-COVID long revus au NIH, et de 34 patients EM/SFC ayant eu une ponction lombaire (Jolley
+    2026). La conservation de ces prélèvements est à confirmer auprès des équipes.
+  risques: 'Le lien repose sur un modèle animal d''une seule équipe et sur un cas clinique. Dans la sclérose en
+    plaques, l''orexine A du liquide céphalo-rachidien n''est pas déficitaire et n''est liée ni à la fatigue ni
+    à la somnolence. Le dosage exige une ponction lombaire. Les agonistes du récepteur 2 de l''orexine sont des
+    médicaments récents et à risque : l''essai du premier, TAK-994, a été arrêté pour des effets indésirables hépatiques
+    ; sous oveporexton, la majorité des participants ont eu une insomnie transitoire et des envies fréquentes d''uriner.
+    Leur effet sur le malaise après effort est inconnu.'
+  niveau: C
+  sources:
+  - titre: SARS-CoV-2 infection is associated with hypothalamic orexin suppression and persistent cortical NeuN
+      attenuation, Journal of Neuroinflammation 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42087199/
+    lu: page
+  - titre: 'COVID-19-Induced Narcolepsy Type I With Cataplexy: A Short Report, Journal of Sleep Research 2026 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/42215284/
+    lu: page
+  - titre: Regulatory cycles of orexin and glucagon-like peptide-1 in postviral syndromes, Endocrine Reviews 2026
+      (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42037238/
+    lu: page
+  - titre: 'Systemic role of orexin A, substance P, bradykinin, and DABK in severe COVID-19 and 2.5-yr follow-ups:
+      an observational study, BJA Open 2025 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/40529720/
+    lu: page
+  - titre: Oveporexton for Narcolepsy Type 1 - Results from Two Phase 3 Trials, New England Journal of Medicine
+      2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42714024/
+    lu: page
+  - titre: Oral Orexin Receptor 2 Agonist in Narcolepsy Type 1 (TAK-994), New England Journal of Medicine 2023 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/37494485/
+    lu: page
+  - titre: 'Orexin A (hypocretin-1) levels are not reduced [...] in the cerebrospinal fluid of patients with multiple
+      sclerosis: no correlation with fatigue and sleepiness, Journal of the Neurological Sciences 2011 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/21605873/
+    lu: page
+  - titre: Deep phenotyping of post-infectious myalgic encephalomyelitis/chronic fatigue syndrome, Nature Communications
+      2024 (texte intégral, lu en partie)
+    url: https://www.nature.com/articles/s41467-024-45107-3
+    lu: page
+  - titre: Persistent Autonomic and Immunologic Abnormalities in Neurologic Post-Acute Sequelae of SARS-CoV2 Infection,
+      Neurology 2024 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/39173103/
+    lu: page
+  - titre: Cerebrospinal fluid opening pressure in relation to symptomatology and craniocervical anatomy in patients
+      with ME/CFS, Frontiers in Medicine 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42614190/
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B004
+  titre: Le canal calcique RyR1 du muscle reste « fuyant » après l'effort chez les patients, comme dans les myopathies
+    liées à RYR1
+  domaine_source: Myopathies liées au gène RYR1 ; faiblesse du diaphragme sous ventilation mécanique
+  processus_commun: 'État du complexe RyR1 sur biopsie musculaire : oxydation, nitrosylation, phosphorylation, perte
+    de la calstabine 1'
+  enonce: Chez les patients qui ont un malaise après effort, le canal RyR1 laisserait fuir le calcium du réticulum
+    plus fort et plus longtemps que chez des témoins. Cette fuite entraînerait lésions et perte de force. Si c'est
+    vrai, les biopsies de patients montrent un RyR1 appauvri en calstabine 1, et l'écart avec les témoins se creuse
+    après l'effort.
+  pourquoi_inexploree: 'Europe PMC, « ryanodine receptor OR RyR1 OR calstabin » avec les termes EM/SFC ou COVID
+    long : 2 résultats, soit une seule étude et sa prépublication. Elle porte sur le canal RyR2 dans le cerveau
+    de personnes décédées du COVID aigu, pas sur le muscle. Aucune mesure de RyR1 dans le muscle de patients n''a
+    été trouvée. ClinicalTrials.gov, « ryanodine OR Rycal OR ARM210 OR dantrolene » et ces maladies : 0 essai. Non
+    trouvé ne veut pas dire inexistant.'
+  test_propose: Sur des biopsies musculaires déjà congelées, prélevées avant et après un effort, mesurer la calstabine
+    1 liée à RyR1 et les modifications du canal. La piste est réfutée si patients et témoins ne diffèrent ni au
+    repos ni après l'effort.
+  donnees_existantes: Biopsies de l'étude d'Amsterdam sur le COVID long (Appelman 2024, étude NCT05225688), faites
+    avant et après induction du malaise après effort. La quantité de tissu restant est à demander à l'équipe.
+  risques: 'Aucune mesure directe dans nos maladies : c''est une hypothèse théorique. L''exercice modifie RyR1 aussi
+    chez la personne en bonne santé : il faut des témoins soumis au même effort. La piste recoupe la surcharge sodium–calcium
+    du muscle déjà au registre (P07) ; elle s''en distingue par la cible mesurée. Le stabilisateur de RyR1 S48168
+    (ARM210) n''a qu''un essai ouvert de phase 1 sur 7 patients : bien toléré sur 29 jours, sans preuve d''efficacité.'
+  niveau: D
+  sources:
+  - titre: 'Remodeling of ryanodine receptor complex causes leaky channels: a molecular mechanism for decreased
+      exercise capacity, PNAS 2008 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/18268335/
+    lu: page
+  - titre: 'Rycal S48168 (ARM210) for RYR1-related myopathies: a phase one, open-label, dose-escalation trial, EClinicalMedicine
+      2024 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/38318125/
+    lu: page
+  - titre: Alzheimer's-like signaling in brains of COVID-19 patients, Alzheimer's & Dementia 2022 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/35112786/
+    lu: page
+  - titre: Respiratory muscle contractile inactivity induced by mechanical ventilation in piglets leads to leaky
+      ryanodine receptors and diaphragm weakness, 2017 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/28260211/
+    lu: page
+  - titre: Muscle abnormalities worsen after post-exertional malaise in long COVID, Nature Communications 2024 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/38177128/
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B005
+  titre: Le liquide céphalo-rachidien des patients montre un déficit central en catécholamines, du même type que
+    dans les synucléinopathies
+  domaine_source: Maladie de Parkinson, atrophie multisystématisée, insuffisance autonome pure
+  processus_commun: Taux de DOPA, de DOPAC et de DHPG dans le liquide céphalo-rachidien
+  enonce: 'Le déficit central en catécholamines mesuré au NIH dans l''EM/SFC post-infectieuse et le neuro-COVID
+    long serait un trait stable de la maladie, et non un hasard de petite série. Deux lectures s''opposent : un
+    frein fonctionnel, ou un début d''agrégation de l''alpha-synucléine comme dans la maladie de Parkinson. Si la
+    seconde est vraie, le test d''amplification de l''alpha-synucléine est plus souvent positif chez les patients
+    que chez les témoins.'
+  pourquoi_inexploree: 'Europe PMC, « catechol OR catechols OR DOPAC OR DHPG OR droxidopa » avec les termes EM/SFC
+    ou COVID long : 13 résultats. Deux études de mesure, de la même équipe du NIH : 16 patients EM/SFC et 21 témoins
+    (2024), puis 7 patients neuro-COVID long revus après un an (2024). Aucune réplication indépendante trouvée.
+    ClinicalTrials.gov, « droxidopa OR levodopa OR catecholamine » et ces maladies : un seul essai pertinent, ouvert,
+    de droxidopa dans le syndrome de fatigue chronique (NCT00977171), arrêté après 3 inclusions faute de recrutement.
+    Aucun test d''amplification de l''alpha-synucléine n''a été trouvé dans ces maladies, hors une étude pilote
+    sur la muqueuse olfactive après COVID. Non trouvé ne veut pas dire inexistant.'
+  test_propose: Sur du liquide céphalo-rachidien déjà prélevé, refaire le dosage des catéchols dans une cohorte
+    indépendante et y ajouter un test d'amplification de l'alpha-synucléine. La piste est réfutée si les catéchols
+    sont normaux dans la seconde cohorte. La lecture « synucléine » est réfutée si le test n'est pas plus souvent
+    positif que chez les témoins.
+  donnees_existantes: Liquide céphalo-rachidien des deux études du NIH (Walitt 2024 ; Goldstein 2024) et de 34 patients
+    EM/SFC ponctionnés (Jolley 2026). La conservation de ces prélèvements est à confirmer.
+  risques: Très petits effectifs, une seule équipe, et de nombreuses comparaisons dans l'étude d'origine. La norépinéphrine
+    et la dopamine elles-mêmes ne différaient pas entre patients et témoins. Dans l'étude pilote sur la muqueuse
+    olfactive, la positivité du test suivait la perte d'odorat, pas les signes moteurs ou cognitifs, et sa portée
+    est inconnue selon ses auteurs. La droxidopa est un médicament à risque, qui agit sur la pression artérielle
+    ; son seul essai dans le syndrome de fatigue chronique n'a rien pu montrer.
+  niveau: C
+  sources:
+  - titre: Deep phenotyping of post-infectious myalgic encephalomyelitis/chronic fatigue syndrome, Nature Communications
+      2024 (texte intégral, lu en partie)
+    url: https://www.nature.com/articles/s41467-024-45107-3
+    lu: page
+  - titre: Persistent Autonomic and Immunologic Abnormalities in Neurologic Post-Acute Sequelae of SARS-CoV2 Infection,
+      Neurology 2024 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/39173103/
+    lu: page
+  - titre: Cerebrospinal fluid biomarkers of central catecholamine deficiency in Parkinson's disease and other synucleinopathies,
+      Brain 2012 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/22451506/
+    lu: page
+  - titre: 'Prevalence of alpha-synuclein seeding activity in the Olfactory Mucosa following SARS-CoV-2 infection:
+      results from a pilot study, Acta Neuropathologica 2026 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/42911254/
+    lu: page
+  - titre: An Open-Label Study To Assess The Clinical Benefit Of Droxidopa In Subjects With Chronic Fatigue Syndrome,
+      NCT00977171 (fiche lue par l'interface du registre)
+    url: https://clinicaltrials.gov/study/NCT00977171
+    lu: page
+  - titre: Cerebrospinal fluid opening pressure in relation to symptomatology and craniocervical anatomy in patients
+      with ME/CFS, Frontiers in Medicine 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42614190/
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B006
+  titre: Des auto-anticorps contre la sélénoprotéine P privent les tissus de sélénium et freinent l'activation de
+    l'hormone thyroïdienne
+  domaine_source: Thyroïdite de Hashimoto ; syndrome de T3 basse des maladies graves
+  processus_commun: Auto-anticorps anti-SELENOP, activité de la glutathion peroxydase 3, rapport T3/T4 et T3 inverse
+  enonce: 'Chez environ 10 à 16 % des patients EM/SFC, des auto-anticorps gêneraient le transport du sélénium. Les
+    désiodases, qui ont besoin de sélénium, transformeraient moins bien la T4 en T3 active : un manque d''hormone
+    dans les tissus, que la TSH ne montre pas. Si c''est vrai, les porteurs d''anticorps ont un rapport T3/T4 plus
+    bas dans une cohorte indépendante.'
+  pourquoi_inexploree: 'Europe PMC, « selenoprotein P OR SELENOP OR selenium » avec les termes EM/SFC ou COVID long
+    : 26 résultats. Deux études mesurent ces auto-anticorps, avec le même laboratoire de dosage : 167 patients EM/SFC
+    (2023) et 750 adultes après COVID (2026). Une étude de 98 patients décrit la T3 basse (2018). ClinicalTrials.gov,
+    « selenium OR selenoprotein » et ces maladies : un essai de coenzyme Q10 et sélénium (NCT05128292) ; une étude
+    ouverte de cette association est publiée, sur 27 patients non sélectionnés sur les anticorps. Aucun essai chez
+    des porteurs d''anticorps n''a été trouvé. Non trouvé ne veut pas dire inexistant.'
+  test_propose: Faire doser par un second laboratoire les auto-anticorps anti-SELENOP, le sélénium, la GPX3 et les
+    hormones thyroïdiennes (T3, T4, T3 inverse) dans du sérum déjà conservé. La piste est réfutée si les anticorps
+    ne sont pas plus fréquents que chez les témoins, ou si les porteurs n'ont pas un rapport T3/T4 plus bas.
+  donnees_existantes: 'UK ME/CFS Biobank : sérum de 340 patients, 136 témoins sains et 69 témoins atteints de sclérose
+    en plaques. Biobanque RECOVER : sérum.'
+  risques: 'Un seul laboratoire dose ces anticorps. Dans l''étude après COVID, ni le sélénium bas, ni la SELENOP
+    basse, ni les anticorps pris seuls n''étaient nettement liés à la fatigue ; seule leur combinaison l''était,
+    chez 14 à 24 personnes. Dans l''étude de 2018, la T3 libre basse touche 16 patients sur 98 contre 7 témoins
+    sur 99, et l''intervalle de confiance touche 1. Les auteurs demandent eux-mêmes des essais. Aucun conseil de
+    supplémentation n''en découle : l''innocuité du sélénium ou de la T3 dans ces maladies n''a pas été vérifiée
+    ici.'
+  niveau: C
+  sources:
+  - titre: Autoantibodies to selenoprotein P in chronic fatigue syndrome suggest selenium transport impairment and
+      acquired resistance to thyroid hormone, Redox Biology 2023 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/37423160/
+    lu: page
+  - titre: Low serum selenium combined with SELENOP-autoantibodies are associated with persistent fatigue after
+      SARS-CoV-2 infection, Redox Biology 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42378956/
+    lu: page
+  - titre: 'Higher Prevalence of Low T3 Syndrome in Patients With Chronic Fatigue Syndrome: A Case-Control Study,
+      Frontiers in Endocrinology 2018 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/29615976/
+    lu: page
+  - titre: Natural Autoimmunity to Selenoprotein P Impairs Selenium Transport in Hashimoto's Thyroiditis, International
+      Journal of Molecular Sciences 2021 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/34884891/
+    lu: page
+  - titre: Does Coenzyme Q10 Plus Selenium Supplementation Ameliorate Clinical Outcomes [...] in Individuals with
+      ME/CFS?, Antioxidants & Redox Signaling 2022 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/35229657/
+    lu: page
+  - titre: Effect of CoQ10 Plus Selenium Supplementation on Clinical Outcomes and Biochemical Markers in ME/CFS
+      (CoSeME Study), NCT05128292 (liste de résultats du registre)
+    url: https://clinicaltrials.gov/study/NCT05128292
+    lu: extrait
+  - titre: UK ME/CFS Biobank, Samples & Data
+    url: https://cureme.lshtm.ac.uk/?p=431
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B007
+  titre: Le cibinétide, agoniste du récepteur de réparation innée, fait repousser les petites fibres nerveuses perdues
+    dans le COVID long comme dans la sarcoïdose
+  domaine_source: Neuropathie des petites fibres de la sarcoïdose
+  processus_commun: Densité des fibres nerveuses de la cornée en microscopie confocale ; fibres nerveuses de l'épiderme
+    sur biopsie de peau
+  enonce: La perte de petites fibres nerveuses mesurée dans le COVID long et l'EM/SFC serait réversible par le levier
+    testé dans la sarcoïdose. Si c'est vrai, chez des patients choisis pour des fibres cornéennes raréfiées, 28
+    jours de cibinétide augmentent ces fibres davantage que le placebo.
+  pourquoi_inexploree: 'Europe PMC, « cibinetide OR ARA 290 OR innate repair receptor » avec les termes EM/SFC ou
+    COVID long : 0 résultat. ClinicalTrials.gov, « cibinetide OR ARA 290 OR erythropoietin » et ces maladies : 0
+    essai. Le marqueur, lui, est documenté : « corneal confocal » avec ces maladies donne 7 résultats, dont deux
+    études cas-témoins dans le COVID long, et la neuropathie des petites fibres y est décrite sur biopsie de peau.
+    C''est donc le levier qui est inexploré, pas la mesure. Non trouvé ne veut pas dire inexistant.'
+  test_propose: 'Avant tout essai, vérifier dans les cohortes déjà suivies que les fibres cornéennes remontent quand
+    les symptômes s''améliorent. La piste est réfutée si la densité des fibres n''est liée ni aux symptômes ni à
+    leur évolution : réparer les fibres serait alors sans objet.'
+  donnees_existantes: 'Cohortes de microscopie confocale de la cornée : 40 personnes après COVID (Bitirgen 2022)
+    et 60 patients COVID long (Cañadas 2023). Série de Boston avec biopsies de peau : 143 patients COVID long et
+    170 patients EM/SFC (Novak 2026).'
+  risques: 'Le niveau B vaut pour la perte de fibres, décrite par plusieurs équipes ; l''effet du levier dans nos
+    maladies reste une hypothèse. Dans la sarcoïdose, l''essai ne dure que 28 jours sur 64 patients ; seule la dose
+    de 4 mg a atteint le critère, et la douleur n''a pas baissé de façon significative contre placebo. Aucun essai
+    en cours du cibinétide n''a été trouvé sur ClinicalTrials.gov : sa disponibilité est incertaine. La perte de
+    fibres peut être une conséquence et non une cause des symptômes. Molécule expérimentale, testée en phase 2 :
+    à n''envisager que dans un essai.'
+  niveau: B
+  sources:
+  - titre: Cibinetide Improves Corneal Nerve Fiber Abundance in Patients With Sarcoidosis-Associated Small Nerve
+      Fiber Loss and Neuropathic Pain, Investigative Ophthalmology & Visual Science 2017 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/28475703/
+    lu: page
+  - titre: ARA 290 improves symptoms in patients with sarcoidosis-associated small nerve fiber loss and increases
+      corneal nerve fiber density, Molecular Medicine 2013 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/24136731/
+    lu: page
+  - titre: Corneal confocal microscopy identifies corneal nerve fibre loss and increased dendritic cells in patients
+      with long COVID, British Journal of Ophthalmology 2022 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/34312122/
+    lu: page
+  - titre: Neuroinflammatory Findings of Corneal Confocal Microscopy in Long COVID-19 Patients, 2 Years after Acute
+      SARS-CoV-2 Infection, Diagnostics 2023 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/37892009/
+    lu: page
+  - titre: Peripheral Neuropathy Evaluations of Patients With Prolonged Long COVID, Neurology Neuroimmunology &
+      Neuroinflammation 2022 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/35232750/
+    lu: page
+  - titre: Shared autonomic phenotype of long COVID and myalgic encephalomyelitis/chronic fatigue syndrome, PLoS
+      One 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/41576003/
+    lu: page
+  - titre: Study of Efficacy of ARA 290 on Corneal Nerve Fiber Density and Neuropathic Symptoms [...], NCT02039687,
+      et liste des essais du cibinétide (liste de résultats du registre)
+    url: https://clinicaltrials.gov/study/NCT02039687
+    lu: extrait
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B008
+  titre: Des bactéries de l'intestin produisent du D-lactate qui passe dans le sang et trouble la cognition, comme
+    dans l'acidose D-lactique du grêle court
+  domaine_source: Acidose D-lactique du syndrome du grêle court
+  processus_commun: D-lactate dans le plasma ou l'urine ; abondance des bactéries fécales qui en produisent
+  enonce: Chez une partie des patients EM/SFC, une élévation modérée et chronique du D-lactate d'origine bactérienne
+    contribuerait aux troubles cognitifs. Si c'est vrai, le D-lactate du sang est plus élevé que chez des témoins.
+  pourquoi_inexploree: 'Europe PMC, « D-lactate OR D-lactic » avec les termes EM/SFC ou COVID long : 6 résultats.
+    Une étude de selles (Sheedy 2009, 108 patients), une revue systématique qui réclame un dosage du D-lactate chez
+    les patients (Wallis 2017), et un essai ouvert d''antibiotique et de probiotique sur 44 patients (Wallis 2018).
+    Aucun dosage cas-témoins du D-lactate dans le sang n''a été trouvé, ni aucune étude dans le COVID long. ClinicalTrials.gov,
+    « D-lactate OR D-lactic » et ces maladies : 7 fiches, dont aucune ne porte sur cette piste. Non trouvé ne veut
+    pas dire inexistant.'
+  test_propose: Doser le D-lactate, par un dosage qui lui est propre, dans du plasma ou de l'urine déjà conservés,
+    chez des patients et des témoins. La piste est réfutée si les taux ne diffèrent pas.
+  donnees_existantes: UK ME/CFS Biobank (plasma) ; biobanque RECOVER (sérum, urine, selles).
+  risques: 'Dans l''essai ouvert de 2018, le rapport D-lactate sur L-lactate de l''urine n''a pas bougé alors que
+    des symptômes s''amélioraient : cela va contre la piste. L''étude de 2009 repose sur des cultures de selles.
+    Selon les auteurs de 2018, les streptocoques ne sont ni les seuls ni les premiers producteurs de D-lactate.
+    Un essai ouvert ne sépare pas l''effet du traitement de l''effet placebo. L''acidose D-lactique vraie survient
+    surtout après résection de l''intestin : la transposition à un intestin entier reste à prouver.'
+  niveau: C
+  sources:
+  - titre: Increased d-lactic Acid intestinal bacteria in patients with chronic fatigue syndrome, In Vivo 2009 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/19567398/
+    lu: page
+  - titre: 'Examining clinical similarities between ME/CFS and D-lactic acidosis: a systematic review, Journal of
+      Translational Medicine 2017 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/28592308/
+    lu: page
+  - titre: 'Open-label pilot for treatment targeting gut dysbiosis in ME/CFS: neuropsychological symptoms and sex
+      comparisons, Journal of Translational Medicine 2018 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/29409505/
+    lu: page
+  - titre: 'D-lactic acidosis: an underrecognized complication of short bowel syndrome, Gastroenterology Research
+      and Practice 2015 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/25977687/
+    lu: page
+  - titre: UK ME/CFS Biobank, Samples & Data
+    url: https://cureme.lshtm.ac.uk/?p=431
+    lu: page
+  - titre: Over 1.4 million biosamples available in RECOVER's biorepository to support Long COVID research
+    url: https://recovercovid.org/news/over-14-million-biosamples-available-recovers-biorepository-support-long-covid-research
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B009
+  titre: Une partie des patients EM/SFC manque de vasopressine, comme dans le diabète insipide central partiel
+  domaine_source: Déficit en arginine-vasopressine (diabète insipide central) ; tachycardie posturale
+  processus_commun: Copeptine plasmatique sous stimulation osmotique ; osmolalité du plasma et de l'urine après
+    une nuit sans boire
+  enonce: Un déficit partiel de sécrétion de vasopressine entretiendrait le manque de volume sanguin et l'intolérance
+    à la station debout chez une partie des patients. Si c'est vrai, leur copeptine reste basse après une perfusion
+    de sérum salé hypertonique, le test qui identifie le diabète insipide central.
+  pourquoi_inexploree: 'Europe PMC, « copeptin OR vasopressin » avec les termes EM/SFC ou COVID long : 13 résultats.
+    Deux études de mesure dans l''EM/SFC, par deux équipes : 18 patients et 15 témoins (Miwa 2017), puis 124 patients
+    sans groupe témoin (Huhmar 2026). Dans le COVID long, un cas publié de déficit en vasopressine. Aucun test de
+    stimulation de la copeptine n''a été trouvé. ClinicalTrials.gov, « desmopressin OR vasopressin OR copeptin »
+    et ces maladies : 0 essai. Non trouvé ne veut pas dire inexistant.'
+  test_propose: 'Première étape, sur du plasma conservé : comparer la copeptine et l''osmolalité des patients et
+    des témoins. Étape décisive, sur nouvelle collecte : la copeptine après sérum salé hypertonique. La piste est
+    réfutée si la copeptine stimulée dépasse le seuil qui écarte un déficit.'
+  donnees_existantes: Série de 124 patients de Huhmar 2026, où osmolalités et vasopressine sont déjà mesurées. UK
+    ME/CFS Biobank (plasma) pour une copeptine de base. Aucune cohorte avec test de stimulation n'a été trouvée.
+  risques: 'Dans l''étude de 2026, la copeptine était dans les normes chez les 13 patients testés, plutôt vers le
+    bas : cela affaiblit la piste. Cette étude n''a pas de groupe témoin, d''où le niveau C malgré deux équipes.
+    Le test de référence sert justement à distinguer un vrai déficit d''une soif excessive : une vasopressine basse
+    ne suffit pas. La desmopressine est un médicament à risque : elle peut causer une hyponatrémie (un cas avec
+    hospitalisation dans l''étude de référence sur la copeptine). Dans la tachycardie posturale, son effet n''a
+    été mesuré que sur quatre heures ; dans l''EM/SFC, sur cinq jours chez 10 patients, sans placebo.'
+  niveau: C
+  sources:
+  - titre: Low Vasopressin in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome, Endocrine Practice 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/41475665/
+    lu: page
+  - titre: Down-regulation of renin-aldosterone and antidiuretic hormone systems in patients with ME/CFS, Journal
+      of Cardiology 2017 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/27401397/
+    lu: page
+  - titre: Arginine-vasopressin deficiency due to long COVID-associated infundibulo-neurohypophysitis, Archives
+      of Endocrinology and Metabolism 2025 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/40215290/
+    lu: page
+  - titre: A Copeptin-Based Approach in the Diagnosis of Diabetes Insipidus, New England Journal of Medicine 2018
+      (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/30067922/
+    lu: page
+  - titre: Desmopressin acutely decreases tachycardia and improves symptoms in the postural tachycardia syndrome,
+      Heart Rhythm 2012 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/22561596/
+    lu: page
+  - titre: UK ME/CFS Biobank, Samples & Data
+    url: https://cureme.lshtm.ac.uk/?p=431
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B010
+  titre: L'endothéline-1 reste élevée après l'infection ; ses récepteurs se bloquent par des médicaments de l'hypertension
+    artérielle pulmonaire
+  domaine_source: Hypertension artérielle pulmonaire
+  processus_commun: Endothéline-1 circulante
+  enonce: Chez une partie des patients, un excès durable d'endothéline-1, puissant vasoconstricteur, réduirait l'irrigation
+    des tissus et du cerveau. Si c'est vrai, l'endothéline-1 est liée à la baisse du débit sanguin cérébral en position
+    debout et à la sévérité, et elle est normale chez les personnes rétablies.
+  pourquoi_inexploree: 'Europe PMC, « endothelin » dans le titre avec les termes EM/SFC ou COVID long : 7 résultats.
+    Le marqueur est trouvé élevé par au moins trois équipes (Haffke 2022, Willems 2022, Cambras 2023 et Domingo
+    2024). Deux études chez le hamster, d''une même équipe, montrent que le macitentan, antagoniste des récepteurs,
+    limite les lésions articulaires après l''infection (2024, 2026). ClinicalTrials.gov, « bosentan OR macitentan
+    OR ambrisentan OR aprocitentan OR sparsentan OR endothelin receptor antagonist » et ces maladies : 0 essai.
+    C''est le levier qui est inexploré, pas la mesure. Non trouvé ne veut pas dire inexistant.'
+  test_propose: Sur des données déjà recueillies, croiser l'endothéline-1 avec le débit sanguin cérébral au test
+    d'inclinaison et avec la sévérité des symptômes. La piste est réfutée si l'endothéline-1 n'est liée ni à l'un
+    ni à l'autre.
+  donnees_existantes: 'Cohorte de Haffke 2022 : patients, témoins sains et personnes rétablies du COVID. Cohorte
+    de Domingo 2024 : 31 patients EM/SFC, 23 COVID long, 31 témoins, avec test debout de 10 minutes. Série de Boston
+    avec débit cérébral au test d''inclinaison (Novak 2026), si du sérum y est conservé. Biobanque RECOVER (sérum).'
+  risques: Les antagonistes des récepteurs de l'endothéline sont des médicaments à risque sérieux. La notice américaine
+    du macitentan porte un avertissement encadré de toxicité pour l'embryon et le fœtus ; elle signale aussi toxicité
+    pour le foie, rétention d'eau, baisse de l'hémoglobine et, après commercialisation, hypotension symptomatique.
+    Or l'hypotension orthostatique touche 15 % des patients de la série de Boston. Les preuves animales portent
+    sur l'articulation, pas sur la fatigue. Dans l'étude de Willems, l'endothéline-1 était élevée sans dysfonction
+    des gros vaisseaux. Une endothéline élevée peut être le signe d'une lésion de l'endothélium, pas la cause des
+    symptômes.
+  niveau: B
+  sources:
+  - titre: Endothelial dysfunction and altered endothelial biomarkers in patients with post-COVID-19 syndrome and
+      chronic fatigue syndrome (ME/CFS), Journal of Translational Medicine 2022 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/35317812/
+    lu: page
+  - titre: Sustained inflammation, coagulation activation and elevated endothelin-1 levels without macrovascular
+      dysfunction at 3 months after COVID-19, Thrombosis Research 2022 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/34922160/
+    lu: page
+  - titre: 'Skin Temperature Circadian Rhythms and Dysautonomia in ME/CFS: The Role of Endothelin-1 in the Vascular
+      Tone Dysregulation, International Journal of Molecular Sciences 2023 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/36902264/
+    lu: page
+  - titre: 'Association of circulating biomarkers with illness severity measures differentiates ME/CFS and post-COVID-19
+      condition: a prospective pilot cohort study, 2024 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/38600563/
+    lu: page
+  - titre: Blockade of endothelin receptors mitigates SARS-CoV-2-induced osteoarthritis, Nature Microbiology 2024
+      (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/39261580/
+    lu: page
+  - titre: Lung epithelial endothelin-1 drives iron dysregulation and skeletal injury after SARS-CoV-2 infection,
+      Cell Reports 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42599803/
+    lu: page
+  - titre: Macitentan and morbidity and mortality in pulmonary arterial hypertension, New England Journal of Medicine
+      2013 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/23984728/
+    lu: page
+  - titre: Notice américaine d'Opsumit (macitentan), DailyMed (lue en partie)
+    url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e484a50-55db-4b85-8c57-6cd1b0353abd
+    lu: page
+  - titre: Shared autonomic phenotype of long COVID and myalgic encephalomyelitis/chronic fatigue syndrome, PLoS
+      One 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/41576003/
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B011
+  titre: Les peptides codés par l'ADN mitochondrial, humanine et MOTS-c, sont abaissés dans la fatigue après fièvre
+    Q et dans l'EM/SFC
+  domaine_source: Syndrome de fatigue après fièvre Q
+  processus_commun: Expression des gènes MT-RNR2 (humanine) et MT-RNR1 (MOTS-c) dans les monocytes ; humanine produite
+  enonce: Une baisse durable des peptides dérivés de la mitochondrie serait une trace commune des fatigues post-infectieuses.
+    Si c'est vrai, elle se retrouve dans le COVID long, et elle distingue les personnes fatiguées des personnes
+    infectées puis rétablies.
+  pourquoi_inexploree: 'Europe PMC, « humanin OR MOTS-c OR mitochondrial-derived peptide » avec les termes EM/SFC
+    ou COVID long : 5 résultats. Une seule étude de mesure, sur 10 personnes par groupe (Raijmakers 2019), et une
+    prépublication d''opinion en faveur de MOTS-c (2025). Aucune mesure dans le COVID long n''a été trouvée. ClinicalTrials.gov,
+    « MOTS-c OR humanin OR mitochondrial-derived peptide » et ces maladies : 0 essai. Non trouvé ne veut pas dire
+    inexistant.'
+  test_propose: Doser l'humanine et MOTS-c dans du plasma conservé, et lire MT-RNR1 et MT-RNR2 dans des données
+    de séquençage d'ARN déjà produites, chez des patients, des témoins sains et des personnes rétablies. La piste
+    est réfutée si les taux ne diffèrent pas, ou s'ils sont aussi bas chez les personnes rétablies.
+  donnees_existantes: UK ME/CFS Biobank (plasma, sang pour ARN) ; biobanque RECOVER (sérum, cellules mononucléées).
+    Aucun jeu de données d'ARN n'a été vérifié pour ces deux gènes dans cette recherche.
+  risques: 'Dix personnes par groupe, une seule équipe. Dans cette étude, les témoins séropositifs pour la fièvre
+    Q mais sans fatigue avaient eux aussi une expression abaissée, à un moindre degré : le marqueur suit peut-être
+    l''infection passée et non la fatigue. L''effet de MOTS-c sur la performance physique vient de la souris. Selon
+    la prépublication de 2025, les données de sécurité et d''efficacité chez l''humain manquent. Un analogue, le
+    CB4211, n''a qu''un essai de phase 1 enregistré, dans la stéatose du foie. MOTS-c n''a donc pas sa place hors
+    d''un essai.'
+  niveau: C
+  sources:
+  - titre: A possible role for mitochondrial-derived peptides humanin and MOTS-c in patients with Q fever fatigue
+      syndrome and chronic fatigue syndrome, Journal of Translational Medicine 2019 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/31088495/
+    lu: page
+  - titre: 'Redefining Mitochondrial Therapy for ME/CFS: The Case for MOTS-c, Preprints.org 2025, prépublication
+      (résumé)'
+    url: https://doi.org/10.20944/preprints202507.0058.v2
+    lu: page
+  - titre: MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle
+      homeostasis, Nature Communications 2021 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/33473109/
+    lu: page
+  - titre: A Phase 1a/1b Study of CB4211 in Healthy Non-obese Subjects and Subjects With Nonalcoholic Fatty Liver
+      Disease, NCT03998514 (liste de résultats du registre)
+    url: https://clinicaltrials.gov/study/NCT03998514
+    lu: extrait
+  - titre: UK ME/CFS Biobank, Samples & Data
+    url: https://cureme.lshtm.ac.uk/?p=431
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B012
+  titre: 'Le fer reste mal réparti après l''infection : chargé dans les monocytes, il manque à la fabrication des
+    globules rouges'
+  domaine_source: Anémie de l'inflammation ; carence en fer sans anémie
+  processus_commun: Fer sérique, ferritine, saturation de la transferrine, hepcidine, réticulocytes pauvres en fer
+  enonce: 'Chez une partie des patients COVID long, l''inflammation des premières semaines laisserait une mauvaise
+    répartition du fer : retenu dans les monocytes, insuffisant pour les globules rouges et les lymphocytes. Si
+    c''est vrai, les marqueurs de manque de fer disponible restent anormaux plus de six mois après l''infection
+    chez les patients, et pas chez les personnes rétablies.'
+  pourquoi_inexploree: 'Europe PMC, « iron OR hepcidin OR ferritin » dans le titre avec les termes EM/SFC ou COVID
+    long : 8 résultats. Une étude solide (Hanson 2024, 214 personnes suivies un an) et quelques travaux sur la ferritine
+    seule. ClinicalTrials.gov, « iron OR ferric OR hepcidin » et ces maladies : 4 fiches. Aucune ne teste le fer
+    dans le COVID long ; une seule teste le fer intraveineux, chez des femmes fatiguées, carencées, sans anémie.
+    Aucun essai sélectionné sur ces marqueurs n''a été trouvé. Non trouvé ne veut pas dire inexistant.'
+  test_propose: 'Dans une cohorte existante, comparer à plus de six mois la ferritine, la saturation de la transferrine,
+    l''hepcidine et les réticulocytes entre patients et personnes rétablies. La piste est réfutée si ces marqueurs
+    ne diffèrent plus à distance de l''infection : le signal de 2024 serait alors un marqueur précoce, pas un mécanisme
+    entretenu.'
+  donnees_existantes: Cohorte de Hanson 2024 (214 personnes, suivies un an). Biobanque RECOVER (sérum, sang total).
+  risques: 'Le sens de l''anomalie n''est pas tranché. L''étude de 2024 décrit à la fois un fer sérique bas et des
+    monocytes chargés en fer. Une étude chez le hamster relie l''endothéline-1 à une surcharge en fer des tissus
+    après l''infection. Donner du fer pourrait donc nuire : rien ici ne permet de le recommander. Hors COVID, le
+    fer intraveineux n''a amélioré la fatigue que chez les femmes à ferritine très basse (15 ng/mL ou moins) dans
+    un essai de 90 femmes, et pas du tout dans un essai de 405 donneurs de sang carencés. Le signal de 2024 est
+    mesuré surtout dans les premières semaines et les premiers mois.'
+  niveau: B
+  sources:
+  - titre: Iron dysregulation and inflammatory stress erythropoiesis associates with long-term outcome of COVID-19,
+      Nature Immunology 2024 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/38429458/
+    lu: page
+  - titre: Lung epithelial endothelin-1 drives iron dysregulation and skeletal injury after SARS-CoV-2 infection,
+      Cell Reports 2026 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/42599803/
+    lu: page
+  - titre: Intravenous iron for the treatment of fatigue in nonanemic, premenopausal women with low serum ferritin
+      concentration, Blood 2011 (résumé)
+    url: https://pubmed.ncbi.nlm.nih.gov/21705493/
+    lu: page
+  - titre: 'The effects of intravenous iron supplementation on fatigue and general health in non-anemic blood donors
+      with iron deficiency: a randomized placebo-controlled superiority trial, 2020 (résumé)'
+    url: https://pubmed.ncbi.nlm.nih.gov/32848185/
+    lu: page
+  - titre: Utility of Serum Ferritin for Predicting ME/CFS in Patients with Long COVID, 2023 (titre seul, liste
+      de résultats Europe PMC)
+    url: https://pubmed.ncbi.nlm.nih.gov/37510852/
+    lu: extrait
+  - titre: Effect of Iron Therapy on Fatigue Symptoms in Non-anemic Iron Deficient Women of Reproductive Age, NCT06596161
+      (fiche lue par l'interface du registre)
+    url: https://clinicaltrials.gov/study/NCT06596161
+    lu: page
+  - titre: Over 1.4 million biosamples available in RECOVER's biorepository to support Long COVID research
+    url: https://recovercovid.org/news/over-14-million-biosamples-available-recovers-biorepository-support-long-covid-research
+    lu: page
+  origine: agent biologie
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B013
+  titre: La région HLA de classe II est associée au COVID long et à l'EM/SFC dans deux études génétiques indépendantes
+  domaine_source: Études d'association pangénomique, avec imputation des allèles HLA
+  processus_commun: Présentation des antigènes par les molécules HLA de classe II (DQ, DR) aux lymphocytes T CD4
+  enonce: 'Les deux maladies partagent un terrain HLA de classe II : la façon dont l''antigène est présenté aux
+    lymphocytes T pèse sur le risque. L''hypothèse prédit qu''un même allèle ou un même haplotype DQ–DR est associé
+    aux deux maladies, dans le même sens. Elle est réfutée si aucun des allèles désignés par une étude n''est retrouvé
+    dans l''autre.'
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « HLA-DRB1*11:04 long COVID », « HLA-DQA1 long COVID replication
+    », « HLA class II T cell long COVID 2025 2026 ». Trouvé : une seule étude dédiée, iranienne, de 88 cas et 96
+    témoins, en typage de basse résolution. Aucun croisement publié des allèles entre les deux études pangénomiques
+    n''a été trouvé. Aucun essai ne sélectionne des patients sur le HLA. Le registre cite DecodeME (piste P13) pour
+    ses huit régions, pas pour le HLA. Non trouvé ne veut pas dire inexistant.'
+  test_propose: 'Sur les statistiques résumées, quatre tests fixés d''avance : le variant rs9273363, l''allèle DRB1*11:04
+    et l''allèle DQA1*03:01 dans DecodeME ; l''allèle DQA1*05:01 dans l''étude 23andMe. Seuil : même sens et p inférieur
+    à 0,05/4. Si aucun des quatre ne passe, l''hypothèse d''un terrain commun est réfutée et il reste deux signaux
+    propres à chaque maladie. Effectif nécessaire, calculé en Python (test allélique, approximation normale, 10
+    témoins par cas, puissance 90 %, alpha 0,05) : 4 367 cas pour un rapport de cotes de 0,917 à une fréquence de
+    23,2 % ; 8 106 cas pour un rapport de 1,06 à une fréquence supposée de 30 %.'
+  donnees_existantes: Statistiques résumées de DecodeME ; statistiques de l'étude 23andMe (accès à vérifier) ; étude
+    pangénomique du COVID long de l'initiative COVID-19 HGI
+  risques: 'Les allèles diffèrent entre les deux études et leur sens n''est pas comparable en l''état : DRB1*11:04
+    augmente le risque de COVID long, DQA1*05:01 semble protéger de l''EM/SFC. L''étude iranienne trouve DRB1*11
+    moins fréquent chez les malades, à l''inverse de 23andMe. Les témoins ne sont pas les mêmes : personnes infectées
+    sans COVID long d''un côté, population générale de l''autre. La région HLA varie beaucoup selon l''origine géographique,
+    ce qui expose à un biais de stratification. Les effets sont trop petits pour trier des patients. Le signal ne
+    désigne ni un antigène ni un médicament.'
+  niveau: B
+  solidite_statistique: 'COVID long : 54 390 cas et 124 777 témoins, tous auto-déclarés. Variant rs9273363 : rapport
+    de cotes 1,06 (IC à 95 % : 1,04–1,08), p = 3,79 × 10⁻¹¹. Allèle DRB1*11:04 : 1,18 (1,11–1,24), p = 7,0 × 10⁻⁹,
+    parmi 855 allèles testés. Effets semblables dans trois groupes d''ascendance (hétérogénéité p = 0,75) et après
+    ajustement sur l''hospitalisation. Non retrouvé de façon significative dans l''étude HGI (6 450 cas, 46 208
+    témoins) ; puissance de cette étude calculée entre 0,46 et 0,87 selon la fréquence de l''allèle, que l''article
+    ne donne pas. EM/SFC : 15 579 cas et 259 909 témoins ; DQA1*05:01 à 21,7 % chez les cas contre 23,2 % chez les
+    témoins, p = 1,4 × 10⁻¹⁰, soit un rapport de cotes de 0,917 calculé à partir de ces fréquences. Autres allèles
+    de 23andMe : DQA1*03:01 à 0,95 (0,93–0,97), C*07:01 à 0,94, B*08:01 à 0,93. Les deux études ont été lues en
+    prépublication. Biais principal : classement des cas par auto-déclaration.'
+  sources:
+  - titre: Multi-ancestry GWAS of Long COVID identifies immune-related loci and etiological links to chronic fatigue
+      syndrome, fibromyalgia and depression (medRxiv, 23andMe)
+    url: https://www.medrxiv.org/content/10.1101/2024.10.07.24315052v1.full
+    lu: page
+  - titre: Initial findings from the DecodeME genome-wide association study of ME/CFS (medRxiv)
+    url: https://www.medrxiv.org/content/10.1101/2025.08.06.25333109v1.full-text
+    lu: page
+  - titre: 'HLA-DRB1* Alleles and Long COVID: A Mediation Analysis of Anti-RBD IgG, CRP, and Anti-β2GPI IgG (Iran
+      J Allergy Asthma Immunol)'
+    url: https://publish.kne-publishing.com/index.php/IJAAI/article/view/22486
+    lu: page
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B014
+  titre: Le variant de FOXP4 associé au COVID long désigne un sous-type pulmonaire, distinct du COVID long auto-déclaré
+    et de l'EM/SFC
+  domaine_source: Études d'association pangénomique du COVID long, comparées entre elles
+  processus_commun: 'FOXP4, un gène impliqué dans la physiologie du poumon : séquelle respiratoire de l''infection'
+  enonce: 'L''association de FOXP4 ne vaut que pour une partie des malades : ceux dont le COVID long a été diagnostiqué
+    à l''hôpital ou en clinique et comporte une atteinte respiratoire. Elle ne vaut pas pour la forme dominée par
+    la fatigue, proche de l''EM/SFC. L''hypothèse est réfutée si l''allèle à risque est aussi fréquent dans les
+    deux formes.'
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « FOXP4 long COVID functional follow-up », « rs9367106 respiratory
+    symptoms phenotype ». Trouvé : une analyse purement informatique du variant et une étude sur le cancer du poumon,
+    lues par leur titre seulement. Aucune étude trouvée qui compare le génotype selon le type de symptômes, et aucun
+    essai. Le registre ne cite pas FOXP4.'
+  test_propose: 'Dans une cohorte génotypée où les symptômes sont décrits, comparer la fréquence de l''allèle C
+    de rs9367106 entre trois groupes : COVID long respiratoire, COVID long à fatigue dominante, personnes infectées
+    et rétablies. Analyse fixée d''avance : rapport de cotes de chaque forme contre les rétablis, puis test de la
+    différence entre les deux formes, ajusté sur l''hospitalisation. Réfutation : la forme à fatigue dominante montre
+    un rapport de cotes d''au moins 1,3, avec un intervalle qui exclut 1.'
+  donnees_existantes: 'Statistiques résumées de l''étude HGI ; cohortes génotypées avec symptômes, à identifier.
+    Une cohorte finlandaise serait plus puissante : l''allèle y atteint 7,1 %'
+  risques: 'Effet probablement surestimé : il tombe de 1,63 à 1,34 quand la définition des cas s''élargit, et à
+    1,30 (p = 3,8 × 10⁻³) quand les témoins sont des personnes infectées. L''allèle est rare chez les Européens
+    non finlandais (1,6 %) et fréquent en Asie de l''Est (36 %), d''où un risque de stratification. FOXP4 est aussi
+    lié au COVID sévère : l''association peut passer par la gravité de la phase aiguë. Les définitions des cas diffèrent
+    d''une étude à l''autre.'
+  niveau: B
+  solidite_statistique: 'Étude HGI : jusqu''à 6 450 cas et 1 093 995 témoins, 24 études, 16 pays. Variant rs9367106
+    : rapport de cotes 1,63 (1,40–1,89), p = 1,8 × 10⁻¹⁰ pour la définition stricte (3 018 cas) ; 1,34 (1,20–1,49),
+    p = 1,1 × 10⁻⁷ pour la définition large. Répliqué, selon le résumé de l''article publié, sur 9 500 cas et 798
+    835 témoins. Deux résultats contraires : non retrouvé chez 23andMe (p = 0,57, 54 390 cas auto-déclarés) et non
+    partagé avec l''EM/SFC dans DecodeME (p = 0,59). Ces échecs ne tiennent pas à un manque de puissance : calcul
+    Python, test allélique, fréquence supposée de 1,6 %, alpha 0,05 : puissance de 0,995 chez les Européens de 23andMe
+    et de 0,89 dans DecodeME, même pour un rapport de cotes de 1,16. Biais principal : hétérogénéité de la définition
+    des cas.'
+  sources:
+  - titre: Genome-wide association study of long COVID (Nature Genetics, 2025), résumé
+    url: https://www.iser.essex.ac.uk/research/publications/publication-588793
+    lu: page
+  - titre: Genome-wide association study of long COVID (prépublication medRxiv de 2023, PDF)
+    url: https://repository.essex.ac.uk/36047/1/2023.06.29.23292056v1.full.pdf
+    lu: page
+  - titre: Multi-ancestry GWAS of Long COVID identifies immune-related loci (medRxiv, 23andMe)
+    url: https://www.medrxiv.org/content/10.1101/2024.10.07.24315052v1.full
+    lu: page
+  - titre: Initial findings from the DecodeME genome-wide association study of ME/CFS (medRxiv)
+    url: https://www.medrxiv.org/content/10.1101/2025.08.06.25333109v1.full-text
+    lu: page
+  - titre: In Silico Analysis of Post-COVID-19 Condition Associated SNP rs9367106 Predicts the Molecular Basis of
+      Abnormalities in the Lungs and Brain Functions
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12294317/
+    lu: extrait
+  - titre: Absence of Association between a Long COVID and Severe COVID-19 Risk Variant of FOXP4 and Lung Cancer
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10639135/
+    lu: extrait
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B015
+  titre: Une infection pendant la grossesse est suivie de moins de COVID long qu'une infection hors grossesse
+  domaine_source: Expérience naturelle sur dossiers médicaux électroniques, deux réseaux américains
+  processus_commun: 'État immunitaire de la grossesse : tolérance, inflammation modifiée'
+  enonce: L'état immunitaire de la grossesse au moment de l'infection réduit le risque de COVID long. L'hypothèse
+    prédit un effet lié à la grossesse elle-même, et non au profil des femmes enceintes. Elle est réfutée si les
+    mêmes femmes, infectées juste avant la conception ou après le post-partum, montrent la même baisse de risque.
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « pregnancy long COVID lower risk mechanism immune tolerance
+    », « ME/CFS pregnancy symptom improvement cohort ». Trouvé : l''étude d''origine et ses reprises dans la presse.
+    Aucune étude du mécanisme et aucune réplication hors des États-Unis trouvées. Recoupement à signaler : l''hypothèse
+    H5 du registre porte sur les hormones sexuelles. Ce qui est nouveau ici est l''expérience naturelle et le versant
+    immunitaire.'
+  test_propose: 'Dans les mêmes réseaux, comparer trois fenêtres d''infection chez des femmes ayant accouché : l''année
+    avant la conception, la grossesse, les six à douze mois après l''accouchement. Chaque femme est comparée à des
+    femmes du même âge infectées le même mois. Seuil fixé d''avance : la piste tient si le rapport de risques pendant
+    la grossesse reste sous 1 avec un intervalle qui exclut 1, et si celui des deux autres fenêtres inclut 1. Si
+    les trois fenêtres montrent la même baisse, il s''agit d''un effet de sélection. Contrôle négatif : une issue
+    sans lien attendu, comme une fracture.'
+  donnees_existantes: N3C et PCORnet (programme RECOVER) ; registres nordiques des naissances, à vérifier
+  risques: 'Sélection : les femmes enceintes sont en meilleure santé que leurs témoins, même appariées. Classement
+    : la fatigue après un accouchement peut être attribuée à la maternité et non codée comme COVID long, ce qui
+    crée une fausse protection. Les deux réseaux mesurent des incidences qui vont presque du simple au quadruple,
+    signe d''une définition fragile. Statut vaccinal manquant pour plus de 82 % des femmes enceintes. À l''inverse,
+    le suivi rapproché de la grossesse aurait dû augmenter les diagnostics.'
+  niveau: B
+  solidite_statistique: '29 975 femmes enceintes dans PCORnet et 42 176 dans N3C. Incidence cumulée à 180 jours
+    : 16,47 pour 100 (16,00–16,95) contre 18,88 dans PCORnet ; 4,37 (4,18–4,57) contre 6,21 dans N3C. Rapports de
+    risques instantanés ajustés : 0,86 (0,83–0,90) et 0,70 (0,66–0,74). Le risque est plus haut pour une infection
+    aux deux premiers trimestres qu''au troisième. Une seule étude, deux réseaux, la même équipe. Valeur E calculée
+    en Python (formule de VanderWeele et Ding, rapport pris comme rapport de risques) : 1,60 et 2,21 ; 1,46 et 2,04
+    pour la borne la plus proche de 1. Un facteur de confusion modéré suffirait donc à expliquer le résultat de
+    PCORnet. Biais principal : sélection et classement des cas.'
+  sources:
+  - titre: Long COVID after SARS-CoV-2 during pregnancy in the United States (Nature Communications, 2025, DOI 10.1038/s41467-025-57849-9),
+      résumé par Europe PMC
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40169569%20AND%20SRC:MED&resultType=core&format=json
+    lu: page
+  - titre: Pregnancy linked to lower long COVID risk in study of over 70,000 women (News-Medical)
+    url: https://www.news-medical.net/news/20250402/Pregnancy-linked-to-lower-long-COVID-risk-in-study-of-over-70000-women.aspx
+    lu: page
+  - titre: Pregnancy may reduce long COVID risk (Cornell Chronicle)
+    url: https://news.cornell.edu/node/330623
+    lu: page
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B016
+  titre: Une apnée du sommeil diagnostiquée avant l'infection est suivie de plus de COVID long chez l'adulte
+  domaine_source: Antécédents sur dossiers médicaux électroniques, trois réseaux américains
+  processus_commun: Hypoxie intermittente et sommeil fragmenté avant l'infection
+  enonce: L'hypoxie nocturne répétée prépare le terrain du COVID long. L'hypothèse prédit que, parmi les personnes
+    apnéiques, celles dont l'apnée est corrigée par la pression positive continue avant l'infection ont moins de
+    COVID long. Elle est réfutée si le traitement effectif de l'apnée ne change pas le risque.
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « CPAP obstructive sleep apnea long COVID trial cohort adherence
+    ». Trouvé : deux études d''observation enregistrées. NCT06052514 : 22 patients sous pression positive continue,
+    sans groupe témoin, terminée. NCT05290350 : 300 patients prévus pour mesurer la fréquence de l''apnée, statut
+    inconnu. Aucun essai randomisé et aucune comparaison traités contre non traités trouvés. Les textes lus ne rapportent
+    aucune donnée de traitement. Le registre ne cite pas l''apnée.'
+  test_propose: 'Cohorte de personnes apnéiques diagnostiquées avant 2020, avec l''observance relevée par l''appareil.
+    Comparer le risque de COVID long entre apnée traitée et observée, et apnée non traitée, à indice de masse corporelle
+    égal. Contrôle négatif : une issue sans lien avec l''hypoxie, pour mesurer le biais du patient observant. Réfutation
+    : rapport de risques dont l''intervalle à 95 % est compris entre 0,9 et 1,1. Effectif calculé en Python (deux
+    proportions, alpha 0,05, puissance 80 %) : 2 033 personnes par groupe pour voir un rapport de 0,8 si le risque
+    de base est de 15 % ; 6 743 par groupe s''il est de 5 %.'
+  donnees_existantes: N3C, PCORnet et PEDSnet pour le signal ; aucune base trouvée qui joigne l'observance de l'appareil
+    au COVID long
+  risques: 'Confusion par l''obésité, mal mesurée dans les dossiers. Surveillance : une personne suivie pour apnée
+    consulte plus et reçoit plus de codes. Recouvrement des symptômes : fatigue et troubles de l''attention sont
+    aussi des signes d''apnée. Les deux réseaux adultes donnent des résultats très différents. Race, ethnie et vaccination
+    manquaient. Chez l''enfant, l''association disparaît après ajustement sur l''obésité. Comparer des patients
+    observants à des non-observants expose au biais de l''utilisateur en bonne santé.'
+  niveau: B
+  solidite_statistique: 'Environ 2,2 millions de personnes infectées : 1,7 million d''adultes dans N3C, 330 000
+    dans PCORnet, 102 000 enfants dans PEDSnet. Rapports de cotes bruts de 1,41 à 3,93 selon le réseau. Après ajustement
+    : 75 % de risque en plus dans N3C, 12 % dans PCORnet ; les intervalles de confiance n''ont pas pu être lus.
+    Enfants : 1,05 (0,89–1,24). Dans N3C, 89 % de plus chez les femmes et 59 % chez les hommes. Une seule étude,
+    trois réseaux. Valeur E calculée en Python : 1,49 pour PCORnet et 2,90 pour N3C. Le résultat de PCORnet tient
+    donc à peu de chose. Biais principal : surveillance et confusion par l''obésité.'
+  sources:
+  - titre: 'Risk of post-acute sequelae of SARS-CoV-2 infection associated with pre-coronavirus disease obstructive
+      sleep apnea diagnoses: an electronic health record-based analysis from the RECOVER initiative (Sleep, 2023),
+      résumé par Europe PMC'
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37166330%20AND%20SRC:MED&resultType=core&format=json
+    lu: page
+  - titre: Obstructive sleep apnea associated with increased risks for long COVID (communiqué du NIH)
+    url: https://www.ninds.nih.gov/news-events/news/press-releases/obstructive-sleep-apnea-associated-increased-risks-long-covid
+    lu: page
+  - titre: Sleep apnea linked to long-COVID symptoms (CIDRAP)
+    url: https://www.cidrap.umn.edu/covid-19/sleep-apnea-linked-long-covid-symptoms
+    lu: page
+  - titre: CPAP Efficacy in Post-COVID-19 Patients With Sleep Apnea (NCT06052514), fiche miroir
+    url: https://ctv.veeva.com/study/cpap-efficacy-in-post-covid-patients-with-sleep-apnea
+    lu: page
+  - titre: Long COVID-19 Fatigue and Obstructive Sleep Apnea (NCT05290350), fiche miroir
+    url: https://ctv.veeva.com/study/long-covid-19-fatigue-and-obstructive-sleep-apnea
+    lu: page
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B017
+  titre: L'EM/SFC porte une signature sanguine de résistance à l'insuline et d'atteinte du foie que l'inactivité
+    n'explique pas
+  domaine_source: Biomarqueurs sanguins de grandes cohortes (UK Biobank, All of Us) et analyse a posteriori d'un
+    essai
+  processus_commun: Résistance à l'insuline, enzymes du foie élevées, inflammation de bas grade
+  enonce: Une résistance à l'insuline et une atteinte hépatique précèdent l'EM/SFC et y contribuent ; elles n'en
+    sont pas la conséquence. L'hypothèse prédit que ces marqueurs sont déjà déplacés avant le diagnostic. Elle est
+    réfutée s'ils sont normaux chez les personnes qui ne tomberont malades que plus tard.
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « insulin resistance ME/CFS metformin trial », « liver enzymes
+    myalgic encephalomyelitis cohort », « pioglitazone long COVID ». Trouvé : aucun essai dans l''EM/SFC qui sélectionne
+    sur ces marqueurs. Dans le COVID long installé, l''essai REVIVE compare metformine, fluvoxamine et placebo chez
+    1 500 participants, sans sélection sur la résistance à l''insuline et en excluant les diabétiques des bras metformine.
+    Le registre affirme qu''aucune étude de la metformine n''existe sur un COVID long installé : ce protocole enregistré
+    le contredit ; l''avancement de l''essai n''a pas été vérifié. Aucune étude des cas incidents n''a été trouvée.'
+  test_propose: 'Dans UK Biobank, prendre les personnes sans diagnostic au prélèvement de 2006–2010 et qui reçoivent
+    ensuite un code d''EM/SFC ou de fatigue post-virale. Comparer leurs marqueurs de départ (rapport triglycérides
+    sur HDL, indice TyG, ALT, GGT, HbA1c) à ceux de témoins appariés sur l''âge, le sexe et l''indice de masse corporelle.
+    Seuil : écart standardisé d''au moins 0,2, à p inférieur à 0,05/14. Réfutation : intervalles tous compris entre
+    −0,1 et 0,1. Effectif calculé en Python (test bilatéral, témoins très nombreux, puissance 90 %) : 441 cas incidents
+    pour un écart de 0,2 ; 196 pour 0,3. Le nombre de cas incidents disponibles reste à vérifier. Contrôle négatif
+    : un marqueur sans lien attendu.'
+  donnees_existantes: UK Biobank (biochimie, métabolomique, dossiers médicaux liés) ; All of Us ; statistiques résumées
+    de DecodeME pour une randomisation mendélienne
+  risques: 'Causalité inverse : le sang a été prélevé au moment où la maladie était déjà déclarée. Médicaments,
+    alimentation et prise de poids des malades peuvent déplacer ces marqueurs ; l''analyse de médiation repose sur
+    des mesures d''activité déclarées. Diagnostic auto-déclaré. Biais du volontaire en bonne santé : les formes
+    sévères sont probablement absentes. L''ajustement sur l''indice de masse corporelle n''a pas pu être vérifié
+    à la lecture. Danger : cette piste ne justifie aucune prise d''antidiabétique hors essai.'
+  niveau: B
+  solidite_statistique: '1 455 cas auto-déclarés et 131 303 témoins. 116 marqueurs diffèrent chez les femmes et
+    chez les hommes ; 91 % des écarts sont petits à moyens (d de Cohen entre 0,2 et 0,5). Sont élevés : protéine
+    C-réactive, cystatine C, leucocytes, rapport triglycérides sur HDL, indice TyG, ALT, ALP, GGT, HbA1c. Neuf marqueurs
+    sur quatorze retrouvés dans All of Us. Avec l''activité comme médiateur, un seul effet indirect significatif
+    sur 3 237. Corrélation génétique avec le diabète de type 2 de 0,15 (p = 3 × 10⁻¹⁰) dans une prépublication sur
+    DecodeME. Côté COVID long : essai de la vortioxétine, 147 patients randomisés ; interaction entre traitement,
+    temps, protéine C-réactive, rapport triglycérides sur HDL et indice de masse corporelle, p = 0,011, analyse
+    non prévue au protocole. Biais principal : causalité inverse.'
+  sources:
+  - titre: Replicated blood-based biomarkers for myalgic encephalomyelitis not explicable by inactivity (EMBO Molecular
+      Medicine, 2025), résumé
+    url: https://www.research.ed.ac.uk/en/publications/replicated-blood-based-biomarkers-for-myalgic-encephalomyelitis-n/
+    lu: page
+  - titre: Replicated blood-based biomarkers for Myalgic Encephalomyelitis not explicable by inactivity (medRxiv,
+      version 2)
+    url: https://www.medrxiv.org/content/10.1101/2024.08.26.24312606v2.full
+    lu: page
+  - titre: 'Impacts of metabolic disruption, body mass index and inflammation on cognitive function in post-COVID-19
+      condition: a randomized controlled trial on vortioxetine (Annals of General Psychiatry, 2024)'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10905871
+    lu: page
+  - titre: 'The REVIVE Trial: multicenter, adaptive, randomized, double-blinded, placebo-controlled study in participants
+      with Long COVID-19 (NCT06128967), protocole lu en partie'
+    url: https://cdn.clinicaltrials.gov/large-docs/67/NCT06128967/Prot_000.pdf
+    lu: page
+  - titre: Insights into Pathophysiological Pathways in ME/CFS Through Genetic Correlation and Mendelian Randomization
+      (Research Square, prépublication)
+    url: https://www.researchsquare.com/article/rs-9363637/v2.pdf
+    lu: page
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B018
+  titre: L'hypermobilité articulaire est associée à une non-guérison après le COVID-19
+  domaine_source: Enquêtes par questionnaire dans une biobanque britannique
+  processus_commun: Tissu conjonctif plus lâche
+  enonce: Un tissu conjonctif plus lâche, présent avant l'infection, augmente le risque de symptômes persistants.
+    L'hypothèse prédit qu'une hypermobilité mesurée à l'examen, avant l'infection ou sans connaître l'état du patient,
+    annonce le COVID long. Elle est réfutée si l'association disparaît quand l'hypermobilité n'est plus auto-déclarée.
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « hypermobility Ehlers-Danlos long COVID genetic polygenic Mendelian
+    randomization », « joint hypermobility non-recovery COVID ». Trouvé : deux enquêtes de la même équipe (2 854
+    puis plus de 1 800 adultes) et une série de 20 patients d''une consultation. Aucune mesure clinique en population,
+    aucune analyse génétique et aucun essai trouvés. Le registre ne cite pas le tissu conjonctif.'
+  test_propose: 'Dans une cohorte où le score de Beighton a été mesuré à l''examen avant 2020, comparer le risque
+    de COVID long entre scores hauts et bas, avec ajustement sur l''âge, le sexe et la douleur chronique antérieure.
+    Réfutation : rapport de cotes dont l''intervalle à 95 % est sous 1,10. Second test, moins coûteux : dans les
+    enquêtes existantes, vérifier si l''hypermobilité déclarée prédit aussi une issue sans lien plausible. Si oui,
+    c''est un biais de déclaration.'
+  donnees_existantes: COVID Symptom Study Biobank pour le signal ; aucune cohorte trouvée avec un score de Beighton
+    mesuré avant l'infection
+  risques: 'Exposition et issue sont toutes deux auto-déclarées, dans le même questionnaire : une personne qui déclare
+    plus de symptômes coche plus de cases des deux côtés. Échantillon surtout féminin (2 331 sur 2 854) et blanc.
+    Pas d''ajustement sur une fibromyalgie ou une douleur antérieure. Une seule équipe. Les participants d''une
+    application ne représentent pas la population.'
+  niveau: C
+  solidite_statistique: '2 854 personnes avec une donnée de guérison, dont 914 (32,0 %) non guéries. Rapport de
+    cotes ajusté 1,33 (1,10–1,60) ; brut 1,43 (1,20–1,70). La fatigue porte une part de l''association : effet indirect
+    0,18 (0,08–0,29). Seconde enquête de la même équipe, plus de 1 800 adultes : risque croissant avec le degré
+    d''hypermobilité, sans chiffre lu. Pas de réplication indépendante. Valeur E calculée en Python, en prenant
+    la racine du rapport de cotes parce que l''issue est fréquente : 1,57, et 1,28 pour la borne basse. Un biais
+    faible suffit donc à produire ce résultat. Biais principal : mesure auto-déclarée des deux côtés.'
+  sources:
+  - titre: Is joint hypermobility linked to self-reported non-recovery from COVID-19? Case–control evidence from
+      the British COVID Symptom Study Biobank (BMJ Public Health, 2024)
+    url: https://bmjpublichealth.bmj.com/content/2/1/e000478
+    lu: page
+  - titre: Variant connective tissue as a risk factor for long COVID (The Ehlers-Danlos Society, novembre 2025)
+    url: https://www.ehlers-danlos.com/variant-connective-tissue-as-a-risk-factor-for-long-covid/
+    lu: page
+  - titre: Joint Hypermobility Disorders Identified in Patients with Persistent Symptoms After SARS-CoV-2 Infection
+      (résumé de congrès, AAN 2026)
+    url: https://index.mirasmart.com/AAN2026/PDFfiles/AAN2026-000757.html
+    lu: page
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B019
+  titre: Des taux bas d'interleukines 5 et 13 avant une mononucléose précèdent l'EM/SFC sévère
+  domaine_source: Cohorte prospective d'étudiants, avec prise de sang avant la maladie
+  processus_commun: Cytokines de type 2 (IL-5, IL-13) basses avant l'infection
+  enonce: Un tonus bas des cytokines de type 2, mesuré avant l'infection, prédispose à une forme sévère de fatigue
+    post-infectieuse. L'hypothèse prédit le même écart, dans le même sens, avant d'autres infections que la mononucléose.
+    Elle est réfutée si l'IL-5 et l'IL-13 d'avant l'infection ne diffèrent pas dans une seconde cohorte.
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « IL-13 IL-5 low before infection predicts long COVID chronic
+    fatigue prospective pre-illness cytokines replication ». Trouvé : les articles de l''équipe d''origine, et une
+    étude de jumeaux britanniques limitée à l''IL-6. Aucune réplication de l''IL-5 ou de l''IL-13 d''avant la maladie
+    n''a été trouvée, et aucun essai. Le registre ne cite ni ces cytokines ni cette cohorte.'
+  test_propose: 'Dans une cohorte disposant de plasma d''avant l''infection, doser l''IL-5 et l''IL-13 chez les
+    personnes qui ont ensuite une fatigue persistante après infection et chez des personnes rétablies. Analyse fixée
+    d''avance : sens attendu plus bas chez les futurs malades, trois tests (IL-5, IL-13, IL-6), alpha de 0,05/3.
+    Réfutation : écarts standardisés dont l''intervalle exclut −0,3. Effectif calculé en Python (test t bilatéral,
+    trois témoins par cas, puissance 90 %) : 73 cas et 219 témoins pour un écart de 0,5 ; 29 cas et 87 témoins pour
+    0,8.'
+  donnees_existantes: 'TwinsUK : plasma d''avant la pandémie et panel de protéines de l''inflammation (présence
+    de l''IL-5 et de l''IL-13 à vérifier) ; UK Biobank, protéomique, à vérifier'
+  risques: 'Très petit groupe : 18 formes sévères. Nombre de cytokines testées non rapporté, et aucune correction
+    pour comparaisons multiples mentionnée. La fiabilité du dosage à des taux bas est à vérifier pour la méthode
+    employée. Résultat croisé à connaître : chez les jumeaux britanniques, l''IL-6 d''avant la pandémie ne prédit
+    pas la fatigue après le COVID-19, et l''étude d''origine trouve une IL-6 basse, non haute. Étudiants jeunes
+    : généralisation incertaine.'
+  niveau: C
+  solidite_statistique: '4 501 étudiants suivis ; 238 mononucléoses (5,3 %) ; 55 EM/SFC à six mois (23 %). Comparaison
+    de départ : 18 formes sévères contre 58 rétablis. IL-5 et IL-13 plus basses avant la maladie ; moyennes, tailles
+    d''effet et valeurs de p non rapportées dans les textes lus. Modèle de prédiction : aire sous la courbe 0,795
+    (0,669–0,921), sans validation externe. Calcul Python (test t bilatéral, puissance 80 %) : avec 18 et 58 personnes,
+    seul un écart standardisé d''au moins 0,77 est détectable ; 0,89 après correction sur trois cytokines ; 1,01
+    sur dix. Un écart observé dans ces conditions est donc probablement surestimé. Une seule équipe. Biais principal
+    : comparaisons multiples sur un petit effectif.'
+  sources:
+  - titre: 'Risks for developing ME/CFS in college students following infectious mononucleosis: a prospective cohort
+      study (Clinical Infectious Diseases, DOI 10.1093/cid/ciaa1886), résumé'
+    url: https://research.luriechildrens.org/en/risks-for-developing-mecfs-in-college-students-following-infectious-mononucleosis-a-prospective-cohort-study
+    lu: page
+  - titre: Predictors for Developing Severe Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Following Infectious
+      Mononucleosis (Journal of Rehabilitation Therapy, 2022)
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8959090
+    lu: page
+  - titre: Long-COVID fatigue is not predicted by pre-pandemic plasma IL-6 levels in mild COVID-19 (Inflammation
+      Research, 2023)
+    url: https://link.springer.com/article/10.1007/s00011-023-01722-2
+    lu: page
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B020
+  titre: Un nombre de copies d'ADN mitochondrial génétiquement plus élevé est associé à moins d'EM/SFC
+  domaine_source: Randomisation mendélienne sur les statistiques résumées de DecodeME
+  processus_commun: Nombre de copies d'ADN mitochondrial dans les cellules du sang
+  enonce: Un nombre de copies d'ADN mitochondrial bas, déterminé par les gènes, augmente le risque d'EM/SFC. L'hypothèse
+    prédit le même effet avec un autre jeu de cas, et un nombre de copies plus bas, mesuré directement, chez les
+    malades. Elle est réfutée si la randomisation mendélienne ne se réplique pas ou si la mesure directe ne montre
+    aucun écart.
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « mitochondrial DNA copy number ME/CFS long COVID case-control
+    », « myalgic encephalomyelitis Mendelian randomization DecodeME ». Trouvé : des études de la fonction mitochondriale
+    dans le COVID long, lues par leur titre, et une seule randomisation mendélienne, en prépublication. Aucune réplication
+    et aucun essai fondé sur ce marqueur trouvés. Le registre cite DecodeME (P13) pour ses huit régions, pas pour
+    cette analyse.'
+  test_propose: 'Premier test : refaire la randomisation mendélienne sur un jeu de cas indépendant, avec les mêmes
+    instruments, plus la médiane pondérée et l''ordonnée de la méthode d''Egger. La piste tient si le rapport de
+    cotes reste sous 1 avec un intervalle qui exclut 1 et si l''ordonnée d''Egger ne s''écarte pas de zéro. Second
+    test : dans UK Biobank, comparer le nombre de copies estimé chez les 1 455 cas et chez les témoins, à numération
+    sanguine égale. Réfutation : écart standardisé dont l''intervalle exclut −0,1.'
+  donnees_existantes: Statistiques résumées de DecodeME ; étude pangénomique du nombre de copies ; UK Biobank (estimation
+    du nombre de copies à vérifier)
+  risques: 'Prépublication non relue par des pairs. Pléiotropie : le nombre de copies mesuré dans le sang dépend
+    probablement de la composition en cellules sanguines, et le volume plaquettaire ressort dans la même analyse
+    ; à vérifier. Neuf expositions testées. Les témoins de DecodeME viennent d''UK Biobank, source fréquente des
+    instruments : le recouvrement d''échantillons peut biaiser l''estimation, à vérifier. Un effet génétique sur
+    toute la vie ne dit pas qu''une intervention chez un malade changerait quelque chose.'
+  niveau: C
+  solidite_statistique: '15 579 cas d''EM/SFC. Rapport de cotes d''environ 0,83 par écart type de nombre de copies,
+    méthode de la variance inverse pondérée ; intervalle de confiance et valeur de p non donnés dans le texte lu.
+    Seuil de Bonferroni annoncé : p inférieur à 5,6 × 10⁻³ pour neuf expositions. Hétérogénéité faible pour ce marqueur
+    (Q de Cochran 87,7 pour 82 degrés de liberté, p = 0,31). Deux autres résultats de la même analyse sont plus
+    fragiles : glycoprotéines acétylées, rapport d''environ 1,12 (hétérogénéité p = 0,011) ; volume plaquettaire
+    moyen, environ 1,09 (hétérogénéité p = 2,3 × 10⁻⁶). Test de direction de Steiger favorable. Ordonnée d''Egger
+    et analyse inverse non trouvées dans le texte. Aucune réplication. Biais principal : pléiotropie horizontale.'
+  sources:
+  - titre: Insights into Pathophysiological Pathways in ME/CFS Through Genetic Correlation and Mendelian Randomization
+      (Research Square, prépublication, PDF)
+    url: https://www.researchsquare.com/article/rs-9363637/v2.pdf
+    lu: page
+  - titre: Insights into Pathophysiological Pathways in ME/CFS Through Genetic Correlation and Mendelian Randomization
+      (résumé, Sciety)
+    url: https://sciety.org/articles/activity/10.21203/rs.3.rs-9363637/v2
+    lu: page
+  - titre: Novel biomarkers of mitochondrial dysfunction in Long COVID patients
+    url: https://pubmed.ncbi.nlm.nih.gov/39495479/
+    lu: extrait
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
+- id: B021
+  titre: À Taïwan, la prise de certains antibiotiques est associée à dix fois moins de syndrome de fatigue chronique
+    après une infection, un écart trop grand pour être cru tel quel
+  domaine_source: Pharmaco-épidémiologie sur la base de l'assurance maladie de Taïwan
+  processus_commun: Antibiotiques à effet immunomodulateur supposé (cyclines, macrolides, quinolones) au décours
+    d'une infection
+  enonce: 'Une antibiothérapie donnée au moment d''une infection réduit le risque de fatigue chronique persistante.
+    L''hypothèse la plus probable est contraire : le signal est un artefact de méthode. La piste est réfutée si
+    l''association disparaît quand le temps de suivi est compté à partir de la prescription et que l''antibiotique
+    est comparé à un autre antibiotique.'
+  pourquoi_inexploree: 'Recherches du 2026-11-22 : « antibiotics chronic fatigue syndrome prevention after infection
+    cohort immortal time bias », « doxycycline Q fever fatigue syndrome randomized trial ». Trouvé : un seul essai
+    randomisé, dans la fatigue de la fièvre Q, où la doxycycline ne fait pas mieux que le placebo. Aucune contre-analyse
+    de la base taïwanaise et aucun essai de prévention trouvés. Le registre ne cite pas les antibiotiques.'
+  test_propose: 'Émulation d''un essai cible dans une base d''assurance maladie : inclusion le jour de la prescription,
+    comparaison entre deux antibiotiques donnés pour la même infection (par exemple azithromycine contre amoxicilline),
+    suivi d''un an, issue définie par un code spécifique et non par « malaise et fatigue ». Contrôle négatif : une
+    issue sans lien attendu. Lecture fixée d''avance : si l''intervalle à 95 % du rapport de risques est compris
+    entre 0,8 et 1,25, le signal publié est un artefact. Il ne mérite d''être poursuivi que si le rapport reste
+    sous 0,8 avec un contrôle négatif neutre.'
+  donnees_existantes: Base de l'assurance maladie de Taïwan ; toute base nationale de remboursement comparable
+  risques: 'Biais de temps immortel très probable : la définition de l''exposition n''est pas décrite dans le texte
+    lu et le biais n''y est pas traité. Codes de diagnostic peu spécifiques, qui incluent « malaise et fatigue »
+    : l''incidence mesurée, 3,67 à 5,40 pour 1 000 personnes-années, est très élevée pour une maladie rare. Toutes
+    les infections listées y augmentent le risque, de 9 % à 86 %, ce qui évoque un effet de surveillance. Résultat
+    contraire : essai randomisé négatif de la doxycycline. Danger : les antibiotiques ont des effets indésirables
+    et favorisent les résistances ; rien ici ne justifie d''en prendre.'
+  niveau: C
+  solidite_statistique: '395 811 personnes avec une infection, appariées à autant de témoins. Rapports de risques
+    instantanés ajustés : doxycycline 0,10 (0,07–0,15), azithromycine 0,07 (0,05–0,10), moxifloxacine 0,05 (0,04–0,08),
+    lévofloxacine 0,04 (0,03–0,06), ciprofloxacine 0,51 (0,31–0,83). Un risque divisé par dix à vingt-cinq par un
+    antibiotique courant est invraisemblable : la taille de l''effet est le premier motif de doute. Six antibiotiques
+    testés, pas de correction mentionnée. Essai randomisé Qure : 52 patients sous doxycycline et 52 sous placebo
+    pendant 24 semaines ; fatigue finale 40,8 (37,3–44,3) contre 37,8 (34,2–41,2), sans avantage. Une seule équipe,
+    aucune réplication. Biais principal : temps immortel et classement des cas.'
+  sources:
+  - titre: 'Increased risk of chronic fatigue syndrome following infection: a 17-year population-based cohort study
+      (Journal of Translational Medicine, 2023), lu en partie'
+    url: https://link.springer.com/article/10.1186/s12967-023-04636-z
+    lu: page
+  - titre: 'The Qure study: Q-fever fatigue syndrome – response to treatment (EudraCT 2011-000643-25), résultats
+      au registre européen'
+    url: https://www.clinicaltrialsregister.eu/ctr-search/trial/2011-000643-25/results
+    lu: page
+  origine: agent statistique
+  date: '2026-11-22'
+  statut: à vérifier
