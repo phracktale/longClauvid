@@ -96,9 +96,19 @@ trouvées dans la littérature. Elle sert à ne rien perdre, pas à conclure.
 - Pour passer à « vérifiée », chaque source est rouverte par quelqu'un d'autre que le déposant,
   et la piste passe la grille de relecture statistique, déposée dans `outils/grille-statistique.md`
   avec les premières entrées.
+- « Vérifiée » ne veut pas dire « vraie » : les erreurs sont relevées, la source qui porte le signal
+  est lue en entier, et la piste reste une question à tester. Si cette source n'est lue que par son résumé,
+  la piste reste « à vérifier ».
+- Le relecteur suit `outils/consigne-relecteur.md` et lit des copies locales des sources
+  (`outils/sources_banque.py`). Chaque affirmation de la piste reçoit un verdict et une citation ;
+  un programme recherche chaque citation mot pour mot (`outils/relecture_banque.py`).
+- Le texte déposé n'est pas réécrit. Les corrections vont dans le champ `relecture` de la piste,
+  les doutes de la grille à la fin de son champ `risques`.
 - L'affirmation « inexplorée » se teste aussi contre la bibliothèque de l'association #ApresJ20,
   qui recense la littérature du COVID long. Une absence dans cette bibliothèque ne prouve rien.
   La recherche se fait sur une copie locale (`outils/bibliotheque_apresj20.py`), pas en ligne.
+  Les termes cherchés, dans la bibliothèque comme dans les registres, sont écrits dans
+  `analyses/banque/inexploree.py`.
 - Une entrée vérifiée peut être promue en piste ; elle suit alors les règles du registre.
 - Une entrée écartée reste dans la banque, avec son motif. Un échec se consigne aussi.
 

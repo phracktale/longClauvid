@@ -75,6 +75,7 @@ def verifier_registre():
         ENTREE_DE_BANQUE | {"id": "B-sans-source", "sources": []},
         ENTREE_DE_BANQUE | {"id": "B-de-memoire", "sources": [{"titre": "Article", "url": "https://exemple.org"}]},
         ENTREE_DE_BANQUE | {"id": "B-ecartee", "statut": "écartée"},
+        ENTREE_DE_BANQUE | {"id": "B-non-relue", "statut": "vérifiée"},
     ]
     refus = valider_registre.erreurs_du_registre(abime)
     controle("une hypothèse sans réfutation est refusée",
@@ -95,6 +96,8 @@ def verifier_registre():
              any("B-de-memoire : source sans mention" in erreur for erreur in refus))
     controle("une entrée de banque écartée sans motif est refusée",
              any("B-ecartee : écartée sans motif" in erreur for erreur in refus))
+    controle("une entrée de banque vérifiée sans relecture est refusée",
+             any("B-non-relue : vérifiée sans relecture datée" in erreur for erreur in refus))
     controle("une entrée de banque complète est acceptée",
              not valider_registre.erreurs_du_registre(registre | {"banque": [ENTREE_DE_BANQUE]}))
 

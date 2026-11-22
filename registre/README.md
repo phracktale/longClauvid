@@ -88,6 +88,10 @@ historique:
 une entrée y reste « à vérifier » tant que ses sources n'ont pas été rouvertes par quelqu'un d'autre.
 Les règles sont dans `PROTOCOLE.md`.
 
+Une piste relue porte un champ `relecture` : ce qui a été lu, les corrections, le résultat du test
+« inexplorée » et la décision. Ce champ prime sur le texte déposé, qui n'est pas réécrit.
+Le compte rendu de la relecture du 2026-11-22 est dans `analyses/banque/RELECTURE.md`.
+
 ## Valider
 
 ```bash
