@@ -24,8 +24,10 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/sources_banque.py` | Copie locale des sources de la banque, en texte intégral quand une interface officielle le donne |
 | `outils/consigne-relecteur.md` | La consigne remise au relecteur d'une piste, telle quelle |
 | `outils/consigne-contradicteur.md` | La consigne remise à celui qui défend une piste écartée |
+| `outils/consigne-relecteur-de-plan.md` | La consigne remise à celui qui relit un plan d'analyse avant l'ouverture des données |
 | `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur et du contradicteur |
 | `analyses/banque/` | Le compte rendu de la relecture, les termes du test « inexplorée » et les calculs d'effectifs |
+| `analyses/P15/`, `P16/`, `P17/` | Pour chaque piste promue : son plan d'analyse, ses calculs et ses lettres |
 | `REPRISE.md` | Où en est le projet et quoi faire ensuite, pour reprendre dans une nouvelle session |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
 | `simulateurs/niveau2/` | Modèles mécanistes : le piège métabolique IDO de Kashi 2019, et le réseau logique de Craddock 2015 |
@@ -86,6 +88,12 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
   pour 16 pistes. Cinq mises à l'écart ont eu un contradicteur : deux ont été levées.
   Trois pistes vérifiées sont promues au registre (P15 à P17) : leur premier test ne demande
   aucun laboratoire. Détail : `analyses/banque/RELECTURE.md`.
+- **Pistes promues.** Un plan d'analyse est déposé pour chacune, avant toute donnée, et relu
+  avant son dépôt. P15 : les données publiques de 2019 diront si la baisse d'expression suit
+  le retrait de l'ARN ribosomique, donc la préparation des échantillons. P16 : une comparaison
+  sur quatre se lit sur un fichier public ; les trois autres demandent un chiffre aux équipes.
+  P17 : le test prévu n'est pas faisable aujourd'hui, faute d'un jeu de cas assez grand.
+  Détail : `analyses/P15/PLAN.md`, `analyses/P16/PLAN.md`, `analyses/P17/PLAN.md`.
 - **Metformine.** Elle a été testée sur un COVID long installé dans deux essais randomisés,
   sans bénéfice montré ; la fiche T03, qui disait le contraire, est corrigée.
 

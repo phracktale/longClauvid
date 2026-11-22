@@ -3,6 +3,51 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Plans d'analyse des trois pistes promues ; le test de P17 n'est pas faisable
+
+**Fait.** Un plan d'analyse est déposé pour P15, P16 et P17, avant l'ouverture de toute donnée d'expression
+et de toute statistique résumée. Chacun rapporte comme des constats ce qui avait déjà été lu :
+articles, fiches d'échantillons, annotation, notice des fichiers.
+
+**Constat, P15.** Les trois gènes les plus abaissés de l'étude de 2019 sont des ARN ribosomiques
+ou leur pseudogène, dans des bibliothèques dont on a retiré l'ARN ribosomique. Le plan oppose donc
+une lecture technique à la lecture biologique, et fixe l'indicateur qui les départage :
+les ARN 18S et 28S du cytoplasme.
+
+**Constat, P17.** Le test promis à la promotion n'est pas faisable aujourd'hui. Aucun jeu de cas public
+et indépendant ne dépasse 18 % de puissance ; il faudrait environ 16 400 cas. Le résultat d'origine
+n'avait lui-même que 79 % de puissance pour son propre effet. Le plan fixe la règle pour le jour
+où les données existeront. Le porteur du projet décide si la piste reste au registre.
+
+**Choix.** Faire relire chaque plan avant son dépôt par un relecteur qui n'en est pas l'auteur,
+avec une consigne publiée : `outils/consigne-relecteur-de-plan.md`. Les trois avis étaient « à corriger » :
+31 remarques, dont des résultats que la règle ne classait pas, des bornes qui se chevauchaient
+et un allèle d'effet non fixé. Les règles ont été réécrites avant le dépôt. Aucune donnée n'était ouverte.
+
+**Choix, P15.** Le programme d'analyse est déposé avec le plan. Sa règle est éprouvée sur des données inventées
+dans `verifier.py` : elle sait rendre « artefactuel », « non expliqué », « indécidable » et « illisible ».
+
+**Écarté.**
+
+- P15 : conclure à l'artefact sur l'écart de A corrigé de l'indicateur technique. La pente qui sert
+  à corriger est sous-estimée quand l'indicateur est bruité : un artefact franc aurait été lu « indécidable ».
+  L'écart corrigé est donné, et ne sert qu'à la lecture « non expliqué ».
+- P16 : prévoir un variant de remplacement si rs9273363 manque au fichier public. Il faudrait savoir
+  quel allèle du remplaçant voyage avec l'allèle C. Le test serait alors « non lu ».
+- P17 : refaire l'analyse sur le COVID long, à 45 % de puissance, ou sur les deux jeux publics réunis, à 18 %.
+  Un résultat nul n'y voudrait rien dire.
+
+**Corrections.** Le premier relevé des séries de la base GEO n'en avait lu que 60 sur 76 ; les seize manquantes
+contenaient deux jeux de données sur l'EM/SFC. « De vingt à trente-cinq fois » devient « de 21 à 37 fois »
+dans la fiche P15 et dans la relecture de B011 : 2 puissance 5,2 vaut 37. Une source s'ajoute au registre
+pour l'haplotype 8.1, cité par le plan de P16.
+
+**Réserve.** Trois lettres sont prêtes, aucune n'est partie : elles attendent la relecture du porteur du projet.
+L'auteur correspondant de l'étude de 23andMe reste à relever sur la page de la prépublication.
+Les relecteurs des plans sont des programmes ; une personne du métier verrait autre chose.
+
+**Suite.** Ouvrir les données de l'étude de 2019 et lire le fichier public de DecodeME, selon les plans.
+
 ## 2026-11-22 — Trois pistes promues au registre ; la recherche de PHOTOCOV est abandonnée
 
 **Décision du porteur du projet.** Promouvoir au registre les trois pistes vérifiées dont le premier test
