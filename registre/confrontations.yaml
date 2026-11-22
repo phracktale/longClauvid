@@ -1,0 +1,285 @@
+# Confrontations : pour chaque paire d'hypothèses, la mesure qui les départage.
+#
+# C'est le livrable de la phase 3 du protocole. Le validateur exige les 21 paires
+# possibles entre les 7 hypothèses, chacune avec deux prédictions différentes.
+#
+# Les hypothèses ne s'excluent pas : plusieurs peuvent être vraies chez des patients
+# différents. Une confrontation demande donc, pour un patient ou une réponse donnés,
+# laquelle des deux est à l'œuvre.
+#
+# si_premiere : ce qu'on observe si la première hypothèse de la paire est à l'œuvre.
+# si_seconde  : ce qu'on observe si c'est la seconde.
+# acces       : échantillons existants = sang déjà conservé par un essai ou une cohorte
+#               suivi d'essais         = données de suivi après l'arrêt d'un traitement
+#               nouvelle collecte      = biopsie, cellules fraîches ou prélèvements répétés
+#
+# « acces » est estimé d'après ce que le registre sait des essais. Le contenu réel
+# des biobanques et leurs conditions d'accès restent à confirmer auprès des équipes.
+#
+# Ces fiches croisent les prédictions déjà inscrites au registre. Elles ont été écrites
+# par un seul rédacteur, sans la relecture contradictoire que prévoit la phase 3.
+
+- paire: [H1, H2]
+  question: Chez un répondeur, est-ce l'auto-anticorps ou l'interféron qui désigne le bon traitement ?
+  mesure: >-
+    Fixation des IgG aux neurones sensitifs et signature interféron, sur les mêmes sérums
+    prélevés avant traitement dans les essais du daratumumab et des anti-JAK.
+  si_premiere: >-
+    La réponse au daratumumab suit la fixation des IgG, que la signature interféron
+    soit haute ou basse.
+  si_seconde: >-
+    La réponse aux anti-JAK suit la signature interféron, y compris chez des patients
+    dont les IgG ne se fixent pas aux neurones.
+  acces: échantillons existants
+  donnees: Biobanques de l'essai randomisé du daratumumab et de REVERSE-LC.
+
+- paire: [H1, H3]
+  question: Le défaut musculaire vient-il du muscle lui-même ou des anticorps ?
+  mesure: >-
+    WASF3 et marqueurs de stress du réticulum dans des cellules musculaires exposées
+    aux IgG de patients, et dans des cellules de patients cultivées sans leur sérum.
+  si_premiere: >-
+    Les IgG de patients suffisent à faire monter WASF3 dans des cellules musculaires saines.
+  si_seconde: >-
+    Les cellules musculaires de patients gardent un WASF3 élevé sans sérum,
+    et les IgG n'ont aucun effet sur des cellules saines.
+  acces: nouvelle collecte
+  donnees: Aucune ; les tissus des souris ayant reçu des IgG de patients sont à demander aux trois équipes.
+
+- paire: [H1, H4]
+  question: L'activation du complément est-elle entretenue par des anticorps ou par un antigène viral ?
+  mesure: >-
+    Fixation des IgG, antigène spike plasmatique et complexe terminal du complément,
+    sur les mêmes prélèvements.
+  si_premiere: >-
+    Le complément est activé chez les patients à IgG fixantes, avec ou sans antigène détectable.
+  si_seconde: >-
+    Le complément n'est activé que chez les patients porteurs d'antigène,
+    quelle que soit la fixation de leurs IgG.
+  acces: échantillons existants
+  donnees: Prélèvements de RECOVER-VITAL, avant traitement.
+
+- paire: [H1, H5]
+  question: La gravité des symptômes suit-elle les anticorps ou les hormones ?
+  mesure: >-
+    Fixation des IgG, hormones sexuelles, SMPDL3B soluble et symptômes, mesurés
+    plusieurs fois chez les mêmes personnes.
+  si_premiere: >-
+    Les symptômes suivent le niveau de fixation des IgG et restent stables
+    d'un moment du cycle à l'autre.
+  si_seconde: >-
+    Les symptômes et SMPDL3B varient avec le statut hormonal, alors que la fixation
+    des IgG ne bouge pas.
+  acces: nouvelle collecte
+  donnees: Aucune cohorte à prélèvements répétés identifiée.
+
+- paire: [H1, H6]
+  question: Après une déplétion des plasmocytes, la rechute suit-elle le retour des anticorps ?
+  mesure: >-
+    Fixation des IgG et symptômes, suivis de 12 à 24 mois après la dernière injection.
+  si_premiere: >-
+    Les symptômes reviennent quand les IgG fixantes réapparaissent.
+  si_seconde: >-
+    La rémission tient alors que les IgG fixantes sont revenues, comme dans le lupus
+    après CAR-T (transposition T04).
+  acces: suivi d'essais
+  donnees: Suivi du pilote du daratumumab (10 patientes), puis de l'essai randomisé.
+
+- paire: [H1, H7]
+  question: Le défaut du canal TRPM3 est-il propre aux cellules ou induit par les anticorps ?
+  mesure: >-
+    Fonction de TRPM3 dans des cellules NK saines exposées aux IgG de patients,
+    et chez des patients avant et après immunoadsorption.
+  si_premiere: >-
+    Les IgG de patients dérèglent TRPM3 dans des cellules saines, et le canal
+    se rétablit après retrait des IgG.
+  si_seconde: >-
+    Le défaut persiste sans IgG et prédit seul la réponse à la naltrexone.
+  acces: nouvelle collecte
+  donnees: Aucune ; la mesure demande des cellules fraîches.
+
+- paire: [H2, H3]
+  question: Le déficit d'énergie vient-il d'un signal interféron ou d'un défaut propre au muscle ?
+  mesure: >-
+    Signature interféron sanguine et WASF3 musculaire chez les mêmes patients,
+    avant et sous anti-JAK.
+  si_premiere: >-
+    WASF3 n'est élevé que chez les patients à signature interféron haute,
+    et il baisse sous anti-JAK.
+  si_seconde: >-
+    WASF3 est élevé aussi chez des patients sans signature interféron,
+    et un anti-JAK ne le change pas.
+  acces: nouvelle collecte
+  donnees: Aucune ; il faut sang et biopsie musculaire chez les mêmes patients.
+
+- paire: [H2, H4]
+  question: Le signal interféron s'entretient-il seul ou est-il alimenté par un antigène persistant ?
+  mesure: >-
+    Antigène spike plasmatique et signature interféron sur les mêmes prélèvements.
+  si_premiere: >-
+    La signature interféron est aussi fréquente chez les patients sans antigène détectable.
+  si_seconde: >-
+    La signature interféron se concentre chez les porteurs d'antigène
+    et baisse quand l'antigène disparaît.
+  acces: échantillons existants
+  donnees: Prélèvements de RECOVER-VITAL et de la cohorte LIINC, si un dosage de l'interféron y est possible.
+
+- paire: [H2, H5]
+  question: Les fluctuations des symptômes suivent-elles l'interféron ou le cycle hormonal ?
+  mesure: >-
+    Signature interféron, SMPDL3B soluble, hormones et symptômes, mesurés sur un cycle
+    chez les mêmes patientes.
+  si_premiere: >-
+    La signature interféron reste stable sur le cycle et prédit le niveau des symptômes.
+  si_seconde: >-
+    Les symptômes et SMPDL3B suivent le cycle, alors que la signature interféron reste plate.
+  acces: nouvelle collecte
+  donnees: Aucune cohorte à prélèvements répétés identifiée.
+
+- paire: [H2, H6]
+  question: À l'arrêt d'un anti-JAK, la boucle interféron repart-elle ?
+  mesure: >-
+    Signature interféron et symptômes après l'arrêt du traitement, selon sa durée.
+  si_premiere: >-
+    La signature interféron et les symptômes reviennent à l'arrêt, quelle que soit
+    la durée du traitement : la boucle est alimentée en continu.
+  si_seconde: >-
+    Au-delà d'une certaine durée de traitement, la rémission tient après l'arrêt.
+  acces: suivi d'essais
+  donnees: Suivi après traitement de REVERSE-LC, s'il est prévu au protocole.
+
+- paire: [H2, H7]
+  question: Le défaut de TRPM3 est-il une conséquence du signal interféron ?
+  mesure: >-
+    Fonction de TRPM3 et signature interféron chez les mêmes patients,
+    avant et sous anti-JAK.
+  si_premiere: >-
+    Le défaut de TRPM3 se concentre chez les patients à signature interféron haute
+    et se corrige sous anti-JAK.
+  si_seconde: >-
+    Le défaut de TRPM3 est indépendant de la signature interféron.
+  acces: nouvelle collecte
+  donnees: Aucune ; la mesure de TRPM3 demande des cellules fraîches.
+
+- paire: [H3, H4]
+  question: La lésion du muscle après l'effort vient-elle du muscle ou de ses petits vaisseaux ?
+  mesure: >-
+    Sur les mêmes biopsies : WASF3 dans les fibres, dépôts de fibrine et de complément
+    dans les capillaires ; antigène spike dans le sang.
+  si_premiere: >-
+    WASF3 est élevé dans des fibres dont les capillaires sont intacts,
+    y compris chez des patients sans antigène.
+  si_seconde: >-
+    Les fibres atteintes voisinent des capillaires chargés de fibrine ou de complément,
+    chez des patients porteurs d'antigène.
+  acces: nouvelle collecte
+  donnees: Biopsies de l'étude musculaire de 2024 (Appelman), si elles sont encore exploitables.
+
+- paire: [H3, H5]
+  question: Une testostérone basse pèse-t-elle par le muscle ou par l'immunité innée ?
+  mesure: >-
+    Testostérone, WASF3 musculaire et SMPDL3B soluble chez des hommes malades.
+  si_premiere: >-
+    Une testostérone basse va avec un WASF3 musculaire élevé, sans différence de SMPDL3B.
+  si_seconde: >-
+    Une testostérone basse va avec un SMPDL3B modifié et des symptômes plus lourds,
+    sans différence de WASF3.
+  acces: nouvelle collecte
+  donnees: Aucune ; il faut sang et biopsie musculaire chez les mêmes patients.
+
+- paire: [H3, H6]
+  question: À l'arrêt de la rapamycine, le défaut musculaire revient-il ?
+  mesure: >-
+    Symptômes et marqueurs d'autophagie après l'arrêt de la rapamycine.
+  si_premiere: >-
+    Les symptômes et les marqueurs reviennent à l'arrêt : le défaut demande
+    une correction permanente.
+  si_seconde: >-
+    L'amélioration tient après l'arrêt chez les patients traités assez longtemps.
+  acces: suivi d'essais
+  donnees: Suivi après arrêt de l'étude pilote de la rapamycine, à demander aux auteurs.
+
+- paire: [H3, H7]
+  question: Le marqueur musculaire et le marqueur du canal désignent-ils les mêmes patients ?
+  mesure: >-
+    WASF3 musculaire et fonction de TRPM3 chez les mêmes patients.
+  si_premiere: >-
+    WASF3 prédit l'aggravation après l'effort, que TRPM3 fonctionne ou non.
+  si_seconde: >-
+    Le défaut de TRPM3 prédit la réponse à la naltrexone, que WASF3 soit élevé ou non.
+  acces: nouvelle collecte
+  donnees: Aucune ; il faut biopsie musculaire et cellules fraîches chez les mêmes patients.
+
+- paire: [H4, H5]
+  question: La surreprésentation des femmes tient-elle à l'antigène ou aux hormones ?
+  mesure: >-
+    Fréquence de l'antigène spike plasmatique selon le sexe et le statut hormonal.
+  si_premiere: >-
+    L'antigène est plus fréquent chez les femmes, et les symptômes le suivent.
+  si_seconde: >-
+    L'antigène est aussi fréquent dans les deux sexes ; à antigène égal,
+    les symptômes varient avec le statut hormonal.
+  acces: échantillons existants
+  donnees: Prélèvements de RECOVER-VITAL (959 adultes).
+
+- paire: [H4, H6]
+  question: Quand l'antigène disparaît, la maladie s'arrête-t-elle ?
+  mesure: >-
+    Antigène spike plasmatique, complément et symptômes, suivis dans le temps
+    chez les mêmes patients.
+  si_premiere: >-
+    La disparition de l'antigène est suivie d'une normalisation du complément,
+    puis des symptômes.
+  si_seconde: >-
+    Des patients devenus négatifs pour l'antigène restent malades, avec les mêmes marqueurs.
+  acces: suivi d'essais
+  donnees: Suivi de l'essai AER002 et de la cohorte LIINC.
+
+- paire: [H4, H7]
+  question: Le défaut de TRPM3 est-il une conséquence de l'inflammation des vaisseaux ?
+  mesure: >-
+    Antigène spike, complément et fonction de TRPM3 chez les mêmes patients.
+  si_premiere: >-
+    Le défaut de TRPM3 se concentre chez les porteurs d'antigène à complément activé.
+  si_seconde: >-
+    Le défaut de TRPM3 est aussi fréquent chez les patients sans antigène ni complément activé.
+  acces: nouvelle collecte
+  donnees: Aucune ; la mesure de TRPM3 demande des cellules fraîches.
+
+- paire: [H5, H6]
+  question: Un changement hormonal déplace-t-il les symptômes pour de bon ou seulement tant qu'il dure ?
+  mesure: >-
+    Symptômes avant, pendant et après une transition hormonale : grossesse, ménopause,
+    début ou arrêt d'un traitement hormonal.
+  si_premiere: >-
+    Les symptômes suivent les hormones dans les deux sens et reviennent à leur niveau
+    quand les hormones reviennent au leur.
+  si_seconde: >-
+    Une transition hormonale peut faire basculer durablement : l'amélioration ou
+    l'aggravation persiste après le retour des hormones à leur niveau de départ.
+  acces: nouvelle collecte
+  donnees: Aucune cohorte suivie identifiée ; des registres de patients pourraient suffire.
+
+- paire: [H5, H7]
+  question: La fonction de TRPM3 varie-t-elle avec les hormones ?
+  mesure: >-
+    Fonction de TRPM3 mesurée à plusieurs moments du cycle chez les mêmes patientes.
+    Le canal est activé par un neurostéroïde, le sulfate de prégnénolone.
+  si_premiere: >-
+    La fonction de TRPM3 varie avec le cycle, en même temps que les symptômes.
+  si_seconde: >-
+    La fonction de TRPM3 est stable chez une même personne, quel que soit le moment du cycle.
+  acces: nouvelle collecte
+  donnees: Aucune ; la mesure demande des cellules fraîches à chaque prélèvement.
+  sources: [trpm3-gain-de-fonction-2023]
+
+- paire: [H6, H7]
+  question: Chez un répondeur à la naltrexone, le bénéfice tient-il après l'arrêt ?
+  mesure: >-
+    Symptômes et fonction de TRPM3 après l'arrêt de la naltrexone.
+  si_premiere: >-
+    Le bénéfice persiste après l'arrêt, sans lien avec la fonction de TRPM3 à ce moment-là.
+  si_seconde: >-
+    Le bénéfice disparaît à l'arrêt, en même temps que la fonction de TRPM3 se dégrade.
+  acces: suivi d'essais
+  donnees: Suivi après arrêt de l'essai canadien de la naltrexone et de Brave-LC, s'il existe.

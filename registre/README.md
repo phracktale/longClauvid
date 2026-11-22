@@ -9,6 +9,7 @@ sur quelle source, et ce qui pourrait le réfuter.
 | `pistes.yaml` | Les 14 pistes sous-exploitées, avec leur niveau de preuve |
 | `endotypes.yaml` | Les 5 typologies de patients, leurs marqueurs et les candidats à tester |
 | `transpositions.yaml` | Les 11 transpositions : ce qu'une maladie mieux maîtrisée apprend sur un processus partagé |
+| `confrontations.yaml` | Les 21 confrontations : pour chaque paire d'hypothèses, la mesure qui les départage |
 | `hypotheses/` | Une fiche par hypothèse |
 
 ## Une fiche d'hypothèse
@@ -54,6 +55,19 @@ historique:
   sources: [vih-rio-2026]
 ```
 
+## Une fiche de confrontation
+
+```yaml
+- paire: [H1, H4]
+  question: La question qui oppose les deux hypothèses.
+  mesure: Ce qu'on mesure, et sur quoi.
+  si_premiere: Ce qu'on observe si H1 est à l'œuvre.
+  si_seconde: Ce qu'on observe si c'est H4.
+  acces: échantillons existants   # ou : suivi d'essais | nouvelle collecte
+  donnees: Où la mesure est possible.
+  sources: [recover-vital-nih]   # facultatif
+```
+
 ## Règles
 
 1. Pas de fiche sans `prediction` ni `refutation` : le validateur la refuse.
@@ -65,6 +79,8 @@ historique:
    Les sources des transpositions ont été lues sous forme de résumé ou d'extrait :
    leur lecture intégrale est un travail de la phase 1.
 5. Pas de transposition sans `deja_tente` : le validateur la refuse.
+6. Chaque paire d'hypothèses a sa confrontation, avec deux prédictions différentes.
+   Une hypothèse ajoutée au registre exige donc ses confrontations avec toutes les autres.
 
 ## Valider
 

@@ -59,6 +59,8 @@ def verifier_registre():
     abime["pistes"][0]["sources"] = ["source-inventee"]
     abime["transpositions"][0]["deja_tente"] = ""
     abime["transpositions"][0]["liens"] = ["H99"]
+    paire_retiree = abime["confrontations"].pop()["paire"]
+    abime["confrontations"][0]["si_seconde"] = abime["confrontations"][0]["si_premiere"]
     refus = valider_registre.erreurs_du_registre(abime)
     controle("une hypothèse sans réfutation est refusée",
              any("refutation" in erreur for erreur in refus))
@@ -68,6 +70,10 @@ def verifier_registre():
              any("deja_tente" in erreur for erreur in refus))
     controle("une transposition liée à une hypothèse inexistante est refusée",
              any("H99" in erreur for erreur in refus))
+    controle("une paire d'hypothèses sans confrontation est signalée",
+             any(f"paire manquante {'-'.join(paire_retiree)}" in erreur for erreur in refus))
+    controle("deux prédictions identiques dans une confrontation sont refusées",
+             any("prédictions sont identiques" in erreur for erreur in refus))
 
 
 def verifier_niveau_1():

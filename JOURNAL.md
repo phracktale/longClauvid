@@ -3,6 +3,24 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Phase 3 : vingt et une confrontations, classées par accès aux données
+
+**Décision.** Une fiche par paire d'hypothèses dans `registre/confrontations.yaml` : la question,
+la mesure, ce qu'on observe selon l'hypothèse à l'œuvre, et l'accès aux données.
+Le validateur exige les 21 paires, avec deux prédictions différentes par paire.
+
+**Constat.** Quatre paires se tranchent sur du sang déjà conservé, cinq sur le suivi d'essais
+après l'arrêt du traitement, douze demandent une nouvelle collecte. Les hypothèses 3, 5 et 7
+ne se confrontent aux autres qu'avec une nouvelle collecte, sauf face à l'hypothèse 6.
+
+**Écarté.** Classer les mesures par nombre de paires tranchées : chaque hypothèse apporte
+son marqueur dans ses six paires, le classement est plat par construction. Traiter
+les hypothèses comme exclusives : plusieurs peuvent être vraies chez des patients différents.
+
+**Réserve.** La phase 3 n'est pas franchie. Le critère automatique passe, mais les fiches
+viennent d'un seul rédacteur, sans relecture contradictoire. L'accès aux données est estimé
+d'après le registre, pas confirmé auprès des équipes d'essais.
+
 ## 2026-11-22 — Craddock 2015 : réseau reproduit, taux publiés retrouvés en partie
 
 **Constat.** Les deux articles ont pu être lus en PDF, figures comprises. Le réseau relevé
