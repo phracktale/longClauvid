@@ -3,6 +3,18 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Lot 2 : cinq demandes sur six envoyées
+
+**Fait.** Cinq lettres sont parties : Bergen, REVERSE-LC, outSMART-LC, rapamycine, Craddock.
+Quatre l'ont été après la mise en ligne du plan corrigé. La première, à Bergen, a été envoyée
+par le porteur du projet ; elle ne dépend pas des cases corrigées. La sixième, pour Brave-LC,
+attend un contact.
+
+**Décision.** Une absence de réponse se constate à partir du 2027-01-22.
+
+**Limite.** La lettre à Craddock est partie à son adresse actuelle, à l'université de Waterloo,
+et non à celle de l'article de 2015.
+
 ## 2026-11-22 — Lot 2 : trois corrections après une seconde lecture des sources
 
 **Constat.** En cherchant les destinataires des demandes, trois cases du tableau de vérification

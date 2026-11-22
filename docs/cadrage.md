@@ -298,12 +298,13 @@ Ce document produit des hypothèses classées, pas des traitements : rien ici ne
 ### Prochaines étapes
 
 - [x] Choisir le premier lot à instruire : le lot 2, le suivi après l'arrêt du traitement.
-- [ ] Envoyer les six demandes du lot 2 aux équipes.
+- [ ] Trouver un contact pour Brave-LC et envoyer la sixième demande du lot 2 ; les cinq autres sont parties le 2026-11-22.
+- [ ] Relever les réponses aux demandes du lot 2 ; constater les absences à partir du 2027-01-22.
 - [x] Ouvrir le dépôt Git et le registre des hypothèses (phase 0).
 - [x] Créer le dépôt vide phracktale/longClauvid sur GitHub, pour y pousser les trois commits.
 - [x] Construire le niveau 2 en reproduisant le modèle de Kashi 2019.
 - [x] Reproduire le réseau de Craddock 2015 et tester l'ordre des traitements.
-- [ ] Demander aux auteurs de Craddock 2015 leur code de simulation, pour retrouver leurs taux.
+- [x] Demander aux auteurs de Craddock 2015 leur code de simulation, pour retrouver leurs taux. Demande envoyée le 2026-11-22.
 - [ ] Demander l'accès aux statistiques résumées DecodeME.
 - [ ] Identifier une équipe clinique partenaire avant la phase 6.
 
