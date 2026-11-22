@@ -755,3 +755,97 @@
   url: https://www.autoimmuneinstitute.org/covid_timeline/recover-tlc-july-2026-update-long-covid-clinical-trial-progress/
   type: presse
   lu_le: 2026-11-22
+
+# --- Lot 2 : demi-vies relevées dans les notices ---------------------------------
+
+- id: notice-baricitinib-ema
+  titre: "Olumiant (baricitinib), résumé des caractéristiques du produit : demi-vie moyenne de 12,5 heures (Agence européenne des médicaments)"
+  url: https://www.ema.europa.eu/en/documents/product-information/olumiant-epar-product-information_pt.pdf
+  type: institution
+  lu_le: 2026-11-22
+
+- id: notice-baricitinib-fda
+  titre: "Olumiant (baricitinib), notice américaine : demi-vie d'élimination de 12 à 16 heures (DailyMed)"
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf
+  type: institution
+  lu_le: 2026-11-22
+
+- id: notice-sirolimus-fda
+  titre: "Rapamune (sirolimus), notice américaine : demi-vie terminale de 62 ± 16 heures (FDA)"
+  url: https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021083s065%2C021110s084lbl.pdf
+  type: institution
+  lu_le: 2026-11-22
+
+- id: notice-sirolimus-medsafe
+  titre: "Rapamune (sirolimus), fiche néo-zélandaise : demi-vie terminale de 62 ± 16 heures (Medsafe)"
+  url: https://www.medsafe.govt.nz/profs/Datasheet/r/Rapamunetaboralsoln.pdf
+  type: institution
+  lu_le: 2026-11-22
+
+- id: notice-naltrexone-fda
+  titre: "Naltrexone, notice américaine : demi-vie de 4 heures, 13 heures pour le 6-bêta-naltrexol (DailyMed)"
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43cd6961-4793-85ee-e063-6294a90ad772
+  type: institution
+  lu_le: 2026-11-22
+
+- id: notice-naltrexone-canada
+  titre: "Revia (naltrexone), monographie canadienne : demi-vie de 4 heures, 12,9 heures pour le 6-bêta-naltrexol"
+  url: https://pdf.hres.ca/dpd_pm/00030323.PDF
+  type: institution
+  lu_le: 2026-11-22
+
+# --- Lot 1 : échantillons déjà collectés ------------------------------------------
+
+- id: recover-etudes-annexes
+  titre: "RECOVER, études annexes : qui peut demander des données et des échantillons, et comment"
+  url: https://recovercovid.org/ancillary
+  type: institution
+  lu_le: 2026-11-22
+
+- id: recover-biobanque
+  titre: "Over 1.4 million biosamples available in RECOVER's biorepository to support Long COVID research"
+  url: https://recovercovid.org/news/over-14-million-biosamples-available-recovers-biorepository-support-long-covid-research
+  type: communique
+  lu_le: 2026-11-22
+
+- id: liinc-polybio
+  titre: "LIINC, un noyau clinique pour la recherche collaborative sur le COVID long : politique de partage des échantillons (PolyBio)"
+  url: https://polybio.org/projects/support-of-the-long-term-impact-of-infection-with-novel-coronavirus-liinc-program-a-clinical-core-to-facilitate-long-covid-collaborative-research/
+  type: institution
+  lu_le: 2026-11-22
+
+- id: liinc-biobanque
+  titre: "Ensitrelvir for viral persistence and inflammation in people experiencing Long COVID : protocole, section sur la biobanque LIINC de 50 000 échantillons"
+  url: https://cdn.clinicaltrials.gov/large-docs/88/NCT06161688/Prot_SAP_000.pdf
+  type: registre
+  lu_le: 2026-11-22
+
+- id: antigene-liinc-2023
+  titre: "Plasma-based antigen persistence in the post-acute phase of SARS-CoV-2 infection (medRxiv, prépublication)"
+  url: https://medrxiv.org/content/10.1101/2023.10.24.23297114.full.pdf
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: talla-2023
+  titre: "Persistent serum protein signatures define an inflammatory subcategory of long COVID (Nature Communications) ; lu par extraits"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10252177
+  type: article
+  lu_le: 2026-11-22
+
+- id: complement-cardiff-2023
+  titre: "Complement dysregulation in long COVID : marqueurs des voies classique, alterne et terminale chez 166 patients (medRxiv, prépublication)"
+  url: https://www.medrxiv.org/content/10.1101/2023.10.26.23297597v1.full
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: reverse-lc-presentation-2026
+  titre: "REVERSE-LC : objectifs de l'essai et échantillons conservés (présentation, Society for Clinical Trials, 2026)"
+  url: https://www.sctweb.org/presentations/2026/INVITED_SESSION_16_Jason_Liang.pdf
+  type: institution
+  lu_le: 2026-11-22
+
+- id: reverse-lc-ucsf
+  titre: "REVERSE-LC, fiche de l'essai : marqueurs d'inflammation et mesures virales (UCSF)"
+  url: https://clinicaltrials.ucsf.edu/trial/NCT06631287
+  type: registre
+  lu_le: 2026-11-22

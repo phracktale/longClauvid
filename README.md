@@ -38,12 +38,12 @@ python3 simulateurs/niveau2/craddock_2015.py     # environ une minute
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 122 sources |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 137 sources |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
 | 4. Simulation | Niveaux 1 et 2 construits, deux modèles publiés reproduits ; niveau 3 à faire |
-| 5. Validation | Premier plan d'analyse déposé (lot 2) ; cinq demandes envoyées sur six le 2026-11-22, aucune réponse ni donnée reçue |
+| 5. Validation | Deux plans d'analyse déposés (lots 1 et 2) ; six demandes envoyées le 2026-11-22, aucune réponse ni donnée reçue |
 | 6. Passage clinique | Exige une équipe habilitée et un comité d'éthique |
 
 ## Résultats à ce jour
@@ -64,6 +64,9 @@ python3 simulateurs/niveau2/craddock_2015.py     # environ une minute
 - **Lot 2.** Un seul traitement a publié un suivi après l'arrêt : dans le pilote du daratumumab,
   5 répondeuses sur 6 restent améliorées à 12–24 mois. Ce résultat ne départage pas encore
   les hypothèses 1 et 6. Détail : `analyses/lot-2/PLAN.md`.
+- **Lot 1.** Aucune des quatre paires n'a de mesure conjointe publiée. Un constat existe déjà :
+  dans la cohorte LIINC, l'antigène n'est pas plus fréquent chez les femmes. Deux paires peuvent
+  avancer sans nouveau dosage. Détail : `analyses/lot-1/PLAN.md`.
 - **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
   fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
   des patients non sélectionnés. Détail : `registre/transpositions.yaml`.

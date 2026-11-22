@@ -3,6 +3,29 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Lot 1 instruit ; lot 2 complété
+
+**Fait, lot 2.** La sixième demande est partie, au contact central de l'essai Brave-LC.
+Les demi-vies sont relevées, deux sources chacune. Le repère d'arrêt est toujours atteint
+bien avant les visites prévues.
+
+**Constat, lot 2.** Le retrait randomisé de la rapamycine dure 60 jours, soit 43 jours après
+le repère. La règle exige trois mois : ce retrait restera descriptif. La règle n'est pas
+assouplie pour l'accueillir.
+
+**Constat, lot 1.** Aucune des quatre paires n'a de mesure conjointe publiée. Le registre
+désignait les prélèvements de RECOVER-VITAL ; la voie ouverte aux équipes extérieures porte
+sur les cohortes, pas sur les essais. Les fiches sont corrigées.
+
+**Choix.** Scinder le lot : 1a croise des données déjà mesurées, par deux demandes de chiffres
+agrégés ; 1b exige des dosages, donc une équipe habilitée que le projet n'a pas.
+
+**Réserve.** Un résultat publié a été lu avant l'écriture du plan : dans la cohorte LIINC,
+l'antigène n'est pas plus fréquent chez les femmes. Il est consigné comme constat, pas comme
+test. La règle de décision ne vaut que pour les données non encore vues.
+
+**Écarté.** Envoyer les deux demandes du lot 1 sans relecture du porteur du projet.
+
 ## 2026-11-22 — Lot 2 : cinq demandes sur six envoyées
 
 **Fait.** Cinq lettres sont parties : Bergen, REVERSE-LC, outSMART-LC, rapamycine, Craddock.

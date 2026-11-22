@@ -7,7 +7,7 @@ La formulation d'une demande peut orienter la réponse : elle fait partie du dos
 | Lettre | État |
 | --- | --- |
 | REVERSE-LC, outSMART-LC, rapamycine, modèle logique | Envoyées le 2026-11-22 |
-| Brave-LC | Prête, non envoyée : aucun contact trouvé |
+| Brave-LC | Envoyée le 2026-11-22 au contact central de l'essai |
 | Bergen, daratumumab | Envoyée par le porteur du projet, dans la version ci-dessous |
 
 ## Daratumumab : Øystein Fluge
@@ -145,7 +145,7 @@ Thank you for this model. The order-of-treatment idea is central to one of the r
 [name]
 ```
 
-## Brave-LC : équipe du protocole (non envoyée)
+## Brave-LC : contact central de l'essai
 
 Objet : Brave-LC: is an assessment planned after the 16 weeks of naltrexone?
 

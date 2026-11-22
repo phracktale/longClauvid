@@ -109,6 +109,17 @@ Cinq dosages sur les mêmes sérums : fixation des IgG aux neurones sensitifs, s
 | 2 et 4 | Le signal interféron s'entretient-il seul ? | Signature interféron aussi fréquente sans antigène | Signature concentrée chez les porteurs d'antigène |
 | 4 et 5 | La surreprésentation des femmes tient-elle à l'antigène ou aux hormones ? | Antigène plus fréquent chez les femmes | Antigène aussi fréquent dans les deux sexes |
 
+Vérification faite, aucune de ces quatre paires n'a de mesure conjointe publiée. Le plan d'analyse est dans `analyses/lot-1/PLAN.md` du dépôt.
+
+| Hypothèses | Ce qui existe | Ce qui manque | Suite |
+| --- | --- | --- | --- |
+| 4 et 5 | L'antigène par sexe dans la cohorte LIINC : pas plus fréquent chez les femmes, rapport de prévalence des hommes aux femmes 1,68, intervalle de confiance à 95 % de 0,93 à 3,04 ([prépublication](https://medrxiv.org/content/10.1101/2023.10.24.23297114.full.pdf)) | La fréquence par sexe chez [706 personnes](https://pure.psu.edu/en/publications/measurement-of-circulating-viral-antigens-post-sars-cov-2-infecti/) ; le statut hormonal | Une demande de chiffres agrégés, prête |
+| 2 et 4 | Des sous-groupes à [signature interféron](https://pmc.ncbi.nlm.nih.gov/articles/PMC10252177) et l'antigène chez 706 personnes, avec des auteurs communs | Savoir si des participants sont communs, puis le tableau croisé | Une demande de chiffres agrégés, prête |
+| 1 et 4 | Le complément dosé à [Zurich](https://pubmed.ncbi.nlm.nih.gov/38236961/) et à [Cardiff](https://www.medrxiv.org/content/10.1101/2023.10.26.23297597v1.full), l'antigène dosé ailleurs | Les deux dosages sur les mêmes plasmas | Une équipe habilitée |
+| 1 et 2 | Plasma et cellules sanguines conservés par [REVERSE-LC](https://www.sctweb.org/presentations/2026/INVITED_SESSION_16_Jason_Liang.pdf) | Une biobanque confirmée côté daratumumab ; la mesure de la fixation des IgG | La fin des essais |
+
+Deux collections sont ouvertes aux équipes extérieures : les cohortes RECOVER, par une [étude annexe](https://recovercovid.org/ancillary) examinée chaque mois, et la cohorte [LIINC](https://polybio.org/projects/support-of-the-long-term-impact-of-infection-with-novel-coronavirus-liinc-program-a-clinical-core-to-facilitate-long-covid-collaborative-research/), par collaboration. Les prélèvements de l'essai RECOVER-VITAL, que le registre désignait, ne figurent pas parmi les sources ouvertes.
+
 ### Lot 2, retenu en premier : le suivi après l'arrêt du traitement
 
 L'hypothèse 6 se confronte aux autres par une même observation : ce que deviennent les répondeurs quand le traitement s'arrête. Vérification faite essai par essai, un seul traitement a déjà publié ce suivi ; trois essais en cours ou prévus en comportent un. Le plan d'analyse, écrit avant toute donnée, est dans `analyses/lot-2/PLAN.md` du dépôt.
@@ -298,7 +309,9 @@ Ce document produit des hypothèses classées, pas des traitements : rien ici ne
 ### Prochaines étapes
 
 - [x] Choisir le premier lot à instruire : le lot 2, le suivi après l'arrêt du traitement.
-- [ ] Trouver un contact pour Brave-LC et envoyer la sixième demande du lot 2 ; les cinq autres sont parties le 2026-11-22.
+- [x] Envoyer les six demandes du lot 2 aux équipes : fait le 2026-11-22.
+- [ ] Lot 1 : envoyer les deux demandes de chiffres agrégés, prêtes dans `analyses/lot-1/DEMANDES.md`.
+- [ ] Lot 1 : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 - [ ] Relever les réponses aux demandes du lot 2 ; constater les absences à partir du 2027-01-22.
 - [x] Ouvrir le dépôt Git et le registre des hypothèses (phase 0).
 - [x] Créer le dépôt vide phracktale/longClauvid sur GitHub, pour y pousser les trois commits.

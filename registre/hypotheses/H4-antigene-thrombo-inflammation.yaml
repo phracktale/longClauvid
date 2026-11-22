@@ -4,7 +4,7 @@ statut: ouverte
 creee_le: 2026-11-22
 endotype: E4
 pistes: [P14, P08]
-sources: [recover-vital-nih, sicktimes-2026-05]
+sources: [recover-vital-nih, sicktimes-2026-05, antigene-liinc-2023, antigene-706]
 
 enonce: >-
   Un antiviral bloque la réplication mais n'élimine pas la protéine spike déjà présente.
@@ -26,3 +26,10 @@ test:
 historique:
   - date: 2026-11-22
     evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.
+  - date: 2026-11-22
+    evenement: >-
+      Lot 1, constat sur des données publiées, lu avant l'écriture du plan (analyses/lot-1/PLAN.md).
+      Dans la cohorte LIINC, l'antigène plasmatique n'est pas plus fréquent chez les femmes :
+      rapport de prévalence des hommes aux femmes 1,68, intervalle de confiance à 95 %
+      de 0,93 à 3,04, sur 171 personnes. Dans cette cohorte, l'antigène n'explique donc pas
+      la surreprésentation des femmes. Résultat descriptif, niveau C : statut inchangé.

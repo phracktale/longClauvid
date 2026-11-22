@@ -116,3 +116,25 @@ La règle de décision de la section 5 n'est pas modifiée. Aucune donnée n'a �
 | Rapamycine | « Aucun arrêt programmé » | Un retrait randomisé est prévu dans l'essai suivant | L'article le décrit ; seul son résumé avait été lu |
 
 Conséquence : trois essais en cours ou prévus comportent un suivi après l'arrêt, et non un seul.
+
+### 2026-11-22 : les demi-vies de la section 3 sont relevées
+
+La section 3 les laissait à relever avant l'analyse. La règle de décision n'est pas modifiée.
+Aucune donnée n'a été reçue.
+
+| Traitement | Demi-vie d'élimination | Cinq demi-vies | Repère retenu après la dernière prise | Sources |
+| --- | --- | --- | --- | --- |
+| Baricitinib | 12,5 heures ; 12 à 16 heures selon la notice américaine | 2,6 à 3,3 jours | 4 jours | [Agence européenne](https://www.ema.europa.eu/en/documents/product-information/olumiant-epar-product-information_pt.pdf), [notice américaine](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+| Rapamycine | 62 ± 16 heures | 13 jours ; 16 jours à un écart-type | 17 jours | [Notice américaine](https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/021083s065%2C021110s084lbl.pdf), [fiche néo-zélandaise](https://www.medsafe.govt.nz/profs/Datasheet/r/Rapamunetaboralsoln.pdf) |
+| Naltrexone | 4 heures ; 13 heures pour son métabolite actif | 2,7 jours, sur le métabolite | 3 jours | [Notice américaine](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43cd6961-4793-85ee-e063-6294a90ad772), [monographie canadienne](https://pdf.hres.ca/dpd_pm/00030323.PDF) |
+
+Trois réserves :
+
+- Ces valeurs viennent d'adultes traités pour d'autres maladies, aux doses usuelles. Elles ne sont
+  établies ni pour le COVID long, ni pour les faibles doses de naltrexone, ni pour les enfants.
+- La disparition du médicament n'est pas la fin de son effet biologique.
+- Le repère est toujours atteint bien avant les visites prévues : il ne limite aucun essai.
+
+Une conséquence pour la rapamycine : le retrait randomisé dure 60 jours, soit 43 jours
+après le repère. La règle exige un écart qui persiste au moins trois mois. Ce retrait ne pourra
+donc ni soutenir ni affaiblir H6 : il restera descriptif, sauf suivi prolongé.

@@ -31,7 +31,11 @@
     La réponse aux anti-JAK suit la signature interféron, y compris chez des patients
     dont les IgG ne se fixent pas aux neurones.
   acces: échantillons existants
-  donnees: Biobanques de l'essai randomisé du daratumumab et de REVERSE-LC.
+  donnees: >-
+    Aucun échantillon confirmé côté daratumumab : l'article du pilote ne mentionne ni biobanque,
+    ni mesure de la fixation des IgG, ni signature interféron. REVERSE-LC conserve plasma
+    et cellules sanguines à plusieurs dates ; ils restent fermés jusqu'à la fin de l'essai.
+  sources: [fluge-2025, reverse-lc-presentation-2026]
 
 - paire: [H1, H3]
   question: Le défaut musculaire vient-il du muscle lui-même ou des anticorps ?
@@ -57,7 +61,12 @@
     Le complément n'est activé que chez les patients porteurs d'antigène,
     quelle que soit la fixation de leurs IgG.
   acces: échantillons existants
-  donnees: Prélèvements de RECOVER-VITAL, avant traitement.
+  donnees: >-
+    Aucune mesure conjointe trouvée. Le complément a été dosé dans deux cohortes, à Zurich
+    et à Cardiff, sans l'antigène ; l'antigène chez 706 personnes, sans le complément.
+    Le plus court : doser le complément terminal sur des plasmas déjà typés pour l'antigène.
+    Les études annexes de RECOVER ouvrent les cohortes, pas les essais comme RECOVER-VITAL.
+  sources: [cervia-hasler-2024, complement-cardiff-2023, antigene-706, recover-etudes-annexes]
 
 - paire: [H1, H5]
   question: La gravité des symptômes suit-elle les anticorps ou les hormones ?
@@ -126,7 +135,13 @@
     La signature interféron se concentre chez les porteurs d'antigène
     et baisse quand l'antigène disparaît.
   acces: échantillons existants
-  donnees: Prélèvements de RECOVER-VITAL et de la cohorte LIINC, si un dosage de l'interféron y est possible.
+  donnees: >-
+    Aucune mesure conjointe trouvée. Une étude décrit des sous-groupes à signature interféron,
+    une autre l'antigène chez 706 personnes ; plusieurs auteurs signent les deux, ce qui laisse
+    supposer des participants communs. À vérifier auprès des auteurs : si oui, le croisement
+    ne demande aucun nouveau dosage. REVERSE-LC prévoit des marqueurs d'inflammation
+    et des mesures virales chez les mêmes participants.
+  sources: [talla-2023, antigene-706, antigene-liinc-2023, reverse-lc-ucsf]
 
 - paire: [H2, H5]
   question: Les fluctuations des symptômes suivent-elles l'interféron ou le cycle hormonal ?
@@ -232,7 +247,13 @@
     L'antigène est aussi fréquent dans les deux sexes ; à antigène égal,
     les symptômes varient avec le statut hormonal.
   acces: échantillons existants
-  donnees: Prélèvements de RECOVER-VITAL (959 adultes).
+  donnees: >-
+    Une réponse partielle est déjà publiée. Dans la cohorte LIINC, 171 personnes, l'antigène
+    n'est pas plus fréquent chez les femmes : rapport de prévalence des hommes aux femmes 1,68,
+    intervalle de confiance à 95 % de 0,93 à 3,04. L'étude des 706 personnes a ajusté
+    sur le sexe sans publier la fréquence par sexe : à demander. Le statut hormonal
+    n'est rapporté dans aucune des deux.
+  sources: [antigene-liinc-2023, antigene-706]
 
 - paire: [H4, H6]
   question: Quand l'antigène disparaît, la maladie s'arrête-t-elle ?
