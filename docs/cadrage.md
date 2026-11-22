@@ -151,7 +151,7 @@ Un essai tout-venant de 200 patients ne détecte qu'une fois sur cinq un traitem
 | Niveau | Ce qu'il simule | Question tranchée | État |
 | --- | --- | --- | --- |
 | 1. Cohorte virtuelle | Des essais entiers sur des patients à endotype caché, répétés 20 000 fois | Quel plan d'essai peut voir un effet limité à un sous-groupe ? | Construit ; dans le dépôt longClauvid |
-| 2. Modèles mécanistes | Des réseaux de régulation à plusieurs états stables, en équations différentielles ou en logique discrète | Quelle séquence d'interventions fait sortir de l'état malade ? | Premier modèle construit : [Kashi 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6787624) reproduit aux arrondis publiés près. Restent [Craddock 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4508058) et le modèle musculaire de Lengert et Drossel ([résumé](https://wames.org.uk/cms-english/computer-simulation-explores-cause-for-exercise-intolerance-in-mecfs)) |
+| 2. Modèles mécanistes | Des réseaux de régulation à plusieurs états stables, en équations différentielles ou en logique discrète | Quelle séquence d'interventions fait sortir de l'état malade ? | Premier modèle construit : [Kashi 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6787624) reproduit aux arrondis publiés près. Le moteur de réseaux logiques est construit, mais le réseau de Craddock n'est pas reproduit : ses interactions ne figurent que dans une figure. Restent [Craddock 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4508058) et le modèle musculaire de Lengert et Drossel ([résumé](https://wames.org.uk/cms-english/computer-simulation-explores-cause-for-exercise-intolerance-in-mecfs)) |
 | 3. Criblage de repositionnement | Graphe de connaissances ([TxGNN](https://zitniklab.hms.harvard.edu/projects/TxGNN/)), génétique, [modèles métaboliques](https://pubmed.ncbi.nlm.nih.gov/40649860/) | Quels médicaments existants touchent les cibles d'un endotype ? | À faire |
 
 ### Résultats du niveau 1
@@ -211,6 +211,34 @@ Aucun de ces candidats n'est validé, et plusieurs sont des immunosuppresseurs �
 | Neuro-autonome | Naltrexone faible dose | Essai randomisé négatif en tout-venant | Analyse selon la fonction TRPM3 |
 | Neuro-autonome | Bloc du ganglion stellaire | Essai Block-LC de 272 patients autorisé | Résultats attendus |
 
+## Transpositions : onze processus partagés avec des maladies mieux maîtrisées
+
+Les transpositions déjà essayées dans le COVID long ont échoué chez des patients non sélectionnés : efgartigimod, nicotinamide riboside, antiviraux, anticorps. Aucun de ces essais n'a choisi ses patients sur le processus visé.
+
+La méthode part des maladies qu'on sait guérir, contrôler ou prévenir, et qui partagent un processus biologique avec nos pistes. Chaque fiche dit ce qui a déjà été tenté, échecs compris. Le détail est dans `registre/transpositions.yaml` du dépôt. Ces sources ont été lues sous forme de résumé ou d'extrait ; les leviers cités sont des hypothèses d'essai, pas des recommandations.
+
+| Maladie de référence et levier | Maîtrise | Déjà tenté dans nos maladies | Ce que la transposition apporte |
+| --- | --- | --- | --- |
+| VIH : anticorps neutralisants avant un arrêt programmé du traitement ([essai RIO](https://www.imperial.ac.uk/news/articles/2026/new-hiv-treatment-could-enable-people-to-safely-stop-daily-medication-/)) | Rémission chez une partie des patients ; greffe, [CRISPR](https://www.aidsmap.com/news/may-2024/crispr-gene-therapy-ebt-101-does-not-prevent-hiv-viral-rebound) et immunostimulant n'aboutissent pas encore ([CROI 2026](https://www.aidsmap.com/news/apr-2026/top-5-stories-search-hiv-cure-croi-2026)) | AER002 et nirmatrelvir négatifs ; [Truvada ou maraviroc](https://ctv.veeva.com/study/antiviral-clinical-trial-for-long-covid) en recrutement | Un agent seul ne vide pas un réservoir ; l'arrêt programmé est le plan d'essai de l'hypothèse 6 |
+| VIH sous traitement : inflammation résiduelle et voie tryptophane–kynurénine ([IDO1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3034445)) | Contrôle du virus, pas de l'inflammation ([PLOS ONE 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4077698/)) | [Leronlimab](https://www.uclahealth.org/news/some-cases-long-covid-19-may-be-caused-abnormally-suppressed), essai exploratoire | Un marqueur à doser : le rapport kynurénine/tryptophane |
+| VIH : antiviraux avant l'exposition ([NIAID](https://www.niaid.nih.gov/diseases-conditions/pre-exposure-prophylaxis-prep)) | Prévention | Metformine en phase aiguë : 6,3 % de COVID long contre 10,4 % ([COVID-OUT](https://pubmed.ncbi.nlm.nih.gov/37302406/)) ; vaccination ([méta-analyse](https://pmc.ncbi.nlm.nih.gov/articles/PMC12644529)) | La fenêtre efficace précède la maladie ; aucun essai sur un COVID long installé |
+| Lupus réfractaire : cellules CAR-T anti-CD19 ([Nature Medicine 2022](https://pubmed.ncbi.nlm.nih.gov/36109639/)) | Rémission sans traitement | Daratumumab, pilote ouvert | La rémission survit au retour des lymphocytes B : signature d'un changement d'état |
+| Myasthénie : efgartigimod ([essai ADAPT](https://pubmed.ncbi.nlm.nih.gov/34146511/)) | Contrôle | Phase 2 négative dans la tachycardie posturale post-COVID ([53 participants](https://thepharmaletter.com/in-brief/brief-efgartigimod-in-pc-pots-is-not-clinically-meaningful)) | Abaisser toutes les IgG sans sélection ne suffit pas |
+| Hépatite C : antiviraux à action directe ([vascularite cryoglobulinémique](https://pubmed.ncbi.nlm.nih.gov/28288791/)) | Guérison, avec rechutes possibles ([revue](https://pmc.ncbi.nlm.nih.gov/articles/PMC8878349)) | Nirmatrelvir et AER002 négatifs | Preuve de principe de l'hypothèse 4, à condition de vérifier que l'antigène baisse |
+| Hémoglobinurie paroxystique nocturne : eculizumab ([NEJM 2006](https://pubmed.ncbi.nlm.nih.gov/16990386/)) | Contrôle | Aucun essai repéré | Le complément se bloque durablement ; mesurer les marqueurs d'abord |
+| Interféronopathies : anifrolumab ([J Clin Immunol 2024](https://pubmed.ncbi.nlm.nih.gov/39441221/)) | Contrôle | Baricitinib : essai REVERSE-LC en recrutement | Un levier au-delà des anti-JAK, et le marqueur de sélection |
+| Maladie de Hartnup : niacine ([Manuel MSD](https://www.merckmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/hartnup-disease)) | Prévention | Nicotinamide riboside : NAD+ remonté, symptômes inchangés ([essai randomisé](https://pubmed.ncbi.nlm.nih.gov/41357333/)) | Remonter le NAD+ ne suffit pas ; doser le tryptophane avant tout essai |
+| Épilepsie TRPM3 : primidone ([Epilepsia 2023](https://lirias.kuleuven.be/4072472)) | Contrôle, sur deux cas rapportés | Naltrexone faible dose négative | Anomalie de sens opposé : un inhibiteur de TRPM3 devrait aggraver les patients si l'hypothèse 7 est vraie |
+| Sclérose latérale amyotrophique : chaperons chimiques ([retrait en 2024](https://mdedge.com/content/approved-therapy-als-withdrawn-when-new-study-shows-no-benefit)) | Échec en phase 3 | Aucun essai repéré | Contre-exemple : tester l'hypothèse 3 par des marqueurs, pas par un médicament |
+
+### Le VIH apporte aussi trois leçons de méthode
+
+1. Un marqueur quantitatif, la charge virale, a remplacé les critères cliniques dans les essais ([American Family Physician, 1998](https://www.aafp.org/pubs/afp/issues/1998/0601/p2789.html)). Nos maladies n'en ont pas encore : l'antigène plasmatique, la signature interféron et le test fonctionnel des IgG sont les candidats.
+2. Les combinaisons ont réussi là où chaque médicament seul échouait. Les équipes VIH de l'UCSF, qui dirigent la cohorte LIINC sur le COVID long, préparent des essais de combinaisons ([UCSF](https://www.ucsf.edu/news/2026/01/431346/solving-long-covid-how-decades-hiv-research-paved-way)).
+3. L'arrêt programmé du traitement distingue une rémission d'un simple contrôle.
+
+Le VIH est contrôlé et prévenu, pas guéri. Sept guérisons après greffe de moelle étaient rapportées en 2024 ([NPR](https://www.npr.org/sections/goats-and-soda/2024/07/30/g-s1-13631/hiv-aids-cure-dusseldorf-patient)), par une procédure réservée aux cancers du sang.
+
 ## Limites et prochaines étapes
 
 Ce document produit des hypothèses classées, pas des traitements : rien ici ne remplace un essai contrôlé.
@@ -226,7 +254,7 @@ Ce document produit des hypothèses classées, pas des traitements : rien ici ne
 - [x] Ouvrir le dépôt Git et le registre des hypothèses (phase 0).
 - [x] Créer le dépôt vide phracktale/longClauvid sur GitHub, pour y pousser les trois commits.
 - [x] Construire le niveau 2 en reproduisant le modèle de Kashi 2019.
-- [ ] Construire le modèle à plusieurs variables de Craddock 2015, pour tester l'ordre des traitements.
+- [ ] Relever la figure 2 de Craddock 2015 (nœuds et interactions), puis charger le réseau dans le moteur déjà construit, pour tester l'ordre des traitements.
 - [ ] Demander l'accès aux statistiques résumées DecodeME.
 - [ ] Identifier une équipe clinique partenaire avant la phase 6.
 

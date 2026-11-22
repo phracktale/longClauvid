@@ -15,10 +15,10 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `docs/cadrage.md` | L'état des lieux des essais, les pistes sous-exploitées, les typologies de patients |
 | `PROTOCOLE.md` | Les sept phases, leurs critères de passage, les règles de traçabilité et de fiabilité |
 | `JOURNAL.md` | Chaque décision, avec son motif et les options écartées |
-| `registre/` | Sources, pistes, endotypes et hypothèses, un fichier par hypothèse |
+| `registre/` | Sources, pistes, endotypes, transpositions et hypothèses, un fichier par hypothèse |
 | `outils/valider_registre.py` | Refuse une hypothèse sans prédiction réfutable ou une affirmation sans source |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
-| `simulateurs/niveau2/` | Modèle mécaniste à deux états stables : le piège métabolique IDO de Kashi 2019 |
+| `simulateurs/niveau2/` | Modèles mécanistes : le piège métabolique IDO de Kashi 2019, et un moteur de réseaux logiques à plusieurs variables |
 | `verifier.py` | Lance tous les contrôles du dépôt |
 | `LICENSE`, `LICENSES/` | Les licences : MIT pour le code, CC BY 4.0 pour le reste |
 
@@ -30,17 +30,18 @@ python3 verifier.py                              # tous les contrôles
 python3 outils/valider_registre.py               # le registre seul
 python3 simulateurs/niveau1/simulateur_endotypes.py
 python3 simulateurs/niveau2/piege_ido.py
+python3 simulateurs/niveau2/reseau_logique.py
 ```
 
 ## Où en est le protocole
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 61 sources |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 111 sources |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
-| 2. Détection | À faire |
+| 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | À faire |
-| 4. Simulation | Niveaux 1 et 2 construits ; niveau 3 à faire |
+| 4. Simulation | Niveaux 1 et 2 construits ; réseau de Craddock 2015 à charger ; niveau 3 à faire |
 | 5. Validation | À faire |
 | 6. Passage clinique | Exige une équipe habilitée et un comité d'éthique |
 
@@ -52,6 +53,12 @@ python3 simulateurs/niveau2/piege_ido.py
 - **Niveau 2.** Le modèle de Kashi 2019 est reproduit aux arrondis publiés près.
   Avec ses paramètres, on entre dans le piège en quelques semaines et on en sort
   en mois ou en années. Détail : `simulateurs/niveau2/RESULTATS.md`.
+- **Niveau 2 bis.** Le moteur de réseaux logiques est vérifié sur deux réseaux de démonstration.
+  Le modèle de Craddock 2015 n'est pas reproduit : ses interactions ne figurent que dans
+  une figure. Détail : `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`.
+- **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
+  fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
+  des patients non sélectionnés. Détail : `registre/transpositions.yaml`.
 
 ## Règles du dépôt
 

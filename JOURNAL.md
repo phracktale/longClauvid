@@ -3,6 +3,44 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Craddock 2015 : le moteur est construit, la reproduction attend la figure 2
+
+**Constat.** Dans l'article, la liste des interactions du réseau n'existe que dans la figure 2,
+et la règle de mise à jour que dans des équations en image. La page PubMed Central est bloquée
+par un contrôle anti-robot ; la page PLOS ONE donne le texte sans équations ni figures.
+
+**Décision.** Construire le moteur avec ce que le texte décrit (trois valeurs par nœud,
+un nœud à la fois, tirage au sort, intervention d'un cran), le vérifier sur deux réseaux
+calculables à la main, et ne pas annoncer de reproduction. La règle donnant la valeur visée
+d'un nœud est provisoire (un vote) et isolée dans une seule fonction.
+
+**Écarté.** Reconstituer le réseau de mémoire ou d'après d'autres articles : invérifiable,
+et contraire à la règle « une affirmation = une source lue ».
+
+**Reste à faire.** Relever la figure 2 et l'équation 2, charger le réseau, puis retrouver
+les six taux publiés avant toute question nouvelle. Détail :
+`simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`.
+
+## 2026-11-22 — Nouvel axe : les transpositions depuis des maladies mieux maîtrisées
+
+**Décision.** La phase 2 reçoit une seconde source de pistes : partir des maladies qu'on sait
+guérir, contrôler ou prévenir et qui partagent un processus biologique avec nos pistes.
+Première série de onze fiches dans `registre/transpositions.yaml`, dont trois sur le VIH.
+
+**Motif.** Ces maladies apportent des leviers, des marqueurs et des plans d'essai déjà éprouvés.
+
+**Choix.** Le degré de maîtrise se dit en cinq mots (guérison, rémission, contrôle, prévention,
+échec) : le VIH est contrôlé et prévenu, pas guéri, et cela ne se transpose pas comme
+une guérison. Le champ `deja_tente` est obligatoire : plusieurs transpositions ont déjà été
+essayées dans le COVID long, et ont échoué chez des patients non sélectionnés.
+
+**Écarté.** Ranger les transpositions parmi les pistes : elles ne remplissent pas les mêmes
+critères. Une seule fiche par maladie : le VIH porte trois processus distincts.
+
+**Réserve.** Les 50 sources ajoutées ont été lues sous forme de résumé ou d'extrait,
+pas intégralement. La phase 1 doit les relire et interroger les registres d'essais.
+Le niveau attribué à chaque transposition est un jugement de ce dépôt, non évalué par des pairs.
+
 ## 2026-11-22 — Licences : MIT pour le code, CC BY 4.0 pour le reste
 
 **Décision.** Le code Python est sous licence MIT (`LICENSE`). Le registre, les documents,

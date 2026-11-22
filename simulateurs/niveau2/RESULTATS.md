@@ -90,8 +90,8 @@ de la durée calculée ramène dans le piège ; poursuivre à 110 % ramène à l
 - **H6 (état stable alternatif).** Le modèle va dans son sens sur la réponse en tout ou rien
   et sur la rechute en cas d'arrêt précoce. Il la nuance : un traitement bref ne suffit pas.
   L'effet d'ordre n'est pas testable ici, faute d'une seconde variable.
-- **Prochain modèle.** Le réseau logique de Craddock 2015, à plusieurs variables,
-  pour tester l'ordre des interventions.
+- **Modèle suivant.** Le moteur de réseaux logiques est construit ; le réseau de Craddock 2015
+  reste à charger. Voir `RESULTATS_RESEAU_LOGIQUE.md`.
 
 ## 5. Limites
 
