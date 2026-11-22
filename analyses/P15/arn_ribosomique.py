@@ -146,17 +146,17 @@ def mesurer(bibliotheques, sommes):
 
 
 def valeurs(bibliotheques, mesure, groupe, serie=None):
-    return [b[mesure] for b in bibliotheques if b["groupe"] == groupe and serie in (None, b["serie"])]
+    return [b[mesure] for b in bibliotheques if b["groupe"] == groupe and (serie is None or b["serie"] == serie)]
 
 
-def ecart(bibliotheques, mesure, patients, serie=None):
-    """Moyenne des patients moins moyenne des témoins sains, en log2."""
-    return mean(valeurs(bibliotheques, mesure, patients, serie)) - mean(valeurs(bibliotheques, mesure, TEMOINS, serie))
+def ecart(bibliotheques, mesure, patients, serie=None, temoins=TEMOINS):
+    """Moyenne des patients moins moyenne des témoins, en log2."""
+    return mean(valeurs(bibliotheques, mesure, patients, serie)) - mean(valeurs(bibliotheques, mesure, temoins, serie))
 
 
-def intervalle(bibliotheques, mesure, patients):
+def intervalle(bibliotheques, mesure, patients, temoins=TEMOINS):
     """Intervalle de confiance à 95 % de l'écart, sans supposer des variances égales (test de Welch)."""
-    test = stats.ttest_ind(valeurs(bibliotheques, mesure, patients), valeurs(bibliotheques, mesure, TEMOINS),
+    test = stats.ttest_ind(valeurs(bibliotheques, mesure, patients), valeurs(bibliotheques, mesure, temoins),
                            equal_var=False)
     bornes = test.confidence_interval(0.95)
     return bornes.low, bornes.high
@@ -168,7 +168,7 @@ def lien_a_groupe_egal(bibliotheques):
     Renvoie la corrélation de rang, et la pente de A sur B par les moindres carrés.
     """
     def centrees(mesure):
-        moyennes = {groupe: mean(valeurs(bibliotheques, mesure, groupe)) for groupe in set(GROUPES.values())}
+        moyennes = {groupe: mean(valeurs(bibliotheques, mesure, groupe)) for groupe in {b["groupe"] for b in bibliotheques}}
         return [b[mesure] - moyennes[b["groupe"]] for b in bibliotheques]
     a, b = centrees("A"), centrees("B")
     if not sum(valeur ** 2 for valeur in b) > 0:      # B constant ou incalculable
@@ -178,14 +178,15 @@ def lien_a_groupe_egal(bibliotheques):
     return correlation, pente
 
 
-def ecart_corrige(bibliotheques, patients, pente):
+def ecart_corrige(bibliotheques, patients, pente, temoins=TEMOINS):
     """Ce qui reste de l'écart de A une fois retiré ce que B permet de prévoir."""
-    return ecart(bibliotheques, "A", patients) - pente * ecart(bibliotheques, "B", patients)
+    return (ecart(bibliotheques, "A", patients, temoins=temoins)
+            - pente * ecart(bibliotheques, "B", patients, temoins=temoins))
 
 
-def ecart_des_genes_de_menage(bibliotheques, patients):
+def ecart_des_genes_de_menage(bibliotheques, patients, temoins=TEMOINS):
     """Médiane des dix écarts des gènes de ménage : le contrôle négatif du plan."""
-    return median(ecart(bibliotheques, gene, patients) for gene in MENAGE)
+    return median(ecart(bibliotheques, gene, patients, temoins=temoins) for gene in MENAGE)
 
 
 # --- Décider ---

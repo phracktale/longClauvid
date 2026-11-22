@@ -24,6 +24,8 @@ Your 2019 study reports much lower expression of MT-RNR1 and MT-RNR2 in monocyte
 
 What I see: the library numbers form two series of twenty (12461 to 12480, and 13120 to 13139), with five libraries per group in each. In the first series, the five healthy-control libraries (HC13, HC16, HC20, HC24, HC25) have 0.5% to 7.6% of their mapped fragments on four rRNA features: MT-RNR1, MT-RNR2, and the 18S and 28S pseudogenes ENSG00000225840 and ENSG00000226958. The median library has 0.02%. In the second series no group stands out, and the patient-control difference in MT-RNR1 and MT-RNR2 is absent.
 
+I also looked for the same difference in three other public datasets (PBMC and whole blood; 41 patients and 47 controls with ME/CFS or long COVID): I do not see it there.
+
 My questions: were these five libraries prepared differently, for example without rRNA removal or in a separate batch? And does the difference hold in your hands when the analysis is restricted to the second series, or adjusted for residual rRNA?
 
 I may well be misreading the files. The plan, the code and the per-library table are public (in French): https://github.com/phracktale/longClauvid/blob/main/analyses/P15/RESULTATS.md. If I am wrong, I will correct the registry at once.

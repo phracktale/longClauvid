@@ -1,8 +1,8 @@
-# Piste P15 : résultat du test sur les données de 2019
+# Piste P15 : résultats, sur les données de 2019 puis sur d'autres personnes
 
 Analyse du 2026-11-22, faite après le dépôt du [plan](PLAN.md). Les seuils et la règle sont ceux du plan ;
 rien n'a été ajusté. Pour refaire : `python3 analyses/P15/arn_ribosomique.py telecharger`, puis la même commande
-sans argument.
+sans argument. Les autres jeux de données sont en section 5.
 
 **Lecture fixée d'avance : indécidable. L'écart publié n'existe que dans une des deux séries de bibliothèques.**
 
@@ -10,7 +10,11 @@ sans argument.
 qui contiennent de 30 à 400 fois plus de lectures d'ARN ribosomique que la bibliothèque médiane.
 Dans l'autre série, les patients ne diffèrent pas des témoins sains sur ces mesures.**
 
-> Ce résultat ne produit aucun avis médical. Il porte sur un jeu de données, pas sur l'humanine ni sur MOTS-c.
+**Chez d'autres personnes : signal non retrouvé. Dans trois autres jeux de données publics,
+41 patients et 47 témoins, l'écart est de +0,01, de −0,19 et de +0,35 log2.**
+
+> Ce résultat ne produit aucun avis médical. Il porte sur des données d'expression de deux gènes,
+> pas sur l'humanine ni sur MOTS-c eux-mêmes.
 
 ## 1. Ce que rend la règle du plan
 
@@ -85,24 +89,60 @@ Tout se passe comme si le retrait de l'ARN ribosomique avait échoué, ou n'avai
 dans cinq bibliothèques de témoins sains. C'est une interprétation : les fiches ne disent rien de tel,
 et seuls les auteurs peuvent le confirmer. Une lettre leur est destinée : voir [DEMANDES.md](DEMANDES.md).
 
-## 5. Conséquence pour le registre
+## 5. Chez d'autres personnes
 
-Celle que le plan prévoit pour « indécidable » : une ligne dans la fiche P15, et rien d'autre ne change.
-La piste reste au niveau C.
+C'est la section 6 du plan : le même signal, cherché dans d'autres jeux de données publics.
+`python3 analyses/P15/autres_jeux.py telecharger`, puis la même commande sans argument.
+
+Sur les sept jeux retenus par le plan, trois se lisent :
+
+| Jeu | Maladie, cellules | Patients / témoins | Écart de A | Écart de D | Contrôle négatif | Lecture |
+| --- | --- | --- | --- | --- | --- | --- |
+| [GSE251872](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE251872) | EM/SFC après une infection, cellules mononucléées | 12 / 15 | +0,01 log2 (de −0,29 à +0,30) | 0,00 | Passé (+0,01) | Non reproduit |
+| [GSE251849](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE251849) | COVID long, cellules mononucléées | 11 / 12 | −0,19 log2 (de −0,84 à +0,46) | −0,04 | Passé (0,00) | Non reproduit |
+| [GSE226260](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226260) | COVID long, sang total, ARN polyadénylés | 18 / 20 | +0,35 log2 (de −0,05 à +0,74) | +0,03 | Passé (−0,09) | Non reproduit |
+
+Lecture d'ensemble, fixée par le plan : **signal non retrouvé chez d'autres personnes.**
+Sur 41 patients et 47 témoins, aucun écart n'approche les −2 log2 du seuil, ni les −4 à −5 log2 publiés.
+La borne basse des trois intervalles reste au-dessus de −1 log2.
+
+Les quatre autres jeux ne se lisent pas :
+
+| Jeu | Raison |
+| --- | --- |
+| GSE270045 | Critère 4 : MT-RNR1 et MT-RNR2 ne sont pas dans le fichier déposé |
+| GSE128078 | Critère 4 : le fichier déposé ne contient aucun gène de la mitochondrie |
+| GSE227375, GSE224615 | Pas d'estimation déposée : il faudrait réaligner les lectures brutes |
+
+L'indicateur technique B ne se calcule dans aucun des trois jeux lus : aucun gène n'y porte le nom
+des ARN 18S, 28S ou 45S. Le plan l'avait prévu. La lecture « non reproduit » ne dépend pas de B.
+
+## 6. Conséquence pour le registre
+
+Celles que le plan prévoit : une ligne dans la fiche P15 pour la lecture « indécidable » du jeu de 2019,
+une autre pour le signal non retrouvé chez d'autres personnes. La piste reste au niveau C.
 
 Une décision reste à prendre, et elle revient au porteur du projet : continuer ou non à citer
 le résultat d'expression de 2019 comme un appui de la piste. La règle ne permet pas de le retirer.
-La description de la section 3 va contre lui.
+La description de la section 3 et les trois autres jeux de données vont contre lui.
 
-## 6. Écarts au plan
+## 7. Écarts au plan
 
-Aucun dans les mesures ni dans la règle. Les fichiers avaient le format attendu.
+- Aucun dans les mesures ni dans la règle. Les fichiers de 2019 avaient le format attendu.
+- La description de la section 3 a été ajoutée après coup. Elle est donnée comme telle.
+- Pour servir aux autres jeux, trois fonctions du programme déposé ont reçu un paramètre de plus,
+  et une lecture de la série a été corrigée. Les sorties sur les données de 2019 sont identiques avant et après.
+- GSE226260 : le prélèvement le plus ancien d'une personne est choisi par le temps de prélèvement de la fiche,
+  puis par le nombre de jours écrit dans le titre de l'échantillon, puis par le numéro d'échantillon.
+- GSE251849 : la fiche ne dit pas comment les ARN ont été sélectionnés. Le jeu est lu par la règle complète.
 
-## 7. Limites
+## 8. Limites
 
-- La lecture « hors règle » a été faite après avoir vu les données. Elle vaut moins qu'un test écrit d'avance.
+- La lecture « hors règle » de la section 4 a été faite après avoir vu les données. Elle vaut moins qu'un test écrit d'avance.
 - La cause du contraste entre les deux séries n'est pas connue : les fiches ne décrivent qu'un protocole.
 - L'article de 2019 n'a pas été réanalysé : son calcul d'expression différentielle n'est pas refait ici.
-- Ce jeu de données ne dit rien des peptides eux-mêmes, ni des vésicules extracellulaires du COVID long,
+- Les trois autres jeux ne portent pas sur des monocytes isolés, ni sur la fatigue après fièvre Q.
+  Une baisse propre aux monocytes pourrait y être diluée.
+- Dans ces trois jeux, un écart plus petit que 1 log2 n'est pas exclu.
+- Ce travail ne dit rien des peptides eux-mêmes, ni des vésicules extracellulaires du COVID long,
   l'autre appui de la piste.
-- La réplication sur d'autres personnes, prévue en section 6 du plan, n'est pas faite.
