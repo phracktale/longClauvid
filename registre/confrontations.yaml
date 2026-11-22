@@ -83,7 +83,11 @@
     La rémission tient alors que les IgG fixantes sont revenues, comme dans le lupus
     après CAR-T (transposition T04).
   acces: suivi d'essais
-  donnees: Suivi du pilote du daratumumab (10 patientes), puis de l'essai randomisé.
+  donnees: >-
+    Pilote publié : 5 répondeuses sur 6 encore améliorées à 12–24 mois, IgG totales remontées ;
+    la fixation des IgG au suivi n'a pas été mesurée. Essai ResetME en cours : 46 semaines
+    de suivi après la dernière injection.
+  sources: [fluge-2025, resetme-projet]
 
 - paire: [H1, H7]
   question: Le défaut du canal TRPM3 est-il propre aux cellules ou induit par les anticorps ?
@@ -146,7 +150,10 @@
   si_seconde: >-
     Au-delà d'une certaine durée de traitement, la rémission tient après l'arrêt.
   acces: suivi d'essais
-  donnees: Suivi après traitement de REVERSE-LC, s'il est prévu au protocole.
+  donnees: >-
+    REVERSE-LC, 24 semaines de baricitinib contre placebo, en cours. Aucune évaluation
+    après l'arrêt n'a été trouvée : à demander à l'équipe.
+  sources: [reverse-lc-registre, reverse-lc-projet, reverse-lc-fiche]
 
 - paire: [H2, H7]
   question: Le défaut de TRPM3 est-il une conséquence du signal interféron ?
@@ -197,7 +204,10 @@
   si_seconde: >-
     L'amélioration tient après l'arrêt chez les patients traités assez longtemps.
   acces: suivi d'essais
-  donnees: Suivi après arrêt de l'étude pilote de la rapamycine, à demander aux auteurs.
+  donnees: >-
+    Étude ouverte sans groupe témoin, sans arrêt programmé : seuls les patients qui ont
+    arrêté d'eux-mêmes peuvent renseigner. À demander aux auteurs.
+  sources: [rapamycine-prepublication-2025, rapamycine-registre]
 
 - paire: [H3, H7]
   question: Le marqueur musculaire et le marqueur du canal désignent-ils les mêmes patients ?
@@ -233,7 +243,10 @@
   si_seconde: >-
     Des patients devenus négatifs pour l'antigène restent malades, avec les mêmes marqueurs.
   acces: suivi d'essais
-  donnees: Suivi de l'essai AER002 et de la cohorte LIINC.
+  donnees: >-
+    Essai AER002 : une perfusion unique, critères évalués à 3 mois ; le dosage de l'antigène
+    dans le temps n'est pas inscrit au registre. À demander à l'équipe, avec la cohorte LIINC.
+  sources: [aer002-registre]
 
 - paire: [H4, H7]
   question: Le défaut de TRPM3 est-il une conséquence de l'inflammation des vaisseaux ?
@@ -281,5 +294,8 @@
     Le bénéfice persiste après l'arrêt, sans lien avec la fonction de TRPM3 à ce moment-là.
   si_seconde: >-
     Le bénéfice disparaît à l'arrêt, en même temps que la fonction de TRPM3 se dégrade.
-  acces: suivi d'essais
-  donnees: Suivi après arrêt de l'essai canadien de la naltrexone et de Brave-LC, s'il existe.
+  acces: nouvelle collecte
+  donnees: >-
+    Aucune : l'essai canadien s'arrête à la 16e semaine, sans évaluation après l'arrêt,
+    et aucune n'a été trouvée pour Brave-LC. À proposer à l'équipe de Brave-LC.
+  sources: [naltrexone-protocole-2024, brave-lc-registre]

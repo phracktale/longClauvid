@@ -705,3 +705,41 @@
   url: https://stacks.cdc.gov/view/cdc/258809/cdc_258809_DS1.pdf
   type: article
   lu_le: 2026-11-22
+
+# --- Lot 2 : suivi après l'arrêt des traitements ------------------------------
+
+- id: reverse-lc-registre
+  titre: "Randomized double-blind placebo-controlled trial evaluating baricitinib on persistent neurologic and cardiopulmonary symptoms of Long COVID, REVERSE-LC (NCT06631287)"
+  url: https://clinicaltrials.gov/study/NCT06631287
+  type: registre
+  lu_le: 2026-11-22
+
+- id: reverse-lc-projet
+  titre: "REVERSE-LC : résumé du projet, 500 patients (ICU Delirium, université Vanderbilt)"
+  url: https://www.icudelirium.org/projects/reverse-lc
+  type: institution
+  lu_le: 2026-11-22
+
+- id: reverse-lc-fiche
+  titre: "REVERSE-Long COVID-19 with baricitinib study : baricitinib 4 mg par jour pendant 24 semaines (Reagan-Udall Foundation)"
+  url: https://navigator.reaganudall.org/clinical-trial/reverse-long-covid-19-baricitinib-study
+  type: registre
+  lu_le: 2026-11-22
+
+- id: rapamycine-prepublication-2025
+  titre: "Low dose rapamycin alleviates clinical symptoms of fatigue and PEM in ME/CFS patients via improvement of autophagy (Research Square, prépublication)"
+  url: https://pubmed.ncbi.nlm.nih.gov/40502741/
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: naltrexone-protocole-2024
+  titre: "Low-dose naltrexone for post-COVID fatigue syndrome: a study protocol for a double-blind, randomised trial in British Columbia (BMJ Open)"
+  url: https://pubmed.ncbi.nlm.nih.gov/38740499/
+  type: article
+  lu_le: 2026-11-22
+
+- id: brave-lc-registre
+  titre: "Brave-LC: a phase 3 randomized double-blind, placebo-controlled trial of a 16-week course of low-dose naltrexone in persons aged 6 through 25 years with Long COVID (NCT07916259)"
+  url: https://clinicaltrials.gov/study/NCT07916259
+  type: registre
+  lu_le: 2026-11-22

@@ -92,9 +92,9 @@ Relie : canal TRPM3, essai naltrexone négatif. Avec 160 patients, un effet limi
 
 Prédiction : la réponse à la naltrexone croît avec le défaut initial de TRPM3. Réfutée, et TRPM3 écarté comme cible, si aucun gradient n'apparaît ; l'essai Brave-LC, qui prévoit une analyse en sous-groupes, peut accueillir ce test.
 
-## Confrontations : neuf paires d'hypothèses sur vingt et une se tranchent sans nouveau prélèvement
+## Confrontations : huit paires d'hypothèses sur vingt et une se tranchent sans nouveau prélèvement
 
-Quatre paires se départagent sur du sang déjà conservé, cinq sur le suivi d'essais après l'arrêt du traitement. Les douze autres exigent une biopsie musculaire, des cellules fraîches ou des prélèvements répétés. Cet accès est estimé d'après ce que le registre sait des essais ; le contenu réel des biobanques reste à confirmer auprès des équipes.
+Quatre paires se départagent sur du sang déjà conservé, quatre sur le suivi d'essais après l'arrêt du traitement. Les treize autres exigent une biopsie musculaire, des cellules fraîches ou des prélèvements répétés. Cet accès est estimé d'après ce que le registre sait des essais ; le contenu réel des biobanques reste à confirmer auprès des équipes.
 
 Les sept hypothèses ne s'excluent pas : plusieurs peuvent être vraies chez des patients différents. Chaque confrontation dit, pour un patient ou une réponse donnés, quelle mesure désigne l'hypothèse à l'œuvre. Les 21 fiches sont dans `registre/confrontations.yaml` du dépôt. Elles n'ont pas encore reçu la relecture contradictoire que prévoit la phase 3.
 
@@ -109,19 +109,20 @@ Cinq dosages sur les mêmes sérums : fixation des IgG aux neurones sensitifs, s
 | 2 et 4 | Le signal interféron s'entretient-il seul ? | Signature interféron aussi fréquente sans antigène | Signature concentrée chez les porteurs d'antigène |
 | 4 et 5 | La surreprésentation des femmes tient-elle à l'antigène ou aux hormones ? | Antigène plus fréquent chez les femmes | Antigène aussi fréquent dans les deux sexes |
 
-### Lot 2 : une seule demande aux équipes d'essais, publier le suivi après l'arrêt
+### Lot 2, retenu en premier : le suivi après l'arrêt du traitement
 
-L'hypothèse 6 se confronte à cinq autres par la même observation : ce que deviennent les répondeurs quand le traitement s'arrête.
+L'hypothèse 6 se confronte aux autres par une même observation : ce que deviennent les répondeurs quand le traitement s'arrête. Vérification faite essai par essai, un seul traitement a déjà publié ce suivi. Le plan d'analyse, écrit avant toute donnée, est dans `analyses/lot-2/PLAN.md` du dépôt.
 
-| Hypothèses | Traitement suivi | Si l'hypothèse 6 est à l'œuvre |
-| --- | --- | --- |
-| 1 et 6 | Daratumumab | La rémission tient alors que les IgG fixantes sont revenues |
-| 2 et 6 | Anti-JAK | La rémission tient après l'arrêt, au-delà d'une certaine durée de traitement |
-| 3 et 6 | Rapamycine | L'amélioration tient après l'arrêt chez les patients traités assez longtemps |
-| 4 et 6 | Anticorps anti-spike | Des patients devenus négatifs pour l'antigène restent malades |
-| 6 et 7 | Naltrexone | Le bénéfice persiste après l'arrêt, sans lien avec la fonction de TRPM3 |
+| Hypothèses | Essai | Suivi hors traitement | Ce qu'il faut demander |
+| --- | --- | --- | --- |
+| 1 et 6 | Daratumumab : [pilote publié](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1607353/full), [ResetME](https://mrr.mecfs-research.org/en/mrr/projects/Kc46hyZDSCyX9ump8KepRA) en cours | Pilote : 5 répondeuses sur 6 encore améliorées à 12–24 mois, IgG totales remontées. ResetME : 46 semaines après la dernière injection | La fixation des IgG aux neurones sur les sérums du suivi |
+| 2 et 6 | Baricitinib, [REVERSE-LC](https://clinicaltrials.gov/study/NCT06631287), 24 semaines | Non trouvé | Une évaluation après l'arrêt |
+| 3 et 6 | Rapamycine, [étude ouverte](https://pubmed.ncbi.nlm.nih.gov/40502741/) | Aucun arrêt programmé | Le devenir des patients qui ont arrêté |
+| 4 et 6 | Anticorps anti-spike, [AER002](https://classic.clinicaltrials.gov/show/NCT05877508), une perfusion | 3 mois | Le dosage de l'antigène dans le temps |
 
-### Lot 3 : douze paires attendent une nouvelle collecte
+La paire 6 et 7 quitte ce lot : les deux essais de la naltrexone s'arrêtent à 16 semaines, sans évaluation après l'arrêt ([protocole canadien](https://pubmed.ncbi.nlm.nih.gov/38740499/), [Brave-LC](https://clinicaltrials.gov/study/NCT07916259)). Le résultat du pilote va dans le sens de l'hypothèse 6, mais l'hypothèse 1 le prédit aussi : seule la mesure sur les sérums du suivi les départage.
+
+### Lot 3 : treize paires attendent une nouvelle collecte
 
 Les hypothèses 3, 5 et 7 ne se confrontent aux autres qu'avec une biopsie musculaire, des prélèvements répétés sur un cycle ou des cellules fraîches. Une de ces paires relie deux pistes jusqu'ici séparées : le canal TRPM3 est activé par un neurostéroïde ([eLife 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC9886277)), ce qui donnerait un mécanisme au terrain hormonal de l'hypothèse 5.
 
@@ -296,7 +297,8 @@ Ce document produit des hypothèses classées, pas des traitements : rien ici ne
 
 ### Prochaines étapes
 
-- [ ] Choisir le premier lot à instruire : le lot 1 départage les hypothèses 1, 2 et 4 sur du sang déjà conservé.
+- [x] Choisir le premier lot à instruire : le lot 2, le suivi après l'arrêt du traitement.
+- [ ] Envoyer les six demandes du lot 2 aux équipes.
 - [x] Ouvrir le dépôt Git et le registre des hypothèses (phase 0).
 - [x] Créer le dépôt vide phracktale/longClauvid sur GitHub, pour y pousser les trois commits.
 - [x] Construire le niveau 2 en reproduisant le modèle de Kashi 2019.
