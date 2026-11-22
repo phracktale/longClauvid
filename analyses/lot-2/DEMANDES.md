@@ -1,6 +1,6 @@
 # Lot 2 : les demandes aux équipes
 
-État au 2026-11-22 : **cinq demandes sur six sont parties ; aucune réponse n'est encore arrivée.**
+État au 2026-11-22 : **les six demandes sont parties ; aucune réponse n'est encore arrivée.**
 Les lettres partent au nom du porteur du projet, qui les relit avant l'envoi.
 Leur texte est dans [LETTRES.md](LETTRES.md), sans signature ni adresse.
 
@@ -12,7 +12,7 @@ Les adresses ne sont pas recopiées ici : la section « Destinataires » renvoie
 | Équipe de REVERSE-LC, université Vanderbilt | Baricitinib | Les résultats de la visite à 12 mois, six mois après l'arrêt, seront-ils publiés par bras ? Une signature interféron est-elle mesurée ? | Envoyée le 2026-11-22 |
 | Équipe d'outSMART-LC, université de Californie à San Francisco | AER002 | L'antigène plasmatique a-t-il été dosé avant et après la perfusion ? Que deviennent, sur un an, les patients devenus négatifs ? | Envoyée le 2026-11-22 |
 | Auteurs de l'étude sur la rapamycine | Étude ouverte, puis essai avec retrait randomisé | Le retrait randomisé est-il en cours, et ses résultats seront-ils publiés par bras ? Que deviennent les patients qui ont arrêté ? | Envoyée le 2026-11-22 |
-| Équipe de Brave-LC | Naltrexone | Une évaluation est-elle prévue après les 16 semaines ? Sinon, peut-elle être ajoutée ? | En attente d'un contact |
+| Équipe de Brave-LC | Naltrexone | Une évaluation est-elle prévue après les 16 semaines ? Sinon, peut-elle être ajoutée ? | Envoyée le 2026-11-22 |
 | Auteurs de Craddock et al. 2015 | Modèle logique | Le code de simulation, pour retrouver les taux publiés (voir `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`) | Envoyée le 2026-11-22 |
 
 L'ordre conseillé est celui du tableau : la première demande porte sur des sérums déjà
@@ -29,7 +29,7 @@ celle de Craddock, imprimée en 2015, est celle de son ancien poste.
 | REVERSE-LC | E. Wesley Ely, investigateur principal, université Vanderbilt | [Fiche de l'université](https://wag.app.vanderbilt.edu/PublicPage/Faculty/Details/29490) |
 | outSMART-LC | Michael J. Peluso, investigateur principal, université de Californie à San Francisco | [Article de 2021](https://escholarship.org/uc/item/0qt7x5rj), ligne « Correspondence » |
 | Rapamycine | David Kaufman, Avik Roy et C. Gunnar Gottschalk, auteurs correspondants | [Article](https://pmc.ncbi.nlm.nih.gov/articles/PMC12538759/) |
-| Brave-LC | Groupe de travail du protocole, présenté par Kay Tomashek (NIAID) | Aucune adresse trouvée ; [compte rendu de l'atelier](https://paperity.org/p/369748378/progress-on-the-pathway-to-long-covid-treatments) |
+| Brave-LC | Contact central de l'essai | [Fiche du registre](https://clinicaltrials.gov/study/NCT07916259) |
 | Craddock 2015 | Travis Craddock, aujourd'hui à l'université de Waterloo | [Annuaire de l'université](https://uwaterloo.ca/biology/contacts/travis-craddock) |
 
 ## Lettre type
@@ -74,4 +74,4 @@ pour les envois ci-dessous.
 | 2026-11-22 | Michael J. Peluso, outSMART-LC | Lettre envoyée |
 | 2026-11-22 | David Kaufman, Avik Roy et C. Gunnar Gottschalk, rapamycine | Lettre envoyée |
 | 2026-11-22 | Travis Craddock, modèle logique | Lettre envoyée à son adresse actuelle |
-| 2026-11-22 | Équipe de Brave-LC | Non envoyée : aucun contact trouvé |
+| 2026-11-22 | Équipe de Brave-LC | Lettre envoyée au contact central de l'essai, relevé sur sa fiche de registre |

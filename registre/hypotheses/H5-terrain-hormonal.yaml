@@ -4,7 +4,7 @@ statut: ouverte
 creee_le: 2026-11-22
 endotype: null
 pistes: [P10, P06]
-sources: [decodeme-resultats]
+sources: [decodeme-resultats, antigene-liinc-2023]
 
 enonce: >-
   Les hormones sexuelles règlent des acteurs de l'immunité innée comme SMPDL3B.
@@ -27,3 +27,9 @@ test:
 historique:
   - date: 2026-11-22
     evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.
+  - date: 2026-11-22
+    evenement: >-
+      Lot 1 (analyses/lot-1/PLAN.md). Dans la cohorte LIINC, l'antigène plasmatique n'est pas
+      plus fréquent chez les femmes : l'explication rivale du biais féminin n'y est pas vérifiée.
+      Cela ne soutient pas l'hypothèse pour autant, car aucune des études lues ne rapporte
+      le statut hormonal. Statut inchangé.
