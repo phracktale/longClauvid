@@ -16,6 +16,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `PROTOCOLE.md` | Les sept phases, leurs critères de passage, les règles de traçabilité et de fiabilité |
 | `JOURNAL.md` | Chaque décision, avec son motif et les options écartées |
 | `registre/` | Sources, pistes, endotypes, transpositions, confrontations et hypothèses, un fichier par hypothèse |
+| `registre/banque.yaml` | La banque d'hypothèses à vérifier, alimentée par des agents de recherche ; rien n'y est vérifié tant que le statut le dit |
 | `analyses/` | Les plans d'analyse, déposés avant toute donnée, et les demandes aux équipes |
 | `outils/valider_registre.py` | Refuse une hypothèse sans prédiction réfutable ou une affirmation sans source |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |

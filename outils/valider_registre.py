@@ -15,7 +15,9 @@ Ce que le script contrôle
 - chaque endotype renvoie à une hypothèse existante ;
 - chaque transposition dit ce qui a déjà été tenté, porte un degré de maîtrise connu
   et ne renvoie qu'à des sources, pistes, hypothèses et endotypes existants ;
-- chaque paire d'hypothèses a sa confrontation, avec deux prédictions différentes.
+- chaque paire d'hypothèses a sa confrontation, avec deux prédictions différentes ;
+- chaque entrée de la banque d'hypothèses à vérifier a ses sources, dit comment elles ont été lues,
+  et porte un statut connu ; une entrée écartée donne son motif.
 
 Usage : python3 outils/valider_registre.py
 """
@@ -35,6 +37,8 @@ NIVEAUX_DE_PREUVE = {"A", "B", "C", "D"}
 STATUTS = {"ouverte", "soutenue", "affaiblie", "réfutée", "abandonnée"}
 MAITRISES = {"guérison", "rémission", "contrôle", "prévention", "échec"}
 ACCES = {"échantillons existants", "suivi d'essais", "nouvelle collecte"}
+STATUTS_DE_BANQUE = {"à vérifier", "vérifiée", "promue", "écartée"}
+LECTURES = {"page", "extrait"}    # la page a été ouverte, ou seul son extrait a été lu
 LONGUEUR_MINIMALE = 40    # caractères : une prédiction tient au moins en une phrase
 
 CHAMPS_SOURCE = ["id", "titre", "url", "type", "lu_le"]
@@ -46,6 +50,9 @@ CHAMPS_TRANSPOSITION = ["id", "nom", "processus", "maladie", "maitrise", "levier
                         "deja_tente", "lecon", "prochain_test", "niveau", "liens", "sources"]
 CHAMPS_CONFRONTATION = ["paire", "question", "mesure", "si_premiere", "si_seconde",
                         "acces", "donnees"]
+CHAMPS_BANQUE = ["id", "titre", "domaine_source", "processus_commun", "enonce",
+                 "pourquoi_inexploree", "test_propose", "donnees_existantes", "risques",
+                 "niveau", "sources", "origine", "date", "statut"]
 
 
 def charger(dossier=REGISTRE):
@@ -63,6 +70,7 @@ def charger(dossier=REGISTRE):
         "endotypes": lire(dossier / "endotypes.yaml"),
         "transpositions": lire(dossier / "transpositions.yaml"),
         "confrontations": lire(dossier / "confrontations.yaml"),
+        "banque": lire(dossier / "banque.yaml") or [],
         "hypotheses": hypotheses,
     }
 
@@ -170,6 +178,25 @@ def erreurs_du_registre(registre):
         if nombre > 1:
             erreurs.append(f"confrontations : paire en double {'-'.join(paire)}")
 
+    identifiants(registre["banque"], "banque", erreurs)
+    for entree in registre["banque"]:
+        nom = f"banque {entree.get('id')}"
+        signaler_champs_vides(entree, CHAMPS_BANQUE, nom, erreurs)
+        if entree.get("niveau") not in NIVEAUX_DE_PREUVE:
+            erreurs.append(f"{nom} : niveau de preuve inconnu « {entree.get('niveau')} »")
+        if entree.get("statut") not in STATUTS_DE_BANQUE:
+            erreurs.append(f"{nom} : statut inconnu « {entree.get('statut')} »")
+        for source in entree.get("sources") or []:
+            if not source.get("titre") or not str(source.get("url")).startswith("http"):
+                erreurs.append(f"{nom} : source sans titre ou sans adresse")
+            if source.get("lu") not in LECTURES:
+                erreurs.append(f"{nom} : source sans mention « page » ou « extrait »")
+        if entree.get("statut") == "écartée" and not entree.get("motif"):
+            erreurs.append(f"{nom} : écartée sans motif")
+        if entree.get("statut") == "promue":
+            signaler_inconnus([entree.get("promue_en")], pistes | hypotheses,
+                              nom, "fiche de promotion", erreurs)
+
     return erreurs
 
 
@@ -198,6 +225,9 @@ def main():
     par_acces = Counter(confrontation.get("acces") for confrontation in registre["confrontations"])
     print("Confrontations selon l'accès aux données : "
           + " ; ".join(f"{acces}, {nombre}" for acces, nombre in par_acces.most_common()))
+    par_statut = Counter(entree.get("statut") for entree in registre["banque"])
+    print(f"Banque d'hypothèses à vérifier : {len(registre['banque'])} entrées"
+          + "".join(f" ; {statut}, {nombre}" for statut, nombre in par_statut.most_common()))
     orphelines = sources_jamais_citees(registre)
     if orphelines:
         print(f"À noter : {len(orphelines)} sources de contexte, citées par aucune fiche :"
