@@ -10,7 +10,9 @@ Quatre l'ont été après la mise en ligne du plan corrigé. La première, à Be
 par le porteur du projet ; elle ne dépend pas des cases corrigées. La sixième, pour Brave-LC,
 attend un contact.
 
-**Décision.** Une absence de réponse se constate à partir du 2027-01-22.
+**Décision.** Le texte des lettres est déposé dans `analyses/lot-2/LETTRES.md`, sans signature
+ni adresse : la formulation d'une demande peut orienter la réponse, elle fait partie du dossier.
+Une absence de réponse se constate à partir du 2027-01-22.
 
 **Limite.** La lettre à Craddock est partie à son adresse actuelle, à l'université de Waterloo,
 et non à celle de l'article de 2015.

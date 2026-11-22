@@ -2,6 +2,7 @@
 
 État au 2026-11-22 : **cinq demandes sur six sont parties ; aucune réponse n'est encore arrivée.**
 Les lettres partent au nom du porteur du projet, qui les relit avant l'envoi.
+Leur texte est dans [LETTRES.md](LETTRES.md), sans signature ni adresse.
 
 Les adresses ne sont pas recopiées ici : la section « Destinataires » renvoie aux pages qui les publient.
 
