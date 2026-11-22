@@ -3,6 +3,18 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Lot 1 : les deux demandes sont parties
+
+**Fait.** Les deux demandes de chiffres agrégés sont envoyées, après relecture du porteur
+du projet. Huit demandes sont parties au total, aucune réponse n'est arrivée.
+
+**Écart.** La seconde lettre a été adressée aux auteurs correspondants de l'article,
+et non aux deux noms relus : seule la formule d'appel a changé.
+
+**Constat.** La cohorte de la signature interféron compte 55 patients. Le seuil de 20 porteurs
+d'antigène risque de ne pas être atteint : le croisement serait non informatif. Le seuil,
+fixé avant les données, n'est pas abaissé.
+
 ## 2026-11-22 — Lot 1 instruit ; lot 2 complété
 
 **Fait, lot 2.** La sixième demande est partie, au contact central de l'essai Brave-LC.

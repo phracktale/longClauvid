@@ -1,13 +1,13 @@
 # Lot 1 : les demandes aux équipes
 
-État au 2026-11-22 : **deux demandes sont prêtes, aucune n'est envoyée.**
+État au 2026-11-22 : **les deux demandes sont parties ; aucune réponse n'est encore arrivée.**
 Les lettres partent au nom du porteur du projet, qui les relit avant l'envoi.
 Aucune adresse électronique n'est reprise ici.
 
 | Destinataires | Étude | Ce qui est demandé | État |
 | --- | --- | --- | --- |
-| Zoe Swank et David Walt | Antigène chez 706 personnes | Le nombre de personnes testées et de porteurs d'antigène, par sexe | Prête |
-| Aarthi Talla et Troy Torgerson | Signature interféron | Les participants sont-ils communs avec l'étude des 706 ? Si oui, le tableau croisé signature et antigène | Prête |
+| Zoe Swank et David Walt | Antigène chez 706 personnes | Le nombre de personnes testées et de porteurs d'antigène, par sexe | Envoyée le 2026-11-22 |
+| Troy Torgerson et Juliana McElrath, auteurs correspondants | Signature interféron | Les participants sont-ils communs avec l'étude des 706 ? Si oui, le tableau croisé signature et antigène | Envoyée le 2026-11-22 |
 
 Le sous-lot 1b, qui exige des dosages, n'a pas de demande prête : il lui faut d'abord
 une équipe partenaire. Voir [PLAN.md](PLAN.md), section 3.
@@ -39,7 +39,7 @@ Thank you for your work on this illness.
 Objet : Do your inflammatory PASC subgroups overlap with the antigen-typed participants?
 
 ```text
-Dear Dr Talla and Dr Torgerson,
+Dear Dr Torgerson and Dr McElrath,
 
 I maintain longClauvid, an open, source-traceable registry of hypotheses on long COVID and ME/CFS (https://github.com/phracktale/longClauvid). I am an independent software developer, not a clinician or a researcher, and part of the registry was drafted with an AI assistant; every claim in it links to its source.
 
@@ -64,7 +64,9 @@ Thank you for your work on this illness.
 ## Journal des envois
 
 Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répondu.
+Une absence de réponse se constate à partir du 2027-01-22.
 
 | Date | Destinataire | Événement |
 | --- | --- | --- |
-| | | |
+| 2026-11-22 | David Walt, pour l'étude des 706 | Lettre envoyée |
+| 2026-11-22 | Troy Torgerson et Juliana McElrath, pour la signature interféron | Lettre envoyée ; la formule d'appel a été adaptée aux auteurs correspondants |
