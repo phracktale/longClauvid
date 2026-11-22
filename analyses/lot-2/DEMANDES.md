@@ -1,6 +1,6 @@
 # Lot 2 : les demandes aux équipes
 
-État au 2026-11-22 : **les six demandes sont parties ; aucune réponse n'est encore arrivée.**
+État au 2026-11-22 au soir : **les six demandes sont parties ; une réponse automatique, aucune réponse sur le fond.**
 Les lettres partent au nom du porteur du projet, qui les relit avant l'envoi.
 Leur texte est dans [LETTRES.md](LETTRES.md), sans signature ni adresse.
 
@@ -75,3 +75,5 @@ pour les envois ci-dessous.
 | 2026-11-22 | David Kaufman, Avik Roy et C. Gunnar Gottschalk, rapamycine | Lettre envoyée |
 | 2026-11-22 | Travis Craddock, modèle logique | Lettre envoyée à son adresse actuelle |
 | 2026-11-22 | Équipe de Brave-LC | Lettre envoyée au contact central de l'essai, relevé sur sa fiche de registre |
+| 2026-11-22 | Michael J. Peluso, outSMART-LC | Réponse automatique : réponses retardées par un déplacement. Rien sur le fond |
+| 2026-11-22 | Relevé de la boîte du projet | Aucune autre réponse. La lettre à Bergen, envoyée par le porteur du projet, n'apparaît pas dans cette boîte : ni son envoi ni une réponse n'ont pu y être contrôlés |

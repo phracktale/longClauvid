@@ -279,7 +279,7 @@ La méthode part des maladies qu'on sait guérir, contrôler ou prévenir, et qu
 | --- | --- | --- | --- |
 | VIH : anticorps neutralisants avant un arrêt programmé du traitement ([essai RIO](https://www.imperial.ac.uk/news/articles/2026/new-hiv-treatment-could-enable-people-to-safely-stop-daily-medication-/)) | Rémission chez une partie des patients ; greffe, [CRISPR](https://www.aidsmap.com/news/may-2024/crispr-gene-therapy-ebt-101-does-not-prevent-hiv-viral-rebound) et immunostimulant n'aboutissent pas encore ([CROI 2026](https://www.aidsmap.com/news/apr-2026/top-5-stories-search-hiv-cure-croi-2026)) | AER002 et nirmatrelvir négatifs ; [Truvada ou maraviroc](https://ctv.veeva.com/study/antiviral-clinical-trial-for-long-covid) en recrutement | Un agent seul ne vide pas un réservoir ; l'arrêt programmé est le plan d'essai de l'hypothèse 6 |
 | VIH sous traitement : inflammation résiduelle et voie tryptophane–kynurénine ([IDO1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3034445)) | Contrôle du virus, pas de l'inflammation ([PLOS ONE 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4077698/)) | [Leronlimab](https://www.uclahealth.org/news/some-cases-long-covid-19-may-be-caused-abnormally-suppressed), essai exploratoire | Un marqueur à doser : le rapport kynurénine/tryptophane |
-| VIH : antiviraux avant l'exposition ([NIAID](https://www.niaid.nih.gov/diseases-conditions/pre-exposure-prophylaxis-prep)) | Prévention | Metformine en phase aiguë : 6,3 % de COVID long contre 10,4 % ([COVID-OUT](https://pubmed.ncbi.nlm.nih.gov/37302406/)) ; vaccination ([méta-analyse](https://pmc.ncbi.nlm.nih.gov/articles/PMC12644529)) | La fenêtre efficace précède la maladie ; aucun essai sur un COVID long installé |
+| VIH : antiviraux avant l'exposition ([NIAID](https://www.niaid.nih.gov/diseases-conditions/pre-exposure-prophylaxis-prep)) | Prévention | Metformine en phase aiguë : 6,3 % de COVID long contre 10,4 % ([COVID-OUT](https://pubmed.ncbi.nlm.nih.gov/37302406/)) ; vaccination ([méta-analyse](https://pmc.ncbi.nlm.nih.gov/articles/PMC12644529)) | La fenêtre efficace précède la maladie ; sur un COVID long installé, deux essais randomisés de la metformine, sans bénéfice montré ([REVIVE](https://pubmed.ncbi.nlm.nih.gov/42832803/), [essai coréen](https://pubmed.ncbi.nlm.nih.gov/41771135/)) |
 | Lupus réfractaire : cellules CAR-T anti-CD19 ([Nature Medicine 2022](https://pubmed.ncbi.nlm.nih.gov/36109639/)) | Rémission sans traitement | Daratumumab, pilote ouvert | La rémission survit au retour des lymphocytes B : signature d'un changement d'état |
 | Myasthénie : efgartigimod ([essai ADAPT](https://pubmed.ncbi.nlm.nih.gov/34146511/)) | Contrôle | Phase 2 négative dans la tachycardie posturale post-COVID ([53 participants](https://thepharmaletter.com/in-brief/brief-efgartigimod-in-pc-pots-is-not-clinically-meaningful)) | Abaisser toutes les IgG sans sélection ne suffit pas |
 | Hépatite C : antiviraux à action directe ([vascularite cryoglobulinémique](https://pubmed.ncbi.nlm.nih.gov/28288791/)) | Guérison, avec rechutes possibles ([revue](https://pmc.ncbi.nlm.nih.gov/articles/PMC8878349)) | Nirmatrelvir et AER002 négatifs | Preuve de principe de l'hypothèse 4, à condition de vérifier que l'antigène baisse |
@@ -296,6 +296,20 @@ La méthode part des maladies qu'on sait guérir, contrôler ou prévenir, et qu
 3. L'arrêt programmé du traitement distingue une rémission d'un simple contrôle.
 
 Le VIH est contrôlé et prévenu, pas guéri. Sept guérisons après greffe de moelle étaient rapportées en 2024 ([NPR](https://www.npr.org/sections/goats-and-soda/2024/07/30/g-s1-13631/hiv-aids-cure-dusseldorf-patient)), par une procédure réservée aux cancers du sang.
+
+## Banque d'hypothèses : vingt et une pistes relues, quatorze gardées
+
+Deux agents de recherche, des programmes d'intelligence artificielle, ont déposé 21 pistes trouvées dans la littérature. Chacune a été relue contre ses sources le 22 novembre 2026 : 537 affirmations contrôlées, 150 sources en copie locale, dont 74 en texte intégral. « Vérifiée » ne veut pas dire « vraie » : les erreurs sont relevées et la piste reste une question à tester. Le détail est dans `registre/banque.yaml` et `analyses/banque/RELECTURE.md` du dépôt.
+
+| Décision | Pistes |
+| --- | --- |
+| Vérifiées, 14 | Kinases de la pyruvate déshydrogénase (B001) ; peroxysomes et plasmalogènes (B002) ; canal calcique RyR1 du muscle (B004) ; catécholamines du liquide céphalo-rachidien (B005) ; auto-anticorps contre la sélénoprotéine P (B006) ; cibinétide et petites fibres nerveuses (B007) ; endothéline-1 (B010) ; humanine et MOTS-c (B011) ; répartition du fer (B012) ; région HLA de classe II (B013) ; résistance à l'insuline avant l'EM/SFC (B017) ; hypermobilité articulaire (B018) ; interleukines 5 et 13 avant une mononucléose (B019) ; nombre de copies d'ADN mitochondrial (B020) |
+| À vérifier, 2 | D-lactate d'origine intestinale (B008) et déficit en vasopressine (B009) : les études qui portent le signal ne sont accessibles que par leur résumé |
+| Écartées, 5 | Orexine (B003) : la baisse est transitoire chez la souris, aucune mesure chez les patients. FOXP4 comme sous-type pulmonaire (B014) : le variant est aussi lié aux diagnostics de fatigue. Grossesse (B015), apnée du sommeil (B016) et antibiotiques (B021) : signaux probablement artefactuels selon la grille statistique |
+
+Trois constats. Les chiffres recopiés étaient presque toujours exacts : 27 affirmations fausses sur 537. L'affirmation « inexplorée » était le point faible : pour 16 pistes, la recherche a fait remonter une étude que la fiche ne citait pas. Les niveaux de preuve annoncés étaient trop hauts : sept baissent, un monte.
+
+Limite : relecteur et déposant sont des programmes du même type, et les décisions viennent d'un seul décideur. Ce n'est pas une relecture par des pairs.
 
 ## Limites et prochaines étapes
 

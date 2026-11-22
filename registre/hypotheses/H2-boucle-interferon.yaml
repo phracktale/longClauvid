@@ -4,7 +4,7 @@ statut: ouverte
 creee_le: 2026-11-22
 endotype: E2
 pistes: [P03, P09, P01]
-sources: [sicktimes-2026-11, chen-2026]
+sources: [sicktimes-2026-11, chen-2026, revive-2026]
 
 enonce: >-
   Chez une partie des patients, une signalisation interféron entretenue réduit la sérotonine
@@ -34,3 +34,12 @@ historique:
       les symptômes dans un essai randomisé de 58 participants : résultat négatif pour l'idée
       d'un déficit énergétique corrigeable en aval. Le VIH fournit un marqueur à doser,
       le rapport kynurénine/tryptophane. Statut inchangé.
+  - date: 2026-11-22
+    evenement: >-
+      Essai REVIVE : chez 399 adultes au COVID long installé, la fluvoxamine, un inhibiteur
+      de la recapture de la sérotonine, réduit la fatigue contre placebo (différence de 0,43 point
+      à 60 jours et de 0,58 à 90 jours sur l'échelle de sévérité de la fatigue, probabilité
+      de supériorité de 99 %). L'essai ne mesure ni la sérotonine ni la signature interféron
+      et ne sélectionne pas ses patients : il ne dit pas par quel mécanisme le médicament agit.
+      Article rétracté puis republié en novembre 2026, lu par son résumé ; le motif de la
+      rétractation n'a pas pu être lu. Statut inchangé.

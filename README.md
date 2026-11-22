@@ -16,11 +16,15 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `PROTOCOLE.md` | Les sept phases, leurs critères de passage, les règles de traçabilité et de fiabilité |
 | `JOURNAL.md` | Chaque décision, avec son motif et les options écartées |
 | `registre/` | Sources, pistes, endotypes, transpositions, confrontations et hypothèses, un fichier par hypothèse |
-| `registre/banque.yaml` | La banque d'hypothèses à vérifier, alimentée par des agents de recherche ; rien n'y est vérifié tant que le statut le dit |
+| `registre/banque.yaml` | La banque d'hypothèses à vérifier, alimentée par des agents de recherche ; chaque piste relue porte ses corrections et sa décision |
 | `analyses/` | Les plans d'analyse, déposés avant toute donnée, et les demandes aux équipes |
 | `outils/valider_registre.py` | Refuse une hypothèse sans prédiction réfutable ou une affirmation sans source |
 | `outils/bibliotheque_apresj20.py` | Copie locale de la bibliothèque de l'association #ApresJ20, pour y chercher sans la solliciter |
 | `outils/grille-statistique.md` | Dix questions pour relire une piste de la banque |
+| `outils/sources_banque.py` | Copie locale des sources de la banque, en texte intégral quand une interface officielle le donne |
+| `outils/consigne-relecteur.md` | La consigne remise au relecteur d'une piste, telle quelle |
+| `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur |
+| `analyses/banque/` | Le compte rendu de la relecture, les termes du test « inexplorée » et les calculs d'effectifs |
 | `REPRISE.md` | Où en est le projet et quoi faire ensuite, pour reprendre dans une nouvelle session |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
 | `simulateurs/niveau2/` | Modèles mécanistes : le piège métabolique IDO de Kashi 2019, et le réseau logique de Craddock 2015 |
@@ -36,13 +40,14 @@ python3 outils/valider_registre.py               # le registre seul
 python3 simulateurs/niveau1/simulateur_endotypes.py
 python3 simulateurs/niveau2/piege_ido.py
 python3 simulateurs/niveau2/craddock_2015.py     # environ une minute
+python3 outils/sources_banque.py bilan           # après « telecharger » : ce qui est lisible de chaque source
 ```
 
 ## Où en est le protocole
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 140 sources ; 21 pistes en banque, non relues |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 143 sources ; 21 pistes en banque, relues : 14 vérifiées, 5 écartées, 2 à vérifier |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
@@ -74,6 +79,12 @@ python3 simulateurs/niveau2/craddock_2015.py     # environ une minute
 - **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
   fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
   des patients non sélectionnés. Détail : `registre/transpositions.yaml`.
+- **Banque.** Les 21 pistes déposées ont été relues contre leurs sources : 14 sont vérifiées,
+  5 écartées, 2 restent à vérifier. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
+  étaient presque toujours exacts ; l'affirmation « inexplorée » était fausse ou incomplète
+  pour 16 pistes. Détail : `analyses/banque/RELECTURE.md`.
+- **Metformine.** Elle a été testée sur un COVID long installé dans deux essais randomisés,
+  sans bénéfice montré ; la fiche T03, qui disait le contraire, est corrigée.
 
 ## Règles du dépôt
 

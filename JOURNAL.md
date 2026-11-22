@@ -3,6 +3,73 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Relevé des réponses ; l'étude PHOTOCOV reste introuvable
+
+**Fait.** La boîte du projet a été relevée le soir même des envois. Une réponse automatique est arrivée,
+pour outSMART-LC : réponses retardées par un déplacement. Aucune réponse sur le fond aux sept lettres
+parties de cette boîte. La lettre à Bergen, envoyée par le porteur du projet, n'y apparaît pas :
+ni son envoi ni une réponse n'ont pu être contrôlés.
+
+**Constat.** Aucune étude nommée PHOTOCOV n'a été trouvée : ni dans ClinicalTrials.gov, ni dans le registre
+européen des essais, ni dans Europe PMC, ni par une recherche sur le web, y compris sous d'autres orthographes.
+Ce « non trouvé » repose sur quatre sources. Il ne dit pas que l'étude n'existe pas : il manque son nom complet,
+son promoteur ou sa ville.
+
+## 2026-11-22 — La fiche T03 était fausse : la metformine a été testée sur un COVID long installé
+
+**Constat.** La remarque du statisticien est confirmée, et dépassée. L'essai REVIVE (NCT06128967) est terminé :
+399 adultes fatigués depuis 90 jours à 24 mois, publié en mai 2026, rétracté puis republié en novembre 2026.
+Son bras metformine a été arrêté pour futilité après un changement de dose ; son résultat est jugé non concluant.
+Un second essai randomisé, coréen, donne 14 jours de metformine à 132 adultes : pas mieux que le placebo.
+
+**Décision.** Corriger la fiche T03 dans son texte, avec la date et le renvoi à cette entrée : une fiche du registre
+ne doit pas garder une phrase fausse. La leçon de la fiche tient : la fenêtre utile précède la maladie.
+
+**Fait.** Dans le même essai, la fluvoxamine réduit la fatigue contre placebo. Le résultat touche l'hypothèse 2,
+qui passe par la sérotonine : une ligne s'ajoute à son historique. Son statut ne change pas, parce que l'essai
+ne mesure pas la sérotonine et ne sélectionne pas ses patients.
+
+**Cause.** La fiche s'appuyait sur des synthèses de la prévention. Aucun registre d'essais n'avait été interrogé
+sur le traitement d'un COVID long installé.
+
+**Réserve.** Les deux essais sont lus par leur résumé. L'avis de rétractation n'a pas pu être lu : le site
+de la revue refuse les programmes. La version republiée corrige au moins les fréquences d'événements indésirables.
+
+## 2026-11-22 — Relecture de la banque : quatorze pistes vérifiées, cinq écartées, deux en attente
+
+**Fait.** Les 21 pistes ont été relues contre leurs sources. Le compte rendu est dans
+`analyses/banque/RELECTURE.md`, le détail dans le champ `relecture` de chaque piste.
+
+**Constat.** Les chiffres recopiés étaient presque toujours exacts : 27 affirmations fausses sur 537.
+Le point faible était ailleurs. Pour 16 pistes, le test « inexplorée » a fait remonter une étude que la fiche
+ne citait pas ; pour sept, une phrase de la fiche était fausse. Sept niveaux de preuve baissent, un monte.
+
+**Choix de méthode.**
+
+- Copier d'abord les sources en local, par les interfaces officielles de PubMed, PubMed Central, medRxiv
+  et ClinicalTrials.gov : 150 sources, dont 74 en texte intégral. La relecture se fait ensuite sans requête.
+- Un relecteur par piste, d'un modèle moins coûteux, avec une consigne publiée. Il rend une citation
+  par affirmation ; un programme recherche chaque citation mot pour mot. Toutes sont retrouvées.
+- Le modèle principal décide, après avoir vérifié lui-même les constats qui changent un statut.
+- Le texte déposé n'est pas réécrit : la relecture s'ajoute, et prime.
+- « Vérifiée » exige que la source qui porte le signal soit lue en entier. Deux pistes restent donc
+  « à vérifier » : leurs études ne sont accessibles que par leur résumé.
+
+**Décision d'interprétation.** Les questions 5, 8 et 9 de la grille classent un signal comme probablement
+artefactuel. Elles sont écrites pour l'épidémiologie. Pour une étude de laboratoire, elles n'ont été retenues
+que dans leur sens strict. Appliquées à la lettre, elles auraient écarté presque toute la banque.
+
+**Écarté.**
+
+- Laisser chaque relecteur ouvrir les pages en ligne : plus de requêtes, et des citations impossibles à contrôler.
+- Réécrire les fiches : on perdrait ce qui avait été déposé, avec le risque d'ajouter des erreurs.
+- Contourner les contrôles anti-robot avec un navigateur piloté : un site qui refuse les programmes a décidé
+  de les refuser. Les pages bloquées sont notées bloquées.
+- Garder un niveau relevé pour B004 sur la foi d'un résumé de 2003 : la règle vaut aussi dans ce sens.
+
+**Réserve.** Relecteur et déposant sont des programmes du même type, et un seul décideur a tranché.
+Ce n'est pas une relecture par des pairs. Une relecture contradictoire des cinq mises à l'écart reste à faire.
+
 ## 2026-11-22 — Compte rendu du chercheur en biologie : ce qu'il a écarté
 
 **Fait, corrigé le jour même.** L'agent a encore modifié son fichier après la première intégration.
