@@ -91,7 +91,8 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 - **Pistes promues.** Un plan d'analyse est déposé pour chacune, avant toute donnée, et relu
   avant son dépôt. P15 : lecture fixée d'avance « indécidable » ; la baisse d'expression publiée
   en 2019 n'existe que dans une des deux séries de bibliothèques, et elle vient de cinq bibliothèques
-  de témoins sains chargées d'ARN ribosomique. P16 : le variant le plus associé au COVID long
+  de témoins sains chargées d'ARN ribosomique. Elle n'est pas retrouvée dans trois autres jeux
+  de données, sur 41 patients et 47 témoins. P16 : le variant le plus associé au COVID long
   n'est pas associé à l'EM/SFC dans DecodeME ; les trois autres comparaisons attendent un chiffre
   des équipes. P17 : le test prévu n'est pas faisable aujourd'hui, faute d'un jeu de cas assez grand.
   Détail : `analyses/P15/RESULTATS.md`, `analyses/P16/RESULTATS.md`, `analyses/P17/PLAN.md`.

@@ -165,13 +165,16 @@
     par groupe ; les peptides eux-mêmes n'y diffèrent pas dans le sang.
     Relu le 2026-11-22 sur les données déposées : cet écart d'expression n'existe que dans une
     des deux séries de bibliothèques, où il suit l'ARN ribosomique du cytoplasme. Lecture fixée
-    d'avance : indécidable. Détail : analyses/P15/RESULTATS.md.
+    d'avance : indécidable. Cherché dans trois autres jeux de données publics, 41 patients
+    et 47 témoins, EM/SFC et COVID long, le même écart n'y est pas : +0,01, −0,19 et +0,35 log2.
+    Détail : analyses/P15/RESULTATS.md.
   inexploite: >-
     Aucun essai enregistré. Les deux résultats viennent chacun d'une seule équipe et ne mesurent
     pas la même chose. L'écart d'expression de 2019, de 21 à 37 fois, est trop grand
     pour être cru sans réplication. Premier test, sans laboratoire : relire les deux gènes
     dans les données d'expression déposées par l'étude de 2019 (jeu GSE130353).
     Plan déposé le 2026-11-22, avant l'ouverture des données : analyses/P15/PLAN.md.
+    Ce test est fait : voir le résultat ci-dessus.
   niveau: C
   sources: [peptides-mito-2019, vesicules-humanine-2022, vesicules-humanine-2023]
 

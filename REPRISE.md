@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-22, 22 h 45. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-22, 22 h 55. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -36,7 +36,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 | --- | --- | --- |
 | Banque d'hypothèses | 21 pistes relues : 12 vérifiées, 3 promues, 3 écartées, 3 à vérifier ; les mises à l'écart ont eu un contradicteur | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
 | Registre | 17 pistes : P15, P16 et P17 viennent de la banque | `registre/pistes.yaml` |
-| P15, humanine et MOTS-c | Plan déposé, test fait : lecture « indécidable ». L'écart de 2019 vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Une lettre aux auteurs est prête, non envoyée | `analyses/P15/RESULTATS.md` |
+| P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Une lettre aux auteurs est prête, non envoyée | `analyses/P15/RESULTATS.md` |
 | P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres prêtes, non envoyées | `analyses/P16/RESULTATS.md` |
 | P17, ADN mitochondrial | Plan déposé. Le test n'est pas faisable aujourd'hui : 18 % de puissance au mieux. Une lettre prête, non envoyée | `analyses/P17/PLAN.md` |
 | Lot 2, suivi après l'arrêt des traitements | Six demandes envoyées ; une réponse automatique, rien sur le fond | `analyses/lot-2/` |
@@ -60,9 +60,9 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
    Trois décisions attendent le porteur du projet : continuer ou non à citer le résultat de 2019
    comme un appui de P15 ; garder ou non P17 au registre, son test n'étant pas faisable ;
    relire puis envoyer les quatre lettres (`DEMANDES.md` de P15, P16 et P17), une fois ce travail fusionné.
-   Reste à faire sans attendre personne : la réplication de P15 sur d'autres personnes,
-   sept jeux de données, règles fixées en section 6 de son plan. Autre premier pas peu coûteux, pour B002 :
-   demander les plasmalogènes aux auteurs des lipidomiques déjà faites.
+   La réplication de P15 sur d'autres personnes est faite, sur les trois jeux qui se lisent.
+   Deux autres jeux demanderaient de réaligner 223 bibliothèques : non engagé.
+   Autre premier pas peu coûteux, pour B002 : demander les plasmalogènes aux auteurs des lipidomiques déjà faites.
 4. **Relever les réponses** aux huit demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
@@ -94,7 +94,7 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 ## 6. Ce qui ne survit pas à un changement de session
 
 - Les copies locales, dans le dossier `cache/`, hors dépôt : la bibliothèque, les sources de la banque,
-  les fichiers rendus par les relecteurs, les données de P15 (210 Mo) et de P16 (340 Mo), qui se retéléchargent. Les deux premières se refont en sept minutes ; les fichiers
+  les fichiers rendus par les relecteurs, les données de P15 (300 Mo) et de P16 (340 Mo), qui se retéléchargent. Les deux premières se refont en sept minutes ; les fichiers
   des relecteurs ne se refont qu'en relisant. Leur contenu utile est dans le champ `relecture` des pistes.
 - Le fil de la conversation. Tout ce qui compte doit donc être dans ce fichier, dans `JOURNAL.md`
   ou dans les journaux des envois.

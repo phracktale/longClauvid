@@ -3,6 +3,31 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — P15 : le signal de 2019 n'est pas retrouvé chez d'autres personnes
+
+**Fait.** La section 6 du plan de P15 a été appliquée aux jeux de données publics retenus. Trois se lisent :
+EM/SFC après une infection (12 patients, 15 témoins), COVID long dans les cellules mononucléées (11 et 12),
+COVID long dans le sang total (18 et 20).
+
+**Résultat.** Lecture fixée par le plan : signal non retrouvé chez d'autres personnes. L'écart d'expression
+des deux gènes est de +0,01, de −0,19 et de +0,35 log2 ; la borne basse des trois intervalles reste au-dessus
+de −1 log2. L'écart publié en 2019 était de −4,4 à −5,2 log2.
+
+**Constat.** Quatre des sept jeux retenus ne se lisent pas : deux n'ont pas les deux gènes dans leurs fichiers,
+deux n'ont déposé aucune estimation. L'indicateur technique ne se calcule dans aucun des trois jeux lus.
+
+**Choix.** Fixer les listes de gènes de chaque jeu avant de lire les écarts, par une commande à part.
+
+**Écarté.** Réaligner les lectures brutes des deux jeux sans estimation déposée, 223 bibliothèques :
+le plan ne l'engage pas, et trois lectures concordantes suffisent à la règle.
+
+**Réserve.** Aucun des trois jeux ne porte sur des monocytes isolés, ni sur la fatigue après fièvre Q.
+Un écart plus petit que 1 log2 n'y est pas exclu.
+
+**Suite.** La décision sur l'appui de 2019 revient au porteur du projet. Les trois éléments vont dans le même sens :
+une règle qui rend « indécidable », une description qui montre cinq bibliothèques à part,
+et trois autres jeux de données sans écart.
+
 ## 2026-11-22 — Premiers tests des pistes promues : P15 indécidable, le test 1 de P16 échoue
 
 **Fait.** Les deux tests qui ne demandaient qu'un fichier public ont été lancés après le dépôt des plans.
