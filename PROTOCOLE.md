@@ -14,7 +14,7 @@ et un comité d'éthique.
 | --- | --- | --- | --- |
 | 0. Cadrage | Registre des hypothèses, plan d'analyse, dépôt horodaté avant toute analyse | Registre versionné | Chaque hypothèse porte une prédiction réfutable |
 | 1. Cartographie | Requêtes sur PubMed, Europe PMC, OpenAlex et les registres d'essais ; extraction de triplets entité–relation–entité | Graphe de connaissances, diagramme de sélection des articles | Précision de l'extraction d'au moins 90 % sur un échantillon relu à la main |
-| 2. Détection | Recherche de ponts : A lié à B, B lié à C, A et C jamais cités ensemble (modèle ABC de Swanson, 1986) | Liste classée de pistes et de croisements | Chaque piste remplit les trois critères ci-dessous |
+| 2. Détection | Recherche de ponts : A lié à B, B lié à C, A et C jamais cités ensemble (modèle ABC de Swanson, 1986) ; transpositions depuis des maladies mieux maîtrisées | Liste classée de pistes, de croisements et de transpositions | Chaque piste et chaque transposition remplit ses trois critères ci-dessous |
 | 3. Confrontation | Matrice hypothèses × prédictions ; un relecteur défend, un autre attaque | Pour chaque paire d'hypothèses, le test décisif | Au moins une prédiction opposée par paire |
 | 4. Simulation | Trois niveaux, voir `simulateurs/` | Puissance des plans d'essai, comportements attendus | Contrôles négatifs conformes ; un modèle publié reproduit |
 | 5. Validation | Tests des prédictions sur données et échantillons existants | Analyses pré-enregistrées | Résultat retrouvé sur un second jeu de données |
@@ -27,6 +27,42 @@ Le critère de la phase 0 est automatisé : `python3 outils/valider_registre.py`
 1. Le résultat est publié et biologiquement précis : une molécule, une cellule, un mécanisme.
 2. Aucun essai contrôlé terminé ne l'a testé sur des patients sélectionnés pour ce mécanisme.
 3. Elle est rarement citée avec les autres pistes qu'elle pourrait éclairer.
+
+## Transposer depuis une maladie mieux maîtrisée
+
+Seconde source de pistes en phase 2 : partir des maladies qu'on sait guérir, contrôler
+ou prévenir, et qui partagent un processus biologique avec nos pistes.
+Les fiches sont dans `registre/transpositions.yaml`.
+
+Une transposition entre au registre si elle remplit trois critères :
+
+1. Le processus est documenté dans la maladie de référence, et au moins soupçonné
+   dans le COVID long ou l'EM/SFC.
+2. Un levier a été testé en clinique sur ce processus dans la maladie de référence.
+3. Ce qui a déjà été tenté dans nos maladies est consigné, échecs compris.
+
+Le degré de maîtrise se dit en cinq mots, parce qu'ils ne se transposent pas de la même façon :
+
+| Maîtrise | Définition |
+| --- | --- |
+| guérison | La maladie disparaît et le traitement s'arrête |
+| rémission | Plus de signes sans traitement, rechute possible |
+| contrôle | Maladie tenue en respect tant que le traitement dure |
+| prévention | On empêche la maladie d'apparaître |
+| échec | Le levier a échoué dans la maladie de référence : contre-exemple à connaître |
+
+Trois garde-fous :
+
+- Une analogie n'est pas une preuve. Le niveau d'une transposition est celui de la preuve
+  du processus dans nos maladies, pas celui du médicament ailleurs.
+- Le sens de l'anomalie se vérifie d'abord : une même cible peut être trop active
+  dans une maladie et pas assez dans l'autre (TRPM3, IDO1).
+- Un essai négatif en tout-venant ne réfute pas une transposition s'il n'a ni sélectionné
+  ses patients sur le processus, ni vérifié que la cible était atteinte. Il se consigne quand même.
+
+Trois leçons de méthode viennent du VIH (fiches T01 à T03) : un marqueur quantitatif
+a accéléré les essais, les combinaisons ont réussi là où chaque médicament seul échouait,
+et l'arrêt programmé du traitement distingue une rémission d'un simple contrôle.
 
 ## Niveaux de preuve
 
@@ -66,5 +102,5 @@ avec la source ou le résultat qui le motive.
 | Niveau | Ce qu'il simule | Question tranchée | État |
 | --- | --- | --- | --- |
 | 1. Cohorte virtuelle | Des essais entiers sur des patients à endotype caché | Quel plan d'essai peut voir un effet limité à un sous-groupe ? | Construit |
-| 2. Modèles mécanistes | Des systèmes de régulation à plusieurs états stables | Quelle intervention, de quelle durée, fait sortir de l'état malade ? | Premier modèle construit (Kashi 2019) ; modèle à plusieurs variables à faire (Craddock 2015) |
+| 2. Modèles mécanistes | Des systèmes de régulation à plusieurs états stables | Quelle intervention, de quelle durée, fait sortir de l'état malade ? | Premier modèle construit (Kashi 2019) ; moteur de réseaux logiques construit, réseau de Craddock 2015 à charger |
 | 3. Criblage de repositionnement | Graphe de connaissances, génétique, modèles métaboliques | Quels médicaments existants touchent les cibles d'un endotype ? | À faire |

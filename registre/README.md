@@ -8,6 +8,7 @@ sur quelle source, et ce qui pourrait le réfuter.
 | `sources.yaml` | Chaque page consultée : adresse, type, date de lecture |
 | `pistes.yaml` | Les 14 pistes sous-exploitées, avec leur niveau de preuve |
 | `endotypes.yaml` | Les 5 typologies de patients, leurs marqueurs et les candidats à tester |
+| `transpositions.yaml` | Les 11 transpositions : ce qu'une maladie mieux maîtrisée apprend sur un processus partagé |
 | `hypotheses/` | Une fiche par hypothèse |
 
 ## Une fiche d'hypothèse
@@ -35,6 +36,24 @@ historique:
     evenement: Création.
 ```
 
+## Une fiche de transposition
+
+```yaml
+- id: T01
+  nom: "Maladie de référence : ce qu'on y fait"
+  processus: Le processus biologique partagé.
+  maladie: La maladie de référence.
+  maitrise: rémission        # guérison | rémission | contrôle | prévention | échec
+  levier: Ce qui agit sur le processus dans la maladie de référence.
+  preuve: Ce que le levier y a montré, chiffres à l'appui.
+  deja_tente: Ce qui a été essayé dans le COVID long ou l'EM/SFC, échecs compris.
+  lecon: Ce que la transposition change pour nos hypothèses.
+  prochain_test: Le test qui trancherait.
+  niveau: B                  # preuve du processus dans nos maladies, échelle A à D
+  liens: [P14, H4, E4]       # pistes, hypothèses et endotypes concernés
+  sources: [vih-rio-2026]
+```
+
 ## Règles
 
 1. Pas de fiche sans `prediction` ni `refutation` : le validateur la refuse.
@@ -43,6 +62,9 @@ historique:
 3. Chaque résultat qui touche une hypothèse ajoute une ligne à son historique,
    qu'il aille dans son sens ou non.
 4. Une source n'entre dans `sources.yaml` qu'après avoir été lue.
+   Les sources des transpositions ont été lues sous forme de résumé ou d'extrait :
+   leur lecture intégrale est un travail de la phase 1.
+5. Pas de transposition sans `deja_tente` : le validateur la refuse.
 
 ## Valider
 
