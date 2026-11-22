@@ -90,6 +90,7 @@ Les règles sont dans `PROTOCOLE.md`.
 
 Une piste relue porte un champ `relecture` : ce qui a été lu, les corrections, le résultat du test
 « inexplorée » et la décision. Ce champ prime sur le texte déposé, qui n'est pas réécrit.
+Une piste qui a été écartée y porte aussi l'avis de son contradicteur et le motif d'origine.
 Le compte rendu de la relecture du 2026-11-22 est dans `analyses/banque/RELECTURE.md`.
 
 ## Valider

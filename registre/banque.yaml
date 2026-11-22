@@ -306,16 +306,18 @@
     lu: page
   origine: agent biologie
   date: '2026-11-22'
-  statut: écartée
+  statut: vérifiée
   relecture:
     date: '2026-11-22'
     lecture: '10 sources rouvertes : 6 en texte intégral, 4 par leur résumé.'
     affirmations: '20 affirmations contrôlées : 15 confirmées, 1 inexacte, 4 non trouvées.'
     corrections:
-    - '« Durablement » est faux : chez la souris K18-hACE2, l''ARN de l''orexine est revenu au niveau des témoins
-      au 15e jour ; dans le second modèle, la baisse est décrite jusqu''au 14e jour.'
-    - 'Chez l''humain, la seule mesure après COVID-19 est plasmatique : l''orexine A est normale chez les survivants
-      de réanimation à 2,5 ans.'
+    - '« Durablement » n''est pas montré : chez la souris K18-hACE2, l''ARN de l''orexine est revenu au niveau des
+      témoins au 15e jour ; chez la souris sauvage du second modèle, la baisse est décrite jusqu''au 14e jour, sans
+      suivi plus long.'
+    - L'orexine A du plasma est normale à 2,5 ans chez 14 survivants de réanimation, qui ne sont pas des patients
+      COVID long. Dans le liquide céphalo-rachidien, seuls deux cas isolés de narcolepsie après COVID-19 ont un
+      dosage.
     - La patiente du cas clinique a une narcolepsie de type 1 complète, pas un déficit partiel.
     - L'étude du NIH ne trouve pas d'anomalie du sommeil à la polysomnographie chez les patients EM/SFC.
     - Ni les 34 patients ponctionnés ni les 7 patients neuro-COVID n'ont de témoins ponctionnés.
@@ -324,10 +326,26 @@
       existent : une narcolepsie de type 2 après COVID-19 avec un taux d''hypocrétine « limite » (PMID 39622313)
       ; quatre hypersomnies centrales parmi 530 patients COVID long (PMID 38419710). Une revue de 2025 propose à
       l''inverse de bloquer l''orexine (PMID 40149526) : le sens de l''anomalie n''est pas établi.'
-    decision: 'Écartée : voir le motif.'
-  motif: 'La source qui porte le signal le contredit : chez la souris, l''orexine revient à la normale en quinze
-    jours. Aucune mesure n''existe chez les patients, et l''orexine A du plasma est normale chez les survivants
-    à 2,5 ans. À rouvrir si un dosage dans le liquide céphalo-rachidien de patients est publié.'
+    decision: 'Gardée comme hypothèse théorique, après correction de son énoncé : la baisse décrite chez l''animal
+      est aiguë, et aucun dosage cas-témoins n''existe chez les patients. Le test sur liquide céphalo-rachidien
+      conservé reste à faire, avec des témoins ponctionnés.'
+    contradiction:
+      date: '2026-11-22'
+      avis: tient en partie
+      motif_initial: 'La source qui porte le signal le contredit : chez la souris, l''orexine revient à la normale
+        en quinze jours. Aucune mesure n''existe chez les patients, et l''orexine A du plasma est normale chez les
+        survivants à 2,5 ans. À rouvrir si un dosage dans le liquide céphalo-rachidien de patients est publié.'
+      constats:
+      - Le motif généralisait à « la souris » un retour à la normale montré dans un seul des deux modèles ; dans
+        l'autre, la baisse est encore là au 14e jour.
+      - 'Il écrivait « aucune mesure chez les patients » alors que deux cas isolés ont un dosage du liquide céphalo-rachidien
+        : moins de 40 ng/L dans une narcolepsie de type 1, 170 pg/mL dans une narcolepsie de type 2.'
+      - 'Le dosage plasmatique normal porte sur 14 survivants de réanimation, pas sur des patients COVID long :
+        il ne teste pas la piste.'
+      - Selon les auteurs d'un des cas, une perte partielle de neurones à orexine peut laisser un taux normal ou
+        réduit dans le liquide céphalo-rachidien.
+      suite: 'Mise à l''écart levée. Rien ne contredit la piste chez les patients : elle est sans donnée, comme
+        B004, autre hypothèse théorique gardée au niveau D.'
 - id: B004
   titre: Le canal calcique RyR1 du muscle reste « fuyant » après l'effort chez les patients, comme dans les myopathies
     liées à RYR1
@@ -1232,6 +1250,10 @@
       reports 2025 (résumé ; ajoutée à la relecture)
     url: https://pubmed.ncbi.nlm.nih.gov/40328884/
     lu: page
+  - titre: Genome-wide association study of long COVID, Nature Genetics 2025, informations supplémentaires (figure
+      13 et table 36 ; ajoutée à la relecture)
+    url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-025-02100-w/MediaObjects/41588_2025_2100_MOESM3_ESM.xlsx
+    lu: page
   origine: agent statistique
   date: '2026-11-22'
   statut: écartée
@@ -1240,17 +1262,36 @@
     lecture: '6 sources rouvertes : 6 en texte intégral.'
     affirmations: '26 affirmations contrôlées : 19 confirmées, 1 inexacte, 4 non trouvées, 2 contredites.'
     corrections:
-    - '« Aucune étude ne compare selon le type de symptômes » est faux : l''article publié le fait, et trouve le
-      variant associé aux diagnostics de fatigue et d''asthme.'
+    - '« Aucune étude ne compare selon le type de symptômes » est faux : l''article publié estime l''effet du variant
+      symptôme par symptôme, et le trouve significatif pour la fatigue comme pour l''asthme.'
     - La définition stricte des cas est une infection confirmée par un test, pas un diagnostic posé à l'hôpital.
     - 'Les réplications sont plus faibles que le signal d''origine : rapports de cotes de 1,13 et de 1,21.'
     - 'L''hospitalisation n''explique pas le signal : l''ajustement proposé par le test apporterait peu.'
     - Le niveau B vaut pour l'association du variant au COVID long, pas pour l'hypothèse de la piste.
     inexploree: Une étude pangénomique allemande ne trouve aucun signal significatif (PMID 40328884).
     decision: 'Écartée : voir le motif.'
-  motif: 'L''hypothèse d''un sous-type pulmonaire distinct de la forme à fatigue est contredite par la source même
-    du signal : dans deux cohortes, le variant est associé aux diagnostics de fatigue comme à ceux d''asthme. L''association
-    de FOXP4 au COVID long reste un résultat ; ce qui tombe est la lecture qu''en faisait la piste.'
+    contradiction:
+      date: '2026-11-22'
+      avis: tient en partie
+      motif_initial: 'L''hypothèse d''un sous-type pulmonaire distinct de la forme à fatigue est contredite par
+        la source même du signal : dans deux cohortes, le variant est associé aux diagnostics de fatigue comme à
+        ceux d''asthme. L''association de FOXP4 au COVID long reste un résultat ; ce qui tombe est la lecture qu''en
+        faisait la piste.'
+      constats:
+      - Les treize faits contrôlés sont confirmés.
+      - '« Contredite » était trop fort : l''analyse estime l''effet du variant symptôme par symptôme, sur des groupes
+        qui se chevauchent, et ne compare pas deux formes de la maladie.'
+      - Le code de fatigue retenu (R53 ou G93.3, à un moment quelconque de la vie) n'est pas une forme à fatigue
+        dominante.
+      - La table supplémentaire 36, lue pour cette contradiction, donne les effectifs par symptôme ; les rapports
+        de cotes ne sont que dans une figure.
+      suite: 'Mise à l''écart maintenue, motif reformulé. Une question reste ouverte : pourquoi le variant n''est
+        pas retrouvé chez 23andMe.'
+  motif: 'L''hypothèse d''un sous-type pulmonaire n''est pas soutenue par la source du signal, et son analyse par
+    symptôme va contre elle : le variant est associé au COVID long avec un code de fatigue (2 644 cas) comme au
+    COVID long avec un code d''asthme (1 060 cas). Limites : chaque symptôme est testé à part, les groupes se chevauchent,
+    le code de fatigue est générique, et les rapports de cotes ne sont donnés que dans une figure. À rouvrir si
+    une cohorte sépare une forme respiratoire d''une forme à fatigue dominante.'
 - id: B015
   titre: Une infection pendant la grossesse est suivie de moins de COVID long qu'une infection hors grossesse
   domaine_source: Expérience naturelle sur dossiers médicaux électroniques, deux réseaux américains
@@ -1320,20 +1361,39 @@
     corrections:
     - Pour une infection au premier ou au deuxième trimestre, trois des quatre rapports de risques ne montrent pas
       de protection (1,07 ; 1,17 ; 1,15 ; 0,89).
-    - 'Avec le seul code de diagnostic du COVID long, les rapports de risques tombent à 0,32 et à 0,53 : l''effet
-      dépend de la définition.'
+    - 'Avec le seul code de diagnostic du COVID long, les rapports de risques tombent à 0,32 et à 0,53 : l''ampleur
+      dépend de la définition, pas le sens.'
     - La grossesse n'est repérée que par un accouchement enregistré.
     - Les auteurs situent leur hypothèse immunitaire dans le post-partum, pas au moment de l'infection.
     - 'Niveau ramené de B à C : une seule équipe pour les deux réseaux.'
-    inexploree: '« Aucune réplication » est faux, et les réplications ne confirment pas. Une cohorte prospective
-      américaine, à symptômes recueillis par questionnaire, ne trouve aucun écart : rapport de risques 0,96 (0,63–1,48),
-      580 femmes enceintes (PMID 41037811). À Singapour, le risque de séquelles est plus élevé chez les femmes enceintes
-      que chez les femmes infectées hors grossesse (PMID 40073919). L''analyse antérieure de la même équipe américaine
-      donnait 0,85 (PMID 38828129).'
+    inexploree: '« Aucune réplication » est faux : deux études hors dossiers existent, et aucune ne confirme. Une
+      cohorte prospective américaine, à symptômes recueillis par questionnaire, ne trouve aucun écart : rapport
+      de risques 0,96 (0,63–1,48), 580 femmes enceintes (PMID 41037811) ; son intervalle n''exclut pas l''effet
+      des dossiers. À Singapour, les femmes enceintes ont plus de nouveaux diagnostics après l''infection que les
+      femmes infectées hors grossesse (PMID 40073919), mais le critère est tout diagnostic remboursé, pas le COVID
+      long. L''analyse antérieure de la même équipe américaine donnait 0,85 (PMID 38828129).'
     decision: 'Écartée : voir le motif.'
-  motif: Signal probablement artefactuel. Il dépend de la définition du cas (questions 5 et 9 de la grille), la
-    grossesse n'y est repérée que par l'accouchement (question 8), et il n'est pas retrouvé hors des dossiers médicaux
-    américains (question 3). À rouvrir si une cohorte prospective plus grande le retrouve.
+    contradiction:
+      date: '2026-11-22'
+      avis: tient en partie
+      motif_initial: Signal probablement artefactuel. Il dépend de la définition du cas (questions 5 et 9 de la
+        grille), la grossesse n'y est repérée que par l'accouchement (question 8), et il n'est pas retrouvé hors
+        des dossiers médicaux américains (question 3). À rouvrir si une cohorte prospective plus grande le retrouve.
+      constats:
+      - 'La cohorte prospective ne peut pas exclure l''effet : son intervalle contient 0,85 et 0,70, et ses auteurs
+        disent qu''un manque de puissance est possible.'
+      - 'Au troisième trimestre, elle va dans le sens de la piste : 0,60 (0,33–1,10), soit une différence de risque
+        de −4,4 points (−8,6 à −0,2).'
+      - 'L''étude de Singapour ne mesure pas le COVID long, mais tout nouveau diagnostic remboursé : ce n''est ni
+        une réplication ni une réfutation.'
+      - 'Les quatre définitions du cas donnent un rapport sous 1 : l''ampleur varie, pas le sens.'
+      suite: 'Mise à l''écart maintenue, motif reformulé : « pas retrouvé » devient « pas confirmé, sans pouvoir
+        être exclu ».'
+  motif: 'Signal probablement artefactuel tant qu''une étude assez puissante ne l''a pas retrouvé hors des dossiers
+    médicaux. Dans ces dossiers, la grossesse n''est repérée que par l''accouchement (question 8 de la grille),
+    et l''ampleur de l''effet va de 0,32 à 0,86 selon la définition du cas (questions 5 et 9). La seule cohorte
+    prospective donne 0,96 (0,63–1,48) : elle ne confirme pas, sans pouvoir exclure. À rouvrir si une cohorte prospective
+    plus grande retrouve l''effet, notamment au troisième trimestre.'
 - id: B016
   titre: Une apnée du sommeil diagnostiquée avant l'infection est suivie de plus de COVID long chez l'adulte
   domaine_source: Antécédents sur dossiers médicaux électroniques, trois réseaux américains
@@ -1361,7 +1421,7 @@
     observants à des non-observants expose au biais de l''utilisateur en bonne santé. Relecture du 2026-11-22, grille
     statistique : doutes aux questions 1, 3, 5, 7, 9 et 10. L''obésité est mal mesurée dans les dossiers ; une personne
     suivie pour apnée consulte plus et reçoit plus de codes.'
-  niveau: C
+  niveau: B
   solidite_statistique: 'Environ 2,2 millions de personnes infectées : 1,7 million d''adultes dans N3C, 330 000
     dans PCORnet, 102 000 enfants dans PEDSnet. Rapports de cotes bruts de 1,41 à 3,93 selon le réseau. Après ajustement
     : 75 % de risque en plus dans N3C, 12 % dans PCORnet ; les intervalles de confiance n''ont pas pu être lus.
@@ -1401,7 +1461,7 @@
     lu: extrait
   origine: agent statistique
   date: '2026-11-22'
-  statut: écartée
+  statut: à vérifier
   relecture:
     date: '2026-11-22'
     lecture: '5 sources rouvertes : 3 en texte intégral, 1 par son résumé, 1 page bloquée.'
@@ -1413,17 +1473,38 @@
       dans PCORnet.'
     - D'après cette même lecture, la fréquence du COVID long va de 4,9 % à 16,6 % selon le réseau, pour trois définitions
       différentes.
-    - 'Niveau ramené de B à C : une seule étude lue par son résumé, un effet très variable.'
-    inexploree: '« Aucune comparaison traités contre non traités » est faux : une enquête sur 24 803 adultes américains
-      retrouve l''association (rapports de cotes de 1,9 à 2,1) et la trouve atténuée quand l''apnée est traitée
-      (PMID 38401674) ; tout y est déclaré par les participants. Chez 100 patients COVID long testés à domicile,
-      l''apnée est fréquente (53 %) mais sans lien avec les symptômes ni la cognition (PMID 42897409). Un essai
-      de pression positive contre appareil factice dans la fatigue chronique a été arrêté avant son terme (NCT01368718).'
-    decision: 'Écartée : voir le motif.'
-  motif: Signal probablement artefactuel tant qu'une contre-analyse n'est pas faite. Deux réseaux donnent 1,12 et
-    1,75 (question 5 de la grille) ; le COVID long y est défini de trois façons, avec des fréquences de 5 à 17 %
-    (question 9) ; l'enquête qui retrouve l'association repose sur des déclarations des deux côtés. À rouvrir avec
-    une apnée mesurée et une observance relevée par l'appareil.
+    - 'Niveau laissé à B : deux jeux de données indépendants trouvent le même sens. Il avait d''abord été ramené
+      à C, à tort.'
+    inexploree: '« Aucune comparaison traités contre non traités » est faux : une enquête sur 24 803 adultes américains,
+      d''une autre équipe, retrouve l''association (rapports de cotes de 1,9 à 2,1) et la voit atténuée chez les
+      personnes dont l''apnée est traitée (PMID 38401674) ; le traitement y est déclaré, sans précision ni observance.
+      Chez 100 patients COVID long testés à domicile, l''apnée est fréquente (53 %) et sans lien avec l''intensité
+      des symptômes (PMID 42897409) : c''est une fréquence, pas un risque. Un essai de pression positive contre
+      appareil factice dans la fatigue chronique a été arrêté avant son terme (NCT01368718).'
+    decision: 'Mise à l''écart levée après contradiction. L''association est retrouvée par deux méthodes différentes
+      ; sa taille est instable et la confusion par l''obésité n''est pas écartée. La piste reste à vérifier : l''article
+      qui porte le signal n''est accessible aux programmes que par son résumé.'
+    contradiction:
+      date: '2026-11-22'
+      avis: tient en partie
+      motif_initial: Signal probablement artefactuel tant qu'une contre-analyse n'est pas faite. Deux réseaux donnent
+        1,12 et 1,75 (question 5 de la grille) ; le COVID long y est défini de trois façons, avec des fréquences
+        de 5 à 17 % (question 9) ; l'enquête qui retrouve l'association repose sur des déclarations des deux côtés.
+        À rouvrir avec une apnée mesurée et une observance relevée par l'appareil.
+      constats:
+      - '« Probablement artefactuel » dépassait les sources : le résumé de l''article décrit une association atténuée
+        mais significative chez l''adulte, concordante entre réseaux, définitions et analyses de sensibilité.'
+      - 'Une enquête d''une autre équipe retrouve l''association après ajustement sur l''indice de masse corporelle
+        : ce sont deux jeux de données indépendants, pas « une seule étude ».'
+      - 'Les intervalles de confiance et les fréquences de 4,9 à 16,6 % ne sont dans aucune copie locale : ils viennent
+        d''une lecture en ligne non contrôlée.'
+      - 'L''étude par test à domicile mesure une fréquence chez des malades, pas un risque : elle ne va pas contre
+        la piste.'
+      - Le résumé de l'article dit que la race et l'ethnie sont ajustées ; la page de presse dit qu'elles manquaient.
+        La divergence n'est pas levée.
+      suite: 'Mise à l''écart levée. La grille avait été appliquée à la lettre, alors que la même situation avait
+        été jugée autrement pour l''hypermobilité (B018) : deux façons de mesurer, un même sens. Les deux pistes
+        sont maintenant traitées de la même façon.'
 - id: B017
   titre: L'EM/SFC porte une signature sanguine de résistance à l'insuline et d'atteinte du foie que l'inactivité
     n'explique pas
@@ -1842,12 +1923,27 @@
     - 'Rapport brut et rapport ajusté sont presque identiques : l''ajustement n''explique rien.'
     - Neuf agents infectieux sur quatorze augmentent le risque de façon significative, et non tous.
     - La clarithromycine, sixième antibiotique testé, est sans effet (1,00) ; la fiche ne la cite pas.
-    inexploree: Deux travaux manquaient. Dans une cohorte, la prise d'antibiotiques pendant le COVID-19 aigu est
-      associée à plus de COVID long, pas à moins (risque relatif 2,0 ; PMID 36673565). Un essai ouvert de minocycline
-      sur 55 patients, sans groupe témoin, rapporte 80 % d'améliorations (PMID 39720104). Aucune contre-analyse
-      de la base taïwanaise.
+    inexploree: Deux travaux manquaient. Dans une cohorte de 311 patients, la prise d'antibiotiques pendant le COVID-19
+      aigu est associée à plus de COVID long, pas à moins (risque relatif 2,0 ; PMID 36673565). Un essai ouvert
+      de minocycline, sans groupe témoin, rapporte une amélioration chez 41 des 51 patients qui ont terminé le traitement
+      (PMID 39720104). Aucune contre-analyse de la base taïwanaise.
     decision: 'Écartée : voir le motif.'
-  motif: 'Signal probablement artefactuel : effet invraisemblable, un risque divisé par dix à vingt-cinq ; fenêtre
-    d''exposition non décrite ; maladie définie par un code seul (questions 5, 8 et 9 de la grille). La contre-analyse
-    proposée n''est pas faite, et l''essai randomisé de la doxycycline dans la fatigue de la fièvre Q est négatif.
-    À rouvrir si une émulation d''essai cible est publiée.'
+    contradiction:
+      date: '2026-11-22'
+      avis: tient
+      motif_initial: 'Signal probablement artefactuel : effet invraisemblable, un risque divisé par dix à vingt-cinq
+        ; fenêtre d''exposition non décrite ; maladie définie par un code seul (questions 5, 8 et 9 de la grille).
+        La contre-analyse proposée n''est pas faite, et l''essai randomisé de la doxycycline dans la fatigue de
+        la fièvre Q est négatif. À rouvrir si une émulation d''essai cible est publiée.'
+      constats:
+      - Les faits du motif sont exacts.
+      - 'La clarithromycine, sans effet avec 31 cas, ne cadre pas avec un artefact qui toucherait toute prise d''antibiotique
+        : l''artefact, s''il existe, n''est pas uniforme.'
+      - 'L''essai de la doxycycline traite une fatigue installée depuis six mois au moins : il ne teste pas la prévention.'
+      - 'Le temps immortel reste une hypothèse : l''article ne décrit pas le moment de la prise.'
+      suite: Mise à l'écart maintenue ; deux précisions ajoutées au motif.
+  motif: 'Signal probablement artefactuel : effet invraisemblable, un risque divisé par dix à vingt-cinq, sur 16
+    à 30 cas par antibiotique ; moment de la prise non décrit ; maladie définie par un code seul (questions 5, 8
+    et 9 de la grille). La contre-analyse proposée n''est pas faite. L''essai randomisé de la doxycycline est négatif,
+    mais il traite une fatigue installée et ne teste pas la prévention. À rouvrir si une émulation d''essai cible
+    est publiée.'

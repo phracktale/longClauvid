@@ -3,6 +3,37 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Relecture contradictoire : deux mises à l'écart sur cinq ne tiennent pas
+
+**Fait.** Chacune des cinq pistes écartées a eu un contradicteur, chargé de la défendre contre son motif.
+Un motif tient, quatre tiennent en partie. Les 74 faits contrôlés et les 36 arguments portent une citation ;
+toutes sont retrouvées mot pour mot.
+
+**Constat.** Quatre motifs sur cinq contenaient une phrase trop forte ou inexacte, écrite par le décideur
+lui-même. « La source le contredit », pour l'orexine, généralisait un seul des deux modèles animaux.
+« Pas retrouvé », pour la grossesse, valait pour une cohorte trop petite pour exclure l'effet.
+« Probablement artefactuel », pour l'apnée du sommeil, ignorait qu'une autre équipe retrouve l'association.
+
+**Décision.**
+
+- Orexine (B003) : mise à l'écart levée. La piste est sans donnée chez les patients, pas contredite.
+  Elle est gardée au niveau D, comme l'autre hypothèse théorique de la banque (B004).
+- Apnée du sommeil (B016) : mise à l'écart levée. Elle reste « à vérifier », faute du texte de l'article.
+- FOXP4 (B014), grossesse (B015), antibiotiques (B021) : mises à l'écart maintenues, motifs reformulés.
+
+**Motif.** La même situation avait été jugée de deux façons. Pour l'hypermobilité, deux façons de mesurer
+qui donnent le même sens levaient en partie le doute de la question 9. Pour l'apnée du sommeil, non.
+La contradiction a fait voir l'écart.
+
+**Choix.** Le motif d'origine reste dans chaque piste, à côté de l'avis du contradicteur :
+une erreur du décideur se consigne comme une autre.
+
+**Écarté.** Suivre l'avis du contradicteur sans le peser : il défend, il ne décide pas. Trois mises à l'écart
+tiennent malgré ses objections.
+
+**Réserve.** Seules les mises à l'écart ont été contredites. Les quinze pistes gardées n'ont pas eu
+de contradicteur chargé de les attaquer.
+
 ## 2026-11-22 — Relevé des réponses ; l'étude PHOTOCOV reste introuvable
 
 **Fait.** La boîte du projet a été relevée le soir même des envois. Une réponse automatique est arrivée,
@@ -37,12 +68,15 @@ de la revue refuse les programmes. La version republiée corrige au moins les fr
 
 ## 2026-11-22 — Relecture de la banque : quatorze pistes vérifiées, cinq écartées, deux en attente
 
+**Révisée** le soir même par l'entrée « Relecture contradictoire » : quinze vérifiées, trois écartées, trois en attente.
+
 **Fait.** Les 21 pistes ont été relues contre leurs sources. Le compte rendu est dans
 `analyses/banque/RELECTURE.md`, le détail dans le champ `relecture` de chaque piste.
 
 **Constat.** Les chiffres recopiés étaient presque toujours exacts : 27 affirmations fausses sur 537.
 Le point faible était ailleurs. Pour 16 pistes, le test « inexplorée » a fait remonter une étude que la fiche
-ne citait pas ; pour sept, une phrase de la fiche était fausse. Sept niveaux de preuve baissent, un monte.
+ne citait pas ; pour sept, une phrase de la fiche était fausse. Sept niveaux de preuve baissent, un monte
+(six après la relecture contradictoire).
 
 **Choix de méthode.**
 

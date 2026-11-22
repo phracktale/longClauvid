@@ -23,7 +23,8 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/grille-statistique.md` | Dix questions pour relire une piste de la banque |
 | `outils/sources_banque.py` | Copie locale des sources de la banque, en texte intégral quand une interface officielle le donne |
 | `outils/consigne-relecteur.md` | La consigne remise au relecteur d'une piste, telle quelle |
-| `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur |
+| `outils/consigne-contradicteur.md` | La consigne remise à celui qui défend une piste écartée |
+| `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur et du contradicteur |
 | `analyses/banque/` | Le compte rendu de la relecture, les termes du test « inexplorée » et les calculs d'effectifs |
 | `REPRISE.md` | Où en est le projet et quoi faire ensuite, pour reprendre dans une nouvelle session |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
@@ -47,7 +48,7 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 143 sources ; 21 pistes en banque, relues : 14 vérifiées, 5 écartées, 2 à vérifier |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 143 sources ; 21 pistes en banque, relues : 15 vérifiées, 3 écartées, 3 à vérifier |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
@@ -79,10 +80,11 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 - **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
   fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
   des patients non sélectionnés. Détail : `registre/transpositions.yaml`.
-- **Banque.** Les 21 pistes déposées ont été relues contre leurs sources : 14 sont vérifiées,
-  5 écartées, 2 restent à vérifier. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
+- **Banque.** Les 21 pistes déposées ont été relues contre leurs sources : 15 sont vérifiées,
+  3 écartées, 3 restent à vérifier. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
   étaient presque toujours exacts ; l'affirmation « inexplorée » était fausse ou incomplète
-  pour 16 pistes. Détail : `analyses/banque/RELECTURE.md`.
+  pour 16 pistes. Cinq mises à l'écart ont eu un contradicteur : deux ont été levées.
+  Détail : `analyses/banque/RELECTURE.md`.
 - **Metformine.** Elle a été testée sur un COVID long installé dans deux essais randomisés,
   sans bénéfice montré ; la fiche T03, qui disait le contraire, est corrigée.
 
