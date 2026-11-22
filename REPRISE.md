@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-22, 23 h 20. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-22, 23 h 55. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -34,7 +34,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 
 | Chantier | État | Détail |
 | --- | --- | --- |
-| Banque d'hypothèses | 21 pistes relues : 12 vérifiées, 3 promues, 3 écartées, 3 à vérifier ; les mises à l'écart ont eu un contradicteur | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
+| Banque d'hypothèses | 21 pistes relues : 11 vérifiées, 3 promues, 3 écartées, 4 à vérifier ; chaque piste a eu un contradicteur, qui défend une mise à l'écart ou attaque une piste gardée | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
 | Registre | 17 pistes : P15, P16 et P17 viennent de la banque | `registre/pistes.yaml` |
 | P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Ce résultat est retiré des appuis de la piste, qui ne repose plus que sur les vésicules du COVID long. Une lettre aux auteurs de 2019 est partie le 2026-11-22 | `analyses/P15/RESULTATS.md` |
 | P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres parties le 2026-11-22. DecodeME a répondu par un message automatique : sa boîte ne répond pas aux messages reçus | `analyses/P16/RESULTATS.md` |
@@ -50,13 +50,18 @@ Une absence de réponse se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
 
-1. **Lire en entier quatre articles** que les programmes ne peuvent pas ouvrir : trois pistes en dépendent.
-   Le porteur du projet a donné son accord le 2026-11-22 ; c'est le travail d'une personne.
+1. **Lire en entier cinq articles** que les programmes ne peuvent pas ouvrir : quatre pistes en dépendent.
+   Le porteur du projet a donné son accord le 2026-11-22 pour les quatre premiers ; c'est le travail d'une personne.
    Pour B008 : l'étude de 2009 de la revue In Vivo (PMID 19567398). Pour B009 : PMID 41475665 et PMID 27401397.
-   Pour B016 : l'article de la revue Sleep (PMID 37166330). Une personne avec un accès de bibliothèque suffit.
-2. **Faire attaquer les quinze pistes gardées**, dont les trois promues : seules les mises à l'écart ont eu un contradicteur.
-   La relecture contradictoire a levé deux mises à l'écart sur cinq ; l'inverse est possible.
-   Une relecture par une personne du métier vaudrait mieux qu'un programme de plus.
+   Pour B016 : l'article de la revue Sleep (PMID 37166330). Pour B004, depuis sa contradiction : l'article de 2008
+   de la revue PNAS (PMID 18268335). Une personne avec un accès de bibliothèque suffit.
+   Deux lectures de plus préciseraient deux pistes gardées : PMID 42205163 pour B005, PMID 33367564 pour B019.
+2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
+   Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
+   le niveau de B018 revient à C, neuf décisions sont reformulées. Aucun des quinze tests proposés n'est prêt :
+   il manque un seuil, un sens attendu ou un jeu de données dont l'existence soit montrée.
+   Le détail est dans le champ `relecture.attaque` de chaque piste. Relecteur, contradicteur et décideur
+   restent des programmes du même type.
 3. **Instruire les trois pistes promues.** Les plans sont déposés, et les tests sur fichiers publics sont faits.
    Le porteur du projet a décidé le 2026-11-22 : l'appui de 2019 est retiré de P15, P17 reste au registre,
    les quatre lettres partent après fusion. Elles sont parties le même jour (`DEMANDES.md` de P15, P16 et P17).
@@ -64,7 +69,8 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Pour DecodeME, la voie qui répond est peut-être le formulaire de demande d'accès de sa page pour les chercheurs.
    La réplication de P15 sur d'autres personnes est faite, sur les trois jeux qui se lisent.
    Deux autres jeux demanderaient de réaligner 223 bibliothèques : non engagé.
-   Autre premier pas peu coûteux, pour B002 : demander les plasmalogènes aux auteurs des lipidomiques déjà faites.
+   Autre premier pas peu coûteux, pour B002 : demander aux auteurs des lipidomiques déjà faites si les plasmalogènes
+   ont été mesurés et si un groupe de personnes rétablies existe. Celle de 2025 décrit un sens contraire à la piste.
 4. **Relever les réponses** aux douze demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
@@ -73,7 +79,7 @@ Une absence de réponse se constate à partir du 2027-01-22.
 7. **Cartographie** : la revue actuelle est ciblée. La bibliothèque #ApresJ20 permet de la rendre systématique.
 8. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
-   ni les trois nouvelles pistes, ni la correction de la fiche T03.
+   ni les trois nouvelles pistes, ni la correction de la fiche T03, ni la contradiction des pistes gardées.
 
 Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHOTOCOV, introuvable sous ce nom.
 
@@ -88,7 +94,10 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 - Les agents de recherche déposent hors du dépôt ; l'intégration dans la banque est faite à part.
 - Relire une piste : `outils/sources_banque.py`, puis `outils/relecture_banque.py`, avec
   `outils/consigne-relecteur.md`. Une piste écartée passe ensuite devant un contradicteur,
-  avec `outils/consigne-contradicteur.md`. La marche à suivre est à la fin de `analyses/banque/RELECTURE.md`.
+  avec `outils/consigne-contradicteur.md`. Une piste gardée passe devant un contradicteur qui l'attaque,
+  avec `outils/consigne-contradicteur-piste-gardee.md`. La marche à suivre est à la fin de `analyses/banque/RELECTURE.md`.
+- Des agents lancés ensemble nomment leurs fichiers de travail d'après leur piste :
+  deux scripts du même nom se sont écrasés le 2026-11-22, et un fichier annoncé n'était pas sur le disque.
 - Un plan d'analyse passe devant un relecteur avant son dépôt, avec `outils/consigne-relecteur-de-plan.md`.
   Une fois les données ouvertes, sa règle ne se corrige plus : toute modification s'écrit en bas du plan.
 - Un site qui répond par un contrôle anti-robot n'est pas contourné : la source est notée bloquée.
@@ -96,11 +105,14 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 ## 6. Ce qui ne survit pas à un changement de session
 
 - Les copies locales, dans le dossier `cache/`, hors dépôt : la bibliothèque, les sources de la banque,
-  les fichiers rendus par les relecteurs, les données de P15 (300 Mo) et de P16 (340 Mo), qui se retéléchargent. Les deux premières se refont en sept minutes ; les fichiers
+  les fichiers rendus par les relecteurs et les contradicteurs, les données de P15 (300 Mo) et de P16 (340 Mo), qui se retéléchargent. Les deux premières se refont en sept minutes ; les fichiers
   des relecteurs ne se refont qu'en relisant. Leur contenu utile est dans le champ `relecture` des pistes.
+- Les dépendances Python : `pip install -r requirements.txt` avant `python3 verifier.py`.
 - Le fil de la conversation. Tout ce qui compte doit donc être dans ce fichier, dans `JOURNAL.md`
   ou dans les journaux des envois.
 - Le travail de la session du 2026-11-22 au soir est dans la demande de fusion n° 14, fusionnée.
   Les plans d'analyse des pistes promues, leurs premiers résultats et les décisions du porteur du projet
   sont dans la demande de fusion n° 15, fusionnée. Le dépôt des plans y est le commit `534e29d`
   (`0de5a88` avant la fusion par rebasage : c'est ce second numéro que cite un message de commit).
+- La contradiction des quinze pistes gardées, faite dans la nuit du 2026-11-22, est sur la branche
+  `ccr-48b05551-3su41y`, poussée. Sa demande de fusion reste à ouvrir.

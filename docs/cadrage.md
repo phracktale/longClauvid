@@ -300,19 +300,21 @@ La méthode part des maladies qu'on sait guérir, contrôler ou prévenir, et qu
 
 Le VIH est contrôlé et prévenu, pas guéri. Sept guérisons après greffe de moelle étaient rapportées en 2024 ([NPR](https://www.npr.org/sections/goats-and-soda/2024/07/30/g-s1-13631/hiv-aids-cure-dusseldorf-patient)), par une procédure réservée aux cancers du sang.
 
-## Banque d'hypothèses : vingt et une pistes relues, quinze gardées
+## Banque d'hypothèses : vingt et une pistes relues, quatorze vérifiées
 
 Deux agents de recherche, des programmes d'intelligence artificielle, ont déposé 21 pistes trouvées dans la littérature. Chacune a été relue contre ses sources le 22 novembre 2026 : 537 affirmations contrôlées, 150 sources en copie locale, dont 74 en texte intégral. « Vérifiée » ne veut pas dire « vraie » : les erreurs sont relevées et la piste reste une question à tester. Le détail est dans `registre/banque.yaml` et `analyses/banque/RELECTURE.md` du dépôt.
 
 | Décision | Pistes |
 | --- | --- |
-| Vérifiées, 15 | Kinases de la pyruvate déshydrogénase (B001) ; peroxysomes et plasmalogènes (B002) ; orexine de l'hypothalamus (B003) ; canal calcique RyR1 du muscle (B004) ; catécholamines du liquide céphalo-rachidien (B005) ; auto-anticorps contre la sélénoprotéine P (B006) ; cibinétide et petites fibres nerveuses (B007) ; endothéline-1 (B010) ; humanine et MOTS-c (B011) ; répartition du fer (B012) ; région HLA de classe II (B013) ; résistance à l'insuline avant l'EM/SFC (B017) ; hypermobilité articulaire (B018) ; interleukines 5 et 13 avant une mononucléose (B019) ; nombre de copies d'ADN mitochondrial (B020) |
-| À vérifier, 3 | D-lactate d'origine intestinale (B008), déficit en vasopressine (B009) et apnée du sommeil avant l'infection (B016) : les études qui portent le signal ne sont accessibles que par leur résumé |
+| Vérifiées, 14 | Kinases de la pyruvate déshydrogénase (B001) ; peroxysomes et plasmalogènes (B002) ; orexine de l'hypothalamus (B003) ; catécholamines du liquide céphalo-rachidien (B005) ; auto-anticorps contre la sélénoprotéine P (B006) ; cibinétide et petites fibres nerveuses (B007) ; endothéline-1 (B010) ; humanine et MOTS-c (B011) ; répartition du fer (B012) ; région HLA de classe II (B013) ; résistance à l'insuline avant l'EM/SFC (B017) ; hypermobilité articulaire (B018) ; interleukines 5 et 13 avant une mononucléose (B019) ; nombre de copies d'ADN mitochondrial (B020) |
+| À vérifier, 4 | Canal calcique RyR1 du muscle (B004), D-lactate d'origine intestinale (B008), déficit en vasopressine (B009) et apnée du sommeil avant l'infection (B016) : les études qui portent le signal ne sont accessibles que par leur résumé |
 | Écartées, 3 | FOXP4 comme sous-type pulmonaire (B014) : le variant est aussi lié aux diagnostics de fatigue. Grossesse (B015) et antibiotiques (B021) : signaux probablement artefactuels selon la grille statistique, tant qu'une contre-analyse ne les retrouve pas |
 
-Trois constats. Les chiffres recopiés étaient presque toujours exacts : 27 affirmations fausses sur 537. L'affirmation « inexplorée » était le point faible : pour 16 pistes, la recherche a fait remonter une étude que la fiche ne citait pas. Les niveaux de preuve annoncés étaient trop hauts : six baissent, un monte.
+Trois constats. Les chiffres recopiés étaient presque toujours exacts : 27 affirmations fausses sur 537. L'affirmation « inexplorée » était le point faible : pour 16 pistes, la recherche a fait remonter une étude que la fiche ne citait pas. Les niveaux de preuve annoncés étaient trop hauts : six baissent ; le seul relèvement, celui de l'hypermobilité, a été annulé après contradiction.
 
 Cinq pistes avaient d'abord été écartées. Chacune a eu un contradicteur, chargé de la défendre : quatre motifs sur cinq contenaient une phrase trop forte, et deux mises à l'écart ont été levées, celles de l'orexine et de l'apnée du sommeil.
+
+Les quinze pistes alors gardées ont eu à leur tour un contradicteur, chargé de les attaquer. Un avis « ne tient pas », quatorze « tient en partie », aucun « tient ». Le canal RyR1 repasse « à vérifier » : le résultat qui porte la piste n'est lu que par son résumé. Le niveau de l'hypermobilité revient de B à C : deux des trois équipes n'en font qu'une. Aucun des quinze tests proposés n'est prêt : il manque un seuil, un sens attendu ou un jeu de données dont l'existence soit montrée.
 
 Trois pistes vérifiées ont été promues au registre le même jour, parce que leur premier test ne demande aucun laboratoire : humanine et MOTS-c (B011), région HLA (B013), nombre de copies d'ADN mitochondrial (B020).
 

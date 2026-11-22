@@ -26,7 +26,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/consigne-contradicteur.md` | La consigne remise à celui qui défend une piste écartée |
 | `outils/consigne-contradicteur-piste-gardee.md` | La consigne remise à celui qui attaque une piste gardée |
 | `outils/consigne-relecteur-de-plan.md` | La consigne remise à celui qui relit un plan d'analyse avant l'ouverture des données |
-| `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur et du contradicteur |
+| `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur et des contradicteurs |
 | `analyses/banque/` | Le compte rendu de la relecture, les termes du test « inexplorée » et les calculs d'effectifs |
 | `analyses/P15/`, `P16/`, `P17/` | Pour chaque piste promue : son plan d'analyse, ses calculs et ses lettres |
 | `REPRISE.md` | Où en est le projet et quoi faire ensuite, pour reprendre dans une nouvelle session |
@@ -51,7 +51,7 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 21 pistes en banque, relues : 15 vérifiées, dont 3 promues au registre, 3 écartées, 3 à vérifier |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 21 pistes en banque, relues : 14 vérifiées, dont 3 promues au registre, 3 écartées, 4 à vérifier |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
@@ -83,10 +83,12 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 - **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
   fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
   des patients non sélectionnés. Détail : `registre/transpositions.yaml`.
-- **Banque.** Les 21 pistes déposées ont été relues contre leurs sources : 15 sont vérifiées,
-  3 écartées, 3 restent à vérifier. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
+- **Banque.** Les 21 pistes déposées ont été relues contre leurs sources : 14 sont vérifiées,
+  3 écartées, 4 restent à vérifier. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
   étaient presque toujours exacts ; l'affirmation « inexplorée » était fausse ou incomplète
   pour 16 pistes. Cinq mises à l'écart ont eu un contradicteur : deux ont été levées.
+  Les quinze pistes gardées en ont eu un à leur tour, chargé de les attaquer : une repasse
+  « à vérifier », un niveau de preuve baisse, et aucun des quinze tests proposés n'est prêt.
   Trois pistes vérifiées sont promues au registre (P15 à P17) : leur premier test ne demande
   aucun laboratoire. Détail : `analyses/banque/RELECTURE.md`.
 - **Pistes promues.** Un plan d'analyse est déposé pour chacune, avant toute donnée, et relu

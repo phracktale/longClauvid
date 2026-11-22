@@ -3,6 +3,53 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Les quinze pistes gardées ont été attaquées : une repasse « à vérifier », un niveau baisse
+
+**Fait.** Chacune des quinze pistes gardées a eu un contradicteur, chargé de l'attaquer. Sa consigne,
+`outils/consigne-contradicteur-piste-gardee.md`, a été déposée avant sa lecture : celle du dépôt ne faisait que défendre
+une piste écartée. Un avis « ne tient pas », quatorze « tient en partie », aucun « tient ». Les 158 arguments
+et 233 des 237 faits contrôlés portent une citation ; toutes sont retrouvées mot pour mot. Quatre faits « non trouvés »
+n'en portent pas : une absence ne se cite pas.
+
+**Constat.** Sur les 237 faits des relectures, 195 sont confirmés, 19 sont inexacts et 3 sont contredits.
+Six phrases trop fortes venaient du décideur lui-même, comme pour les mises à l'écart. Aucun des quinze tests proposés
+n'est prêt : il manque un seuil, un sens attendu ou un jeu de données dont l'existence soit montrée.
+
+**Décision.**
+
+- Canal RyR1 du muscle (B004) : statut ramené de « vérifiée » à « à vérifier ». Le résultat qui porte la piste
+  vient d'un article de 2008 lu par son seul résumé (PMID 18268335).
+- Hypermobilité articulaire (B018) : niveau ramené de B à C. Deux des « trois équipes » n'en font qu'une,
+  et les deux études indépendantes mesurent un diagnostic codé, pas l'hypermobilité.
+- Les treize autres pistes gardent leur statut et leur niveau. Neuf décisions sont reformulées, les deux ci-dessus comprises ;
+  six sont maintenues telles quelles.
+
+**Motif.** La règle du résumé seul avait été appliquée de façon inégale : B008, B009 et B016 attendaient pour la raison
+qui vaut pour B004. Pour B018, la même lecture avait ramené B013 à C : deux études qui ne mesurent pas la même chose
+ne se répliquent pas.
+
+**Choix.** La décision d'origine reste dans chaque piste, à côté de l'avis du contradicteur, dans le champ `relecture.attaque`.
+Le décideur a vérifié lui-même, dans les copies locales, les constats qui changent un statut ou un niveau.
+
+**Écarté.**
+
+- Suivre le contradicteur sur la question 9 de la grille pour B013 et B017 : la maladie y est déclarée par la personne,
+  mais le génotype et les marqueurs du sang sont mesurés. La règle vise une mesure déclarée des deux côtés.
+- Ramener B007 et B019 à « à vérifier » : une de leurs deux sources n'est lue que par son résumé, mais l'autre,
+  lue en entier, porte le même signal. C'est la limite de la règle, écrite comme telle dans le compte rendu.
+- Réécrire les titres, les énoncés et les tests, comme les contradicteurs le demandent : le texte déposé ne se réécrit pas.
+  Un test se réécrit dans un plan d'analyse, au moment de promouvoir la piste.
+- Modifier les pistes P15 à P17 du registre : leurs fiches disent déjà l'essentiel de ce que l'attaque relève.
+
+**Incident.** Les quinze contradicteurs écrivaient leurs fichiers de travail dans le même dossier temporaire.
+Deux scripts du même nom se sont écrasés : le fichier de B002 n'était pas sur le disque alors que son auteur le disait écrit.
+Il a été réécrit avec les mêmes faits et les mêmes arguments, une citation étant raccourcie ; le contrôle des citations
+a été refait sur les quinze fichiers. Désormais chaque agent nomme ses fichiers de travail d'après sa piste.
+
+**Réserve.** Le contradicteur est un programme du même type que le relecteur et le décideur, d'un modèle moins coûteux.
+Une consigne d'attaque pousse à trouver : aucun avis n'est « tient ». Les constats qui ne changent ni statut ni niveau
+reposent sur le contrôle mot pour mot de leur citation, pas sur une seconde lecture.
+
 ## 2026-11-22 — Quatre lettres envoyées pour les pistes promues
 
 **Fait.** Sur instruction du porteur du projet, les quatre lettres sont parties de la boîte du projet,

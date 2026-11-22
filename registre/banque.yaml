@@ -121,6 +121,22 @@
       parue en 2017 (PMID 29231630), connue par son titre seul.'
     decision: 'Gardée après corrections : le signal de 2016 est fidèlement rapporté, le test sur échantillons conservés
       est faisable.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      constats:
+      - Dix-sept des dix-huit faits contrôlés sont confirmés.
+      - 'La protéomique de l''autre équipe ne réplique pas le signal : sur 6 patients et 4 témoins, elle trouve
+        abaissée une sous-unité régulatrice de la phosphatase (PDPR), pas une hausse des kinases.'
+      - 'L''étude de 2016 ne mesure pas le métabolisme dans le muscle des patients et ne corrige pas ses comparaisons
+        multiples. Les sérums des patients datent surtout de fin 2014 et de 2015, ceux des témoins de 2012 pour
+        62 sur 102 : un effet de lot n''est pas écarté.'
+      - 'L''ARN de PDK1 suit la durée, la gravité et l''inactivité : une hausse des kinases peut être une conséquence
+        de la maladie.'
+      - Le test n'a ni seuil chiffré ni analyse par sexe, alors que la baisse des acides aminés n'est nette que
+        chez les femmes.
+      suite: 'Décision maintenue : vérifiée, niveau C. Le test est à écrire avec un seuil, une analyse par sexe
+        et un ajustement sur la durée et la gravité de la maladie.'
 - id: B002
   titre: 'Les peroxysomes fonctionnent mal après l''infection : les plasmalogènes baissent dans l''EM/SFC et les
     peroxysomes se raréfient dans le poumon et l''intestin après le SARS-CoV-2'
@@ -223,8 +239,26 @@
       décédées du COVID-19 (PMID 37190821). Des lipidomiques du COVID long existent (PMID 38368647, 147 patients
       ; PMID 40842862) : leurs résumés ne chiffrent pas les plasmalogènes, mais leurs données pourraient suffire
       au test. La phrase « pas encore mesurés dans le COVID long » n''est plus sûre.'
-    decision: 'Gardée après corrections. Premier pas le moins coûteux : demander les plasmalogènes aux auteurs des
-      lipidomiques déjà faites.'
+    decision: 'Gardée après corrections. Demander les plasmalogènes aux auteurs des lipidomiques déjà faites reste
+      le premier pas le moins coûteux, mais rien ne montre que leurs données suffisent au test : l''une n''a pas
+      de groupe rétabli nommé, l''autre décrit un métabolisme des lipides éthers renforcé, de sens contraire.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections. Premier pas le moins coûteux : demander les plasmalogènes aux
+        auteurs des lipidomiques déjà faites.'
+      constats:
+      - Quatorze des seize faits contrôlés sont confirmés.
+      - 'La lipidomique de 2024 compare des patients symptomatiques et asymptomatiques après le COVID-19 : son résumé
+        ne nomme ni groupe rétabli ni plasmalogènes. Rien ne montre que ses données suffisent au test.'
+      - 'La lipidomique de 2025 a déposé ses données, mais elle décrit un métabolisme des lipides éthers renforcé
+        dans deux sous-groupes de patients : au niveau des voies, le sens est contraire à la piste.'
+      - 'Dans l''étude de Science, la baisse des lipides éthers est propre aux macrophages des alvéoles, et les
+        protéines des peroxysomes sont revenues à la normale au 21e jour : aucune source ne relie un défaut du tissu
+        aux plasmalogènes du sang.'
+      - Le test n'a pas de seuil, alors que les écarts de 2022 sont de l'ordre de 3 % sur l'échelle logarithmique.
+      suite: 'Décision reformulée : vérifiée, niveau C. La demande aux auteurs pose d''abord deux questions : les
+        plasmalogènes ont-ils été mesurés, et un groupe de personnes rétablies existe-t-il ?'
 - id: B003
   titre: Le SARS-CoV-2 abaisse durablement l'orexine de l'hypothalamus, le neuropeptide qui manque dans la narcolepsie
     de type 1
@@ -346,6 +380,22 @@
         réduit dans le liquide céphalo-rachidien.
       suite: 'Mise à l''écart levée. Rien ne contredit la piste chez les patients : elle est sans donnée, comme
         B004, autre hypothèse théorique gardée au niveau D.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      constats:
+      - Dix-sept des vingt faits contrôlés sont confirmés.
+      - '« Sans suivi plus long » était inexact pour le second modèle animal : des coupes de l''hypothalamus existent
+        au 60e jour, mais le texte n''en donne pas le résultat.'
+      - 'Le test ne peut pas réfuter une perte partielle de neurones à orexine : selon les auteurs d''un des cas,
+        elle laisse un taux normal ou réduit dans le liquide céphalo-rachidien. Il n''a ni seuil ni mesure de somnolence
+        nommée.'
+      - 'L''orexine A du liquide céphalo-rachidien baisse un peu dans les maladies inflammatoires du système nerveux
+        : un taux bas ne désignerait pas à lui seul une perte de neurones à orexine.'
+      - 'Trois des quatre hypersomnies centrales décrites après le COVID-19 sont des hypersomnies idiopathiques
+        : elles ne montrent pas un déficit en orexine.'
+      suite: 'Décision maintenue : vérifiée comme hypothèse théorique, niveau D. Le test est à réécrire : un taux
+        normal ne réfute pas une perte partielle.'
 - id: B004
   titre: Le canal calcique RyR1 du muscle reste « fuyant » après l'effort chez les patients, comme dans les myopathies
     liées à RYR1
@@ -399,7 +449,7 @@
     lu: page
   origine: agent biologie
   date: '2026-11-22'
-  statut: vérifiée
+  statut: à vérifier
   relecture:
     date: '2026-11-22'
     lecture: '5 sources rouvertes : 3 en texte intégral, 2 par leur résumé.'
@@ -418,8 +468,31 @@
       du réticulum de patients atteints de syndrome de fatigue chronique, une altération de l''ouverture des canaux
       à ryanodine (PMID 12899875, lue par son résumé, sans effectif). Elle n''a pas été répliquée. Aucune étude
       dans le COVID long, aucun essai enregistré.'
-    decision: 'Gardée après corrections, comme hypothèse théorique : le test sur les biopsies déjà congelées reste
-      le bon, et il a un précédent de 2003 à lire en entier avant de relever le niveau.'
+    decision: 'À vérifier : le résultat de 2008 qui porte la piste n''est lu que par son résumé. Hypothèse théorique,
+      niveau D. La mesure centrale du test n''a pas pu être faite comme prévu dans l''essai d''ARM210 : sa faisabilité
+      sur biopsie est à établir avant de solliciter une équipe.'
+    attaque:
+      date: '2026-11-22'
+      avis: ne tient pas
+      decision_initiale: 'Gardée après corrections, comme hypothèse théorique : le test sur les biopsies déjà congelées
+        reste le bon, et il a un précédent de 2003 à lire en entier avant de relever le niveau.'
+      statut_initial: vérifiée
+      constats:
+      - Huit des douze faits contrôlés sont confirmés.
+      - Le résultat qui porte la piste, un canal RyR1 appauvri en calstabine 1 après l'effort chez l'humain, vient
+        de l'article de 2008, lu par son seul résumé. Aucune source lue en entier ne le montre. La règle met la
+        piste « à vérifier », comme B008, B009 et B016.
+      - 'Ce résumé décrit l''effet de l''effort lui-même, chez la souris et chez l''humain : aucune source ne montre
+        un écart entre patients et témoins.'
+      - 'Dans l''essai d''ARM210, la mesure que le test propose, la calstabine 1 liée à RyR1, n''a pas pu être faite
+        comme prévu : le signal variait trop, jusque sur le tissu témoin. Une analyse exploratoire sur deux participants
+        la dit possible si le tissu est bien préparé. « Le test reste le bon » était trop fort.'
+      - 'Dans l''étude d''Appelman, les patients travaillent 5 heures par semaine contre 36 pour les témoins, et
+        l''inactivité suffit à rendre le canal fuyant chez l''animal : un écart pourrait venir de l''inactivité.'
+      - 'Le résumé de 2003 ne nomme ni RyR1 ni la calstabine, et attribue l''anomalie à la fluidité de la membrane
+        : c''est un précédent plus lointain que la décision ne le disait.'
+      suite: 'Statut ramené de « vérifiée » à « à vérifier » : la règle appliquée à B008, B009 et B016 vaut ici.
+        L''article de 2008 (PMID 18268335) s''ajoute aux articles à lire en entier.'
 - id: B005
   titre: Le liquide céphalo-rachidien des patients montre un déficit central en catécholamines, du même type que
     dans les synucléinopathies
@@ -516,8 +589,28 @@
       (PMID 1282370). Pour la synucléine : une série de cas de dépôts cutanés dans la tachycardie posturale du COVID
       long (PMID 35570247, lettre connue par son titre seul), et une étude sans signe de synucléinopathie dans les
       neurones olfactifs de 10 patients (PMID 38570429). Toujours aucune réplication hors du NIH.'
-    decision: 'Gardée après corrections, en la recentrant : déficit noradrénergique à répliquer hors du NIH ; la
-      lecture « synucléine » est la moins étayée des deux.'
+    decision: 'Gardée après corrections : un déficit des métabolites des catéchols, mesuré par une seule équipe,
+      à répliquer hors du NIH. Son recentrage sur la noradrénaline repose sur une étude de 2026 lue par son résumé
+      ; la lecture « synucléine » reste la moins étayée, sans être écartée.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections, en la recentrant : déficit noradrénergique à répliquer hors
+        du NIH ; la lecture « synucléine » est la moins étayée des deux.'
+      constats:
+      - Douze des seize faits contrôlés sont confirmés.
+      - 'Le recentrage sur la noradrénaline vient de l''étude de 2026, lue par son seul résumé. L''étude de 2024,
+        lue en entier, ne le montre pas : la noradrénaline et la dopamine n''y diffèrent pas entre les groupes.'
+      - '« Aucune source ne compare aux synucléinopathies » était inexact : le résumé de 2026 inclut un groupe atteint
+        de la maladie de Parkinson, dont la voie de la noradrénaline est abaissée elle aussi.'
+      - '« Des médicaments non arrêtés », écrit dans les risques, est faux pour l''étude de 2024 : les médicaments
+        gênants y ont été arrêtés avant le prélèvement.'
+      - 'La série de biopsies de peau n''était pas connue par son titre seul : sa copie donne 63 % de biopsies positives
+        sur 8 patients, sans témoins. Elle va dans le sens de la lecture « synucléine ».'
+      - 'Dans la cohorte de 34 patients ponctionnés, la ponction n''a été faite que chez les patients : elle ne
+        peut pas servir seule de cohorte de réplication.'
+      suite: 'Décision reformulée : vérifiée, niveau C. La source du signal, l''étude de 2024, est lue en entier.
+        L''étude de 2026 (PMID 42205163) est à lire en entier avant de recentrer la piste.'
 - id: B006
   titre: Des auto-anticorps contre la sélénoprotéine P privent les tissus de sélénium et freinent l'activation de
     l'hormone thyroïdienne
@@ -600,6 +693,22 @@
     inexploree: 'L''affirmation tient : aucun second laboratoire n''a dosé ces anticorps, aucun essai ne sélectionne
       des porteurs.'
     decision: 'Gardée après corrections : le dosage par un laboratoire indépendant est le test qui manque.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      constats:
+      - Quatorze des dix-sept faits contrôlés sont confirmés.
+      - Le rapport T3/T4 plus bas repose sur 12 porteurs d'anticorps, dans un test à trois groupes.
+      - 'L''étude de 2018 et le sous-groupe thyroïdien de 2023 portent le même numéro de comité d''éthique : c''est
+        la même cohorte, et la première ne confirme pas la seconde.'
+      - Des auteurs de l'étude de 2023 détiennent des parts de la société qui évalue le statut en sélénium, ou en
+        sont salariés.
+      - '« Seule leur combinaison l''était » ne vaut que pour la présence de la fatigue : sur sa gravité, c''est
+        le sélénium seul qui est lié, dans l''étude de 2026, qui est transversale.'
+      - 'En 2018, le sélénium du plasma ne diffère pas et celui des globules rouges est plus haut chez les patients
+        : le manque de sélénium dans les tissus n''est pas montré.'
+      suite: 'Décision maintenue : vérifiée, niveau C. Le test est à écrire avec un seuil et un nombre attendu de
+        porteurs.'
 - id: B007
   titre: Le cibinétide, agoniste du récepteur de réparation innée, fait repousser les petites fibres nerveuses perdues
     dans le COVID long comme dans la sarcoïdose
@@ -681,7 +790,26 @@
     inexploree: 'L''affirmation tient pour le levier : aucune publication ni essai du cibinétide dans ces maladies.
       Au registre, quatre essais de la molécule, achevés ou arrêtés entre 2014 et 2017, dont un de statut inconnu.'
     decision: 'Gardée après corrections, avec un test à refaire : mesurer d''abord, sur une cohorte suivie, si les
-      fibres de la cornée remontent quand les symptômes s''améliorent.'
+      fibres de la cornée remontent quand les symptômes s''améliorent. Dans l''essai de 2017, ni les fibres de la
+      peau ni les symptômes ne s''améliorent plus que sous placebo.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections, avec un test à refaire : mesurer d''abord, sur une cohorte suivie,
+        si les fibres de la cornée remontent quand les symptômes s''améliorent.'
+      constats:
+      - Quatorze des dix-sept faits contrôlés sont confirmés ; les trois autres sont des recherches qui ne se rejouent
+        pas sur les copies.
+      - La fiche de registre de l'essai de 2017 donne ses critères secondaires. La densité des fibres de la peau
+        gagne 0,8 fibre par millimètre sous placebo contre 0,4 sous 4 mg ; le score de symptômes baisse de 7,3 points
+        sous placebo contre 8,7 sous 4 mg. Le gain de fibres de la cornée ne s'accompagne d'aucun gain net sur la
+        peau ni sur les symptômes.
+      - Dans l'essai de 2013, le gain cornéen est testé dans chaque groupe contre son propre départ, pas entre les
+        groupes, et chaque œil compte comme un échantillon indépendant.
+      - 'L''essai de 2017 reste lu par son résumé et sa fiche de registre. La piste reste « vérifiée » parce que
+        l''essai de 2013, lu en entier, porte le même signal : c''est la limite de la règle.'
+      - 'Aucune cohorte suivie n''est nommée pour le test : les deux cohortes citées sont transversales.'
+      suite: 'Décision complétée : vérifiée, niveau C.'
 - id: B008
   titre: Des bactéries de l'intestin produisent du D-lactate qui passe dans le sang et trouble la cognition, comme
     dans l'acidose D-lactique du grêle court
@@ -934,6 +1062,22 @@
       dans le syndrome de fatigue chronique n''a pas pu être lue (PMID 14739476).'
     decision: 'Gardée après corrections. La question utile est devenue : l''endothéline-1 distingue-t-elle les patients
       des personnes infectées et rétablies ?'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      constats:
+      - Neuf des onze faits contrôlés sont confirmés.
+      - Une correction de la relecture était inexacte. Chez Haffke, l'endothéline-1 est élevée chez les patients
+        EM/SFC dans les deux cohortes ; c'est chez les patients sans EM/SFC qu'elle ne l'est que dans la seconde.
+      - '« Reste élevée » n''est pas montré à distance : dans la cohorte suivie de 18 à 24 mois, la moyenne est
+        revenue dans les valeurs normales, et 30,6 % des personnes restent au-dessus.'
+      - Chez les patients COVID long de l'étude espagnole, les symptômes suivent VCAM-1 et non l'endothéline-1 ;
+        le lien avec l'endothéline-1 n'y vaut que pour l'EM/SFC.
+      - 'Le seul groupe de personnes rétablies compte 20 personnes. Aucune source ne dose l''endothéline-1 et ne
+        mesure le débit cérébral chez les mêmes personnes : le test n''a pas de jeu de données.'
+      suite: 'Décision maintenue : vérifiée. Le niveau B ne vaut que pour l''élévation dans les mois qui suivent
+        l''infection ; le lien avec les symptômes repose sur une équipe, celui avec le débit cérébral sur aucune
+        mesure.'
 - id: B011
   titre: Les peptides codés par l'ADN mitochondrial, humanine et MOTS-c, sont abaissés dans la fatigue après fièvre
     Q et dans l'EM/SFC
@@ -1017,6 +1161,21 @@
       pas chez les autres (PMID 35285072 ; PMID 37072092). Aucun essai enregistré.
     decision: 'Gardée après corrections, sur un autre appui que celui de la fiche : le résultat sur les vésicules
       extracellulaires, à répliquer.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      constats:
+      - Huit des neuf faits contrôlés sont confirmés. Le contradicteur n'a pas attaqué l'appui de 2019, déjà retiré.
+      - 'Les deux articles sur les vésicules reposent sur la même plateforme de dosage : le second ne réplique pas
+        le premier. Celui des vésicules d''origine neuronale n''est lu que par son résumé.'
+      - Les groupes comptent 8 ou 15 personnes, sans ajustement sur des facteurs de confusion.
+      - '« Pas chez les autres patients » n''est pas une comparaison directe : les deux groupes de COVID long sont
+        comparés au même groupe rétabli, jamais l''un à l''autre.'
+      - Les témoins sains sont des prélèvements conservés depuis au moins trois ans avant la pandémie.
+      - Le test déposé en banque porte sur le plasma et l'ARN, alors que le seul appui restant porte sur des vésicules.
+      suite: 'Décision maintenue : promue, niveau C. La piste P15 du registre dit déjà qu''elle repose sur une seule
+        équipe et sur un sous-groupe. Deux réserves s''y ajoutent : l''absence de comparaison directe entre les
+        deux groupes de patients, et l''âge des prélèvements des témoins.'
   promue_en: P15
   promue_le: '2026-11-22'
 - id: B012
@@ -1099,6 +1258,18 @@
       de l''étude de 2024, qui présente le fer comme une cible possible.'
     decision: Gardée après corrections. Le sens de l'anomalie n'étant pas tranché, rien ici ne permet de donner
       du fer.
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      constats:
+      - Dix-huit des vingt faits contrôlés sont confirmés.
+      - 'L''écart entre patients et personnes rétablies est le plus net entre le 15e et le 30e jour, plus qu''entre
+        les jours 91 et 180 : la source ne montre pas la différence au-delà de six mois que l''énoncé prédit.'
+      - '« Monocytes chargés en fer » est une signature d''ARN, tirée d''un jeu de données publié par d''autres,
+        sur 36 patients tous groupes confondus : le fer des monocytes n''est pas mesuré.'
+      - Dans l'étude japonaise, ni l'hémoglobine ni les marqueurs de l'inflammation ne diffèrent entre les groupes.
+      - 'Le test dit « diffèrent » sans sens ni seuil : une ferritine plus haute ou plus basse compterait pareillement.'
+      suite: 'Décision maintenue : vérifiée, niveau C. Le test est à écrire avec un sens attendu pour chaque marqueur.'
 - id: B013
   titre: La région HLA de classe II est associée au COVID long et à l'EM/SFC dans deux études génétiques indépendantes
   domaine_source: Études d'association pangénomique, avec imputation des allèles HLA
@@ -1188,8 +1359,26 @@
       Dans le COVID long, deux études espagnoles trouvent HLA-A*03 (71 cas parmi 153 patients, PMID 40107360) puis
       HLA-B*15 (168 cas, PMID 43023789) moins fréquents chez les malades ; la seconde ne retient aucun allèle de
       haute résolution après correction. Le croisement des deux études pangénomiques, lui, reste à faire.
-    decision: 'Gardée après corrections : le test sur statistiques résumées ne coûte rien, et les études norvégiennes
-      désignent déjà la région HLA-DQ.'
+    decision: 'Gardée après corrections : quatre tests fixés d''avance peuvent trancher, mais un seul se lit sur
+      un fichier public. Les études norvégiennes désignent la région HLA-DQ dans l''EM/SFC seulement.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections : le test sur statistiques résumées ne coûte rien, et les études
+        norvégiennes désignent déjà la région HLA-DQ.'
+      constats:
+      - Vingt des vingt-trois faits contrôlés sont confirmés.
+      - '« Le test ne coûte rien » était inexact : un seul des quatre tests se lit sur un fichier public, et il
+        a échoué ; les trois autres demandent un chiffre que les équipes n''ont pas publié.'
+      - 'Les études norvégiennes désignent HLA-DQB1 dans l''EM/SFC seulement : elles n''appuient pas un terrain
+        commun aux deux maladies.'
+      - Une étude iranienne trouve HLA-DRB1*11 moins fréquent chez les patients COVID long, de sens contraire à
+        l'étude de 23andMe ; une étude espagnole ne retient aucun allèle de haute résolution après correction.
+      - 'Le contradicteur invoque la question 9 de la grille, parce que le COVID long est déclaré par les participants
+        de 23andMe. L''argument n''est pas retenu au sens de la règle : le génotype, lui, est mesuré. L''erreur
+        de classement des cas reste un risque, que les auteurs reconnaissent.'
+      suite: 'Décision reformulée : promue, niveau C. Rien ne change pour la piste P16 du registre : son plan et
+        ses résultats disent déjà que le premier test échoue et que les trois autres attendent un chiffre des équipes.'
   promue_en: P16
   promue_le: '2026-11-22'
 - id: B014
@@ -1618,8 +1807,26 @@
       statut inconnu). Une méta-analyse de 56 études trouve un indice de résistance à l''insuline plus élevé dans
       le COVID long (PMID 42410961). Aucune étude des cas incidents d''EM/SFC n''a été trouvée : le test proposé
       reste à faire.'
-    decision: 'Gardée après corrections : le test sur les cas incidents d''UK Biobank est le seul qui puisse dire
-      si la signature précède la maladie.'
+    decision: 'Gardée après corrections : le test sur les cas incidents d''UK Biobank est le plus direct pour dire
+      si la signature précède la maladie. Le nombre de cas incidents reste à établir.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections : le test sur les cas incidents d''UK Biobank est le seul qui
+        puisse dire si la signature précède la maladie.'
+      constats:
+      - Treize des dix-sept faits contrôlés sont confirmés.
+      - '« Le seul test » était trop fort : la randomisation mendélienne renseigne aussi sur le sens, et elle ne
+        trouve pas d''effet causal des triglycérides.'
+      - La plateforme d'essai de la metformine est néerlandaise, et non canadienne.
+      - « La moitié des cas répond aux critères canadiens » est une attente tirée d'autres études, pas une mesure.
+      - 'Les cas ont un indice de masse corporelle plus haut que les témoins, et l''écart grandit quand la définition
+        des cas et des témoins se durcit : la signature peut venir du poids ou d''une mauvaise santé en général.
+        Apparier sur le poids, comme le test le prévoit, peut aussi effacer un vrai signal.'
+      - 'Le diagnostic est déclaré par la personne. La question 9 de la grille n''est pas retenue au sens de la
+        règle : les marqueurs du sang sont mesurés, et une seconde cohorte retrouve 9 marqueurs sur 14, dans le
+        même sens.'
+      suite: 'Décision reformulée : vérifiée, niveau C.'
 - id: B018
   titre: L'hypermobilité articulaire est associée à une non-guérison après le COVID-19
   domaine_source: Enquêtes par questionnaire dans une biobanque britannique
@@ -1645,7 +1852,7 @@
     3, 6, 7, 9 et 10. Question 9 : dans les enquêtes, l''hypermobilité et la non-guérison sont déclarées dans le
     même questionnaire. Ce doute est en partie levé par deux études sur diagnostics codés, qui retrouvent l''association
     mais exposent à un biais de surveillance.'
-  niveau: B
+  niveau: C
   solidite_statistique: '2 854 personnes avec une donnée de guérison, dont 914 (32,0 %) non guéries. Rapport de
     cotes ajusté 1,33 (1,10–1,60) ; brut 1,43 (1,20–1,70). La fatigue porte une part de l''association : effet indirect
     0,18 (0,08–0,29). Seconde enquête de la même équipe, plus de 1 800 adultes : risque croissant avec le degré
@@ -1699,8 +1906,30 @@
       concentré chez celles qui ont déjà une tachycardie posturale ou une EM/SFC (PMID 42986813). Dans une cohorte
       hospitalière, 9,5 % des 63 patients atteints d''une maladie héréditaire du tissu conjonctif ont un COVID long,
       contre 2,5 % (PMID 38543826). Reste inexploré : un score de Beighton mesuré avant l''infection.'
-    decision: Gardée après corrections. La piste a passé son propre premier test ; le suivant est une mesure à l'examen,
-      avant l'infection.
+    decision: Gardée après corrections. L'association est retrouvée avec une hypermobilité non déclarée par le patient,
+      dans deux études à diagnostics codés que leurs limites empêchent de tenir pour une réplication. Le test suivant
+      est une mesure à l'examen, avant l'infection ; aucune cohorte n'est nommée pour le faire.
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: Gardée après corrections. La piste a passé son propre premier test ; le suivant est une
+        mesure à l'examen, avant l'infection.
+      niveau_initial: B
+      constats:
+      - Treize des quinze faits contrôlés sont confirmés.
+      - '« Trois équipes » était inexact : la seconde enquête sur l''hypermobilité déclarée partage une autrice
+        avec la première. Les deux études indépendantes mesurent autre chose, un diagnostic codé.'
+      - Dans la base américaine, les trois quarts du groupe portent un code de syndrome d'Ehlers-Danlos non précisé,
+        une partie des diagnostics est posée après le COVID-19, et les auteurs disent leurs résultats descriptifs.
+      - La cohorte hospitalière repose sur 6 cas de COVID long, dans un groupe qui mêle trois maladies du tissu
+        conjonctif.
+      - '« Déjà une tachycardie posturale ou une EM/SFC » était inexact : ces diagnostics sont relevés à un moment
+        quelconque du suivi, sans ordre dans le temps.'
+      - 'Question 9 de la grille : l''hypermobilité et la non-guérison sont déclarées dans le même questionnaire.
+        Le doute reste levé en partie par les deux études à diagnostics codés, comme pour B016 ; elles ne valent
+        pas une contre-analyse solide.'
+      suite: 'Décision reformulée, niveau ramené de B à C : la réplication par une équipe indépendante porte sur
+        un diagnostic codé, pas sur l''hypermobilité elle-même. La même règle avait ramené B013 à C.'
 - id: B019
   titre: Des taux bas d'interleukines 5 et 13 avant une mononucléose précèdent l'EM/SFC sévère
   domaine_source: Cohorte prospective d'étudiants, avec prise de sang avant la maladie
@@ -1770,8 +1999,28 @@
       : le sens est opposé.'
     inexploree: 'L''affirmation tient : les seuls autres travaux viennent de la même cohorte, dont un suivi à sept
       ans (PMID 41836950, connu par son titre seul). Aucune réplication, aucun essai.'
-    decision: 'Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est rare, et le
-      test de réplication est bien écrit.'
+    decision: 'Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est rare. Le test
+      de réplication a un seuil et un effectif calculé, mais rien ne montre que la cohorte nommée dose les deux
+      cytokines ni qu''elle compte assez de cas.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est
+        rare, et le test de réplication est bien écrit.'
+      constats:
+      - Treize des dix-huit faits contrôlés sont confirmés.
+      - '« Un premier modèle avec les seules cytokines » était inexact : ce modèle contenait aussi le score total
+        du questionnaire de symptômes. Aucun modèle à cytokines seules n''est rapporté.'
+      - 'Le suivi à sept ans n''est plus connu par son titre seul : sa copie est un texte intégral, qui renvoie
+        aux résultats de départ déjà publiés. Il n''apporte pas de réplication.'
+      - La comparaison de départ vient de l'article de 2021, lu par son résumé, qui nomme l'IL-6 et l'IL-13, pas
+        l'IL-5. L'IL-5 n'apparaît que dans l'article de 2022, lu en entier, comme l'une des deux cytokines les plus
+        prédictives parmi seize.
+      - 'Le jeu de données du test n''est pas acquis : la cohorte de jumeaux compte 282 personnes infectées, et
+        sa copie ne dit pas que l''IL-5 et l''IL-13 y sont dosées.'
+      suite: 'Décision reformulée : vérifiée, niveau C. La piste reste « vérifiée » parce que l''article de 2022,
+        qui porte l''IL-5 et l''IL-13, est lu en entier. L''article de 2021 (PMID 33367564) est à lire en entier
+        pour la comparaison de départ.'
 - id: B020
   titre: Un nombre de copies d'ADN mitochondrial génétiquement plus élevé est associé à moins d'EM/SFC
   domaine_source: Randomisation mendélienne sur les statistiques résumées de DecodeME
@@ -1850,8 +2099,28 @@
       il est plus bas chez 44 diabétiques atteints que chez 21 non atteints (PMID 39462048) ; une cohorte de 358
       personnes l'a mesuré sans le retenir parmi ses marqueurs (PMID 39901177). Aucune réplication de la randomisation
       mendélienne.
-    decision: 'Gardée après corrections : la réplication sur un autre jeu de cas ne demande que des statistiques
-      résumées.'
+    decision: 'Gardée après corrections : la randomisation mendélienne est à refaire sur un autre jeu de cas, mais
+      aucun jeu public et indépendant n''est assez grand aujourd''hui.'
+    attaque:
+      date: '2026-11-22'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections : la réplication sur un autre jeu de cas ne demande que des statistiques
+        résumées.'
+      constats:
+      - Cinq des huit faits contrôlés sont confirmés.
+      - '« Ne demande que des statistiques résumées » n''est montré par aucune source : aucun second jeu de cas
+        d''EM/SFC n''y est nommé. Le plan de la piste P17 l''a établi depuis : aucun jeu public et indépendant ne
+        dépasse 18 % de puissance.'
+      - L'intervalle de confiance existe, dans une figure que la copie ne restitue pas ; ce sont les analyses de
+        sensibilité qui sont renvoyées au dépôt de données.
+      - 'Dans la cohorte de 358 personnes, le nombre de copies est plus bas chez les patients fatigués avec malaise
+        après effort, sans prédire les symptômes : la relecture ne donnait que la seconde moitié.'
+      - 'La seule mesure directe dans l''EM/SFC, sur 23 patients et lue par son résumé, est normale : c''est l''un
+        des deux critères de réfutation de l''énoncé.'
+      - Le nombre de copies n'a pas de corrélation génétique globale avec l'EM/SFC, et les auteurs disent désigner
+        des domaines larges, pas des voies causales isolées.
+      suite: 'Décision reformulée : promue, niveau C. Rien ne change pour la piste P17 du registre, dont le plan
+        dit déjà que le test n''est pas faisable aujourd''hui.'
   promue_en: P17
   promue_le: '2026-11-22'
 - id: B021
