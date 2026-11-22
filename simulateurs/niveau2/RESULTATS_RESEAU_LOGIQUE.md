@@ -1,93 +1,161 @@
-# Niveau 2 bis : réseaux logiques à plusieurs variables
+# Niveau 2 bis : le réseau de Craddock et l'ordre des traitements
 
-État du 2026-11-22, produit par `python3 reseau_logique.py` (graine 20261122, 10 000 tirages).
+Résultats du 2026-11-22, produits par `python3 craddock_2015.py`
+(graine 20261122, 10 000 tirages par traitement, environ une minute).
 
-**Le moteur est construit et vérifié. Le modèle de Craddock 2015 n'est pas reproduit :
-la liste de ses interactions n'existe que dans une figure, que nous n'avons pas pu lire.**
+**Le réseau de Craddock est reproduit : ses cinq états stables publiés sont retrouvés,
+et eux seuls. Dans ce modèle, l'ordre décide : freiner les cytokines Th1 puis le récepteur
+du cortisol ramène à l'état sain une fois sur quatre ; l'ordre inverse, jamais.
+Les taux publiés, eux, ne sont retrouvés qu'en partie.**
 
-> Les deux réseaux ci-dessous sont des démonstrations sans valeur biologique.
-> Ils vérifient le moteur ; ils ne disent rien d'un traitement.
+> Ce modèle a été construit pour la maladie de la guerre du Golfe, chez l'homme.
+> Il n'a pas été validé pour le COVID long ni pour l'EM/SFC.
+> Les « traitements » sont des décalages de nœuds dans un modèle, pas des médicaments.
 
-## 1. Le moteur
+## 1. Le modèle
 
-Un réseau est une liste de nœuds qui s'activent ou se freinent. Chaque nœud vaut
--1 (bas), 0 (normal) ou 1 (haut). À chaque pas, un seul nœud bouge d'un cran,
-tiré au sort parmi ceux qui ne sont pas à leur valeur visée. Une intervention
-décale d'un cran les nœuds traités. Comme le tirage compte, chaque question
-est simulée 10 000 fois.
+Quatorze nœuds, chacun bas, normal ou haut, relient trois systèmes : l'axe du stress
+(CRH, ACTH, cortisol, son récepteur GR et le récepteur activé GRD), l'axe sexuel
+(GnRH, LH/FSH, testostérone) et une immunité simplifiée (cellules et cytokines innées,
+Th1 et Th2). Trente-neuf flèches disent qui active ou freine qui.
 
-## 2. Résultats des démonstrations
+| Élément | Source | Comment il a été obtenu |
+| --- | --- | --- |
+| Les 39 flèches | Figure 2 de Craddock 2015 | Relevé à la main sur la figure agrandie |
+| La règle de calcul | Équation 2 et tables 1 à 3 de Craddock 2014 | Lue dans le PDF |
+| Le tirage au sort, un nœud à la fois | Texte de Craddock 2015 | Lu dans le PDF |
+| Les états stables publiés | Figure 2 de Craddock 2014 | Lue dans le PDF |
 
-### Cause et conséquence : l'ordre décide du résultat
+## 2. Ce qui est reproduit
 
-Une cause s'entretient seule ; une conséquence est entretenue par la cause et par elle-même.
-Départ : les deux sont hautes.
+### Les cinq états stables, exactement
+
+Les 4 782 969 états possibles ont tous été essayés. Cinq sont stables, les cinq publiés.
+
+| État | Ce qui s'écarte de la normale |
+| --- | --- |
+| SS0, l'état sain | Rien |
+| SS1 | Récepteur du cortisol haut (GR, GRD), ACTH basse |
+| SS2 | Immunité basculée vers Th2 |
+| SS3 | SS1 et SS2 à la fois |
+| SS4, l'état malade | Cortisol et son récepteur hauts, immunité Th1 haute, Th2 basse, testostérone basse |
+
+C'est aussi le contrôle du relevé : une flèche mal lue aurait presque sûrement changé ces états.
+
+### Une anomalie entre les deux articles
+
+La figure du réseau n'est pas la même en 2014 et en 2015, alors que l'article de 2015
+la présente comme une reproduction. Deux entrées du nœud T1Cell diffèrent : en 2014,
+le cortisol le freine et les cytokines Th1 ne l'activent pas. Avec la figure de 2014,
+on ne trouve que quatre états stables : l'état malade disparaît. Seule la figure de 2015
+est compatible avec les résultats publiés en 2014. Elle est retenue ici.
+
+### Les conclusions qualitatives de l'article
+
+| Affirmation de l'article | Ici |
+| --- | --- |
+| Aucune cible seule ne ramène à l'état sain | Confirmé : 0 % pour les 14 traitements à une cible |
+| Freiner les cytokines Th1 mène à l'état SS1, récepteur haut et ACTH basse | Confirmé, une fois sur deux ; sinon retour à l'état malade |
+| Freiner ensuite le récepteur ramène à l'état sain | Confirmé, une fois sur deux à partir de SS1 |
+| Répéter le cycle augmente le taux | Confirmé : 25 %, puis 51 % après deux cycles |
+
+## 3. L'effet d'ordre
+
+Départ : l'état malade. Chaque intervention décale sa cible d'un cran, comme l'écrit
+l'équation 4 de l'article.
 
 | Traitement | Retour à l'état sain |
 | --- | --- |
-| Freiner la cause, puis la conséquence | 100 % |
-| Freiner la conséquence, puis la cause | 0 % |
-| Freiner les deux en même temps | 100 % |
+| Cytokines Th1, puis récepteur du cortisol | 25 % |
+| Récepteur du cortisol, puis cytokines Th1 | 0 % |
+| Les deux en même temps | 12 % |
 
-Traitée en premier, la conséquence est rallumée par la cause. Quand la cause est enfin
-freinée, la conséquence s'entretient déjà seule : le réseau reste dans un état intermédiaire.
-C'est une propriété de ce formalisme, pas un résultat biologique.
+L'ordre inverse n'est pas chiffré dans l'article ; ce 0 % est un calcul de ce dépôt.
 
-### La bascule : le moteur tire bien au sort
+Pourquoi l'ordre compte, dans ce modèle :
 
-Deux nœuds se freinent l'un l'autre. Départ : les deux sont hauts, sans intervention.
+1. Dans l'état malade, les cytokines Th1 tiennent le cortisol haut, et le cortisol
+   tient le récepteur haut.
+2. Freiner le récepteur en premier ne tient pas : le cortisol, toujours haut,
+   le rallume aussitôt.
+3. Freiner les cytokines d'abord fait retomber le cortisol une fois sur deux.
+   Le récepteur reste alors verrouillé haut par sa propre boucle : c'est l'état SS1.
+4. Freiner le récepteur à ce moment-là casse la boucle une fois sur deux.
 
-| État final (a, b) | Simulé | Calculé à la main |
-| --- | --- | --- |
-| (0, 0) | 49,6 % | 50 % |
-| (-1, 1) | 25,2 % | 25 % |
-| (1, -1) | 25,1 % | 25 % |
+Les deux en même temps font moins bien que la suite : le freinage du récepteur
+doit tenir le temps que le cortisol retombe, ce qui arrive rarement.
 
-## 3. Ce qui manque pour reproduire Craddock 2015
+## 4. Ce qui n'est pas reproduit : les taux publiés
 
-| Élément | Où il se trouve dans l'article | État |
-| --- | --- | --- |
-| Dynamique : un nœud à la fois, un cran, tirage au sort | Texte | Fait |
-| Intervention : le nœud traité est décalé d'un cran | Texte, équation 4 à vérifier | Fait |
-| Nœuds | Sept nœuds traitables nommés dans le texte : ACTH, CORT, GR, IIR, Th1Cyt, Th2Cyt, TEST. Liste complète dans la figure 2 | Incomplet |
-| Interactions (qui active ou freine qui) | Figure 2 seulement | Manquant |
-| Règle donnant la valeur visée d'un nœud | Équation 2, en image | Manquant : règle du vote, provisoire |
-| États stables publiés, nœud par nœud | Absents du texte | Manquant |
+L'article écrit qu'un traitement décale sa cible d'un cran. Avec cette lecture,
+aucun taux publié n'est retrouvé. Si un nœud freiné descend de deux crans,
+la figure 5 est retrouvée pour 8 lignes sur 12, à moins de 2 points.
 
-Pages consultées le 2026-11-22 :
+### Figure 5 de l'article : un seul temps, plusieurs cibles
 
-- PubMed Central (PMC4508058) : page bloquée par un contrôle anti-robot.
-- PLOS ONE : texte lu, sans les équations ni les figures, qui sont des images.
-- Europe PMC : requête refusée pour limite de débit.
-- Article d'origine du réseau (Craddock et al. 2014, doi:10.1371/journal.pone.0084839) : non lu.
+| Cibles (− freiné, + stimulé) | Publié | 1 cran | 2 crans |
+| --- | --- | --- | --- |
+| GR−, T1Cyt− | 37,06 % | 12,4 % | 37,2 % |
+| GR−, T2Cyt+ | 7,99 % | 0,0 % | 7,8 % |
+| CORT−, GR−, T1Cyt− | 56,50 % | 24,4 % | 55,2 % |
+| ACTH−, GR−, T1Cyt− | 38,08 % | 12,2 % | 37,8 % |
+| GR−, T1Cyt−, TEST+ | 38,06 % | 12,2 % | 24,3 % |
+| GR−, IIR−, T1Cyt− | 37,56 % | 12,1 % | 37,8 % |
+| GR−, T1Cyt−, T2Cyt+ | 37,48 % | 12,6 % | 29,3 % |
+| ACTH−, CORT−, GR−, T1Cyt− | 57,32 % | 24,6 % | 55,8 % |
+| CORT−, GR−, IIR−, T1Cyt− | 56,97 % | 24,7 % | 56,0 % |
+| CORT−, GR−, T1Cyt−, TEST+ | 56,31 % | 25,0 % | 38,1 % |
+| CORT−, GR−, T1Cyt−, T2Cyt+ | 56,16 % | 25,2 % | 43,8 % |
+| ACTH+, CORT−, GR−, T1Cyt− | 46,63 % | 16,5 % | 47,4 % |
 
-## 4. Les résultats publiés à retrouver
+Les quatre lignes mal retrouvées contiennent une hausse de TEST ou de T2Cyt.
+Elles le sont à 1 point près si cette hausse ne vaut qu'un cran, mais alors
+la deuxième ligne ne l'est plus. Aucune lecture unique ne retrouve les douze lignes.
 
-Relevés dans le texte de la page PLOS ONE ; à revérifier sur le PDF avant toute comparaison.
+### Figure 6 de l'article : suites d'interventions
 
-| Traitement simulé dans l'article | Retour à l'état sain |
-| --- | --- |
-| Une seule cible | Aucun retour robuste |
-| Un seul temps, deux cibles : freiner GR et Th1Cyt | environ 37 % |
-| Un seul temps, quatre cibles : ACTH, CORT, GR et Th1Cyt | environ 57 % |
-| Deux temps : Th1Cyt, puis GR | environ 40 % |
-| Deux cycles (quatre temps) | environ 63 % |
-| Quatre cycles (huit temps) | jusqu'à 86 % |
+| Suite | Publié | 1 cran | 2 crans |
+| --- | --- | --- | --- |
+| T1Cyt, GR | 40 % | 25,1 % | 56,3 % |
+| T1Cyt, GR, GR | 52 % | 37,5 % | 70,3 % |
+| T1Cyt, GR, T1Cyt, GR | 63 % | 50,9 % | 84,5 % |
+| T1Cyt, GR, T1Cyt, GR, GR | 73 % | 62,6 % | 91,9 % |
 
-Le texte ne donne pas de résultat pour l'ordre inverse, GR puis Th1Cyt.
-C'est le premier calcul à faire une fois le réseau chargé.
+Les taux publiés tombent entre les deux lectures. Deux causes possibles, non départagées :
 
-## 5. Trois façons de débloquer
+- La façon exacte dont le code des auteurs applique un traitement n'est pas décrite
+  assez précisément pour être refaite à l'identique.
+- Ces taux sortent d'un algorithme qui garde le meilleur de milliers d'essais bruités :
+  le meilleur score observé surestime le taux réel.
 
-1. Relever la figure 2 à la main, puis faire revérifier la saisie par une seconde personne.
-   Le plus simple : le réseau tient en quelques dizaines de flèches.
-2. Demander le fichier du modèle aux auteurs. Le plus fiable, mais le délai est inconnu.
-3. Repartir de l'article d'origine de 2014, qui décrit la construction du réseau.
-   À faire de toute façon pour relever la règle de mise à jour.
+L'effet d'ordre ne dépend pas de la lecture : l'ordre inverse donne 0 % dans les deux cas.
 
-## 6. Conséquence pour le registre
+## 5. Suite donnée par les auteurs
 
-- **H6 (état stable alternatif).** Le formalisme montre qu'un effet d'ordre est possible
-  dans un réseau à plusieurs états stables. Il ne dit pas encore lequel, ni pour quelles cibles.
-- **Contrôle de reproduction.** Une fois le réseau chargé, le moteur doit retrouver
-  les six chiffres du tableau ci-dessus avant d'être utilisé pour une question nouvelle.
+La séquence prédite a été portée en clinique : un essai ouvert de phase 1 sur 20 anciens
+combattants teste l'étanercept, un anti-TNF, pendant 12 semaines, puis la mifépristone,
+un bloqueur du récepteur du cortisol, pendant une semaine
+([NCT04254627](https://clinicaltrials.gov/study/NCT04254627)). Aucun résultat publié
+chez l'humain n'a été repéré dans cette revue. Une étude chez la souris rapporte
+une baisse de la neuro-inflammation avec la combinaison
+([PLOS ONE 2026](https://stacks.cdc.gov/view/cdc/258809/cdc_258809_DS1.pdf)).
+
+## 6. Conséquences pour le registre
+
+- **H6 (état stable alternatif).** Un modèle publié, reproduit ici, contient un effet
+  d'ordre net. C'est un argument de plausibilité, pas un test : le statut reste « ouverte ».
+  La prédiction reste à vérifier chez des patients.
+- **Pour un futur essai.** Le modèle désigne un repère plutôt qu'un délai : ne freiner
+  le récepteur qu'une fois l'ACTH retombée à un niveau bas et stable.
+- **À demander aux auteurs.** Le code de simulation, pour lever l'incertitude de la section 4.
+
+## 7. Limites
+
+- Le réseau a été relevé à la main sur une figure. Le contrôle est indirect : les cinq
+  états stables publiés sont retrouvés. Une seconde lecture indépendante reste à faire.
+- Le modèle n'a pas de durées : il dit dans quel ordre les nœuds bougent, pas en combien de temps.
+- Entre deux interventions, le réseau retrouve ici un état stable. L'article impose
+  des délais fixes de 10 à 50 pas.
+- Le modèle féminin de l'article de 2014 n'est pas reproduit.
+- Les deux réseaux de démonstration de `reseau_logique.py` servent à contrôler le moteur
+  sur des cas calculables à la main. Ils n'ont aucune valeur biologique.
