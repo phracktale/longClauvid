@@ -3,6 +3,28 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Quatre lettres envoyées pour les pistes promues
+
+**Fait.** Sur instruction du porteur du projet, les quatre lettres sont parties de la boîte du projet,
+une fois le travail fusionné : à l'auteur correspondant de l'étude de 2019 (P15), à l'équipe de DecodeME
+et à l'auteur correspondant de l'étude de 23andMe (P16), à l'auteur correspondant de la prépublication
+de randomisation mendélienne (P17). Chaque envoi est inscrit au journal des envois de sa piste.
+
+**Choix.** Ne prendre les destinataires que dans des sources officielles : la copie de l'article à PubMed Central,
+le fichier source de la prépublication par l'interface de medRxiv, la page d'accès de DecodeME,
+le texte de la prépublication. Aucun nom et aucune adresse de destinataire n'entrent dans le dépôt.
+
+**Contrôle.** Avant l'envoi : les trois liens des lettres répondent sur la branche principale ; les allèles
+que les lettres disent absents des prépublications y ont été cherchés une dernière fois, sans résultat.
+
+**Constat.** Une réponse automatique est arrivée de la boîte de DecodeME dans la minute : elle s'adresse d'abord
+aux participants de l'étude et prévient qu'elle ne pourra pas répondre aux messages reçus. Sa page d'accès
+prévoit un formulaire de demande pour les chercheurs. Les tests 2 et 3 de P16 pourraient ne jamais être lus
+par cette voie.
+
+**Réserve.** L'adresse de l'auteur de 2019 date de la publication. Aucun message d'erreur n'était revenu
+au moment du relevé, fait dans les minutes qui ont suivi l'envoi.
+
 ## 2026-11-22 — Décisions du porteur du projet sur les pistes promues
 
 **Décision.** Le résultat d'expression de 2019 n'est plus cité comme un appui de la piste P15.

@@ -55,7 +55,7 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
 | 4. Simulation | Niveaux 1 et 2 construits, deux modèles publiés reproduits ; niveau 3 à faire |
-| 5. Validation | Deux plans d'analyse déposés (lots 1 et 2) ; huit demandes envoyées le 2026-11-22, aucune réponse ni donnée reçue |
+| 5. Validation | Cinq plans d'analyse déposés (lots 1 et 2, pistes P15 à P17) ; douze demandes envoyées le 2026-11-22, aucune réponse sur le fond ; premiers tests faits sur des données publiques pour P15 et P16 |
 | 6. Passage clinique | Exige une équipe habilitée et un comité d'éthique |
 
 ## Résultats à ce jour

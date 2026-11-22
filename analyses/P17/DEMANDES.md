@@ -1,15 +1,14 @@
 # Piste P17 : la demande aux auteurs
 
-État au 2026-11-22 : **une lettre prête, non envoyée.** Elle part de la boîte du projet,
-après relecture du porteur du projet. Aucune adresse électronique n'est reprise ici.
+État au 2026-11-22 : **une lettre envoyée.** Elle est partie de la boîte du projet,
+sur instruction du porteur du projet, une fois le travail fusionné. Aucune adresse électronique n'est reprise ici.
 
 | Destinataire | Ce qui est demandé | État |
 | --- | --- | --- |
-| Auteurs de la prépublication | Les chiffres absents du texte pour le nombre de copies d'ADN mitochondrial, et la liste des 84 instruments | Prête, non envoyée |
+| Auteurs de la prépublication | Les chiffres absents du texte pour le nombre de copies d'ADN mitochondrial, et la liste des 84 instruments | Envoyée le 2026-11-22 |
 
 L'adresse est publiée par la [prépublication](https://www.researchsquare.com/article/rs-9363637/v2).
 Le dépôt de résultats qu'elle cite est en accès restreint. Voir [PLAN.md](PLAN.md).
-Les liens des lettres pointent vers la branche principale du dépôt : ne les envoyer qu'une fois ce travail fusionné.
 
 ## Lettre aux auteurs
 
@@ -38,3 +37,4 @@ Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répond
 | Date | Destinataire | Événement |
 | --- | --- | --- |
 | 2026-11-22 | Auteurs de la prépublication | Lettre rédigée, en attente de relecture |
+| 2026-11-22 | Auteur correspondant de la prépublication | Lettre envoyée, à l'adresse que publie la prépublication |

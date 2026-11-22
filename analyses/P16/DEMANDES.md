@@ -1,20 +1,21 @@
 # Piste P16 : les demandes aux équipes
 
-État au 2026-11-22 : **deux lettres prêtes, aucune envoyée.** Elles partent de la boîte du projet,
-après relecture du porteur du projet. Aucune adresse électronique n'est reprise ici.
+État au 2026-11-22 : **deux lettres envoyées.** Elles sont parties de la boîte du projet,
+sur instruction du porteur du projet, une fois le travail fusionné. Aucune adresse électronique n'est reprise ici.
 
 | Destinataire | Ce qui est demandé | Test du plan | État |
 | --- | --- | --- | --- |
-| Équipe de DecodeME, université d'Édimbourg | Les résultats de DRB1*11:04 et de DQA1*03:01 dans l'étude de l'EM/SFC, par copie de l'allèle | 2 et 3 | Prête, non envoyée |
-| Auteur correspondant de l'étude de 23andMe | Le résultat de DQA1*05:01 dans l'étude du COVID long, par copie de l'allèle | 4 | Prête, non envoyée |
+| Équipe de DecodeME, université d'Édimbourg | Les résultats de DRB1*11:04 et de DQA1*03:01 dans l'étude de l'EM/SFC, par copie de l'allèle | 2 et 3 | Envoyée le 2026-11-22 |
+| Auteur correspondant de l'étude de 23andMe | Le résultat de DQA1*05:01 dans l'étude du COVID long, par copie de l'allèle | 4 | Envoyée le 2026-11-22 |
 
 Le test 1 ne demande rien : il se lit dans le fichier public de DecodeME. Voir [PLAN.md](PLAN.md).
-Les liens des lettres pointent vers la branche principale du dépôt : ne les envoyer qu'une fois ce travail fusionné.
 
 L'adresse de l'équipe de DecodeME est publiée par sa [page d'accès](https://institute-genetics-cancer.ed.ac.uk/decodeme-the-worlds-largest-mecfs-study/researcher-access).
-Pour 23andMe, l'auteur correspondant et son adresse sont à relever sur la
-[page de la prépublication](https://www.medrxiv.org/content/10.1101/2024.10.07.24315052v1) avant l'envoi :
-la copie lue par le projet ne les contient pas.
+Cette page prévoit, pour les chercheurs, un formulaire de demande d'accès : c'est peut-être la seule voie
+qui obtienne une réponse.
+Pour 23andMe, l'auteur correspondant et son adresse ont été relevés dans le fichier source de la
+[prépublication](https://www.medrxiv.org/content/10.1101/2024.10.07.24315052v1), par l'interface de medRxiv.
+La lettre est partie telle qu'elle est écrite ici, avec son nom à la place de « [corresponding author] ».
 
 ## Lettre à l'équipe de DecodeME
 
@@ -67,3 +68,6 @@ Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répond
 | Date | Destinataire | Événement |
 | --- | --- | --- |
 | 2026-11-22 | Les deux destinataires | Lettres rédigées, en attente de relecture |
+| 2026-11-22 | Équipe de DecodeME | Lettre envoyée, à l'adresse de contact de sa page d'accès |
+| 2026-11-22 | Auteur correspondant de l'étude de 23andMe | Lettre envoyée, à l'adresse que publie la prépublication |
+| 2026-11-22 | Équipe de DecodeME | Réponse automatique, dans la minute : la boîte s'adresse d'abord aux participants et prévient qu'elle ne pourra pas répondre aux messages reçus. Rien sur le fond |

@@ -27,9 +27,9 @@ L'intervalle de DecodeME exclut l'effet publié : sa borne haute, 1,023, est sou
 
 | Test | État |
 | --- | --- |
-| 2, DRB1*11:04 dans DecodeME | Non lu : lettre prête, non envoyée |
-| 3, DQA1*03:01 dans DecodeME | Non lu : lettre prête, non envoyée |
-| 4, DQA1*05:01 dans 23andMe | Non lu : lettre prête, non envoyée |
+| 2, DRB1*11:04 dans DecodeME | Non lu : lettre envoyée le 2026-11-22 ; réponse automatique, rien sur le fond |
+| 3, DQA1*03:01 dans DecodeME | Non lu : lettre envoyée le 2026-11-22 ; réponse automatique, rien sur le fond |
+| 4, DQA1*05:01 dans 23andMe | Non lu : lettre envoyée le 2026-11-22, pas encore de réponse |
 
 ## 3. Lecture pour la piste
 
