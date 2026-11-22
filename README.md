@@ -48,7 +48,7 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 143 sources ; 21 pistes en banque, relues : 15 vérifiées, 3 écartées, 3 à vérifier |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 21 pistes en banque, relues : 15 vérifiées, dont 3 promues au registre, 3 écartées, 3 à vérifier |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
@@ -84,7 +84,8 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
   3 écartées, 3 restent à vérifier. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
   étaient presque toujours exacts ; l'affirmation « inexplorée » était fausse ou incomplète
   pour 16 pistes. Cinq mises à l'écart ont eu un contradicteur : deux ont été levées.
-  Détail : `analyses/banque/RELECTURE.md`.
+  Trois pistes vérifiées sont promues au registre (P15 à P17) : leur premier test ne demande
+  aucun laboratoire. Détail : `analyses/banque/RELECTURE.md`.
 - **Metformine.** Elle a été testée sur un COVID long installé dans deux essais randomisés,
   sans bénéfice montré ; la fiche T03, qui disait le contraire, est corrigée.
 

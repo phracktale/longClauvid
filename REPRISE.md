@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-22, 21 h 30. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-22, 21 h 39. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -34,7 +34,8 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 
 | Chantier | État | Détail |
 | --- | --- | --- |
-| Banque d'hypothèses | 21 pistes relues : 15 vérifiées, 3 écartées, 3 à vérifier ; les mises à l'écart ont eu un contradicteur | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
+| Banque d'hypothèses | 21 pistes relues : 12 vérifiées, 3 promues, 3 écartées, 3 à vérifier ; les mises à l'écart ont eu un contradicteur | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
+| Registre | 17 pistes : P15, P16 et P17 viennent de la banque ; aucun plan d'analyse déposé pour elles | `registre/pistes.yaml` |
 | Lot 2, suivi après l'arrêt des traitements | Six demandes envoyées ; une réponse automatique, rien sur le fond | `analyses/lot-2/` |
 | Lot 1, échantillons déjà collectés | Deux demandes envoyées, aucune réponse | `analyses/lot-1/` |
 | Fiche T03, metformine | Corrigée : deux essais sur un COVID long installé, sans bénéfice montré | `registre/transpositions.yaml` |
@@ -46,26 +47,27 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
 ## 4. À faire, dans l'ordre
 
 1. **Lire en entier quatre articles** que les programmes ne peuvent pas ouvrir : trois pistes en dépendent.
+   Le porteur du projet a donné son accord le 2026-11-22 ; c'est le travail d'une personne.
    Pour B008 : l'étude de 2009 de la revue In Vivo (PMID 19567398). Pour B009 : PMID 41475665 et PMID 27401397.
    Pour B016 : l'article de la revue Sleep (PMID 37166330). Une personne avec un accès de bibliothèque suffit.
-2. **Faire attaquer les quinze pistes gardées** : seules les mises à l'écart ont eu un contradicteur.
+2. **Faire attaquer les quinze pistes gardées**, dont les trois promues : seules les mises à l'écart ont eu un contradicteur.
    La relecture contradictoire a levé deux mises à l'écart sur cinq ; l'inverse est possible.
    Une relecture par une personne du métier vaudrait mieux qu'un programme de plus.
-3. **Choisir les pistes vérifiées à promouvoir** au registre : décision du porteur du projet.
-   Trois tests ne demandent aucun laboratoire. B011 : relire deux gènes dans un jeu de données public (GSE130353).
-   B013 et B020 : des statistiques résumées, à demander pour DecodeME. B002 : demander les plasmalogènes
-   aux auteurs des lipidomiques déjà faites.
-4. **Étude PHOTOCOV** : introuvable sous ce nom dans quatre sources. Il faut son nom complet,
-   son promoteur ou sa ville.
-5. **Relever les réponses** aux huit demandes et les inscrire aux journaux des envois.
+3. **Instruire les trois pistes promues.** Pour chacune, déposer un plan d'analyse avant toute donnée,
+   comme pour les lots 1 et 2. P15 : relire deux gènes dans un jeu de données public (GSE130353).
+   P16 et P17 : demander les statistiques résumées de DecodeME. Autre premier pas peu coûteux, pour B002 :
+   demander les plasmalogènes aux auteurs des lipidomiques déjà faites.
+4. **Relever les réponses** aux huit demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
-6. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
-7. **Zones non couvertes** par le chercheur en biologie : ferroptose, acides biliaires, hypoxie et HIF.
+5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
+6. **Zones non couvertes** par le chercheur en biologie : ferroptose, acides biliaires, hypoxie et HIF.
    Le tissu conjonctif est désormais couvert par B018.
-8. **Cartographie** : la revue actuelle est ciblée. La bibliothèque #ApresJ20 permet de la rendre systématique.
-9. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
-10. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque
-    ni la correction de la fiche T03.
+7. **Cartographie** : la revue actuelle est ciblée. La bibliothèque #ApresJ20 permet de la rendre systématique.
+8. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
+9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
+   ni les trois nouvelles pistes, ni la correction de la fiche T03.
+
+Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHOTOCOV, introuvable sous ce nom.
 
 ## 5. Façon de travailler
 
@@ -88,5 +90,4 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
   des relecteurs ne se refont qu'en relisant. Leur contenu utile est dans le champ `relecture` des pistes.
 - Le fil de la conversation. Tout ce qui compte doit donc être dans ce fichier, dans `JOURNAL.md`
   ou dans les journaux des envois.
-- Le travail de la session du 2026-11-22 au soir est sur la branche `ccr-8543cc2e-yawna7`,
-  sans demande de fusion ouverte : elle reste à ouvrir.
+- Le travail de la session du 2026-11-22 au soir est dans la demande de fusion n° 14.

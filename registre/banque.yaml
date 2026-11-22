@@ -958,8 +958,8 @@
     la prépublication de 2025, les données de sécurité et d''efficacité chez l''humain manquent. Sur ClinicalTrials.gov,
     le seul essai de MOTS-c repéré chez l''humain est en cours dans le prédiabète. MOTS-c n''a donc pas sa place
     hors d''un essai. Relecture du 2026-11-22, grille statistique : doutes aux questions 1, 2, 3, 4, 5, 6, 7 et
-    10. Question 5 : un écart d''expression de dix à trente fois sur des gènes d''ARN ribosomique est trop grand
-    pour être cru tel quel ; un artefact technique n''est pas exclu, c''est une interprétation de la relecture.
+    10. Question 5 : un écart d''expression de vingt à trente-cinq fois sur des gènes d''ARN ribosomique est trop
+    grand pour être cru tel quel ; un artefact technique n''est pas exclu, c''est une interprétation de la relecture.
     La piste n''est gardée que pour le résultat d''une autre équipe.'
   niveau: C
   sources:
@@ -1000,7 +1000,7 @@
     lu: page
   origine: agent biologie
   date: '2026-11-22'
-  statut: vérifiée
+  statut: promue
   relecture:
     date: '2026-11-22'
     lecture: '7 sources rouvertes : 3 en texte intégral, 1 par son résumé, 2 pages lues en partie, 1 page bloquée.'
@@ -1010,13 +1010,15 @@
       du sang non plus ; l'humanine ne baisse que dans des cellules stimulées en culture (p = 0,05). Le signal porte
       sur l'expression des gènes, pas sur les peptides.
     - Doser l'humanine dans le plasma, premier geste du test proposé, a déjà été fait dans la source, sans écart.
-    - Les écarts d'expression vont de 3 à 5 log2, soit de dix à trente fois, pour 10 personnes par groupe.
+    - Les écarts d'expression vont de 4,4 à 5,2 log2, soit de vingt à trente-cinq fois, pour 10 personnes par groupe.
     - 'L''étude de 2019 a déposé ses données d''expression (jeu GSE130353) : le test peut commencer là.'
     inexploree: « Aucune mesure dans le COVID long » est faux. Une autre équipe trouve l'humanine et MOTS-c abaissés
       dans les vésicules extracellulaires du sang de patients COVID long à manifestations neuropsychiatriques, et
       pas chez les autres (PMID 35285072 ; PMID 37072092). Aucun essai enregistré.
     decision: 'Gardée après corrections, sur un autre appui que celui de la fiche : le résultat sur les vésicules
       extracellulaires, à répliquer.'
+  promue_en: P15
+  promue_le: '2026-11-22'
 - id: B012
   titre: 'Le fer reste mal réparti après l''infection : chargé dans les monocytes, il manque à la fabrication des
     globules rouges'
@@ -1167,7 +1169,7 @@
     lu: page
   origine: agent statistique
   date: '2026-11-22'
-  statut: vérifiée
+  statut: promue
   relecture:
     date: '2026-11-22'
     lecture: '3 sources rouvertes : 2 en texte intégral, 1 par son résumé.'
@@ -1188,6 +1190,8 @@
       haute résolution après correction. Le croisement des deux études pangénomiques, lui, reste à faire.
     decision: 'Gardée après corrections : le test sur statistiques résumées ne coûte rien, et les études norvégiennes
       désignent déjà la région HLA-DQ.'
+  promue_en: P16
+  promue_le: '2026-11-22'
 - id: B014
   titre: Le variant de FOXP4 associé au COVID long désigne un sous-type pulmonaire, distinct du COVID long auto-déclaré
     et de l'EM/SFC
@@ -1829,7 +1833,7 @@
     lu: page
   origine: agent statistique
   date: '2026-11-22'
-  statut: vérifiée
+  statut: promue
   relecture:
     date: '2026-11-22'
     lecture: '3 sources rouvertes : 2 en texte intégral, 1 par son résumé.'
@@ -1848,6 +1852,8 @@
       mendélienne.
     decision: 'Gardée après corrections : la réplication sur un autre jeu de cas ne demande que des statistiques
       résumées.'
+  promue_en: P17
+  promue_le: '2026-11-22'
 - id: B021
   titre: À Taïwan, la prise de certains antibiotiques est associée à dix fois moins de syndrome de fatigue chronique
     après une infection, un écart trop grand pour être cru tel quel

@@ -3,6 +3,24 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Trois pistes promues au registre ; la recherche de PHOTOCOV est abandonnée
+
+**Décision du porteur du projet.** Promouvoir au registre les trois pistes vérifiées dont le premier test
+ne demande aucun laboratoire. Abandonner la recherche de l'étude PHOTOCOV, introuvable sous ce nom.
+
+**Fait.** Trois pistes entrent au registre, au niveau C : P15, humanine et MOTS-c (B011) ; P16, région HLA
+commune aux deux maladies (B013) ; P17, nombre de copies d'ADN mitochondrial (B020). Neuf sources les accompagnent.
+Les entrées de la banque passent à « promue » et gardent leur relecture.
+
+**Choix.** Écrire chaque piste à partir de la relecture, et non du texte déposé : P15 s'appuie d'abord
+sur le résultat des vésicules extracellulaires, que le déposant n'avait pas trouvé.
+
+**Réserve.** Aucune des trois n'a eu de contradicteur chargé de l'attaquer. P17 repose sur une prépublication
+sans intervalle de confiance, et les mesures directes ne la confirment pas toutes : elle est promue
+pour son test, pas pour sa solidité.
+
+**Suite.** Un plan d'analyse se dépose avant toute donnée, comme pour les lots 1 et 2.
+
 ## 2026-11-22 — Relecture contradictoire : deux mises à l'écart sur cinq ne tiennent pas
 
 **Fait.** Chacune des cinq pistes écartées a eu un contradicteur, chargé de la défendre contre son motif.

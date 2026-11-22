@@ -151,3 +151,55 @@
     Essais antiviraux menés sans sélection sur l'antigène ; dosages encore peu fiables.
   niveau: B
   sources: [antigene-ucsf-2024, antigene-706, reservoir-revue-2023]
+
+# Pistes P15 à P17 : promues de la banque le 2026-11-22, après relecture.
+# Le détail de la relecture est dans registre/banque.yaml (B011, B013, B020).
+
+- id: P15
+  nom: Peptides mitochondriaux humanine et MOTS-c
+  resultat: >-
+    Dans les vésicules extracellulaires d'origine neuronale du sang, l'humanine et MOTS-c,
+    deux peptides codés par l'ADN mitochondrial, sont abaissés chez les patients COVID long
+    à manifestations neuropsychiatriques, et pas chez les autres. Dans la fatigue après fièvre Q
+    et l'EM/SFC, l'expression de leurs gènes est abaissée dans les monocytes, sur 10 personnes
+    par groupe ; les peptides eux-mêmes n'y diffèrent pas dans le sang.
+  inexploite: >-
+    Aucun essai enregistré. Les deux résultats viennent chacun d'une seule équipe et ne mesurent
+    pas la même chose. L'écart d'expression de 2019, de vingt à trente-cinq fois, est trop grand
+    pour être cru sans réplication. Premier test, sans laboratoire : relire les deux gènes
+    dans les données d'expression déposées par l'étude de 2019 (jeu GSE130353).
+  niveau: C
+  sources: [peptides-mito-2019, vesicules-humanine-2022, vesicules-humanine-2023]
+
+- id: P16
+  nom: Région HLA, commune au COVID long et à l'EM/SFC
+  resultat: >-
+    La région HLA est associée aux deux maladies, dans des études distinctes. COVID long,
+    54 390 cas déclarés : un variant de la région de classe II (rapport de cotes 1,06)
+    et l'allèle DRB1*11:04 (1,18). EM/SFC, 15 579 cas : l'allèle DQA1*05:01 est moins fréquent
+    chez les malades, 21,7 % contre 23,2 %. Deux études norvégiennes de 426 patients désignaient
+    déjà HLA-C*07:04, HLA-DQB1*03:03 et la région HLA-DQB1.
+  inexploite: >-
+    Aucun allèle commun aux deux maladies n'a été cherché : les deux études pangénomiques
+    n'ont pas été croisées. Aucun essai ne sélectionne des patients sur le HLA. Dans DecodeME,
+    le typage est imputé séparément chez les cas et chez les témoins, et les auteurs prévoient
+    de refaire l'analyse. Test sans laboratoire : quatre comparaisons fixées d'avance
+    sur les statistiques résumées.
+  niveau: C
+  sources: [covid-long-23andme-2024, decodeme-2025, decodeme-acces, hla-emsfc-norvege-2020,
+            hla-emsfc-norvege-2021]
+
+- id: P17
+  nom: Nombre de copies d'ADN mitochondrial
+  resultat: >-
+    Dans une randomisation mendélienne sur les 15 579 cas de DecodeME, un nombre de copies
+    d'ADN mitochondrial génétiquement plus élevé va avec moins d'EM/SFC : rapport de cotes
+    d'environ 0,83 par écart type, sans intervalle de confiance dans le texte.
+    C'est une prépublication, non relue par des pairs.
+  inexploite: >-
+    Aucune réplication. Les mesures directes ne confirment pas toutes : le contenu en ADN
+    mitochondrial des cellules du sang est normal chez 23 patients EM/SFC ; dans le COVID long,
+    il est plus bas chez 44 patients diabétiques atteints que chez 21 non atteints.
+    Test sans laboratoire : refaire l'analyse sur un autre jeu de cas, avec les mêmes instruments.
+  niveau: C
+  sources: [adn-mito-randomisation-2026, adn-mito-emsfc-2013, adn-mito-covid-long-2024, decodeme-acces]
