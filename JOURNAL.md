@@ -3,6 +3,23 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Décisions du porteur du projet sur les pistes promues
+
+**Décision.** Le résultat d'expression de 2019 n'est plus cité comme un appui de la piste P15.
+
+**Motif.** L'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique, et il n'est pas retrouvé
+dans trois autres jeux de données. La règle déposée rendait « indécidable » et ne permettait pas ce retrait :
+c'est une décision, notée comme telle en bas du plan et dans la fiche.
+
+**Conséquence.** La piste P15 ne repose plus que sur les vésicules extracellulaires du COVID long,
+un résultat d'une seule équipe sur un sous-groupe de patients. Elle reste au niveau C.
+
+**Décision.** La piste P17 reste au registre, bien que son premier test ne soit pas faisable aujourd'hui.
+
+**Écarté.** La renvoyer en banque, puisqu'elle avait été promue pour un test qui ne peut pas se faire.
+
+**Décision.** Les quatre lettres partent une fois ce travail fusionné : leurs liens pointent vers la branche principale.
+
 ## 2026-11-22 — P15 : le signal de 2019 n'est pas retrouvé chez d'autres personnes
 
 **Fait.** La section 6 du plan de P15 a été appliquée aux jeux de données publics retenus. Trois se lisent :

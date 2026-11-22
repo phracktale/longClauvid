@@ -144,6 +144,6 @@ Un plan d'analyse se dépose avant toute donnée, comme pour les lots 1 et 2.
 
 | Piste | Premier test | Détail |
 | --- | --- | --- |
-| P15 | Fait. Lecture fixée d'avance : indécidable. L'écart de 2019 vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Il n'est pas retrouvé dans trois autres jeux de données | `analyses/P15/RESULTATS.md` |
+| P15 | Fait. Lecture fixée d'avance : indécidable. L'écart de 2019 vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Il n'est pas retrouvé dans trois autres jeux de données. Ce résultat est retiré des appuis de la piste | `analyses/P15/RESULTATS.md` |
 | P16 | Une comparaison lue sur quatre : elle échoue. Les trois autres attendent un chiffre des équipes | `analyses/P16/RESULTATS.md` |
-| P17 | Non faisable aujourd'hui : aucun jeu de cas public et indépendant ne dépasse 18 % de puissance | `analyses/P17/PLAN.md` |
+| P17 | Non faisable aujourd'hui : aucun jeu de cas public et indépendant ne dépasse 18 % de puissance. La piste reste au registre | `analyses/P17/PLAN.md` |

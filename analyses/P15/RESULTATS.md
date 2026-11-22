@@ -122,9 +122,10 @@ des ARN 18S, 28S ou 45S. Le plan l'avait prévu. La lecture « non reproduit » 
 Celles que le plan prévoit : une ligne dans la fiche P15 pour la lecture « indécidable » du jeu de 2019,
 une autre pour le signal non retrouvé chez d'autres personnes. La piste reste au niveau C.
 
-Une décision reste à prendre, et elle revient au porteur du projet : continuer ou non à citer
-le résultat d'expression de 2019 comme un appui de la piste. La règle ne permet pas de le retirer.
-La description de la section 3 et les trois autres jeux de données vont contre lui.
+La règle ne permettait pas de retirer le résultat d'expression de 2019. Le porteur du projet l'a décidé
+le 2026-11-22 : ce résultat n'est plus cité comme un appui de la piste. Motif : la description de la section 3
+et les trois autres jeux de données vont contre lui. La piste ne repose plus que sur les vésicules
+extracellulaires du COVID long.
 
 ## 7. Écarts au plan
 

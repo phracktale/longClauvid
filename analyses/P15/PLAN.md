@@ -223,4 +223,8 @@ Les fiches d'échantillons de quinze d'entre elles ont été lues.
 
 ## Modifications
 
-Aucune à ce jour.
+**2026-11-22, après les résultats.** La règle n'est pas modifiée. Sa lecture pour le jeu de 2019 est « indécidable »,
+et sa conséquence était : une ligne dans la fiche, rien d'autre. Le porteur du projet a décidé d'aller plus loin :
+le résultat d'expression de 2019 n'est plus cité comme un appui de la piste P15. Motif : l'écart vient
+de cinq bibliothèques de témoins sains chargées d'ARN ribosomique, et il n'est pas retrouvé dans trois autres
+jeux de données. C'est une décision, pas le produit de la règle. Voir [RESULTATS.md](RESULTATS.md).

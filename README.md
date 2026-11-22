@@ -92,9 +92,11 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
   avant son dépôt. P15 : lecture fixée d'avance « indécidable » ; la baisse d'expression publiée
   en 2019 n'existe que dans une des deux séries de bibliothèques, et elle vient de cinq bibliothèques
   de témoins sains chargées d'ARN ribosomique. Elle n'est pas retrouvée dans trois autres jeux
-  de données, sur 41 patients et 47 témoins. P16 : le variant le plus associé au COVID long
+  de données, sur 41 patients et 47 témoins. Le porteur du projet a retiré ce résultat des appuis
+  de la piste. P16 : le variant le plus associé au COVID long
   n'est pas associé à l'EM/SFC dans DecodeME ; les trois autres comparaisons attendent un chiffre
-  des équipes. P17 : le test prévu n'est pas faisable aujourd'hui, faute d'un jeu de cas assez grand.
+  des équipes. P17 : le test prévu n'est pas faisable aujourd'hui, faute d'un jeu de cas assez grand ;
+  la piste reste au registre.
   Détail : `analyses/P15/RESULTATS.md`, `analyses/P16/RESULTATS.md`, `analyses/P17/PLAN.md`.
 - **Metformine.** Elle a été testée sur un COVID long installé dans deux essais randomisés,
   sans bénéfice montré ; la fiche T03, qui disait le contraire, est corrigée.
