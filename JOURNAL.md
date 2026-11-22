@@ -3,6 +3,19 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Deux ressources signalées par le porteur du projet
+
+**Fait.** La bibliothèque Zotero de l'association #ApresJ20 est inscrite aux sources :
+douze collections, tenue à jour. Elle servira à tester l'affirmation « inexplorée »
+des entrées de la banque.
+
+**Fait.** Les résumés du symposium ANRS MIE du 2026-11-12 sont lus. Deux résultats
+préliminaires sont consignés : pas d'excès global d'auto-anticorps dans l'étude CLIIM (H1),
+virus infectieux porté par des plaquettes dans une étude de l'Institut Cochin (H4).
+Aucun statut ne change.
+
+**Règle rappelée.** Le dépôt est public. Un résultat confié sous embargo n'y entre pas.
+
 ## 2026-11-22 — Une banque d'hypothèses à vérifier, alimentée par deux agents
 
 **Décision du porteur du projet.** Envoyer deux agents de recherche sillonner la littérature :
