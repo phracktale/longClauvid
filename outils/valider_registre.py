@@ -17,7 +17,8 @@ Ce que le script contrôle
   et ne renvoie qu'à des sources, pistes, hypothèses et endotypes existants ;
 - chaque paire d'hypothèses a sa confrontation, avec deux prédictions différentes ;
 - chaque entrée de la banque d'hypothèses à vérifier a ses sources, dit comment elles ont été lues,
-  et porte un statut connu ; une entrée écartée donne son motif.
+  et porte un statut connu ; une entrée écartée donne son motif ; une entrée vérifiée ou écartée
+  porte sa relecture, datée, avec sa décision.
 
 Usage : python3 outils/valider_registre.py
 """
@@ -193,6 +194,9 @@ def erreurs_du_registre(registre):
                 erreurs.append(f"{nom} : source sans mention « page » ou « extrait »")
         if entree.get("statut") == "écartée" and not entree.get("motif"):
             erreurs.append(f"{nom} : écartée sans motif")
+        relecture = entree.get("relecture") or {}
+        if entree.get("statut") in ("vérifiée", "écartée") and not (relecture.get("date") and relecture.get("decision")):
+            erreurs.append(f"{nom} : {entree['statut']} sans relecture datée")
         if entree.get("statut") == "promue":
             signaler_inconnus([entree.get("promue_en")], pistes | hypotheses,
                               nom, "fiche de promotion", erreurs)
