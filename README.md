@@ -12,6 +12,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 
 | Dossier | Rôle |
 | --- | --- |
+| `docs/cadrage.md` | L'état des lieux des essais, les pistes sous-exploitées, les typologies de patients |
 | `PROTOCOLE.md` | Les sept phases, leurs critères de passage, les règles de traçabilité et de fiabilité |
 | `JOURNAL.md` | Chaque décision, avec son motif et les options écartées |
 | `registre/` | Sources, pistes, endotypes et hypothèses, un fichier par hypothèse |
@@ -19,6 +20,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
 | `simulateurs/niveau2/` | Modèle mécaniste à deux états stables : le piège métabolique IDO de Kashi 2019 |
 | `verifier.py` | Lance tous les contrôles du dépôt |
+| `LICENSE`, `LICENSES/` | Les licences : MIT pour le code, CC BY 4.0 pour le reste |
 
 ## Démarrer
 
@@ -59,5 +61,16 @@ python3 simulateurs/niveau2/piege_ido.py
 4. Un résultat négatif se consigne comme un résultat positif.
 5. `python3 verifier.py` doit passer avant chaque commit.
 
-Le document de cadrage (état des lieux, pistes, typologies de patients) se trouve ici :
-<https://claude.ai/artifact/VtWerHyfRm7zbinLBKjyba>
+## Réutiliser
+
+Tout le dépôt est réutilisable, y compris à des fins commerciales, à condition de citer la source.
+
+| Contenu | Licence |
+| --- | --- |
+| Code (`*.py`) | MIT, voir `LICENSE` |
+| Registre, documents, résultats, figure | CC BY 4.0, voir `LICENSES/CC-BY-4.0.txt` |
+
+Citation suggérée : « longClauvid, <https://github.com/phracktale/longClauvid>, consulté le [date] ».
+
+Les articles cités dans `registre/sources.yaml` restent la propriété de leurs auteurs :
+le registre n'en reprend que les références et un résumé.
