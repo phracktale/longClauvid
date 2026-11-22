@@ -3,13 +3,35 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Lot 2 retenu en premier ; la vérification en retire une paire
+
+**Décision du porteur du projet.** Instruire d'abord le lot 2 : ce que deviennent
+les répondeurs après l'arrêt du traitement.
+
+**Fait.** Plan d'analyse déposé avant toute donnée (`analyses/lot-2/PLAN.md`) : données
+demandées, repère d'arrêt par traitement, règle de décision. Six demandes prêtes,
+aucune envoyée (`analyses/lot-2/DEMANDES.md`).
+
+**Constat.** La vérification essai par essai corrige l'estimation de l'entrée suivante.
+Les deux essais de la naltrexone s'arrêtent à 16 semaines, sans évaluation après l'arrêt :
+la paire H6 et H7 passe en « nouvelle collecte ». Huit paires sur vingt et une, et non neuf,
+se tranchent sans nouveau prélèvement. Un seul traitement, le daratumumab, a publié
+un suivi après l'arrêt.
+
+**Choix.** Demander des chiffres agrégés plutôt que des données individuelles : plus simples
+à fournir, et suffisants pour la règle de décision. Prendre un repère biologique plutôt
+qu'un délai fixe pour le daratumumab et l'anticorps, dont l'effet dure plus que le médicament.
+
+**Écarté.** Conclure sur le pilote du daratumumab : son résultat va dans le sens de H6,
+mais H1 le prédit aussi, et l'essai est ouvert, sans critère de réponse fixé d'avance.
+
 ## 2026-11-22 — Phase 3 : vingt et une confrontations, classées par accès aux données
 
 **Décision.** Une fiche par paire d'hypothèses dans `registre/confrontations.yaml` : la question,
 la mesure, ce qu'on observe selon l'hypothèse à l'œuvre, et l'accès aux données.
 Le validateur exige les 21 paires, avec deux prédictions différentes par paire.
 
-**Constat.** Quatre paires se tranchent sur du sang déjà conservé, cinq sur le suivi d'essais
+**Constat, corrigé par l'entrée précédente.** Quatre paires se tranchent sur du sang déjà conservé, cinq sur le suivi d'essais
 après l'arrêt du traitement, douze demandent une nouvelle collecte. Les hypothèses 3, 5 et 7
 ne se confrontent aux autres qu'avec une nouvelle collecte, sauf face à l'hypothèse 6.
 

@@ -5,7 +5,7 @@ creee_le: 2026-11-22
 endotype: null
 pistes: [P11, P02]
 sources: [kashi-2019, craddock-2015, craddock-2015-plos, craddock-2014,
-          craddock-essai-clinique, craddock-souris-2026]
+          craddock-essai-clinique, craddock-souris-2026, fluge-2025, resetme-projet]
 
 enonce: >-
   La maladie serait un second état d'équilibre d'un système de régulation, pas une lésion.
@@ -55,3 +55,10 @@ historique:
       de durées. Statut inchangé. Les auteurs ont porté la séquence en essai de phase 1
       (NCT04254627) ; aucun résultat humain publié repéré.
       Détail dans simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md.
+  - date: 2026-11-22
+    evenement: >-
+      Lot 2, vérification du suivi après l'arrêt dans cinq essais (analyses/lot-2/PLAN.md).
+      Seul le pilote du daratumumab l'a publié : 5 répondeuses sur 6 restent améliorées
+      à 12–24 mois, alors que les IgG totales sont remontées. Cela va dans le sens de
+      la prédiction, mais l'essai est ouvert, sans critère de réponse fixé d'avance,
+      et H1 prédit la même chose. Résultat descriptif, niveau C : statut inchangé.

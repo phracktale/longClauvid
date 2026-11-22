@@ -16,6 +16,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `PROTOCOLE.md` | Les sept phases, leurs critères de passage, les règles de traçabilité et de fiabilité |
 | `JOURNAL.md` | Chaque décision, avec son motif et les options écartées |
 | `registre/` | Sources, pistes, endotypes, transpositions, confrontations et hypothèses, un fichier par hypothèse |
+| `analyses/` | Les plans d'analyse, déposés avant toute donnée, et les demandes aux équipes |
 | `outils/valider_registre.py` | Refuse une hypothèse sans prédiction réfutable ou une affirmation sans source |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
 | `simulateurs/niveau2/` | Modèles mécanistes : le piège métabolique IDO de Kashi 2019, et le réseau logique de Craddock 2015 |
@@ -37,12 +38,12 @@ python3 simulateurs/niveau2/craddock_2015.py     # environ une minute
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 114 sources |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 14 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 120 sources |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
 | 4. Simulation | Niveaux 1 et 2 construits, deux modèles publiés reproduits ; niveau 3 à faire |
-| 5. Validation | À faire |
+| 5. Validation | Premier plan d'analyse déposé (lot 2) ; aucune demande envoyée, aucune donnée reçue |
 | 6. Passage clinique | Exige une équipe habilitée et un comité d'éthique |
 
 ## Résultats à ce jour
@@ -57,9 +58,12 @@ python3 simulateurs/niveau2/craddock_2015.py     # environ une minute
   sont retrouvés, et eux seuls. Dans ce modèle, l'ordre des traitements décide : 25 % de
   retours à l'état sain dans un sens, 0 % dans l'autre. Les taux publiés ne sont retrouvés
   qu'en partie. Détail : `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`.
-- **Confrontations.** Neuf paires d'hypothèses sur vingt et une se tranchent sans nouveau
-  prélèvement : quatre sur du sang déjà conservé, cinq sur le suivi d'essais après l'arrêt
+- **Confrontations.** Huit paires d'hypothèses sur vingt et une se tranchent sans nouveau
+  prélèvement : quatre sur du sang déjà conservé, quatre sur le suivi d'essais après l'arrêt
   du traitement. Détail : `registre/confrontations.yaml`.
+- **Lot 2.** Un seul traitement a publié un suivi après l'arrêt : dans le pilote du daratumumab,
+  5 répondeuses sur 6 restent améliorées à 12–24 mois. Ce résultat ne départage pas encore
+  les hypothèses 1 et 6. Détail : `analyses/lot-2/PLAN.md`.
 - **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
   fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
   des patients non sélectionnés. Détail : `registre/transpositions.yaml`.
