@@ -47,6 +47,9 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
    tester « inexplorée » sur la copie locale de la bibliothèque. Puis passer la piste à « vérifiée »
    ou « écartée », avec le motif. Les douze pistes de biologie (B001 à B012) n'ont pas encore été
    relues par le statisticien.
+   Les sources ont surtout été lues par leur résumé : la relecture doit ouvrir les textes.
+   Zones que le chercheur en biologie n'a pas couvertes : ferroptose, acides biliaires,
+   hypoxie et HIF, tissu conjonctif. Ce qu'il a écarté est dans `JOURNAL.md`.
 2. **Vérifier une remarque du statisticien** : selon lui, l'essai REVIVE teste la metformine
    sur un COVID long installé, ce que la fiche T03 ne dit pas. À confirmer sur le protocole de l'essai.
 3. **Relever les réponses** aux huit demandes et les inscrire aux journaux des envois.

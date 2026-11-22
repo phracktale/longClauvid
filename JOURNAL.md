@@ -3,6 +3,20 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Compte rendu du chercheur en biologie : ce qu'il a écarté
+
+**Fait.** Le fichier intégré en banque est bien sa version finale : douze pistes, 88 sources.
+
+**Écarté par l'agent, d'après son compte rendu.** GDF15, pour des résultats contraires ;
+les rétrovirus endogènes, pour un essai négatif ; le système glymphatique, déjà exploré.
+Non retenus : alpha-tryptasémie, cGAS-STING, horloge circadienne. Ces motifs ne sont pas
+sourcés dans le dépôt : ils évitent de refaire la recherche, ils ne prouvent rien.
+
+**Non couvert.** Ferroptose, acides biliaires, hypoxie et HIF, tissu conjonctif.
+
+**Limites déclarées.** PubMed et PubMed Central inaccessibles : résumés lus par un autre site,
+un seul texte intégral. Un seul registre d'essais consulté. Recherche ciblée, non systématique.
+
 ## 2026-11-22 — Premier dépôt en banque : 21 pistes, aucune relue
 
 **Fait.** Les deux agents ont déposé : douze pistes de biologie (B001 à B012), neuf signaux
