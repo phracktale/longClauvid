@@ -3,7 +3,32 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
-## 2026-11-22 — Craddock 2015 : le moteur est construit, la reproduction attend la figure 2
+## 2026-11-22 — Craddock 2015 : réseau reproduit, taux publiés retrouvés en partie
+
+**Constat.** Les deux articles ont pu être lus en PDF, figures comprises. Le réseau relevé
+sur la figure 2 de 2015, avec la règle de 2014, redonne exactement les cinq états stables
+publiés. La figure de 2014 diffère sur deux flèches et perd l'état malade.
+
+**Décisions.**
+
+- Retenir la figure de 2015 : elle seule est compatible avec les états publiés.
+- Lire un traitement comme l'écrit l'équation 4 de l'article : un décalage d'un cran.
+  Donner la lecture « deux crans » à côté, parce qu'elle seule retrouve la figure 5.
+- Laisser le réseau se stabiliser entre deux interventions, au lieu des délais fixes
+  de l'article : plus simple, et le résultat ne dépend plus d'un réglage.
+- Annoncer une reproduction des états stables et de l'effet d'ordre, pas des taux.
+
+**Écarté.** Ajuster la lecture du traitement ligne par ligne jusqu'à retrouver chaque taux :
+ce serait régler le simulateur sur le résultat attendu. Chercher les taux exacts par
+l'algorithme génétique de l'article : inutile tant que l'application d'un traitement
+n'est pas tranchée.
+
+**Réserve.** Le relevé de la figure est manuel, sans seconde lecture indépendante.
+Le contrôle est indirect : les cinq états stables publiés sont retrouvés.
+
+**Conséquence.** Cette entrée remplace la suivante.
+
+## 2026-11-22 — Remplacée — Craddock 2015 : le moteur est construit, la reproduction attend la figure 2
 
 **Constat.** Dans l'article, la liste des interactions du réseau n'existe que dans la figure 2,
 et la règle de mise à jour que dans des équations en image. La page PubMed Central est bloquée

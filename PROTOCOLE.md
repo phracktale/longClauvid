@@ -102,5 +102,5 @@ avec la source ou le résultat qui le motive.
 | Niveau | Ce qu'il simule | Question tranchée | État |
 | --- | --- | --- | --- |
 | 1. Cohorte virtuelle | Des essais entiers sur des patients à endotype caché | Quel plan d'essai peut voir un effet limité à un sous-groupe ? | Construit |
-| 2. Modèles mécanistes | Des systèmes de régulation à plusieurs états stables | Quelle intervention, de quelle durée, fait sortir de l'état malade ? | Premier modèle construit (Kashi 2019) ; moteur de réseaux logiques construit, réseau de Craddock 2015 à charger |
+| 2. Modèles mécanistes | Des systèmes de régulation à plusieurs états stables | Quelle intervention, de quelle durée, fait sortir de l'état malade ? | Deux modèles publiés reproduits : Kashi 2019, et le réseau de Craddock 2015 pour ses états stables |
 | 3. Criblage de repositionnement | Graphe de connaissances, génétique, modèles métaboliques | Quels médicaments existants touchent les cibles d'un endotype ? | À faire |

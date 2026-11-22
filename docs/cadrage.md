@@ -151,7 +151,7 @@ Un essai tout-venant de 200 patients ne détecte qu'une fois sur cinq un traitem
 | Niveau | Ce qu'il simule | Question tranchée | État |
 | --- | --- | --- | --- |
 | 1. Cohorte virtuelle | Des essais entiers sur des patients à endotype caché, répétés 20 000 fois | Quel plan d'essai peut voir un effet limité à un sous-groupe ? | Construit ; dans le dépôt longClauvid |
-| 2. Modèles mécanistes | Des réseaux de régulation à plusieurs états stables, en équations différentielles ou en logique discrète | Quelle séquence d'interventions fait sortir de l'état malade ? | Premier modèle construit : [Kashi 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6787624) reproduit aux arrondis publiés près. Le moteur de réseaux logiques est construit, mais le réseau de Craddock n'est pas reproduit : ses interactions ne figurent que dans une figure. Restent [Craddock 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4508058) et le modèle musculaire de Lengert et Drossel ([résumé](https://wames.org.uk/cms-english/computer-simulation-explores-cause-for-exercise-intolerance-in-mecfs)) |
+| 2. Modèles mécanistes | Des réseaux de régulation à plusieurs états stables, en équations différentielles ou en logique discrète | Quelle séquence d'interventions fait sortir de l'état malade ? | Premier modèle construit : [Kashi 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6787624) reproduit aux arrondis publiés près. Reproduit aussi, pour ses états stables : [Craddock 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4508058). Reste le modèle musculaire de Lengert et Drossel ([résumé](https://wames.org.uk/cms-english/computer-simulation-explores-cause-for-exercise-intolerance-in-mecfs)) |
 | 3. Criblage de repositionnement | Graphe de connaissances ([TxGNN](https://zitniklab.hms.harvard.edu/projects/TxGNN/)), génétique, [modèles métaboliques](https://pubmed.ncbi.nlm.nih.gov/40649860/) | Quels médicaments existants touchent les cibles d'un endotype ? | À faire |
 
 ### Résultats du niveau 1
@@ -187,6 +187,19 @@ Le piège métabolique de Kashi 2019 est reproduit aux arrondis publiés près. 
 - Le modèle va dans le sens de l'hypothèse 6 : réponse en tout ou rien, rechute si l'on arrête avant le seuil.
 - Il la nuance : un traitement bref ne suffit pas. L'effet d'ordre exige un modèle à plusieurs variables.
 - Ces leviers sont des paramètres du modèle, pas des traitements. Les durées valent pour le jeu de paramètres publié, pas pour des patients.
+
+### Résultats du niveau 2 bis : dans le modèle de Craddock, l'ordre des traitements décide
+
+Le réseau de [Craddock 2015](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0132774) est reproduit : ses cinq états stables publiés sont retrouvés, et eux seuls, parmi 4 782 969 états. Ce modèle porte sur la maladie de la guerre du Golfe, chez l'homme ; il n'est pas validé pour le COVID long.
+
+| Traitement simulé, en partant de l'état malade | Retour à l'état sain |
+| --- | --- |
+| Une seule cible, quelle qu'elle soit | 0 % |
+| Freiner les cytokines Th1, puis le récepteur du cortisol | 25 % |
+| Freiner le récepteur du cortisol, puis les cytokines Th1 | 0 % |
+| Les deux en même temps | 12 % |
+
+Le cortisol, tenu haut par les cytokines Th1, rallume le récepteur si on le freine en premier. Les taux publiés ne sont retrouvés qu'en partie : la façon dont les auteurs appliquent un traitement n'est pas entièrement décrite. L'effet d'ordre, lui, tient dans les deux lectures essayées. Les auteurs ont porté la séquence en essai de phase 1 ([NCT04254627](https://clinicaltrials.gov/study/NCT04254627)) ; aucun résultat humain publié n'a été repéré.
 
 ### Trois façons de construire les niveaux suivants
 
@@ -254,7 +267,8 @@ Ce document produit des hypothèses classées, pas des traitements : rien ici ne
 - [x] Ouvrir le dépôt Git et le registre des hypothèses (phase 0).
 - [x] Créer le dépôt vide phracktale/longClauvid sur GitHub, pour y pousser les trois commits.
 - [x] Construire le niveau 2 en reproduisant le modèle de Kashi 2019.
-- [ ] Relever la figure 2 de Craddock 2015 (nœuds et interactions), puis charger le réseau dans le moteur déjà construit, pour tester l'ordre des traitements.
+- [x] Reproduire le réseau de Craddock 2015 et tester l'ordre des traitements.
+- [ ] Demander aux auteurs de Craddock 2015 leur code de simulation, pour retrouver leurs taux.
 - [ ] Demander l'accès aux statistiques résumées DecodeME.
 - [ ] Identifier une équipe clinique partenaire avant la phase 6.
 
