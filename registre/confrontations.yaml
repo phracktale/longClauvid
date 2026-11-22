@@ -151,9 +151,10 @@
     Au-delà d'une certaine durée de traitement, la rémission tient après l'arrêt.
   acces: suivi d'essais
   donnees: >-
-    REVERSE-LC, 24 semaines de baricitinib contre placebo, en cours. Aucune évaluation
-    après l'arrêt n'a été trouvée : à demander à l'équipe.
-  sources: [reverse-lc-registre, reverse-lc-projet, reverse-lc-fiche]
+    REVERSE-LC, six mois de baricitinib contre placebo, en cours : 279 inclus sur 550 visés
+    en juillet 2026. Visites à l'inclusion, à 6 et à 12 mois : la dernière tombe six mois
+    après l'arrêt. À demander : les résultats à 12 mois, par bras.
+  sources: [reverse-lc-registre, reverse-lc-projet, reverse-lc-fiche, recover-tlc-2026-07]
 
 - paire: [H2, H7]
   question: Le défaut de TRPM3 est-il une conséquence du signal interféron ?
@@ -205,9 +206,10 @@
     L'amélioration tient après l'arrêt chez les patients traités assez longtemps.
   acces: suivi d'essais
   donnees: >-
-    Étude ouverte sans groupe témoin, sans arrêt programmé : seuls les patients qui ont
-    arrêté d'eux-mêmes peuvent renseigner. À demander aux auteurs.
-  sources: [rapamycine-prepublication-2025, rapamycine-registre]
+    L'étude publiée, ouverte et sans groupe témoin, ne rapporte rien après l'arrêt.
+    L'essai suivant prévoit un retrait randomisé : après 90 jours de rapamycine,
+    poursuite ou placebo pendant 60 jours. À demander : ses résultats, par bras.
+  sources: [rapamycine-2025, rapamycine-prepublication-2025, rapamycine-registre]
 
 - paire: [H3, H7]
   question: Le marqueur musculaire et le marqueur du canal désignent-ils les mêmes patients ?
@@ -244,9 +246,10 @@
     Des patients devenus négatifs pour l'antigène restent malades, avec les mêmes marqueurs.
   acces: suivi d'essais
   donnees: >-
-    Essai AER002 : une perfusion unique, critères évalués à 3 mois ; le dosage de l'antigène
-    dans le temps n'est pas inscrit au registre. À demander à l'équipe, avec la cohorte LIINC.
-  sources: [aer002-registre]
+    Essai AER002 : une perfusion unique, 36 participants, critères principaux à 3 mois,
+    évaluations jusqu'à un an. Le dosage de l'antigène dans le temps n'est pas inscrit
+    au registre. À demander à l'équipe, avec la cohorte LIINC.
+  sources: [aer002-registre, aer002-fiche, aer002-prepublication]
 
 - paire: [H4, H7]
   question: Le défaut de TRPM3 est-il une conséquence de l'inflammation des vaisseaux ?

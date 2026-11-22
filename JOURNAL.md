@@ -3,6 +3,22 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Lot 2 : trois corrections après une seconde lecture des sources
+
+**Constat.** En cherchant les destinataires des demandes, trois cases du tableau de vérification
+se sont révélées fausses ou incomplètes. REVERSE-LC a une visite à 12 mois, six mois après
+l'arrêt. AER002 est suivi jusqu'à un an, pas trois mois. L'essai qui suit l'étude
+de la rapamycine prévoit un retrait randomisé.
+
+**Cause.** La première vérification s'appuyait sur une seule page par essai : une fiche
+de registre illisible, une fiche qui ne liste que les critères principaux, un résumé d'article.
+
+**Décision.** Corriger le plan en bas de fichier, avec date et motif, sans toucher à la règle
+de décision. Une case « non trouvé » ou « aucun » ne s'écrit plus qu'après une seconde source.
+
+**Conséquence.** Trois essais en cours ou prévus comportent un suivi après l'arrêt. Le lot 2
+est plus prometteur que ne le disait l'entrée suivante ; sa composition ne change pas.
+
 ## 2026-11-22 — Lot 2 retenu en premier ; la vérification en retire une paire
 
 **Décision du porteur du projet.** Instruire d'abord le lot 2 : ce que deviennent
