@@ -9,6 +9,7 @@ après relecture du porteur du projet. Aucune adresse électronique n'est repris
 | Auteur correspondant de l'étude de 23andMe | Le résultat de DQA1*05:01 dans l'étude du COVID long, par copie de l'allèle | 4 | Prête, non envoyée |
 
 Le test 1 ne demande rien : il se lit dans le fichier public de DecodeME. Voir [PLAN.md](PLAN.md).
+Les liens des lettres pointent vers la branche principale du dépôt : ne les envoyer qu'une fois ce travail fusionné.
 
 L'adresse de l'équipe de DecodeME est publiée par sa [page d'accès](https://institute-genetics-cancer.ed.ac.uk/decodeme-the-worlds-largest-mecfs-study/researcher-access).
 Pour 23andMe, l'auteur correspondant et son adresse sont à relever sur la

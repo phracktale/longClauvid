@@ -163,6 +163,9 @@
     à manifestations neuropsychiatriques, et pas chez les autres. Dans la fatigue après fièvre Q
     et l'EM/SFC, l'expression de leurs gènes est abaissée dans les monocytes, sur 10 personnes
     par groupe ; les peptides eux-mêmes n'y diffèrent pas dans le sang.
+    Relu le 2026-11-22 sur les données déposées : cet écart d'expression n'existe que dans une
+    des deux séries de bibliothèques, où il suit l'ARN ribosomique du cytoplasme. Lecture fixée
+    d'avance : indécidable. Détail : analyses/P15/RESULTATS.md.
   inexploite: >-
     Aucun essai enregistré. Les deux résultats viennent chacun d'une seule équipe et ne mesurent
     pas la même chose. L'écart d'expression de 2019, de 21 à 37 fois, est trop grand
@@ -187,6 +190,9 @@
     de refaire l'analyse. Test sans laboratoire : quatre comparaisons fixées d'avance
     sur les statistiques résumées. Plan déposé le 2026-11-22 : analyses/P16/PLAN.md.
     Une comparaison se lit sur un fichier public ; les trois autres demandent un chiffre aux équipes.
+    Première comparaison, lue le 2026-11-22 : le variant du COVID long n'est pas associé à l'EM/SFC
+    dans DecodeME (rapport de cotes 0,996, de 0,970 à 1,023, pour 98 % de puissance).
+    Détail : analyses/P16/RESULTATS.md.
   niveau: C
   sources: [covid-long-23andme-2024, decodeme-2025, decodeme-acces, hla-emsfc-norvege-2020,
             hla-emsfc-norvege-2021, haplotype-8-1-2002]
