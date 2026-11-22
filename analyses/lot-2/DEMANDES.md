@@ -1,18 +1,18 @@
 # Lot 2 : les demandes aux équipes
 
-État au 2026-11-22 : **aucune demande n'a été envoyée.** Les lettres partent au nom
-du porteur du projet, qui les relit et les envoie lui-même.
+État au 2026-11-22 : **cinq demandes sur six sont parties ; aucune réponse n'est encore arrivée.**
+Les lettres partent au nom du porteur du projet, qui les relit avant l'envoi.
 
 Les adresses ne sont pas recopiées ici : la section « Destinataires » renvoie aux pages qui les publient.
 
 | Destinataire | Essai | Ce qui est demandé | État |
 | --- | --- | --- | --- |
-| Équipe de l'hôpital universitaire Haukeland, Bergen | Pilote du daratumumab et ResetME | La fixation des IgG aux neurones sensitifs peut-elle être mesurée sur les sérums du suivi (15 à 21 mois) ? ResetME publiera-t-il la réponse par bras jusqu'à la 72e semaine ? | À envoyer |
-| Équipe de REVERSE-LC, université Vanderbilt | Baricitinib | Les résultats de la visite à 12 mois, six mois après l'arrêt, seront-ils publiés par bras ? Une signature interféron est-elle mesurée ? | À envoyer |
-| Équipe d'outSMART-LC, université de Californie à San Francisco | AER002 | L'antigène plasmatique a-t-il été dosé avant et après la perfusion ? Que deviennent, sur un an, les patients devenus négatifs ? | À envoyer |
-| Auteurs de l'étude sur la rapamycine | Étude ouverte, puis essai avec retrait randomisé | Le retrait randomisé est-il en cours, et ses résultats seront-ils publiés par bras ? Que deviennent les patients qui ont arrêté ? | À envoyer |
-| Équipe de Brave-LC | Naltrexone | Une évaluation est-elle prévue après les 16 semaines ? Sinon, peut-elle être ajoutée ? | À envoyer |
-| Auteurs de Craddock et al. 2015 | Modèle logique | Le code de simulation, pour retrouver les taux publiés (voir `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`) | À envoyer |
+| Équipe de l'hôpital universitaire Haukeland, Bergen | Pilote du daratumumab et ResetME | La fixation des IgG aux neurones sensitifs peut-elle être mesurée sur les sérums du suivi (15 à 21 mois) ? ResetME publiera-t-il la réponse par bras jusqu'à la 72e semaine ? | Envoyée (déclaré le 2026-11-22) |
+| Équipe de REVERSE-LC, université Vanderbilt | Baricitinib | Les résultats de la visite à 12 mois, six mois après l'arrêt, seront-ils publiés par bras ? Une signature interféron est-elle mesurée ? | Envoyée le 2026-11-22 |
+| Équipe d'outSMART-LC, université de Californie à San Francisco | AER002 | L'antigène plasmatique a-t-il été dosé avant et après la perfusion ? Que deviennent, sur un an, les patients devenus négatifs ? | Envoyée le 2026-11-22 |
+| Auteurs de l'étude sur la rapamycine | Étude ouverte, puis essai avec retrait randomisé | Le retrait randomisé est-il en cours, et ses résultats seront-ils publiés par bras ? Que deviennent les patients qui ont arrêté ? | Envoyée le 2026-11-22 |
+| Équipe de Brave-LC | Naltrexone | Une évaluation est-elle prévue après les 16 semaines ? Sinon, peut-elle être ajoutée ? | En attente d'un contact |
+| Auteurs de Craddock et al. 2015 | Modèle logique | Le code de simulation, pour retrouver les taux publiés (voir `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`) | Envoyée le 2026-11-22 |
 
 L'ordre conseillé est celui du tableau : la première demande porte sur des sérums déjà
 conservés et un essai en cours, c'est celle qui peut répondre le plus tôt.
@@ -63,8 +63,14 @@ celle de Craddock, imprimée en 2015, est celle de son ancien poste.
 ## Journal des envois
 
 Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répondu.
-Une absence de réponse après deux mois se consigne aussi.
+Une absence de réponse après deux mois se consigne aussi : à partir du 2027-01-22
+pour les envois ci-dessous.
 
 | Date | Destinataire | Événement |
 | --- | --- | --- |
-| | | |
+| 2026-11-22 | Øystein Fluge, daratumumab | Envoi déclaré par le porteur du projet |
+| 2026-11-22 | E. Wesley Ely, REVERSE-LC | Lettre envoyée |
+| 2026-11-22 | Michael J. Peluso, outSMART-LC | Lettre envoyée |
+| 2026-11-22 | David Kaufman, Avik Roy et C. Gunnar Gottschalk, rapamycine | Lettre envoyée |
+| 2026-11-22 | Travis Craddock, modèle logique | Lettre envoyée à son adresse actuelle |
+| 2026-11-22 | Équipe de Brave-LC | Non envoyée : aucun contact trouvé |
