@@ -82,6 +82,23 @@ Trois leçons de méthode viennent du VIH (fiches T01 à T03) : un marqueur quan
 a accéléré les essais, les combinaisons ont réussi là où chaque médicament seul échouait,
 et l'arrêt programmé du traitement distingue une rémission d'un simple contrôle.
 
+## Banque d'hypothèses à vérifier
+
+La banque (`registre/banque.yaml`) est une boîte de dépôt. Des agents de recherche,
+qui sont des programmes d'intelligence artificielle, ou des personnes y déposent des pistes
+trouvées dans la littérature. Elle sert à ne rien perdre, pas à conclure.
+
+- Une entrée « à vérifier » n'a été relue par personne. Elle ne compte pour rien :
+  aucune fiche du registre ne peut s'appuyer sur elle.
+- Chaque source dit si la page a été ouverte ou si seul son extrait a été lu.
+  Une référence écrite de mémoire est interdite.
+- Un agent ne modifie jamais le registre. Il dépose, un autre relit.
+- Pour passer à « vérifiée », chaque source est rouverte par quelqu'un d'autre que le déposant,
+  et la piste passe la grille de relecture statistique, déposée dans `outils/grille-statistique.md`
+  avec les premières entrées.
+- Une entrée vérifiée peut être promue en piste ; elle suit alors les règles du registre.
+- Une entrée écartée reste dans la banque, avec son motif. Un échec se consigne aussi.
+
 ## Niveaux de preuve
 
 | Niveau | Définition |

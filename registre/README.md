@@ -82,6 +82,12 @@ historique:
 6. Chaque paire d'hypothèses a sa confrontation, avec deux prédictions différentes.
    Une hypothèse ajoutée au registre exige donc ses confrontations avec toutes les autres.
 
+## La banque d'hypothèses à vérifier
+
+`banque.yaml` reçoit les pistes proposées par les agents de recherche. Ce n'est pas le registre :
+une entrée y reste « à vérifier » tant que ses sources n'ont pas été rouvertes par quelqu'un d'autre.
+Les règles sont dans `PROTOCOLE.md`.
+
 ## Valider
 
 ```bash

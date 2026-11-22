@@ -1,0 +1,11 @@
+# Banque d'hypothèses à vérifier.
+#
+# C'est une boîte de dépôt, pas un résultat. Les entrées sont proposées par des agents
+# de recherche ou par des personnes ; aucune n'a été vérifiée tant que son statut
+# est « à vérifier ». Aucune fiche du registre ne peut s'appuyer sur une entrée de la banque.
+# Les règles sont dans PROTOCOLE.md, section « Banque d'hypothèses à vérifier ».
+#
+# Statuts : à vérifier, vérifiée, promue (champ promue_en), écartée (champ motif).
+# Chaque source dit si la page a été ouverte (« page ») ou seulement son extrait (« extrait »).
+
+[]

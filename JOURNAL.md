@@ -3,6 +3,20 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Une banque d'hypothèses à vérifier, alimentée par deux agents
+
+**Décision du porteur du projet.** Envoyer deux agents de recherche sillonner la littérature :
+un chercheur en biologie et un statisticien en appui. Ils alimentent une banque d'hypothèses
+à vérifier. Le porteur du projet autorise aussi la fusion automatique des demandes de fusion.
+
+**Choix.** La banque est un seul fichier, `registre/banque.yaml`, séparé du registre.
+Une entrée y reste « à vérifier » tant que ses sources n'ont pas été rouvertes par quelqu'un
+d'autre que le déposant. Les agents écrivent hors du dépôt ; l'intégration est faite à part.
+
+**Écarté.** Un fichier par entrée : plus lourd à relire pour des fiches courtes.
+Des tickets GitHub : hors du dépôt, donc hors du contrôle automatique.
+Laisser les agents écrire dans le registre : une piste non relue y passerait pour un résultat.
+
 ## 2026-11-22 — Lot 1 : les deux demandes sont parties
 
 **Fait.** Les deux demandes de chiffres agrégés sont envoyées, après relecture du porteur

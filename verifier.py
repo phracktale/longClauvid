@@ -48,6 +48,16 @@ def proche(valeur, attendu, tolerance):
     return abs(valeur - attendu) <= tolerance
 
 
+# Une entrée de banque complète : les contrôles la dégradent pour vérifier qu'elle est alors refusée.
+ENTREE_DE_BANQUE = {
+    "id": "B000", "titre": "Exemple", "domaine_source": "Exemple", "processus_commun": "Exemple",
+    "enonce": "Exemple", "pourquoi_inexploree": "Exemple", "test_propose": "Exemple",
+    "donnees_existantes": "aucune trouvée", "risques": "Exemple", "niveau": "D",
+    "sources": [{"titre": "Article", "url": "https://exemple.org", "lu": "page"}],
+    "origine": "exemple", "date": "2026-11-22", "statut": "à vérifier",
+}
+
+
 def verifier_registre():
     print("1. Registre")
     registre = valider_registre.charger()
@@ -61,6 +71,11 @@ def verifier_registre():
     abime["transpositions"][0]["liens"] = ["H99"]
     paire_retiree = abime["confrontations"].pop()["paire"]
     abime["confrontations"][0]["si_seconde"] = abime["confrontations"][0]["si_premiere"]
+    abime["banque"] = [
+        ENTREE_DE_BANQUE | {"id": "B-sans-source", "sources": []},
+        ENTREE_DE_BANQUE | {"id": "B-de-memoire", "sources": [{"titre": "Article", "url": "https://exemple.org"}]},
+        ENTREE_DE_BANQUE | {"id": "B-ecartee", "statut": "écartée"},
+    ]
     refus = valider_registre.erreurs_du_registre(abime)
     controle("une hypothèse sans réfutation est refusée",
              any("refutation" in erreur for erreur in refus))
@@ -74,6 +89,14 @@ def verifier_registre():
              any(f"paire manquante {'-'.join(paire_retiree)}" in erreur for erreur in refus))
     controle("deux prédictions identiques dans une confrontation sont refusées",
              any("prédictions sont identiques" in erreur for erreur in refus))
+    controle("une entrée de banque sans source est refusée",
+             any("B-sans-source : champ « sources »" in erreur for erreur in refus))
+    controle("une source de banque qui ne dit pas comment elle a été lue est refusée",
+             any("B-de-memoire : source sans mention" in erreur for erreur in refus))
+    controle("une entrée de banque écartée sans motif est refusée",
+             any("B-ecartee : écartée sans motif" in erreur for erreur in refus))
+    controle("une entrée de banque complète est acceptée",
+             not valider_registre.erreurs_du_registre(registre | {"banque": [ENTREE_DE_BANQUE]}))
 
 
 def verifier_niveau_1():
