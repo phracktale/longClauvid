@@ -3,6 +3,39 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Premiers tests des pistes promues : P15 indécidable, le test 1 de P16 échoue
+
+**Fait.** Les deux tests qui ne demandaient qu'un fichier public ont été lancés après le dépôt des plans.
+
+**Résultat, P15.** Lecture fixée d'avance : indécidable. L'écart publié en 2019 se retrouve sur les 40 bibliothèques,
+−3,1 et −2,6 log2. Mais il vient tout entier d'une des deux séries de bibliothèques ; dans l'autre,
+il est de +0,6 et de +0,3 log2. La règle prévoyait ce cas et le lit « indécidable ».
+
+**Constat après coup, P15.** Cinq bibliothèques de témoins sains, toutes dans la première série, ont de 0,5 à 7,6 %
+de leurs lectures sur l'ARN ribosomique, mitochondrie et cytoplasme réunis. La médiane des 40 bibliothèques
+est de 0,02 %. L'écart oppose ces cinq bibliothèques à toutes les autres, témoins infectés compris.
+Ce constat n'était pas dans le plan : il vaut moins qu'un test.
+
+**Résultat, P16.** Le test 1 échoue. Le variant le plus associé au COVID long, rs9273363, n'est pas associé
+à l'EM/SFC dans DecodeME : rapport de cotes de 0,996 (de 0,970 à 1,023) pour l'allèle C, p = 0,79,
+avec 98 % de puissance pour l'effet publié de 1,06. Les tests 2 à 4 ne sont pas lus.
+
+**Choix.** Ne pas changer la règle de P15 après coup. Si l'étape de l'artefact avait été placée avant celle
+des deux séries, la lecture aurait été « probablement artefactuel ». L'ordre a été fixé avant les données : il reste.
+La fiche P15 reçoit une ligne ; son niveau ne change pas.
+
+**Choix.** Écrire aux auteurs de l'étude de 2019 avant de conclure : eux seuls savent comment ces cinq bibliothèques
+ont été préparées. La lettre est prête, non envoyée.
+
+**Écarté.** Retirer de la fiche P15 l'appui de 2019 sur la foi de la description : la règle déposée
+ne le permet pas, et la décision revient au porteur du projet.
+
+**Réserve.** P15 : la réplication sur d'autres personnes, que le plan prévoit sur sept jeux de données,
+n'est pas faite. P16 : un test lu sur quatre.
+
+**Suite.** Trois décisions pour le porteur du projet : l'appui de 2019 pour P15, le maintien de P17 au registre,
+l'envoi des quatre lettres. Puis la réplication de P15 sur les autres jeux de données.
+
 ## 2026-11-22 — Plans d'analyse des trois pistes promues ; le test de P17 n'est pas faisable
 
 **Fait.** Un plan d'analyse est déposé pour P15, P16 et P17, avant l'ouverture de toute donnée d'expression

@@ -139,3 +139,11 @@ Elles sont promues au registre le 2026-11-22 et suivent désormais ses règles.
 | B020, nombre de copies d'ADN mitochondrial | P17 | Refaire la randomisation mendélienne sur un autre jeu de cas |
 
 Un plan d'analyse se dépose avant toute donnée, comme pour les lots 1 et 2.
+
+État au 2026-11-22, une fois les trois plans déposés :
+
+| Piste | Premier test | Détail |
+| --- | --- | --- |
+| P15 | Fait. Lecture fixée d'avance : indécidable. L'écart de 2019 vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique | `analyses/P15/RESULTATS.md` |
+| P16 | Une comparaison lue sur quatre : elle échoue. Les trois autres attendent un chiffre des équipes | `analyses/P16/RESULTATS.md` |
+| P17 | Non faisable aujourd'hui : aucun jeu de cas public et indépendant ne dépasse 18 % de puissance | `analyses/P17/PLAN.md` |

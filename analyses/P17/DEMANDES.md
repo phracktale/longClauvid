@@ -9,6 +9,7 @@ après relecture du porteur du projet. Aucune adresse électronique n'est repris
 
 L'adresse est publiée par la [prépublication](https://www.researchsquare.com/article/rs-9363637/v2).
 Le dépôt de résultats qu'elle cite est en accès restreint. Voir [PLAN.md](PLAN.md).
+Les liens des lettres pointent vers la branche principale du dépôt : ne les envoyer qu'une fois ce travail fusionné.
 
 ## Lettre aux auteurs
 
