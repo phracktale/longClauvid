@@ -1,0 +1,153 @@
+# Pistes sous-exploitées.
+#
+# Une piste entre ici si elle remplit les trois critères du protocole :
+#   1. résultat publié et biologiquement précis ;
+#   2. aucun essai contrôlé terminé sur des patients sélectionnés pour ce mécanisme ;
+#   3. rarement citée avec les autres pistes qu'elle pourrait éclairer.
+#
+# niveau : A = répliqué par des équipes indépendantes
+#          B = une étude solide ou deux cohortes
+#          C = une seule équipe, ou étude non contrôlée
+#          D = hypothèse théorique
+#
+# « Aucun essai » signifie : aucun repéré dans la revue du 2026-11-22.
+# La phase 1 doit le vérifier dans les registres d'essais.
+
+- id: P01
+  nom: IgG pathogènes démontrées par transfert passif
+  resultat: >-
+    Les IgG de patients, injectées à la souris, reproduisent douleur et hypersensibilité ;
+    trois sous-groupes de patients selon GFAP, NfL et interféron β.
+  inexploite: >-
+    Antigènes responsables non identifiés ; test fonctionnel jamais utilisé
+    pour sélectionner des patients.
+  niveau: A
+  sources: [chen-2026, yale-igg-2024, liege-igg-2026]
+
+- id: P02
+  nom: Déplétion des plasmocytes (daratumumab)
+  resultat: >-
+    Réponse en tout ou rien dans un pilote ouvert : 6 patientes sur 10 nettement améliorées,
+    4 sans effet.
+  inexploite: Prédicteurs de réponse à identifier ; essai randomisé de 66 patients en cours.
+  niveau: C
+  sources: [fluge-2025, resetme-projet]
+
+- id: P03
+  nom: Boucle interféron–itaconate
+  resultat: >-
+    Modèle théorique : l'interféron α s'auto-entretient via JAK-STAT et détourne
+    le cycle de Krebs vers une voie peu productive.
+  inexploite: >-
+    Hypothèse non publiée selon son auteur ; les anti-JAK entrent en essai
+    sans ce cadre de lecture.
+  niveau: D
+  sources: [phair-nih-2023, phair-non-publie]
+
+- id: P04
+  nom: WASF3 et stress du réticulum endoplasmique
+  resultat: >-
+    WASF3, induite par le stress du réticulum, désorganise la chaîne respiratoire ;
+    élevée dans le muscle de la plupart des 14 patients biopsiés.
+  inexploite: Aucun essai ciblant ce stress repéré.
+  niveau: B
+  sources: [wang-2023, wasf3-nih]
+
+- id: P05
+  nom: Canal calcique TRPM3
+  resultat: >-
+    Entrée de calcium réduite dans les cellules NK, restaurée par la naltrexone in vitro.
+  inexploite: >-
+    Résultats d'une seule équipe ; jamais utilisé pour stratifier un essai,
+    alors que l'essai naltrexone est négatif.
+  niveau: C
+  sources: [trpm3-2022, trpm3-2025, lohn-wirth-2024]
+
+- id: P06
+  nom: SMPDL3B et phospholipase PI-PLC
+  resultat: >-
+    Taux plasmatique lié à la sévérité dans deux cohortes (249 et 141 patients) ;
+    régulé par l'estradiol.
+  inexploite: >-
+    Gliptines actives in vitro seulement à 250 fois la concentration thérapeutique :
+    la cible intéresse, le médicament reste à trouver.
+  niveau: B
+  sources: [smpdl3b-2025, smpdl3b-critique-2025]
+
+- id: P07
+  nom: Surcharge sodium–calcium du muscle
+  resultat: >-
+    Sodium intracellulaire élevé à l'IRM ; lésions et régénération musculaires après effort.
+  inexploite: IRM du sodium jamais utilisée comme critère d'inclusion ou de jugement.
+  niveau: B
+  sources: [wirth-scheibenbogen-2021, scheibenbogen-wirth-2025, appelman-2024]
+
+- id: P08
+  nom: Fibrine, spike et complément
+  resultat: >-
+    La spike se lie à la fibrine et forme des caillots inflammatoires ;
+    complément terminal activé de façon persistante chez les patients.
+  inexploite: >-
+    Anticorps anti-fibrine testé chez la souris seulement ;
+    inhibiteurs du complément jamais essayés dans cette indication.
+  niveau: B
+  sources: [ryu-2024, cervia-hasler-2024]
+
+- id: P09
+  nom: Sérotonine et absorption du tryptophane
+  resultat: >-
+    ARN viral et interféron de type I réduisent l'absorption du tryptophane,
+    donc la sérotonine.
+  inexploite: >-
+    Chaîne causale qui relie quatre hypothèses ; aucun essai stratifié sur la sérotonine.
+  niveau: B
+  sources: [wong-2023]
+
+- id: P10
+  nom: Hormones sexuelles
+  resultat: >-
+    165 personnes : testostérone plus basse chez les patientes,
+    associée à une charge de symptômes plus forte.
+  inexploite: >-
+    Aucun essai stratifié sur le statut hormonal ;
+    la génétique n'explique pas le biais féminin.
+  niveau: C
+  sources: [silva-2024, decodeme-resultats]
+
+- id: P11
+  nom: Modèles à états stables multiples
+  resultat: >-
+    Les modèles de régulation neuro-endocrino-immunitaire admettent plusieurs états stables,
+    dont des états « malades » ; des séquences de traitement y sont simulées.
+  inexploite: >-
+    Prédictions jamais testées en clinique ; aucun essai n'étudie l'ordre des traitements.
+  niveau: C
+  sources: [craddock-2015, modele-emsfc-2019, sous-types-combinaisons-2021, kashi-2019]
+
+- id: P12
+  nom: Réponse au danger cellulaire
+  resultat: Signature hypométabolique sur 84 sujets, proche d'un état de dormance.
+  inexploite: >-
+    Essai de suramine annoncé pour 2022 ; aucun résultat retrouvé dans la revue.
+  niveau: C
+  sources: [naviaux-2016, naviaux-labo]
+
+- id: P13
+  nom: Génétique DecodeME
+  resultat: >-
+    8 régions du génome associées sur 15 579 cas, dont des gènes de réponse à l'infection ;
+    statistiques résumées accessibles.
+  inexploite: >-
+    Priorisation de cibles : un mécanisme soutenu par la génétique réussit
+    2,6 fois plus souvent en clinique.
+  niveau: B
+  sources: [decodeme-2025, decodeme-acces, minikel-2024]
+
+- id: P14
+  nom: Antigène viral persistant
+  resultat: >-
+    Antigènes viraux détectés dans 21 % des échantillons, jusqu'à 14 mois après l'infection.
+  inexploite: >-
+    Essais antiviraux menés sans sélection sur l'antigène ; dosages encore peu fiables.
+  niveau: B
+  sources: [antigene-ucsf-2024, antigene-706, reservoir-revue-2023]

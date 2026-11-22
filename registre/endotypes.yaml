@@ -1,0 +1,100 @@
+# Endotypes de travail : cinq axes définis par des marqueurs, pas par des symptômes.
+#
+# Un patient n'est pas rangé dans une case : il reçoit un profil sur les cinq axes.
+# Le statut hormonal agit comme modificateur transversal (hypothèse H5).
+#
+# Les candidats sont des hypothèses à tester en essai, pas des recommandations.
+# Plusieurs sont des immunosuppresseurs à risque sérieux.
+
+- id: E1
+  nom: Auto-immun humoral
+  hypothese: H1
+  marqueurs:
+    - fixation des IgG aux neurones sensitifs
+    - GFAP
+    - NfL
+  appui: Transfert d'IgG à la souris, répliqué par trois équipes.
+  candidats:
+    - nom: Daratumumab
+      preuve: Pilote ouvert positif sur 10 patientes.
+      prochain_test: Résultat de l'essai randomisé, puis analyse selon la fixation des IgG.
+      sources: [fluge-2025, resetme-projet]
+    - nom: Immunoadsorption répétée
+      preuve: Cohorte de 20 patients améliorée ; essai contre simulacre négatif.
+      prochain_test: Sélection sur un test fonctionnel des IgG ; essai randomisé berlinois à suivre.
+      sources: [immunoadsorption-cohorte-2025, iampoco, ia-pacs-cfs]
+
+- id: E2
+  nom: Interféron persistant
+  hypothese: H2
+  marqueurs:
+    - interféron α ou β
+    - gènes induits par l'interféron
+    - sérotonine
+    - SAA1
+    - IL-6
+  appui: Sous-groupes de Chen et de l'essai bezisterim, exploratoires.
+  candidats:
+    - nom: Baricitinib, abrocitinib
+      preuve: REVERSE-LC en recrutement ; phase 2a préliminaire positive pour l'abrocitinib.
+      prochain_test: Stratifier sur la signature interféron dès l'inclusion.
+      sources: [reverse-lc, sicktimes-2026-11]
+    - nom: Bezisterim
+      preuve: Effet sur la cognition dans le sous-groupe inflammatoire, exploratoire.
+      prochain_test: Phase 3 annoncée, sous-groupe à pré-spécifier.
+      sources: [biovie-2026-11]
+
+- id: E3
+  nom: Bioénergétique musculaire
+  hypothese: H3
+  marqueurs:
+    - WASF3 sur biopsie
+    - ATG13 phosphorylée
+    - épreuve d'effort sur deux jours
+    - IRM du sodium
+  appui: Biopsies musculaires avant et après effort.
+  candidats:
+    - nom: Rapamycine faible dose
+      preuve: Étude non contrôlée.
+      prochain_test: Essai randomisé stratifié sur les marqueurs d'autophagie.
+      sources: [rapamycine-2025, rapamycine-registre]
+    - nom: Aspartate ou asparagine
+      preuve: Prédiction d'un modèle métabolique, jamais testée.
+      prochain_test: Vérification in vitro avant tout essai.
+      sources: [modeles-metaboliques-2025]
+
+- id: E4
+  nom: Thrombo-inflammatoire à antigène persistant
+  hypothese: H4
+  marqueurs:
+    - spike, S1 ou nucléocapside plasmatiques
+    - complément terminal
+    - marqueurs de la fibrine
+  appui: Protéomique de 113 patients suivis un an.
+  candidats:
+    - nom: Anticorps anti-spike (sipavibart)
+      preuve: Essai en cours ; AER002 négatif sans sélection des patients.
+      prochain_test: Sélection sur antigène plasmatique avec un dosage validé.
+      sources: [sicktimes-2026-11, aer002-registre, aer002-prepublication]
+    - nom: Anticorps anti-fibrine, inhibiteurs du complément
+      preuve: Souris seulement pour l'anti-fibrine ; aucun essai repéré pour le complément.
+      prochain_test: Étude de marqueurs avant tout essai.
+      sources: [ryu-2024, cervia-hasler-2024]
+
+- id: E5
+  nom: Neuro-autonome
+  hypothese: H7
+  marqueurs:
+    - fonction du canal TRPM3
+    - neuropeptide Y
+    - tests du système nerveux autonome
+  appui: Électrophysiologie des cellules NK, une seule équipe.
+  candidats:
+    - nom: Naltrexone faible dose
+      preuve: Essai randomisé négatif en tout-venant (160 patients).
+      prochain_test: Analyse selon la fonction TRPM3.
+      sources: [naik-2026, mea-ldn-2026]
+    - nom: Bloc du ganglion stellaire
+      preuve: Essai Block-LC de 272 patients autorisé.
+      prochain_test: Résultats attendus.
+      sources: [sicktimes-2026-11]

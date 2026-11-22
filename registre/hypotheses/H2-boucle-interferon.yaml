@@ -1,0 +1,30 @@
+id: H2
+titre: Une boucle interféron relie déficit énergétique, sérotonine basse et réponse aux anti-JAK
+statut: ouverte
+creee_le: 2026-11-22
+endotype: E2
+pistes: [P03, P09, P01]
+sources: [sicktimes-2026-11, chen-2026]
+
+enonce: >-
+  Chez une partie des patients, une signalisation interféron entretenue réduit la sérotonine
+  (moindre absorption du tryptophane) et détourne le métabolisme énergétique.
+  Les inhibiteurs de JAK agiraient en coupant cette boucle, pas par un effet
+  anti-inflammatoire général.
+
+prediction: >-
+  Le bénéfice des anti-JAK se concentre chez les patients à signature interféron élevée
+  et sérotonine basse, et la sérotonine remonte avant les symptômes.
+
+refutation: >-
+  La réponse aux anti-JAK ne dépend pas de la signature interféron initiale,
+  ou la sérotonine ne bouge pas chez les répondeurs.
+
+test:
+  donnees: Prélèvements des essais REVERSE-LC (baricitinib) et CLEAR-LC (abrocitinib).
+  methode: Signature interféron et sérotonine à l'inclusion, puis sous traitement ; analyse pré-enregistrée.
+  faisabilite: Essais en cours ou terminés ; dépend de l'accès aux biobanques.
+
+historique:
+  - date: 2026-11-22
+    evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.

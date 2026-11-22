@@ -1,0 +1,28 @@
+id: H4
+titre: L'antigène, et non la réplication virale, entretient la thrombo-inflammation
+statut: ouverte
+creee_le: 2026-11-22
+endotype: E4
+pistes: [P14, P08]
+sources: [recover-vital-nih, sicktimes-2026-05]
+
+enonce: >-
+  Un antiviral bloque la réplication mais n'élimine pas la protéine spike déjà présente.
+  Si c'est la spike persistante qui, liée à la fibrine, entretient l'activation du complément,
+  l'échec du nirmatrelvir ne dit rien du rôle de l'antigène.
+
+prediction: >-
+  Chez les patients antigène-positifs, un anticorps qui élimine la spike ou neutralise
+  la fibrine normalise les marqueurs du complément ; un antiviral ne le fait pas.
+
+refutation: >-
+  Les marqueurs du complément ne diffèrent pas selon la présence d'antigène plasmatique.
+
+test:
+  donnees: Échantillons de RECOVER-VITAL, dont l'analyse virologique restait à publier en mai 2026.
+  methode: Antigène plasmatique et complément terminal sur les mêmes prélèvements, avant et après traitement.
+  faisabilite: Échantillons déjà collectés ; dosage de l'antigène en cours de validation par le NIH.
+
+historique:
+  - date: 2026-11-22
+    evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.

@@ -1,0 +1,36 @@
+id: H6
+titre: La maladie est un état stable alternatif, l'ordre et la durée des traitements comptent
+statut: ouverte
+creee_le: 2026-11-22
+endotype: null
+pistes: [P11, P02]
+sources: [kashi-2019, craddock-2015]
+
+enonce: >-
+  La maladie serait un second état d'équilibre d'un système de régulation, pas une lésion.
+  On n'en sort qu'en franchissant un seuil : cela expliquerait les réponses en tout ou rien
+  et les rechutes à l'arrêt d'un traitement trop court.
+
+prediction: >-
+  Chez les répondeurs, l'amélioration persiste après élimination du médicament,
+  et une même combinaison donne des résultats différents selon l'ordre d'administration.
+
+refutation: >-
+  L'effet disparaît toujours à l'arrêt du traitement, quels que soient sa durée et son intensité.
+
+test:
+  donnees: Suivi à 12–24 mois des répondeurs dans les essais, après arrêt du traitement.
+  methode: Comparer le maintien de la réponse à la durée d'exposition ; essai d'arrêt programmé.
+  faisabilite: Données de suivi du pilote daratumumab existantes ; l'effet d'ordre exige un essai dédié.
+
+historique:
+  - date: 2026-11-22
+    evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.
+  - date: 2026-11-22
+    evenement: >-
+      Simulateur de niveau 2 (piège métabolique IDO de Kashi 2019, reproduit aux arrondis près).
+      Le modèle va dans le sens de l'hypothèse sur deux points : réponse en tout ou rien,
+      rechute si l'on arrête avant le seuil. Il la nuance sur un troisième : avec les paramètres
+      publiés, sortir du piège demande des mois à des années, donc un traitement bref ne suffit pas.
+      L'effet d'ordre n'est pas testable dans un modèle à une seule variable.
+      Détail dans simulateurs/niveau2/RESULTATS.md.

@@ -1,0 +1,30 @@
+id: H1
+titre: Les IgG pathogènes viennent de plasmocytes à longue durée de vie
+statut: ouverte
+creee_le: 2026-11-22
+endotype: E1
+pistes: [P01, P02]
+sources: [bc007-annonce, iampoco, fluge-2025]
+
+enonce: >-
+  Retirer les IgG (immunoadsorption) ou neutraliser les auto-anticorps anti-récepteurs
+  couplés aux protéines G (BC007) ne suffit pas si la source des IgG persiste
+  et si les IgG en cause visent d'autres cibles, comme les neurones sensitifs.
+  Cela expliquerait à la fois les deux échecs et la réponse en tout ou rien au daratumumab.
+
+prediction: >-
+  Dans l'essai randomisé daratumumab, les répondeurs sont les patients dont les IgG
+  se fixent aux neurones sensitifs avant traitement.
+
+refutation: >-
+  La fixation des IgG aux neurones sensitifs avant traitement ne prédit pas la réponse
+  au daratumumab.
+
+test:
+  donnees: Sérums de la biobanque de l'essai randomisé daratumumab, prélevés avant traitement.
+  methode: Test de fixation sur neurones sensitifs, lu en aveugle de la réponse clinique.
+  faisabilite: Échantillons déjà collectés ; dépend d'un accord avec l'équipe de l'essai.
+
+historique:
+  - date: 2026-11-22
+    evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.

@@ -1,0 +1,377 @@
+# Sources du registre.
+# Une source = une page réellement consultée, avec sa date de lecture.
+# type : article | prepublication | registre | institution | communique | presse | forum
+
+# --- Essais cliniques ---------------------------------------------------------
+
+- id: recover-vital-nih
+  titre: "Antiviral drug did not improve Long COVID symptoms (NIH Research Matters)"
+  url: https://www.nih.gov/news-events/nih-research-matters/antiviral-drug-did-not-improve-long-covid-symptoms
+  type: institution
+  lu_le: 2026-11-22
+
+- id: recover-vital-mgb
+  titre: "RECOVER-VITAL finds no benefit of extended duration of PAXLOVID for Long COVID (Mass General Brigham)"
+  url: https://news.massgeneralbrigham.org/en/no-benefit-of-extended-duration-paxlovid-for-long-covid
+  type: communique
+  lu_le: 2026-11-22
+
+- id: naik-2026
+  titre: "Low Dose Naltrexone for Post-COVID Fatigue Syndrome: A Randomized Controlled Trial (medRxiv)"
+  url: https://www.medrxiv.org/content/medrxiv/early/2026/10/26/2026.10.22.26363582.full.pdf
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: mea-ldn-2026
+  titre: "LDN did not improve post-Covid ME/CFS in Canadian clinical trial (ME Association)"
+  url: https://meassociation.org.uk/2026/10/mea-research-ldn-did-not-improve-post-covid-me-cfs-in-canadian-clinical-trial/
+  type: presse
+  lu_le: 2026-11-22
+
+- id: bc007-annonce
+  titre: "BC 007 bei Long Covid Placebo nicht überlegen (Pharmazeutische Zeitung)"
+  url: https://www.pharmazeutische-zeitung.de/bc-007-bei-long-covid-placebo-nicht-ueberlegen-151338/
+  type: presse
+  lu_le: 2026-11-22
+
+- id: bc007-recover-2025
+  titre: "Rovunaptabin (BC007) in Post-COVID syndrome, reCOVer phase IIa trial (eClinicalMedicine)"
+  url: https://pubmed.ncbi.nlm.nih.gov/40735347/
+  type: article
+  lu_le: 2026-11-22
+
+- id: iampoco
+  titre: "Immunoadsorption versus sham treatment for post-COVID syndrome: a randomised sham-controlled crossover trial (IAMPOCO)"
+  url: https://openscience.ub.uni-mainz.de/bitstreams/24c8771d-f90f-4d64-8bb1-c223c250e04c/download
+  type: article
+  lu_le: 2026-11-22
+
+- id: immunoadsorption-cohorte-2025
+  titre: "Efficacy of repeated immunoadsorption in post-COVID ME/CFS with elevated β2-adrenergic receptor autoantibodies (Lancet Regional Health Europe)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11699797
+  type: article
+  lu_le: 2026-11-22
+
+- id: ia-pacs-cfs
+  titre: "Immunoadsorption in patients with CFS including post-COVID CFS (NCT05710770)"
+  url: https://clinicaltrials.gov/study/NCT05710770
+  type: registre
+  lu_le: 2026-11-22
+
+- id: aer002-registre
+  titre: "Anti-SARS-CoV-2 monoclonal antibodies for Long COVID, outSMART-LC (NCT05877508)"
+  url: https://classic.clinicaltrials.gov/show/NCT05877508
+  type: registre
+  lu_le: 2026-11-22
+
+- id: aer002-prepublication
+  titre: "Résumé de la prépublication Peluso et al. 2026 sur AER002, reproduit sur un forum"
+  url: https://s4me.info/threads/a-phase-2a-double-blind-placebo-controlled-randomized-trial-of-the-sars-cov-2-specific-monoclonal-antibody-aer002%E2%80%A6-2026-peluso.49260
+  type: forum
+  lu_le: 2026-11-22
+
+- id: sicktimes-2026-05
+  titre: "RECOVER's first round of clinical trials are failing (The Sick Times)"
+  url: https://thesicktimes.org/2026/05/12/recovers-first-round-of-clinical-trials-are-failing-will-the-next-phase-be-better/
+  type: presse
+  lu_le: 2026-11-22
+
+- id: sicktimes-2026-11
+  titre: "Live blog: RECOVER-TLC third annual workshop (The Sick Times)"
+  url: https://thesicktimes.org/2026/11/04/live-blog-recover-tlc-third-annual-workshop-shares-updates-on-long-covid-clinical-trials/
+  type: presse
+  lu_le: 2026-11-22
+
+- id: biovie-2026-11
+  titre: "BioVie presents biomarker-defined endotypes and neuropeptide Y response to bezisterim (communiqué)"
+  url: https://www.globenewswire.com/news-release/2026/11/16/3403433/0/en/biovie-presents-new-biomarker-data-highlighting-biomarker-defined-endotypes-and-neuropeptide-y-response-to-bezisterim-at-the-4th-long-covid-international-conference-2026.html
+  type: communique
+  lu_le: 2026-11-22
+
+- id: fluge-2025
+  titre: "Plasma cell targeting with the anti-CD38 antibody daratumumab in ME/CFS, a clinical pilot study (Frontiers in Medicine)"
+  url: https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1607353/full
+  type: article
+  lu_le: 2026-11-22
+
+- id: resetme-projet
+  titre: "Daratumumab in ME/CFS, randomized placebo-controlled phase II study (fiche projet)"
+  url: https://mrr.mecfs-research.org/en/mrr/projects/Kc46hyZDSCyX9ump8KepRA
+  type: registre
+  lu_le: 2026-11-22
+
+- id: rapamycine-2025
+  titre: "Low-dose rapamycin alleviates fatigue and PEM in ME/CFS via improvement of autophagy: a pilot study (J Transl Med)"
+  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12538759/
+  type: article
+  lu_le: 2026-11-22
+
+- id: rapamycine-registre
+  titre: "Low dose rapamycin in ME/CFS, Long COVID and other infection-associated chronic conditions (NCT06257420)"
+  url: https://clinicaltrials.gov/study/NCT06257420
+  type: registre
+  lu_le: 2026-11-22
+
+- id: reverse-lc
+  titre: "RECOVER-TLC opens expanded enrollment in REVERSE-LC clinical trial (baricitinib)"
+  url: https://recovercovid.org/news/recover-tlc-opens-expanded-enrollment-reverse-lc-clinical-trial
+  type: institution
+  lu_le: 2026-11-22
+
+# --- Mécanismes ---------------------------------------------------------------
+
+- id: chen-2026
+  titre: "Transfer of IgG from long COVID patients induces symptomology in mice (Cell Reports Medicine)"
+  url: https://doi.org/10.1016/j.xcrm.2026.102693
+  type: article
+  lu_le: 2026-11-22
+
+- id: yale-igg-2024
+  titre: "A causal link between autoantibodies and neurological symptoms in long COVID (medRxiv)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11213106/
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: liege-igg-2026
+  titre: "Pathogenic IgG from long COVID patients with neurological sequelae (Acta Neuropathologica)"
+  url: https://doi.org/10.1007/s00401-026-03019-0
+  type: article
+  lu_le: 2026-11-22
+
+- id: phair-nih-2023
+  titre: "ME/CFS Research Roadmap webinar, physiology session : update on the itaconate shunt hypothesis (transcription NINDS)"
+  url: https://www.ninds.nih.gov/sites/default/files/documents/Transcript_MECFS_Research_Roadmap_Webinar_6_Physiology_Open_Session_508c.pdf
+  type: institution
+  lu_le: 2026-11-22
+
+- id: phair-non-publie
+  titre: "Message de Robert Phair : l'hypothèse de la boucle interféron n'est pas publiée"
+  url: https://s4me.info/threads/itaconate-modulates-immune-responses-via-inhibition-of-peroxiredoxin-5-2025-tomas-paulenda-et-al.43741/page-10
+  type: forum
+  lu_le: 2026-11-22
+
+- id: wang-2023
+  titre: "WASF3 disrupts mitochondrial respiration and may mediate exercise intolerance in ME/CFS (PNAS)"
+  url: https://pubmed.ncbi.nlm.nih.gov/37579159
+  type: article
+  lu_le: 2026-11-22
+
+- id: wasf3-nih
+  titre: "Protein may be linked to exercise intolerance in ME/CFS (NIH Research Matters)"
+  url: https://www.nih.gov/news-events/nih-research-matters/protein-may-be-linked-exercise-intolerance-me-cfs
+  type: institution
+  lu_le: 2026-11-22
+
+- id: trpm3-2022
+  titre: "Impaired TRPM3-dependent calcium influx and restoration using naltrexone in NK cells of ME/CFS patients"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8848670
+  type: article
+  lu_le: 2026-11-22
+
+- id: trpm3-2025
+  titre: "Low-dose naltrexone restored TRPM3 ion channel function in NK cells from long COVID patients (Front Mol Biosci)"
+  url: https://pubmed.ncbi.nlm.nih.gov/40458265/
+  type: article
+  lu_le: 2026-11-22
+
+- id: lohn-wirth-2024
+  titre: "Potential pathophysiological role of the ion channel TRPM3 in ME/CFS and the therapeutic effect of low-dose naltrexone (revue)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11227206
+  type: article
+  lu_le: 2026-11-22
+
+- id: smpdl3b-2025
+  titre: "SMPDL3B a novel biomarker and therapeutic target in myalgic encephalomyelitis (J Transl Med)"
+  url: https://link.springer.com/article/10.1186/s12967-025-06829-0
+  type: article
+  lu_le: 2026-11-22
+
+- id: smpdl3b-critique-2025
+  titre: "Lettre critique sur SMPDL3B et les gliptines : concentrations supra-thérapeutiques (J Transl Med)"
+  url: https://link.springer.com/article/10.1186/s12967-025-07121-x
+  type: article
+  lu_le: 2026-11-22
+
+- id: wirth-scheibenbogen-2021
+  titre: "Pathophysiology of skeletal muscle disturbances in ME/CFS (J Transl Med)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8058748
+  type: article
+  lu_le: 2026-11-22
+
+- id: scheibenbogen-wirth-2025
+  titre: "Key pathophysiological role of skeletal muscle disturbance in post COVID and ME/CFS: accumulated evidence"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11671797
+  type: article
+  lu_le: 2026-11-22
+
+- id: appelman-2024
+  titre: "Muscle abnormalities worsen after post-exertional malaise in long COVID (Nature Communications)"
+  url: https://link.springer.com/article/10.1038/s41467-023-44432-3
+  type: article
+  lu_le: 2026-11-22
+
+- id: ryu-2024
+  titre: "Fibrin drives thromboinflammation and neuropathology in COVID-19 (Nature)"
+  url: https://pubmed.ncbi.nlm.nih.gov/39198643/
+  type: article
+  lu_le: 2026-11-22
+
+- id: cervia-hasler-2024
+  titre: "Persistent complement dysregulation with signs of thromboinflammation in active Long Covid (Science)"
+  url: https://pubmed.ncbi.nlm.nih.gov/38236961/
+  type: article
+  lu_le: 2026-11-22
+
+- id: wong-2023
+  titre: "Serotonin reduction in post-acute sequelae of viral infection (Cell)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11227373
+  type: article
+  lu_le: 2026-11-22
+
+- id: silva-2024
+  titre: "Sex differences in symptomatology and immune profiles of Long COVID (medRxiv)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10942502
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: naviaux-2016
+  titre: "Metabolic features of chronic fatigue syndrome (PNAS)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5027464
+  type: article
+  lu_le: 2026-11-22
+
+- id: naviaux-labo
+  titre: "Chronic fatigue syndrome research (laboratoire Naviaux, UCSD)"
+  url: https://naviauxlab.ucsd.edu/science-item/chronic-fatigue-syndrome-research/
+  type: institution
+  lu_le: 2026-11-22
+
+- id: antigene-ucsf-2024
+  titre: "COVID-19 virus can stay in the body more than a year after infection (UCSF)"
+  url: https://ucsf.edu/news/2024/03/427241/covid-19-virus-can-stay-body-more-year-after-infection
+  type: communique
+  lu_le: 2026-11-22
+
+- id: antigene-706
+  titre: "Measurement of circulating viral antigens post-SARS-CoV-2 infection in a multicohort study"
+  url: https://pure.psu.edu/en/publications/measurement-of-circulating-viral-antigens-post-sars-cov-2-infecti/
+  type: article
+  lu_le: 2026-11-22
+
+- id: reservoir-revue-2023
+  titre: "SARS-CoV-2 reservoir in post-acute sequelae of COVID-19 (Nature Immunology, revue)"
+  url: https://dx.doi.org/10.1038/s41590-023-01601-2
+  type: article
+  lu_le: 2026-11-22
+
+# --- Génétique et typologies --------------------------------------------------
+
+- id: decodeme-2025
+  titre: "Initial findings from the DecodeME genome-wide association study of ME/CFS (medRxiv)"
+  url: https://www.medrxiv.org/content/10.1101/2025.08.06.25333109v1.full-text
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: decodeme-resultats
+  titre: "Initial DecodeME DNA results (Université d'Édimbourg)"
+  url: https://institute-genetics-cancer.ed.ac.uk/decodeme-the-worlds-largest-mecfs-study/initial-decodeme-dna-results
+  type: institution
+  lu_le: 2026-11-22
+
+- id: decodeme-acces
+  titre: "DecodeME researcher access : statistiques résumées et accès aux données"
+  url: https://institute-genetics-cancer.ed.ac.uk/decodeme-the-worlds-largest-mecfs-study/researcher-access
+  type: institution
+  lu_le: 2026-11-22
+
+- id: minikel-2024
+  titre: "Refining the impact of genetic evidence on clinical success (Nature)"
+  url: https://www.nature.com/articles/s41586-024-07316-0
+  type: article
+  lu_le: 2026-11-22
+
+- id: plrc-regroupements-2026
+  titre: "Algorithm dependence of patient phenotypes in Long COVID: multi-method clustering of 6031 patients"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13284999/
+  type: article
+  lu_le: 2026-11-22
+
+- id: biomapai-2025
+  titre: "AI-driven multi-omics modeling of ME/CFS, BioMapAI (Nature Medicine)"
+  url: https://doi.org/10.1038/s41591-025-03788-3
+  type: article
+  lu_le: 2026-11-22
+
+- id: effort-deux-jours-2024
+  titre: "Two-day cardiopulmonary exercise testing in ME/CFS (plus grande étude à ce jour)"
+  url: https://pubmed.ncbi.nlm.nih.gov/38965566/
+  type: article
+  lu_le: 2026-11-22
+
+# --- Modélisation et méthodes -------------------------------------------------
+
+- id: craddock-2015
+  titre: "Achieving remission in Gulf War Illness: a simulation-based approach to treatment design (PLOS ONE)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4508058
+  type: article
+  lu_le: 2026-11-22
+
+- id: modele-emsfc-2019
+  titre: "Modèle logique neuro-endocrino-immunitaire de l'EM/SFC contraint par des données d'effort"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6478538
+  type: article
+  lu_le: 2026-11-22
+
+- id: sous-types-combinaisons-2021
+  titre: "Modeling neuroimmune interactions to predict subtype-specific multidrug treatments for Gulf War Illness"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8395153
+  type: article
+  lu_le: 2026-11-22
+
+- id: kashi-2019
+  titre: "The IDO metabolic trap hypothesis for the etiology of ME/CFS (Diagnostics)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6787624
+  type: article
+  lu_le: 2026-11-22
+
+- id: kashi-2019-mdpi
+  titre: "The IDO metabolic trap hypothesis, version de l'éditeur : second relevé des équations et paramètres"
+  url: https://www.mdpi.com/2075-4418/9/3/82/htm
+  type: article
+  lu_le: 2026-11-22
+
+- id: lengert-drossel-2015
+  titre: "In silico analysis of exercise intolerance in ME/CFS (résumé de l'article de Biophysical Chemistry)"
+  url: https://wames.org.uk/cms-english/computer-simulation-explores-cause-for-exercise-intolerance-in-mecfs
+  type: presse
+  lu_le: 2026-11-22
+
+- id: modeles-metaboliques-2025
+  titre: "Systems modeling reveals shared metabolic dysregulation and potential treatments in ME/CFS and Long COVID"
+  url: https://pubmed.ncbi.nlm.nih.gov/40649860/
+  type: article
+  lu_le: 2026-11-22
+
+- id: txgnn-2024
+  titre: "A foundation model for clinician-centered drug repurposing, TxGNN (Nature Medicine)"
+  url: https://zitniklab.hms.harvard.edu/projects/TxGNN/
+  type: article
+  lu_le: 2026-11-22
+
+- id: decouverte-litterature-2021
+  titre: "Drug repurposing for COVID-19 via knowledge graph completion (découverte fondée sur la littérature)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7869625
+  type: article
+  lu_le: 2026-11-22
+
+- id: split-2026
+  titre: "SPLIT: safety prioritization for Long COVID drug repurposing (medRxiv)"
+  url: https://www.medrxiv.org/content/10.64898/2026.04.12.26350701v1.full-text
+  type: prepublication
+  lu_le: 2026-11-22
+
+- id: essais-n-de-1-2023
+  titre: "N-of-1 trials : méthodologie des essais personnalisés"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10388431
+  type: article
+  lu_le: 2026-11-22

@@ -1,0 +1,32 @@
+id: H7
+titre: La contradiction TRPM3–naltrexone cache une cible non causale ou un sous-groupe dilué
+statut: ouverte
+creee_le: 2026-11-22
+endotype: E5
+pistes: [P05]
+sources: [naik-2026, sicktimes-2026-11]
+
+enonce: >-
+  La naltrexone restaure la fonction du canal TRPM3 in vitro, mais l'essai randomisé
+  est négatif. Soit TRPM3 n'est pas en cause dans les symptômes, soit seuls les patients
+  à canal défaillant répondent et leur effet est dilué dans un essai tout-venant.
+
+prediction: >-
+  La réponse clinique à la naltrexone croît avec le défaut initial de TRPM3.
+
+refutation: >-
+  Aucun gradient de réponse selon la fonction TRPM3 initiale : TRPM3 est alors écarté comme cible.
+
+test:
+  donnees: Essai Brave-LC, qui prévoit une analyse en sous-groupes, ou ré-analyse de l'essai canadien.
+  methode: Mesure de la fonction TRPM3 à l'inclusion ; analyse du gradient pré-enregistrée.
+  faisabilite: La mesure par électrophysiologie est lourde ; un test de flux calcique plus simple est à valider.
+
+historique:
+  - date: 2026-11-22
+    evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.
+  - date: 2026-11-22
+    evenement: >-
+      Simulateur de niveau 1 : avec 200 patients, un effet fort limité à 20 % des patients
+      n'est détecté qu'une fois sur cinq. Un essai de 160 patients ne permet donc pas
+      d'écarter l'hypothèse du sous-groupe dilué.

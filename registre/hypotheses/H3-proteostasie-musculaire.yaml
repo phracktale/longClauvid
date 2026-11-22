@@ -1,0 +1,29 @@
+id: H3
+titre: Un défaut de protéostasie musculaire précède la panne mitochondriale
+statut: ouverte
+creee_le: 2026-11-22
+endotype: E3
+pistes: [P04, P07]
+sources: [rapamycine-2025, appelman-2024]
+
+enonce: >-
+  Stress du réticulum endoplasmique (qui induit WASF3) et blocage de l'autophagie par mTOR
+  seraient deux faces d'un même défaut de contrôle de la qualité des protéines dans le muscle.
+  La dysfonction mitochondriale et les lésions après effort en seraient la conséquence.
+
+prediction: >-
+  WASF3 musculaire et ATG13 phosphorylée sont élevées chez les mêmes patients ;
+  sous rapamycine, WASF3 baisse quand les symptômes s'améliorent.
+
+refutation: >-
+  Les deux marqueurs sont indépendants l'un de l'autre, ou WASF3 ne change pas
+  chez les répondeurs à la rapamycine.
+
+test:
+  donnees: Biopsies musculaires et sérums d'une même cohorte, avant et sous rapamycine.
+  methode: Dosage conjoint de WASF3 et d'ATG13 phosphorylée ; corrélation pré-enregistrée.
+  faisabilite: Nouvelle collecte nécessaire ; la biopsie musculaire limite le recrutement.
+
+historique:
+  - date: 2026-11-22
+    evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.

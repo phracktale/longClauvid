@@ -1,0 +1,29 @@
+id: H5
+titre: Le terrain hormonal module l'immunité innée et explique le biais féminin
+statut: ouverte
+creee_le: 2026-11-22
+endotype: null
+pistes: [P10, P06]
+sources: [decodeme-resultats]
+
+enonce: >-
+  Les hormones sexuelles règlent des acteurs de l'immunité innée comme SMPDL3B.
+  Ce réglage, et non la génétique, expliquerait que la maladie touche davantage les femmes
+  et que la testostérone basse s'accompagne de symptômes plus lourds.
+
+prediction: >-
+  Chez une même personne, SMPDL3B soluble et symptômes varient avec le cycle,
+  la ménopause ou un traitement hormonal.
+
+refutation: >-
+  Des mesures répétées chez les mêmes personnes ne montrent aucune covariation
+  entre statut hormonal, SMPDL3B et symptômes.
+
+test:
+  donnees: Cohorte suivie avec prélèvements répétés et journal de symptômes.
+  methode: Étude observationnelle longitudinale ; chaque personne est son propre témoin.
+  faisabilite: Peu coûteuse, sans médicament ; aucune cohorte adaptée identifiée à ce jour.
+
+historique:
+  - date: 2026-11-22
+    evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.
