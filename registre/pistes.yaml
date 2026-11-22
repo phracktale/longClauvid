@@ -165,9 +165,10 @@
     par groupe ; les peptides eux-mêmes n'y diffèrent pas dans le sang.
   inexploite: >-
     Aucun essai enregistré. Les deux résultats viennent chacun d'une seule équipe et ne mesurent
-    pas la même chose. L'écart d'expression de 2019, de vingt à trente-cinq fois, est trop grand
+    pas la même chose. L'écart d'expression de 2019, de 21 à 37 fois, est trop grand
     pour être cru sans réplication. Premier test, sans laboratoire : relire les deux gènes
     dans les données d'expression déposées par l'étude de 2019 (jeu GSE130353).
+    Plan déposé le 2026-11-22, avant l'ouverture des données : analyses/P15/PLAN.md.
   niveau: C
   sources: [peptides-mito-2019, vesicules-humanine-2022, vesicules-humanine-2023]
 
@@ -184,10 +185,11 @@
     n'ont pas été croisées. Aucun essai ne sélectionne des patients sur le HLA. Dans DecodeME,
     le typage est imputé séparément chez les cas et chez les témoins, et les auteurs prévoient
     de refaire l'analyse. Test sans laboratoire : quatre comparaisons fixées d'avance
-    sur les statistiques résumées.
+    sur les statistiques résumées. Plan déposé le 2026-11-22 : analyses/P16/PLAN.md.
+    Une comparaison se lit sur un fichier public ; les trois autres demandent un chiffre aux équipes.
   niveau: C
   sources: [covid-long-23andme-2024, decodeme-2025, decodeme-acces, hla-emsfc-norvege-2020,
-            hla-emsfc-norvege-2021]
+            hla-emsfc-norvege-2021, haplotype-8-1-2002]
 
 - id: P17
   nom: Nombre de copies d'ADN mitochondrial
@@ -200,6 +202,8 @@
     Aucune réplication. Les mesures directes ne confirment pas toutes : le contenu en ADN
     mitochondrial des cellules du sang est normal chez 23 patients EM/SFC ; dans le COVID long,
     il est plus bas chez 44 patients diabétiques atteints que chez 21 non atteints.
-    Test sans laboratoire : refaire l'analyse sur un autre jeu de cas, avec les mêmes instruments.
+    Le test sans laboratoire prévu à la promotion, refaire l'analyse sur un autre jeu de cas,
+    n'est pas faisable aujourd'hui : aucun jeu public et indépendant ne dépasse 18 % de puissance,
+    et il faudrait environ 16 400 cas. Plan déposé le 2026-11-22 : analyses/P17/PLAN.md.
   niveau: C
   sources: [adn-mito-randomisation-2026, adn-mito-emsfc-2013, adn-mito-covid-long-2024, decodeme-acces]

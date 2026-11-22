@@ -1,7 +1,7 @@
 """
 Vérifie tout le dépôt en une commande : python3 verifier.py
 
-Cinq blocs, chacun avec un contrôle négatif (on vérifie aussi que l'outil
+Six blocs, chacun avec un contrôle négatif (on vérifie aussi que l'outil
 sait dire non) :
 1. le registre est valide, et un registre abîmé est bien refusé ;
 2. le simulateur de niveau 1 ne voit pas d'effet là où il n'y en a pas ;
@@ -10,7 +10,9 @@ sait dire non) :
 4. le moteur de réseaux logiques retrouve des résultats calculables à la main,
    et un traitement donné dans le mauvais ordre échoue bien ;
 5. le réseau de Craddock redonne les cinq états stables publiés, et la figure
-   de 2014, qui diffère sur deux flèches, ne les redonne pas.
+   de 2014, qui diffère sur deux flèches, ne les redonne pas ;
+6. la règle de décision du plan P15 rend la lecture attendue sur des données
+   inventées, y compris « indécidable » et « illisible ».
 
 Durée : environ une demi-minute, dont la moitié pour essayer les 4,8 millions d'états
 du réseau de Craddock.
@@ -26,10 +28,11 @@ from pathlib import Path
 import numpy as np
 
 RACINE = Path(__file__).resolve().parent
-for dossier in ("outils", "simulateurs/niveau1", "simulateurs/niveau2"):
+for dossier in ("outils", "simulateurs/niveau1", "simulateurs/niveau2", "analyses/P15"):
     sys.path.append(str(RACINE / dossier))
 
-import craddock_2015             # noqa: E402  (import après l'ajout des dossiers)
+import arn_ribosomique           # noqa: E402  (import après l'ajout des dossiers)
+import craddock_2015             # noqa: E402
 import piege_ido                 # noqa: E402
 import reseau_logique            # noqa: E402
 import simulateur_endotypes     # noqa: E402
@@ -222,12 +225,19 @@ def verifier_craddock():
              max(ecarts) <= 2.0, f"écart maximal {max(ecarts):.1f} point")
 
 
+def verifier_plan_p15():
+    print("6. Plan P15 (la règle de décision, sur des données inventées)")
+    for cas, attendu, obtenu in arn_ribosomique.essai():
+        controle(cas, obtenu == attendu, str(obtenu) if obtenu != attendu else "")
+
+
 def main():
     verifier_registre()
     verifier_niveau_1()
     verifier_niveau_2()
     verifier_reseau_logique()
     verifier_craddock()
+    verifier_plan_p15()
     if echecs:
         print(f"\n{len(echecs)} contrôle(s) en échec.")
         sys.exit(1)

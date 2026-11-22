@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-22, 21 h 39. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-22, 22 h 35. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -35,7 +35,8 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 | Chantier | État | Détail |
 | --- | --- | --- |
 | Banque d'hypothèses | 21 pistes relues : 12 vérifiées, 3 promues, 3 écartées, 3 à vérifier ; les mises à l'écart ont eu un contradicteur | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
-| Registre | 17 pistes : P15, P16 et P17 viennent de la banque ; aucun plan d'analyse déposé pour elles | `registre/pistes.yaml` |
+| Registre | 17 pistes : P15, P16 et P17 viennent de la banque | `registre/pistes.yaml` |
+| Pistes promues | Trois plans d'analyse déposés et relus avant dépôt ; aucune donnée ouverte ; trois lettres prêtes, non envoyées ; le test de P17 n'est pas faisable aujourd'hui | `analyses/P15/`, `analyses/P16/`, `analyses/P17/` |
 | Lot 2, suivi après l'arrêt des traitements | Six demandes envoyées ; une réponse automatique, rien sur le fond | `analyses/lot-2/` |
 | Lot 1, échantillons déjà collectés | Deux demandes envoyées, aucune réponse | `analyses/lot-1/` |
 | Fiche T03, metformine | Corrigée : deux essais sur un COVID long installé, sans bénéfice montré | `registre/transpositions.yaml` |
@@ -53,9 +54,11 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
 2. **Faire attaquer les quinze pistes gardées**, dont les trois promues : seules les mises à l'écart ont eu un contradicteur.
    La relecture contradictoire a levé deux mises à l'écart sur cinq ; l'inverse est possible.
    Une relecture par une personne du métier vaudrait mieux qu'un programme de plus.
-3. **Instruire les trois pistes promues.** Pour chacune, déposer un plan d'analyse avant toute donnée,
-   comme pour les lots 1 et 2. P15 : relire deux gènes dans un jeu de données public (GSE130353).
-   P16 et P17 : demander les statistiques résumées de DecodeME. Autre premier pas peu coûteux, pour B002 :
+3. **Instruire les trois pistes promues.** Les plans sont déposés. Restent, dans l'ordre :
+   lancer l'analyse de P15 (`python3 analyses/P15/arn_ribosomique.py telecharger`, puis sans argument) ;
+   lire le test 1 de P16 dans le fichier public de DecodeME ; faire relire puis envoyer les trois lettres
+   (`analyses/P16/DEMANDES.md`, `analyses/P17/DEMANDES.md`) ; décider si P17 reste au registre,
+   son test n'étant pas faisable. Autre premier pas peu coûteux, pour B002 :
    demander les plasmalogènes aux auteurs des lipidomiques déjà faites.
 4. **Relever les réponses** aux huit demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
@@ -81,6 +84,8 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 - Relire une piste : `outils/sources_banque.py`, puis `outils/relecture_banque.py`, avec
   `outils/consigne-relecteur.md`. Une piste écartée passe ensuite devant un contradicteur,
   avec `outils/consigne-contradicteur.md`. La marche à suivre est à la fin de `analyses/banque/RELECTURE.md`.
+- Un plan d'analyse passe devant un relecteur avant son dépôt, avec `outils/consigne-relecteur-de-plan.md`.
+  Une fois les données ouvertes, sa règle ne se corrige plus : toute modification s'écrit en bas du plan.
 - Un site qui répond par un contrôle anti-robot n'est pas contourné : la source est notée bloquée.
 
 ## 6. Ce qui ne survit pas à un changement de session
@@ -90,4 +95,6 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
   des relecteurs ne se refont qu'en relisant. Leur contenu utile est dans le champ `relecture` des pistes.
 - Le fil de la conversation. Tout ce qui compte doit donc être dans ce fichier, dans `JOURNAL.md`
   ou dans les journaux des envois.
-- Le travail de la session du 2026-11-22 au soir est dans la demande de fusion n° 14.
+- Le travail de la session du 2026-11-22 au soir est dans la demande de fusion n° 14, fusionnée.
+  Les plans d'analyse des pistes promues sont venus après : ils sont poussés sur une branche,
+  et leur demande de fusion reste à ouvrir.

@@ -958,9 +958,9 @@
     la prépublication de 2025, les données de sécurité et d''efficacité chez l''humain manquent. Sur ClinicalTrials.gov,
     le seul essai de MOTS-c repéré chez l''humain est en cours dans le prédiabète. MOTS-c n''a donc pas sa place
     hors d''un essai. Relecture du 2026-11-22, grille statistique : doutes aux questions 1, 2, 3, 4, 5, 6, 7 et
-    10. Question 5 : un écart d''expression de vingt à trente-cinq fois sur des gènes d''ARN ribosomique est trop
-    grand pour être cru tel quel ; un artefact technique n''est pas exclu, c''est une interprétation de la relecture.
-    La piste n''est gardée que pour le résultat d''une autre équipe.'
+    10. Question 5 : un écart d''expression de 21 à 37 fois sur des gènes d''ARN ribosomique est trop grand pour
+    être cru tel quel ; un artefact technique n''est pas exclu, c''est une interprétation de la relecture. La piste
+    n''est gardée que pour le résultat d''une autre équipe.'
   niveau: C
   sources:
   - titre: A possible role for mitochondrial-derived peptides humanin and MOTS-c in patients with Q fever fatigue
@@ -1010,7 +1010,7 @@
       du sang non plus ; l'humanine ne baisse que dans des cellules stimulées en culture (p = 0,05). Le signal porte
       sur l'expression des gènes, pas sur les peptides.
     - Doser l'humanine dans le plasma, premier geste du test proposé, a déjà été fait dans la source, sans écart.
-    - Les écarts d'expression vont de 4,4 à 5,2 log2, soit de vingt à trente-cinq fois, pour 10 personnes par groupe.
+    - Les écarts d'expression vont de 4,4 à 5,2 log2, soit de 21 à 37 fois, pour 10 personnes par groupe.
     - 'L''étude de 2019 a déposé ses données d''expression (jeu GSE130353) : le test peut commencer là.'
     inexploree: « Aucune mesure dans le COVID long » est faux. Une autre équipe trouve l'humanine et MOTS-c abaissés
       dans les vésicules extracellulaires du sang de patients COVID long à manifestations neuropsychiatriques, et
