@@ -8,7 +8,36 @@ La formulation d'une demande peut orienter la réponse : elle fait partie du dos
 | --- | --- |
 | REVERSE-LC, outSMART-LC, rapamycine, modèle logique | Envoyées le 2026-11-22 |
 | Brave-LC | Prête, non envoyée : aucun contact trouvé |
-| Bergen, daratumumab | Envoyée par le porteur du projet ; texte non repris ici |
+| Bergen, daratumumab | Envoyée par le porteur du projet, dans la version ci-dessous |
+
+## Daratumumab : Øystein Fluge
+
+Texte proposé au porteur du projet, qui l'a envoyé lui-même ; il a pu le retoucher avant l'envoi.
+
+Objet : Off-treatment follow-up in the daratumumab pilot and ResetME: two questions
+
+```text
+Dear Dr Fluge,
+
+I maintain longClauvid, an open registry of hypotheses on ME/CFS and long COVID in which every claim links to its source (https://github.com/phracktale/longClauvid). I am an independent software developer, not a clinician or a researcher, and part of the registry was drafted with an AI assistant.
+
+One hypothesis in the registry is that the illness is an alternative stable state: responders should stay improved after the treatment effect has worn off. Your pilot is the only published study I found that follows responders long enough to test this: five of six stayed improved for 12 to 24 months while serum IgG rose again.
+
+The long-lived plasma cell explanation predicts the same result, so I have two questions.
+
+1. Could IgG binding to sensory neurons, or another functional readout of pathogenic IgG, be measured in the stored follow-up sera (15 to 21 months)? Binding back with patients still well would favour a state change. Binding still absent would favour the plasma cell explanation.
+
+2. Will ResetME report response by arm up to week 72? Aggregate numbers would be enough: responders per arm at the end of treatment, and how many still respond once IgG has returned to baseline.
+
+The analysis plan, written before any data, is public:
+https://github.com/phracktale/longClauvid/blob/main/analyses/lot-2/PLAN.md
+
+If any of this is already planned or published, a pointer would fully answer my question.
+
+Thank you for your work on this illness.
+
+[name]
+```
 
 ## REVERSE-LC : E. Wesley Ely
 
