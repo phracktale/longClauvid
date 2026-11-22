@@ -12,7 +12,7 @@ La formulation d'une demande peut orienter la réponse : elle fait partie du dos
 
 ## Daratumumab : Øystein Fluge
 
-Texte proposé au porteur du projet, qui l'a envoyé lui-même ; il a pu le retoucher avant l'envoi.
+Texte envoyé tel quel par le porteur du projet.
 
 Objet : Off-treatment follow-up in the daratumumab pilot and ResetME: two questions
 
