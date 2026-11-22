@@ -5,7 +5,9 @@ Les entrées les plus récentes sont en haut.
 
 ## 2026-11-22 — Compte rendu du chercheur en biologie : ce qu'il a écarté
 
-**Fait.** Le fichier intégré en banque est bien sa version finale : douze pistes, 88 sources.
+**Fait, corrigé le jour même.** L'agent a encore modifié son fichier après la première intégration.
+La banque reprend ici sa version finale : douze pistes, 88 sources. La phrase d'origine disait
+à tort que la première version était la finale ; elle avait été écrite avant la comparaison.
 
 **Écarté par l'agent, d'après son compte rendu.** GDF15, pour des résultats contraires ;
 les rétrovirus endogènes, pour un essai négatif ; le système glymphatique, déjà exploré.
