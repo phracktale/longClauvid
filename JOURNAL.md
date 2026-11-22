@@ -3,6 +3,37 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-22 — Licences : MIT pour le code, CC BY 4.0 pour le reste
+
+**Décision.** Le code Python est sous licence MIT (`LICENSE`). Le registre, les documents,
+les résultats et la figure sont sous licence Creative Commons Attribution 4.0
+(`LICENSES/CC-BY-4.0.txt`).
+
+**Motif.** Les résultats doivent pouvoir être utilisés. Sans licence, un dépôt public
+ne donne à personne le droit de réutiliser son contenu. Ces deux licences autorisent
+toute réutilisation, y compris commerciale, à la seule condition de citer la source :
+la citation préserve la traçabilité.
+
+**Écarté.** CC0 : aucune obligation de citer, donc une chaîne de sources qui peut se perdre.
+GPL-3.0 et CC BY-SA 4.0 : l'obligation de rediffuser sous la même licence freine
+la réutilisation par d'autres équipes.
+
+**Réserve.** Le titulaire est désigné collectivement : « Les contributeurs de longClauvid ».
+Une partie du contenu a été rédigée avec un assistant d'intelligence artificielle ;
+la protection de ce contenu par le droit d'auteur varie selon les pays. Les licences
+disent l'intention : laisser réutiliser. Cette entrée n'est pas un avis juridique.
+
+## 2026-11-22 — Le dépôt est public
+
+**Décision.** Le dépôt est public, et le document de cadrage y est publié
+(`docs/cadrage.md`), sans nom d'auteur.
+
+**Motif.** Les résultats doivent pouvoir être utilisés.
+
+**Conséquence.** Cette entrée remplace « Ouverture du dépôt », plus bas, qui prévoyait
+un dépôt privé. Les avertissements restent en tête du README, des fiches d'endotypes
+et des résultats du niveau 2 : hypothèses non évaluées par des pairs, aucun avis médical.
+
 ## 2026-11-22 — Reproduction de Kashi 2019 acceptée « aux arrondis publiés près »
 
 **Constat.** Le simulateur de niveau 2 donne un état normal à 2,43 × 10⁷ molécules par cellule
@@ -73,6 +104,8 @@ utiles dès qu'un modèle publié existe dans ce format ; l'article de Kashi 201
 Une page web interactive : utile pour montrer le simulateur, pas pour le valider.
 
 ## 2026-11-22 — Ouverture du dépôt
+
+**Remplacée** le jour même par l'entrée « Le dépôt est public ».
 
 **Décision.** Le dépôt est privé à sa création.
 
