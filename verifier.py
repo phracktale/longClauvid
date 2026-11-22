@@ -1,12 +1,14 @@
 """
 Vérifie tout le dépôt en une commande : python3 verifier.py
 
-Trois blocs, chacun avec un contrôle négatif (on vérifie aussi que l'outil
+Quatre blocs, chacun avec un contrôle négatif (on vérifie aussi que l'outil
 sait dire non) :
 1. le registre est valide, et un registre abîmé est bien refusé ;
 2. le simulateur de niveau 1 ne voit pas d'effet là où il n'y en a pas ;
 3. le simulateur de niveau 2 retrouve les valeurs publiées de Kashi 2019,
-   et une sortie du piège interrompue trop tôt mène bien à la rechute.
+   et une sortie du piège interrompue trop tôt mène bien à la rechute ;
+4. le moteur de réseaux logiques retrouve des résultats calculables à la main,
+   et un traitement donné dans le mauvais ordre échoue bien.
 
 Le script s'arrête avec un code d'erreur si un contrôle échoue.
 """
@@ -23,6 +25,7 @@ for dossier in ("outils", "simulateurs/niveau1", "simulateurs/niveau2"):
     sys.path.append(str(RACINE / dossier))
 
 import piege_ido                 # noqa: E402  (import après l'ajout des dossiers)
+import reseau_logique            # noqa: E402
 import simulateur_endotypes     # noqa: E402
 import valider_registre         # noqa: E402
 
@@ -48,11 +51,17 @@ def verifier_registre():
     abime = copy.deepcopy(registre)
     abime["hypotheses"][0]["refutation"] = ""
     abime["pistes"][0]["sources"] = ["source-inventee"]
+    abime["transpositions"][0]["deja_tente"] = ""
+    abime["transpositions"][0]["liens"] = ["H99"]
     refus = valider_registre.erreurs_du_registre(abime)
     controle("une hypothèse sans réfutation est refusée",
              any("refutation" in erreur for erreur in refus))
     controle("une source inventée est refusée",
              any("source-inventee" in erreur for erreur in refus))
+    controle("une transposition qui tait ce qui a déjà été tenté est refusée",
+             any("deja_tente" in erreur for erreur in refus))
+    controle("une transposition liée à une hypothèse inexistante est refusée",
+             any("H99" in erreur for erreur in refus))
 
 
 def verifier_niveau_1():
@@ -110,10 +119,37 @@ def verifier_niveau_2():
     controle("sans intervention, on ne sort pas du piège", sans_ido2 is None)
 
 
+def verifier_reseau_logique():
+    print("4. Simulateur de niveau 2 bis (réseaux logiques)")
+    reseau = reseau_logique.RESEAU_CAUSE_CONSEQUENCE
+    sain = {"cause": 0, "consequence": 0}
+    malade = {"cause": 1, "consequence": 1}
+    stables = reseau_logique.etats_stables(reseau)
+    controle("cause et conséquence : 5 états stables, dont le sain et le malade",
+             len(stables) == 5 and sain in stables and malade in stables)
+
+    cause_dabord = reseau_logique.taux_de_retour(
+        malade, sain, reseau, [{"cause": -1}, {"consequence": -1}])
+    consequence_dabord = reseau_logique.taux_de_retour(
+        malade, sain, reseau, [{"consequence": -1}, {"cause": -1}])
+    controle("freiner la cause puis la conséquence ramène toujours à l'état sain",
+             cause_dabord == 1.0, f"{cause_dabord:.0%}")
+    # Contrôle négatif : dans l'ordre inverse, la cause rallume la conséquence.
+    controle("dans l'ordre inverse, le traitement échoue toujours",
+             consequence_dabord == 0.0, f"{consequence_dabord:.0%}")
+
+    bascule = reseau_logique.issues({"a": 1, "b": 1}, reseau_logique.RESEAU_BASCULE)
+    controle("bascule : état (0, 0) dans 50 % des tirages, à 2 points près (calcul à la main)",
+             proche(bascule.get((0, 0), 0), 0.50, 0.02), f"{bascule.get((0, 0), 0):.1%}")
+    controle("bascule : état (-1, 1) dans 25 % des tirages, à 2 points près",
+             proche(bascule.get((-1, 1), 0), 0.25, 0.02), f"{bascule.get((-1, 1), 0):.1%}")
+
+
 def main():
     verifier_registre()
     verifier_niveau_1()
     verifier_niveau_2()
+    verifier_reseau_logique()
     if echecs:
         print(f"\n{len(echecs)} contrôle(s) en échec.")
         sys.exit(1)

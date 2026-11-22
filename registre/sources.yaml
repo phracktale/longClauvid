@@ -375,3 +375,315 @@
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10388431
   type: article
   lu_le: 2026-11-22
+
+# --- Transpositions : VIH ------------------------------------------------------
+
+- id: vih-rio-2026
+  titre: "New HIV treatment could enable people to safely stop daily medication: the RIO trial (Imperial College London)"
+  url: https://www.imperial.ac.uk/news/articles/2026/new-hiv-treatment-could-enable-people-to-safely-stop-daily-medication-/
+  type: institution
+  lu_le: 2026-11-22
+
+- id: vih-remission-2025
+  titre: "Achieving lasting remission for HIV (Knowable Magazine, repris par Stacker)"
+  url: https://stacker.com/stories/health/achieving-lasting-remission-hiv
+  type: presse
+  lu_le: 2026-11-22
+
+- id: vih-croi-2026
+  titre: "Top 5 stories on the search for an HIV cure from CROI 2026 (aidsmap)"
+  url: https://www.aidsmap.com/news/apr-2026/top-5-stories-search-hiv-cure-croi-2026
+  type: presse
+  lu_le: 2026-11-22
+
+- id: vih-crispr-2024
+  titre: "CRISPR gene therapy EBT-101 does not prevent HIV viral rebound (aidsmap)"
+  url: https://www.aidsmap.com/news/may-2024/crispr-gene-therapy-ebt-101-does-not-prevent-hiv-viral-rebound
+  type: presse
+  lu_le: 2026-11-22
+
+- id: vih-guerisons-greffe-2024
+  titre: "One of the 7 people cured of HIV tells his story. Can his cure work for others? (NPR)"
+  url: https://www.npr.org/sections/goats-and-soda/2024/07/30/g-s1-13631/hiv-aids-cure-dusseldorf-patient
+  type: presse
+  lu_le: 2026-11-22
+
+- id: vih-cas-de-guerison
+  titre: "Cases of HIV cure (aidsmap)"
+  url: https://www.aidsmap.com/about-hiv/cases-hiv-cure
+  type: presse
+  lu_le: 2026-11-22
+
+- id: vih-antiviraux-covid-long
+  titre: "Antiviral clinical trial for Long Covid-19 : Truvada, maraviroc, placebo (NCT06511063)"
+  url: https://ctv.veeva.com/study/antiviral-clinical-trial-for-long-covid
+  type: registre
+  lu_le: 2026-11-22
+
+- id: vih-combinaisons-1998
+  titre: "Combination antiretroviral therapy for HIV infection (American Family Physician)"
+  url: https://www.aafp.org/pubs/afp/issues/1998/0601/p2789.html
+  type: article
+  lu_le: 2026-11-22
+
+- id: vih-ucsf-2026
+  titre: "Solving long COVID: how decades of HIV research paved the way (UCSF)"
+  url: https://www.ucsf.edu/news/2026/01/431346/solving-long-covid-how-decades-hiv-research-paved-way
+  type: institution
+  lu_le: 2026-11-22
+
+- id: vih-ido-th17-2010
+  titre: "Tryptophan catabolism by indoleamine 2,3-dioxygenase 1 alters the balance of TH17 to regulatory T cells in HIV disease (Sci Transl Med)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3034445
+  type: article
+  lu_le: 2026-11-22
+
+- id: vih-ido-sous-traitement-2014
+  titre: "Anti-retroviral therapy decreases but does not normalize indoleamine 2,3-dioxygenase activity in HIV-infected patients (PLOS ONE)"
+  url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4077698/
+  type: article
+  lu_le: 2026-11-22
+
+- id: vih-kt-mortalite-2014
+  titre: "The kynurenine pathway of tryptophan catabolism, CD4+ T-cell recovery, and mortality among HIV-infected Ugandans initiating antiretroviral therapy"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4148610
+  type: article
+  lu_le: 2026-11-22
+
+- id: vih-inflammation-2022
+  titre: "Inflammation et activation immunitaire persistantes sous traitement antirétroviral (PMC9444951)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9444951
+  type: article
+  lu_le: 2026-11-22
+
+- id: vih-dysfonction-residuelle-2021
+  titre: "Residual immune dysfunction under antiretroviral therapy (Cai et Sereti)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8410879
+  type: article
+  lu_le: 2026-11-22
+
+- id: leronlimab-2022
+  titre: "Essai exploratoire du leronlimab, anticorps anti-CCR5, dans le COVID long (PubMed 35452519)"
+  url: https://www.pubmed.gov/35452519/
+  type: article
+  lu_le: 2026-11-22
+
+- id: leronlimab-ucla-2022
+  titre: "Some cases of long COVID-19 may be caused by an abnormally suppressed immune system (UCLA Health)"
+  url: https://www.uclahealth.org/news/some-cases-long-covid-19-may-be-caused-abnormally-suppressed
+  type: institution
+  lu_le: 2026-11-22
+
+- id: vih-prep-niaid
+  titre: "Pre-Exposure Prophylaxis (PrEP) to prevent HIV (NIAID)"
+  url: https://www.niaid.nih.gov/diseases-conditions/pre-exposure-prophylaxis-prep
+  type: institution
+  lu_le: 2026-11-22
+
+- id: vih-prep-essais-2018
+  titre: "Effects of PrEP on HIV infection : tableau des essais (PMC6131617)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6131617/table/T2
+  type: article
+  lu_le: 2026-11-22
+
+- id: vih-prep-lenacapavir-2024
+  titre: "Long-acting injectable lenacapavir continues to show promising results for HIV prevention (OMS)"
+  url: https://www.who.int/news/item/26-09-2024-long-acting-injectable-lenacapavir-continues-to-show-promising-results-for-hiv-prevention
+  type: institution
+  lu_le: 2026-11-22
+
+# --- Transpositions : prévention du COVID long --------------------------------
+
+- id: covid-out-2023
+  titre: "Outpatient treatment of COVID-19 and incidence of post-COVID-19 condition over 10 months (COVID-OUT), Lancet Infect Dis"
+  url: https://pubmed.ncbi.nlm.nih.gov/37302406/
+  type: article
+  lu_le: 2026-11-22
+
+- id: activ6-metformine-2026
+  titre: "Metformin given during acute COVID-19 infection reduced risk of clinician-diagnosed long COVID by 50% (University of Minnesota, essai ACTIV-6)"
+  url: https://med.umn.edu/node/88411
+  type: communique
+  lu_le: 2026-11-22
+
+- id: metformine-revue-2026
+  titre: "New review highlights growing evidence that diabetes drug metformin can prevent long COVID (CIDRAP)"
+  url: https://www.cidrap.umn.edu/covid-19/new-review-highlights-growing-evidence-diabetes-drug-metformin-can-prevent-long-covid
+  type: presse
+  lu_le: 2026-11-22
+
+- id: vaccination-meta-2025
+  titre: "A systematic review and meta-analysis of the impact of vaccination on prevention of long COVID (Nat Commun)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12644529
+  type: article
+  lu_le: 2026-11-22
+
+- id: vaccination-revue-2023
+  titre: "Effect of covid-19 vaccination on long covid: systematic review (BMJ Medicine)"
+  url: https://pubmed.ncbi.nlm.nih.gov/36936268/
+  type: article
+  lu_le: 2026-11-22
+
+# --- Transpositions : auto-immunité --------------------------------------------
+
+- id: car-t-lupus-2022
+  titre: "Anti-CD19 CAR T cell therapy for refractory systemic lupus erythematosus (Nat Med)"
+  url: https://pubmed.ncbi.nlm.nih.gov/36109639/
+  type: article
+  lu_le: 2026-11-22
+
+- id: car-t-lupus-suivi-2025
+  titre: "Suivi à long terme des CAR-T anti-CD19 dans le lupus (PubMed 40906188)"
+  url: https://pubmed.ncbi.nlm.nih.gov/40906188/
+  type: article
+  lu_le: 2026-11-22
+
+- id: efgartigimod-myasthenie-2021
+  titre: "Safety, efficacy, and tolerability of efgartigimod in patients with generalised myasthenia gravis (ADAPT), Lancet Neurol"
+  url: https://pubmed.ncbi.nlm.nih.gov/34146511/
+  type: article
+  lu_le: 2026-11-22
+
+- id: efgartigimod-myasthenie-resume
+  titre: "Efgartigimod has efficacy superior to placebo in generalized myasthenia gravis : résumé de l'essai ADAPT (AAO)"
+  url: https://www.aao.org/editors-choice/efgartigimod-has-efficacy-superior-to-placebo-gene
+  type: presse
+  lu_le: 2026-11-22
+
+- id: efgartigimod-pots-2024
+  titre: "Efgartigimod in PC-POTS is not clinically meaningful (The Pharma Letter)"
+  url: https://thepharmaletter.com/in-brief/brief-efgartigimod-in-pc-pots-is-not-clinically-meaningful
+  type: presse
+  lu_le: 2026-11-22
+
+- id: efgartigimod-pots-registre
+  titre: "Efficacy and safety study of efgartigimod in adults with post-COVID-19 POTS (NCT05633407)"
+  url: https://clinicaltrials.gov/study/NCT05633407
+  type: registre
+  lu_le: 2026-11-22
+
+# --- Transpositions : antigène persistant, complément, interféron -------------
+
+- id: vhc-cryoglobulinemie-2017
+  titre: "Sofosbuvir et daclatasvir dans la vascularite cryoglobulinémique de l'hépatite C (PubMed 28288791)"
+  url: https://pubmed.ncbi.nlm.nih.gov/28288791/
+  type: article
+  lu_le: 2026-11-22
+
+- id: vhc-cryoglobulinemie-2020
+  titre: "Antiviraux à action directe et vascularite cryoglobulinémique de l'hépatite C : revue (PMC7383649)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7383649
+  type: article
+  lu_le: 2026-11-22
+
+- id: vhc-cryoglobulinemie-rechute-2022
+  titre: "Persistance et rechute de la vascularite cryoglobulinémique après guérison de l'hépatite C (PMC8878349)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8878349
+  type: article
+  lu_le: 2026-11-22
+
+- id: eculizumab-hpn-2006
+  titre: "The complement inhibitor eculizumab in paroxysmal nocturnal hemoglobinuria (N Engl J Med)"
+  url: https://pubmed.ncbi.nlm.nih.gov/16990386/
+  type: article
+  lu_le: 2026-11-22
+
+- id: eculizumab-hpn-2013
+  titre: "Long-term safety and efficacy of sustained eculizumab treatment in patients with paroxysmal nocturnal haemoglobinuria (Br J Haematol)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3744747
+  type: article
+  lu_le: 2026-11-22
+
+- id: hpn-complement-2019
+  titre: "Anti-complement treatment for paroxysmal nocturnal hemoglobinuria: time for proximal complement inhibition? (Front Immunol)"
+  url: https://www.frontiersin.org/articles/10.3389/fimmu.2019.01157/pdf
+  type: article
+  lu_le: 2026-11-22
+
+- id: anifrolumab-interferonopathies-2024
+  titre: "Normalized interferon signatures and clinical improvements by IFNAR1 blocking antibody (anifrolumab) in patients with type I interferonopathies (J Clin Immunol)"
+  url: https://pubmed.ncbi.nlm.nih.gov/39441221/
+  type: article
+  lu_le: 2026-11-22
+
+- id: anifrolumab-lupus-2024
+  titre: "Interféron de type I et lupus : revue des traitements, dont l'anifrolumab (Drugs)"
+  url: https://link.springer.com/doi/10.1007/s40265-024-02043-2
+  type: article
+  lu_le: 2026-11-22
+
+- id: anifrolumab-essais-2019
+  titre: "Anifrolumab dans le lupus : mécanisme et essais TULIP (PMC6514126)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6514126
+  type: article
+  lu_le: 2026-11-22
+
+# --- Transpositions : tryptophane, TRPM3, stress du réticulum -----------------
+
+- id: hartnup-msd
+  titre: "Hartnup disease (Manuel MSD, version professionnelle)"
+  url: https://www.merckmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/hartnup-disease
+  type: institution
+  lu_le: 2026-11-22
+
+- id: hartnup-medlineplus
+  titre: "Hartnup disease (MedlinePlus Genetics)"
+  url: https://medlineplus.gov/genetics/condition/hartnup-disease
+  type: institution
+  lu_le: 2026-11-22
+
+- id: b0at1-ace2-2020
+  titre: "Transporteur B0AT1, ACE2 et absorption intestinale du tryptophane (PMC7165679)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7165679
+  type: article
+  lu_le: 2026-11-22
+
+- id: nicotinamide-riboside-2025
+  titre: "Effects of nicotinamide riboside on NAD+ levels, cognition, and symptom recovery in long-COVID: a randomized controlled trial (eClinicalMedicine)"
+  url: https://pubmed.ncbi.nlm.nih.gov/41357333/
+  type: article
+  lu_le: 2026-11-22
+
+- id: nicotinamide-riboside-mgb
+  titre: "Research spotlight: trial evaluates a vitamin B3 derivative in people with long COVID (Mass General Brigham)"
+  url: https://www.massgeneralbrigham.org/en/about/newsroom/articles/trial-of-vitamin-b3-derivative-in-people-with-long-covid
+  type: institution
+  lu_le: 2026-11-22
+
+- id: trpm3-primidone-2023
+  titre: "Primidone improves symptoms in TRPM3-linked developmental and epileptic encephalopathy with spike-and-wave activation in sleep (Epilepsia)"
+  url: https://lirias.kuleuven.be/4072472
+  type: article
+  lu_le: 2026-11-22
+
+- id: trpm3-gain-de-fonction-2023
+  titre: "Gain-of-function variants in the ion channel gene TRPM3 underlie a spectrum of neurodevelopmental disorders (eLife)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9886277
+  type: article
+  lu_le: 2026-11-22
+
+- id: chaperons-sla-2025
+  titre: "Real-world clinical experience with sodium phenylbutyrate and taurursodiol at a single ALS center (PMC12445112)"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12445112
+  type: article
+  lu_le: 2026-11-22
+
+- id: chaperons-sla-retrait-2024
+  titre: "Approved therapy for ALS is withdrawn when new study shows no benefit (MDedge)"
+  url: https://mdedge.com/content/approved-therapy-als-withdrawn-when-new-study-shows-no-benefit
+  type: presse
+  lu_le: 2026-11-22
+
+- id: chaperons-alzforum
+  titre: "AMX0035 : fiche du phénylbutyrate–taurursodiol (Alzforum)"
+  url: https://alzforum.org/node/1295716
+  type: presse
+  lu_le: 2026-11-22
+
+# --- Modélisation : seconde lecture ---------------------------------------------
+
+- id: craddock-2015-plos
+  titre: "Achieving remission in Gulf War Illness : page PLOS ONE, texte sans les équations ni les figures"
+  url: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0132774
+  type: article
+  lu_le: 2026-11-22

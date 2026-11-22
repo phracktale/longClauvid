@@ -28,3 +28,11 @@ test:
 historique:
   - date: 2026-11-22
     evenement: Création à partir du document de cadrage. Hypothèse non évaluée par des pairs.
+  - date: 2026-11-22
+    evenement: >-
+      Transposition T05. L'efgartigimod, qui abaisse toutes les IgG, n'a pas amélioré
+      la tachycardie posturale post-COVID dans un essai de phase 2 sur 53 participants
+      non sélectionnés. Résultat négatif pour la version large de l'hypothèse. Il ne teste pas
+      sa prédiction, qui porte sur les patients dont les IgG se fixent aux neurones.
+      Statut inchangé. Transposition T04 : dans le lupus, la rémission après CAR-T
+      persiste au retour des lymphocytes B.
