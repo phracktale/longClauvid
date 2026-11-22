@@ -1,14 +1,19 @@
 """
 Vérifie tout le dépôt en une commande : python3 verifier.py
 
-Quatre blocs, chacun avec un contrôle négatif (on vérifie aussi que l'outil
+Cinq blocs, chacun avec un contrôle négatif (on vérifie aussi que l'outil
 sait dire non) :
 1. le registre est valide, et un registre abîmé est bien refusé ;
 2. le simulateur de niveau 1 ne voit pas d'effet là où il n'y en a pas ;
 3. le simulateur de niveau 2 retrouve les valeurs publiées de Kashi 2019,
    et une sortie du piège interrompue trop tôt mène bien à la rechute ;
 4. le moteur de réseaux logiques retrouve des résultats calculables à la main,
-   et un traitement donné dans le mauvais ordre échoue bien.
+   et un traitement donné dans le mauvais ordre échoue bien ;
+5. le réseau de Craddock redonne les cinq états stables publiés, et la figure
+   de 2014, qui diffère sur deux flèches, ne les redonne pas.
+
+Durée : environ une demi-minute, dont la moitié pour essayer les 4,8 millions d'états
+du réseau de Craddock.
 
 Le script s'arrête avec un code d'erreur si un contrôle échoue.
 """
@@ -24,7 +29,8 @@ RACINE = Path(__file__).resolve().parent
 for dossier in ("outils", "simulateurs/niveau1", "simulateurs/niveau2"):
     sys.path.append(str(RACINE / dossier))
 
-import piege_ido                 # noqa: E402  (import après l'ajout des dossiers)
+import craddock_2015             # noqa: E402  (import après l'ajout des dossiers)
+import piege_ido                 # noqa: E402
 import reseau_logique            # noqa: E402
 import simulateur_endotypes     # noqa: E402
 import valider_registre         # noqa: E402
@@ -125,8 +131,8 @@ def verifier_reseau_logique():
     sain = {"cause": 0, "consequence": 0}
     malade = {"cause": 1, "consequence": 1}
     stables = reseau_logique.etats_stables(reseau)
-    controle("cause et conséquence : 5 états stables, dont le sain et le malade",
-             len(stables) == 5 and sain in stables and malade in stables)
+    controle("cause et conséquence : 6 états stables, dont le sain et le malade",
+             len(stables) == 6 and sain in stables and malade in stables)
 
     cause_dabord = reseau_logique.taux_de_retour(
         malade, sain, reseau, [{"cause": -1}, {"consequence": -1}])
@@ -145,11 +151,51 @@ def verifier_reseau_logique():
              proche(bascule.get((-1, 1), 0), 0.25, 0.02), f"{bascule.get((-1, 1), 0):.1%}")
 
 
+def verifier_craddock():
+    print("5. Réseau de Craddock (états stables publiés, ordre des traitements)")
+    reseau = craddock_2015.RESEAU
+    trouves = reseau_logique.etats_stables(reseau)
+    publies = list(craddock_2015.ETATS_PUBLIES.values())
+    controle("les 5 états stables publiés sont retrouvés, et eux seuls",
+             len(trouves) == 5 and all(etat in publies for etat in trouves),
+             f"{len(trouves)} trouvés parmi {3 ** len(reseau):,} états".replace(",", " "))
+
+    # Contrôle négatif : la figure de 2014 fait freiner T1Cell par le cortisol
+    # et n'a pas la flèche T1Cyt -> T1Cell. L'état malade publié n'y est pas stable.
+    figure_2014 = reseau | {"T1Cell": (["IIR", "TEST"], ["CORT", "T2Cyt"])}
+    malade = craddock_2015.MALADE
+    controle("contrôle négatif : avec la figure de 2014, l'état malade n'est plus stable",
+             reseau_logique.etat_vise(malade, figure_2014) != malade)
+
+    une_cible = max(craddock_2015.retour_au_sain([{cible: sens}], 2000)
+                    for cible in craddock_2015.CIBLES_TRAITABLES for sens in (-1, 1))
+    controle("aucune cible seule ne ramène à l'état sain (comme dans l'article)",
+             une_cible == 0.0, f"{une_cible:.0%}")
+
+    bon_ordre = craddock_2015.retour_au_sain(craddock_2015.a_la_suite(["T1Cyt", "GR"], 1))
+    mauvais_ordre = craddock_2015.retour_au_sain(craddock_2015.a_la_suite(["GR", "T1Cyt"], 1))
+    controle("T1Cyt puis GR : un quart de retours, à 2 points près (calcul : 1/2 x 1/2)",
+             proche(bon_ordre, 0.25, 0.02), f"{bon_ordre:.1%}")
+    controle("GR puis T1Cyt, l'ordre inverse : aucun retour à l'état sain",
+             mauvais_ordre == 0.0, f"{mauvais_ordre:.1%}")
+
+    # Figure 5 de l'article : les lignes sans hausse de TEST ni de T2Cyt, sauf la deuxième.
+    lignes_retrouvees = [0, 1, 2, 3, 5, 7, 8, 11]
+    ecarts = []
+    for numero in lignes_retrouvees:
+        publie, traitement = craddock_2015.FIGURE_5[numero]
+        simule = craddock_2015.retour_au_sain(craddock_2015.en_un_temps(traitement, 2))
+        ecarts.append(abs(100 * simule - publie))
+    controle("figure 5, lecture « 2 crans » : 8 taux publiés sur 12 retrouvés à 2 points près",
+             max(ecarts) <= 2.0, f"écart maximal {max(ecarts):.1f} point")
+
+
 def main():
     verifier_registre()
     verifier_niveau_1()
     verifier_niveau_2()
     verifier_reseau_logique()
+    verifier_craddock()
     if echecs:
         print(f"\n{len(echecs)} contrôle(s) en échec.")
         sys.exit(1)

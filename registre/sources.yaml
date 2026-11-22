@@ -683,7 +683,25 @@
 # --- Modélisation : seconde lecture ---------------------------------------------
 
 - id: craddock-2015-plos
-  titre: "Achieving remission in Gulf War Illness : page PLOS ONE, texte sans les équations ni les figures"
+  titre: "Achieving remission in Gulf War Illness: a simulation-based approach to treatment design (PLOS ONE), lu en PDF, figures comprises"
   url: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0132774
+  type: article
+  lu_le: 2026-11-22
+
+- id: craddock-2014
+  titre: "A role for homeostatic drive in the perpetuation of complex chronic illness: Gulf War Illness and chronic fatigue syndrome (PLOS ONE), lu en PDF, figures comprises"
+  url: https://stacks.cdc.gov/view/cdc/27985
+  type: article
+  lu_le: 2026-11-22
+
+- id: craddock-essai-clinique
+  titre: "TNF and glucocorticoid antagonist for GWI associated multi-symptom disease homeostasis reset (NCT04254627)"
+  url: https://clinicaltrials.gov/study/NCT04254627
+  type: registre
+  lu_le: 2026-11-22
+
+- id: craddock-souris-2026
+  titre: "Combination treatment with etanercept and mifepristone mitigates neuroinflammation in a mouse model of Gulf War Illness (PLOS ONE)"
+  url: https://stacks.cdc.gov/view/cdc/258809/cdc_258809_DS1.pdf
   type: article
   lu_le: 2026-11-22
