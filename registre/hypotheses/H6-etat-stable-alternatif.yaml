@@ -4,7 +4,8 @@ statut: ouverte
 creee_le: 2026-11-22
 endotype: null
 pistes: [P11, P02]
-sources: [kashi-2019, craddock-2015, craddock-2015-plos]
+sources: [kashi-2019, craddock-2015, craddock-2015-plos, craddock-2014,
+          craddock-essai-clinique, craddock-souris-2026]
 
 enonce: >-
   La maladie serait un second état d'équilibre d'un système de régulation, pas une lésion.
@@ -42,3 +43,15 @@ historique:
       du formalisme, pas un résultat biologique. Le réseau de Craddock 2015 n'est pas reproduit :
       ses interactions ne figurent que dans une figure, non lue. Transpositions T01 et T04 :
       le VIH et le lupus fournissent le plan d'essai de la prédiction, l'arrêt programmé du traitement.
+  - date: 2026-11-22
+    evenement: >-
+      Réseau de Craddock reproduit (simulateurs/niveau2/craddock_2015.py) : les cinq états
+      stables publiés sont retrouvés, et eux seuls, parmi 4 782 969 états. Le modèle contient
+      un effet d'ordre net : freiner les cytokines Th1 puis le récepteur du cortisol ramène
+      à l'état sain dans 25 % des tirages, l'ordre inverse dans 0 %, les deux ensemble dans 12 %.
+      Les taux publiés ne sont retrouvés qu'en partie : la façon dont les auteurs appliquent
+      un traitement n'est pas entièrement décrite. C'est un argument de plausibilité pour
+      l'hypothèse, pas un test : le modèle porte sur la maladie de la guerre du Golfe et n'a pas
+      de durées. Statut inchangé. Les auteurs ont porté la séquence en essai de phase 1
+      (NCT04254627) ; aucun résultat humain publié repéré.
+      Détail dans simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md.

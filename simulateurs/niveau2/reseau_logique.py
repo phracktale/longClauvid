@@ -1,38 +1,39 @@
 """
-Simulateur de niveau 2 bis : réseaux logiques à plusieurs variables.
+Simulateur de niveau 2 bis : moteur de réseaux logiques à plusieurs variables.
 
 Pourquoi ce fichier
 -------------------
 Le piège IDO (piege_ido.py) n'a qu'une variable : il ne peut pas dire si l'ordre
 de deux traitements compte. Il faut pour cela un réseau, où chaque nœud en active
-ou en freine d'autres. C'est le formalisme de Craddock et al. (2015).
+ou en freine d'autres. Ce moteur applique les règles de Craddock et al. :
+la logique vient de l'article de 2014, la simulation de celui de 2015.
+Le réseau de ces articles est dans craddock_2015.py.
 
-État du travail (2026-11-22)
-----------------------------
-Le moteur est construit et vérifié sur deux réseaux de démonstration.
-Le réseau de Craddock 2015 n'est PAS chargé : dans l'article, la liste des
-interactions n'existe que dans une figure, et la règle de mise à jour que dans
-des équations en image. Voir RESULTATS_RESEAU_LOGIQUE.md pour ce qui manque.
-
-Ce qui vient de l'article (texte lu sur la page PLOS ONE)
----------------------------------------------------------
+Les règles
+----------
 - Chaque nœud vaut -1 (bas), 0 (normal) ou 1 (haut).
+- Un réseau est un dictionnaire : nœud -> (activateurs, inhibiteurs).
+- Chaque nœud est attiré vers une « valeur visée », calculée à partir de ses entrées
+  (équation 2 et tables 1 à 3 de l'article de 2014) :
+    - on retient l'activateur le plus haut et l'inhibiteur le plus haut ;
+    - un nœud qui n'a que des activateurs prend la valeur du plus haut ;
+    - un nœud qui n'a que des inhibiteurs prend l'opposé du plus haut ;
+    - un nœud qui a les deux ne réagit qu'aux entrées hautes : il vise 1 si un
+      activateur est haut, perd un cran si un inhibiteur est haut, et vise 0 sinon.
 - Le réseau évolue un nœud à la fois : parmi les nœuds qui ne sont pas à leur
   valeur visée, on en tire un au sort, et il bouge d'un seul cran.
 - Un état est stable quand tous les nœuds sont à leur valeur visée.
-- Une intervention décale d'un cran les nœuds traités.
+- Une intervention décale les nœuds traités (équation 4 de l'article de 2015).
 - Comme le tirage au sort compte, on répète la simulation et on mesure
-  la part des essais qui reviennent à l'état sain.
+  la part des essais qui finissent dans chaque état.
 
-Ce qui est provisoire
----------------------
-- La valeur visée d'un nœud est ici un simple vote : la somme de ses entrées
-  (activatrices moins inhibitrices), ramenée entre -1 et 1. C'est la fonction
-  `etat_vise`, à remplacer par la règle de l'article.
-- Entre deux interventions, le réseau retrouve ici un état stable. Dans l'article,
-  les interventions sont espacées de 10 à 50 pas, stabilisé ou non.
+Simplification assumée
+----------------------
+Après chaque intervention, le réseau évolue ici jusqu'à un état stable avant
+l'intervention suivante. Dans l'article, les interventions sont séparées par
+un nombre de pas fixé, de 10 à 50.
 
-Usage : python3 reseau_logique.py
+Usage : python3 reseau_logique.py   (deux réseaux de démonstration)
 """
 
 import random
@@ -44,21 +45,18 @@ PAS_MAXIMUM = 1000        # au-delà, on considère que le réseau oscille
 NB_SIMULATIONS = 10000
 GRAINE = 20261122
 
-# Un réseau est un dictionnaire : nœud -> liste de (source, signe).
-# Signe +1 : la source active le nœud. Signe -1 : elle le freine.
-
 # Démonstration 1, sans valeur biologique : une cause qui s'entretient seule,
 # et une conséquence entretenue par la cause et par elle-même.
 RESEAU_CAUSE_CONSEQUENCE = {
-    "cause": [("cause", +1)],
-    "consequence": [("cause", +1), ("consequence", +1)],
+    "cause": (["cause"], []),
+    "consequence": (["cause", "consequence"], []),
 }
 
 # Démonstration 2 : deux nœuds qui se freinent l'un l'autre (une bascule).
 # Son issue dépend du tirage au sort, avec des probabilités calculables à la main.
 RESEAU_BASCULE = {
-    "a": [("b", -1)],
-    "b": [("a", -1)],
+    "a": ([], ["b"]),
+    "b": ([], ["a"]),
 }
 
 
@@ -66,19 +64,35 @@ def borner(valeur):
     return max(-1, min(1, valeur))
 
 
+def valeur_visee(noeud, etat, reseau):
+    """Valeur vers laquelle un nœud est attiré. Chaque nœud a au moins une entrée."""
+    activateurs, inhibiteurs = reseau[noeud]
+    activation = max((etat[source] for source in activateurs), default=None)
+    inhibition = max((etat[source] for source in inhibiteurs), default=None)
+
+    if inhibition is None:
+        return activation
+    if activation is None:
+        return -inhibition
+    if inhibition == 1:
+        return 0 if activation == 1 else -1
+    return 1 if activation == 1 else 0
+
+
 def etat_vise(etat, reseau):
-    """Valeur vers laquelle chaque nœud est attiré. Règle provisoire : le vote."""
-    return {noeud: borner(sum(signe * etat[source] for source, signe in entrees))
-            for noeud, entrees in reseau.items()}
+    return {noeud: valeur_visee(noeud, etat, reseau) for noeud in reseau}
 
 
 def etats_stables(reseau):
-    """Tous les états où chaque nœud est déjà à sa valeur visée."""
+    """Tous les états où chaque nœud est déjà à sa valeur visée.
+
+    Tous les états sont essayés : 3 puissance le nombre de nœuds.
+    """
     noeuds = list(reseau)
     stables = []
     for valeurs in product(VALEURS, repeat=len(noeuds)):
         etat = dict(zip(noeuds, valeurs))
-        if etat_vise(etat, reseau) == etat:
+        if all(valeur_visee(noeud, etat, reseau) == etat[noeud] for noeud in noeuds):
             stables.append(etat)
     return stables
 
@@ -101,7 +115,7 @@ def evoluer(etat, reseau, hasard):
 
 
 def intervenir(etat, poussee):
-    """Une intervention : décale d'un cran les nœuds traités (+1 ou -1)."""
+    """Une intervention : décale les nœuds traités. Exemple : {"GR": -1} baisse GR d'un cran."""
     return {noeud: borner(valeur + poussee.get(noeud, 0)) for noeud, valeur in etat.items()}
 
 
@@ -120,7 +134,10 @@ def traiter(etat, reseau, interventions, hasard):
 
 
 def issues(depart, reseau, interventions=(), nb_simulations=NB_SIMULATIONS, graine=GRAINE):
-    """Répète la simulation ; renvoie la part des essais finissant dans chaque état."""
+    """Répète la simulation ; renvoie la part des essais finissant dans chaque état.
+
+    Les états finaux sont donnés sous forme de tuples, dans l'ordre des nœuds du réseau.
+    """
     hasard = random.Random(graine)
     decompte = Counter()
     for _ in range(nb_simulations):
@@ -129,9 +146,9 @@ def issues(depart, reseau, interventions=(), nb_simulations=NB_SIMULATIONS, grai
     return {etat: nombre / nb_simulations for etat, nombre in decompte.items()}
 
 
-def taux_de_retour(depart, cible, reseau, interventions):
+def taux_de_retour(depart, cible, reseau, interventions, nb_simulations=NB_SIMULATIONS):
     """Part des essais qui finissent dans l'état cible."""
-    return issues(depart, reseau, interventions).get(tuple(cible.values()), 0.0)
+    return issues(depart, reseau, interventions, nb_simulations).get(tuple(cible.values()), 0.0)
 
 
 def main():
