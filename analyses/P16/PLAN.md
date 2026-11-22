@@ -134,4 +134,5 @@ tant qu'un allèle partagé n'est pas retrouvé par une troisième étude.
 
 ## Modifications
 
-Aucune à ce jour.
+**2026-11-22.** La règle n'est pas modifiée. Le test 1 est lu : voir [RESULTATS.md](RESULTATS.md).
+Les deux lettres des tests 2 à 4 sont parties le même jour : voir [DEMANDES.md](DEMANDES.md).

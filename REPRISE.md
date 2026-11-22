@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-22, 23 h 05. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-22, 23 h 20. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -36,16 +36,17 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 | --- | --- | --- |
 | Banque d'hypothèses | 21 pistes relues : 12 vérifiées, 3 promues, 3 écartées, 3 à vérifier ; les mises à l'écart ont eu un contradicteur | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
 | Registre | 17 pistes : P15, P16 et P17 viennent de la banque | `registre/pistes.yaml` |
-| P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Ce résultat est retiré des appuis de la piste, qui ne repose plus que sur les vésicules du COVID long. Une lettre aux auteurs est prête, à envoyer après fusion | `analyses/P15/RESULTATS.md` |
-| P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres prêtes, à envoyer après fusion | `analyses/P16/RESULTATS.md` |
-| P17, ADN mitochondrial | Plan déposé. Le test n'est pas faisable aujourd'hui : 18 % de puissance au mieux. La piste reste au registre. Une lettre prête, à envoyer après fusion | `analyses/P17/PLAN.md` |
+| P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Ce résultat est retiré des appuis de la piste, qui ne repose plus que sur les vésicules du COVID long. Une lettre aux auteurs de 2019 est partie le 2026-11-22 | `analyses/P15/RESULTATS.md` |
+| P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres parties le 2026-11-22. DecodeME a répondu par un message automatique : sa boîte ne répond pas aux messages reçus | `analyses/P16/RESULTATS.md` |
+| P17, ADN mitochondrial | Plan déposé. Le test n'est pas faisable aujourd'hui : 18 % de puissance au mieux. La piste reste au registre. Une lettre partie le 2026-11-22 | `analyses/P17/PLAN.md` |
 | Lot 2, suivi après l'arrêt des traitements | Six demandes envoyées ; une réponse automatique, rien sur le fond | `analyses/lot-2/` |
 | Lot 1, échantillons déjà collectés | Deux demandes envoyées, aucune réponse | `analyses/lot-1/` |
 | Fiche T03, metformine | Corrigée : deux essais sur un COVID long installé, sans bénéfice montré | `registre/transpositions.yaml` |
 | Simulateurs | Niveaux 1 et 2 construits, deux modèles publiés reproduits | `simulateurs/` |
 | Bibliothèque de l'association #ApresJ20 | 10 466 références, copie locale à refaire dans chaque session | `outils/bibliotheque_apresj20.py` |
 
-Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
+Douze demandes sont parties le 2026-11-22 : huit pour les lots 1 et 2, quatre pour les pistes P15 à P17.
+Une absence de réponse se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
 
@@ -58,12 +59,13 @@ Une absence de réponse aux huit demandes se constate à partir du 2027-01-22.
    Une relecture par une personne du métier vaudrait mieux qu'un programme de plus.
 3. **Instruire les trois pistes promues.** Les plans sont déposés, et les tests sur fichiers publics sont faits.
    Le porteur du projet a décidé le 2026-11-22 : l'appui de 2019 est retiré de P15, P17 reste au registre,
-   les quatre lettres partent après fusion (`DEMANDES.md` de P15, P16 et P17). Restent : envoyer ces lettres,
-   consigner les envois, puis lire les tests 2 à 4 de P16 quand les équipes auront répondu.
+   les quatre lettres partent après fusion. Elles sont parties le même jour (`DEMANDES.md` de P15, P16 et P17).
+   Reste à lire les tests 2 à 4 de P16 quand les équipes auront répondu, et la réponse des auteurs de 2019 pour P15.
+   Pour DecodeME, la voie qui répond est peut-être le formulaire de demande d'accès de sa page pour les chercheurs.
    La réplication de P15 sur d'autres personnes est faite, sur les trois jeux qui se lisent.
    Deux autres jeux demanderaient de réaligner 223 bibliothèques : non engagé.
    Autre premier pas peu coûteux, pour B002 : demander les plasmalogènes aux auteurs des lipidomiques déjà faites.
-4. **Relever les réponses** aux huit demandes et les inscrire aux journaux des envois.
+4. **Relever les réponses** aux douze demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 6. **Zones non couvertes** par le chercheur en biologie : ferroptose, acides biliaires, hypoxie et HIF.
@@ -99,5 +101,6 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 - Le fil de la conversation. Tout ce qui compte doit donc être dans ce fichier, dans `JOURNAL.md`
   ou dans les journaux des envois.
 - Le travail de la session du 2026-11-22 au soir est dans la demande de fusion n° 14, fusionnée.
-  Les plans d'analyse des pistes promues et leurs premiers résultats sont venus après :
-  ils sont poussés sur une branche, et leur demande de fusion reste à ouvrir.
+  Les plans d'analyse des pistes promues, leurs premiers résultats et les décisions du porteur du projet
+  sont dans la demande de fusion n° 15, fusionnée. Le dépôt des plans y est le commit `534e29d`
+  (`0de5a88` avant la fusion par rebasage : c'est ce second numéro que cite un message de commit).

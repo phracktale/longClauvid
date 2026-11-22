@@ -1,15 +1,16 @@
 # Piste P15 : la demande aux auteurs de l'étude de 2019
 
-État au 2026-11-22 : **une lettre prête, non envoyée.** Elle part de la boîte du projet,
-après relecture du porteur du projet. Aucune adresse électronique n'est reprise ici.
+État au 2026-11-22 : **une lettre envoyée.** Elle est partie de la boîte du projet,
+sur instruction du porteur du projet, une fois le travail fusionné. Aucune adresse électronique n'est reprise ici.
 
 | Destinataire | Ce qui est demandé | État |
 | --- | --- | --- |
-| Auteur correspondant de l'étude de 2019 | Les cinq bibliothèques de témoins sains de la première série ont-elles été préparées autrement ? L'écart tient-il sans elles ? | Prête, non envoyée |
+| Auteur correspondant de l'étude de 2019 | Les cinq bibliothèques de témoins sains de la première série ont-elles été préparées autrement ? L'écart tient-il sans elles ? | Envoyée le 2026-11-22 |
 
 L'adresse est publiée par l'[article](https://pubmed.ncbi.nlm.nih.gov/31088495/).
 Le constat que la lettre soumet aux auteurs est dans [RESULTATS.md](RESULTATS.md).
-Le lien de la lettre pointe vers la branche principale du dépôt : ne l'envoyer qu'une fois ce travail fusionné.
+L'auteur correspondant et son adresse ont été relevés dans la copie de l'article déposée à PubMed Central.
+La lettre est partie telle qu'elle est écrite ici, avec son nom à la place de « [corresponding author] ».
 
 ## Lettre à l'auteur correspondant
 
@@ -42,3 +43,4 @@ Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répond
 | Date | Destinataire | Événement |
 | --- | --- | --- |
 | 2026-11-22 | Auteur correspondant de l'étude de 2019 | Lettre rédigée, en attente de relecture |
+| 2026-11-22 | Auteur correspondant de l'étude de 2019 | Lettre envoyée, à l'adresse que publie l'article de 2019 |
