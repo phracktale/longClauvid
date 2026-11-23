@@ -3,6 +3,19 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Deux demandes de copie aux auteurs, pour B009
+
+**Fait.** Sur instruction du porteur du projet, une copie des deux articles qui portent la piste B009 a été demandée
+à leurs auteurs, de la boîte du projet. Ce sont les seizième et dix-septième demandes.
+
+**Constat.** Pour les deux autres articles sous abonnement, B008 et B023, PubMed ne publie aucune adresse,
+et les pages de la revue et de l'éditeur refusent les programmes. Les demandes ne sont pas parties.
+
+**Écarté.** Deviner une adresse à partir du nom et de l'établissement d'un auteur : une adresse se prend
+dans une source officielle, ou la lettre ne part pas.
+
+**Choix.** La copie reçue ne sera pas versée au dépôt : la lettre s'y engage.
+
 ## 2026-11-23 — Cartographie : 477 résumés lus pour trois pistes
 
 **Fait.** Quinze lecteurs, d'un modèle moins coûteux, ont lu les résumés retenus pour P01, P08 et P14, avec une consigne
