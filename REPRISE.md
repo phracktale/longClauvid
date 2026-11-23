@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-22, 23 h 55. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-23. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -34,7 +34,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 
 | Chantier | État | Détail |
 | --- | --- | --- |
-| Banque d'hypothèses | 21 pistes relues : 11 vérifiées, 3 promues, 3 écartées, 4 à vérifier ; chaque piste a eu un contradicteur, qui défend une mise à l'écart ou attaque une piste gardée | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
+| Banque d'hypothèses | 26 pistes relues : 15 vérifiées, 3 promues, 3 écartées, 5 à vérifier ; cinq datent du 2026-11-23 (B022 à B026) ; chaque piste a eu un contradicteur, qui défend une mise à l'écart ou attaque une piste gardée | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
 | Registre | 17 pistes : P15, P16 et P17 viennent de la banque | `registre/pistes.yaml` |
 | P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Ce résultat est retiré des appuis de la piste, qui ne repose plus que sur les vésicules du COVID long. Une lettre aux auteurs de 2019 est partie le 2026-11-22 | `analyses/P15/RESULTATS.md` |
 | P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres parties le 2026-11-22. DecodeME a répondu par un message automatique : sa boîte ne répond pas aux messages reçus | `analyses/P16/RESULTATS.md` |
@@ -50,11 +50,12 @@ Une absence de réponse se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
 
-1. **Lire en entier cinq articles** que les programmes ne peuvent pas ouvrir : quatre pistes en dépendent.
+1. **Lire en entier six articles** que les programmes ne peuvent pas ouvrir : cinq pistes en dépendent.
    Le porteur du projet a donné son accord le 2026-11-22 pour les quatre premiers ; c'est le travail d'une personne.
    Pour B008 : l'étude de 2009 de la revue In Vivo (PMID 19567398). Pour B009 : PMID 41475665 et PMID 27401397.
    Pour B016 : l'article de la revue Sleep (PMID 37166330). Pour B004, depuis sa contradiction : l'article de 2008
-   de la revue PNAS (PMID 18268335). Une personne avec un accès de bibliothèque suffit.
+   de la revue PNAS (PMID 18268335). Pour B023, déposée le 2026-11-23 : PMID 38310391.
+   Une personne avec un accès de bibliothèque suffit.
    Deux lectures de plus préciseraient deux pistes gardées : PMID 42205163 pour B005, PMID 33367564 pour B019.
 2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
    Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
@@ -76,8 +77,9 @@ Une absence de réponse se constate à partir du 2027-01-22.
 4. **Relever les réponses** aux douze demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
-6. **Zones non couvertes** par le chercheur en biologie : ferroptose, acides biliaires, hypoxie et HIF.
-   Le tissu conjonctif est désormais couvert par B018.
+6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
+   Cinq pistes déposées, relues et contredites (B022 à B026) ; aucune n'est solide. Le tissu conjonctif est couvert par B018.
+   Les agents de recherche suivent désormais `outils/consigne-chercheur.md`.
 7. **Cartographie** : la revue actuelle est ciblée. La bibliothèque #ApresJ20 permet de la rendre systématique.
 8. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
@@ -110,11 +112,13 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
   les fichiers rendus par les relecteurs et les contradicteurs, les données de P15 (300 Mo) et de P16 (340 Mo), qui se retéléchargent. Les deux premières se refont en sept minutes ; les fichiers
   des relecteurs ne se refont qu'en relisant. Leur contenu utile est dans le champ `relecture` des pistes.
 - Les dépendances Python : `pip install -r requirements.txt` avant `python3 verifier.py`.
+- Les avis des contradicteurs et les dépôts des agents de recherche, dans `cache/relecture/` et `cache/depots/` :
+  leur contenu utile est dans les champs `relecture` des pistes.
 - Le fil de la conversation. Tout ce qui compte doit donc être dans ce fichier, dans `JOURNAL.md`
   ou dans les journaux des envois.
 - Le travail de la session du 2026-11-22 au soir est dans la demande de fusion n° 14, fusionnée.
   Les plans d'analyse des pistes promues, leurs premiers résultats et les décisions du porteur du projet
   sont dans la demande de fusion n° 15, fusionnée. Le dépôt des plans y est le commit `534e29d`
   (`0de5a88` avant la fusion par rebasage : c'est ce second numéro que cite un message de commit).
-- La contradiction des quinze pistes gardées, faite dans la nuit du 2026-11-22, est sur la branche
+- La contradiction des quinze pistes gardées, les lettres de B002 et le dépôt du 2026-11-23 sont sur la branche
   `ccr-48b05551-3su41y`, dans une demande de fusion ouverte le 2026-11-23 avec l'accord du porteur du projet.

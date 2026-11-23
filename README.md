@@ -52,7 +52,7 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 26 pistes en banque ; 21 relues : 14 vérifiées, dont 3 promues au registre, 3 écartées, 4 à vérifier ; 5 déposées le 2026-11-23, non relues |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 26 pistes en banque, relues : 18 vérifiées, dont 3 promues au registre, 3 écartées, 5 à vérifier |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
@@ -84,8 +84,9 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 - **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
   fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
   des patients non sélectionnés. Détail : `registre/transpositions.yaml`.
-- **Banque.** Les 21 pistes déposées ont été relues contre leurs sources : 14 sont vérifiées,
-  3 écartées, 4 restent à vérifier. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
+- **Banque.** Les 26 pistes déposées ont été relues contre leurs sources : 18 sont vérifiées,
+  3 écartées, 5 restent à vérifier. Cinq d'entre elles datent du 2026-11-23 : ferroptose,
+  acides biliaires, hypoxie ; quatre sont de niveau D ou tiennent à une seule petite étude. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
   étaient presque toujours exacts ; l'affirmation « inexplorée » était fausse ou incomplète
   pour 16 pistes. Cinq mises à l'écart ont eu un contradicteur : deux ont été levées.
   Les quinze pistes gardées en ont eu un à leur tour, chargé de les attaquer : une repasse

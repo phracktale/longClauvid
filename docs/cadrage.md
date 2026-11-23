@@ -316,7 +316,9 @@ Cinq pistes avaient d'abord été écartées. Chacune a eu un contradicteur, cha
 
 Les quinze pistes alors gardées ont eu à leur tour un contradicteur, chargé de les attaquer. Un avis « ne tient pas », quatorze « tient en partie », aucun « tient ». Le canal RyR1 repasse « à vérifier » : le résultat qui porte la piste n'est lu que par son résumé. Le niveau de l'hypermobilité revient de B à C : deux des trois équipes n'en font qu'une. Aucun des quinze tests proposés n'est prêt : il manque un seuil, un sens attendu ou un jeu de données dont l'existence soit montrée.
 
-Trois pistes vérifiées ont été promues au registre le même jour, parce que leur premier test ne demande aucun laboratoire : humanine et MOTS-c (B011), région HLA (B013), nombre de copies d'ADN mitochondrial (B020).
+Cinq pistes ont été déposées le 23 novembre sur trois zones non couvertes : ferroptose, acides biliaires, hypoxie. Après relecture et contradiction, quatre sont gardées (B022, B024, B025, B026) et une reste à vérifier (B023). Aucune n'est solide : deux sont des hypothèses sans mesure chez les patients, deux tiennent à une seule petite étude. Ces zones sont presque vides de mesures. La banque compte donc 26 pistes, dont 18 vérifiées.
+
+Trois pistes vérifiées ont été promues au registre le 22 novembre, parce que leur premier test ne demande aucun laboratoire : humanine et MOTS-c (B011), région HLA (B013), nombre de copies d'ADN mitochondrial (B020).
 
 Un plan d'analyse a été déposé pour chacune avant toute donnée, puis les tests possibles ont été lancés :
 

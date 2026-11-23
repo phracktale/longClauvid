@@ -3,6 +3,33 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Les cinq nouvelles pistes relues et contredites : quatre gardées, une à vérifier
+
+**Fait.** Chacune des cinq pistes a eu un relecteur, le test « inexplorée », puis un contradicteur : un défenseur
+pour la piste écartée, un attaquant pour chacune des trois gardées. Sur 148 affirmations, 117 sont confirmées.
+Toutes les citations sont retrouvées mot pour mot.
+
+**Décision.**
+
+- Ferroptose (B022) : d'abord écartée, puis gardée au niveau D. La source ne contredit pas la ferroptose,
+  elle ne la teste pas : l'inhibiteur n'y est essayé que sur la prolifération.
+- SLC7A11 (B023) : à vérifier. L'étude qui porte le signal n'est lue que par son résumé (PMID 38310391).
+- Diarrhée aux acides biliaires (B024) : gardée au niveau D. Un cas d'un mois, sans marqueur dosé.
+- Acides biliaires dans l'EM/SFC (B025) : gardée au niveau C pour la baisse de 2017 ; le mécanisme n'a pas de donnée.
+- HIF-2α et érythropoïétine (B026) : gardée au niveau C, sur un appui mince.
+
+**Motif, pour B022.** La mise à l'écart répétait l'erreur faite pour l'orexine : écrire « la source va contre »
+là où elle ne mesure pas. Le contradicteur l'a relevée, et la même suite est donnée.
+
+**Écarté.**
+
+- Écarter B024 ou B026 pour un doute à la question 9 de la grille : il porte sur un diagnostic présumé
+  ou des critères non écrits, pas sur une mesure déclarée des deux côtés.
+- Garder « retrouvée par deux équipes » pour B025 : la seconde étude n'en dit qu'une phrase, dans son résumé.
+
+**Réserve.** Quatre des cinq pistes sont de niveau D ou tiennent à une seule petite étude. Aucune n'a de test prêt.
+Le dépôt n'ajoute pas de piste solide : il dit que ces trois zones sont presque vides de mesures chez les patients.
+
 ## 2026-11-23 — Trois zones non couvertes explorées : cinq pistes déposées, aucune relue
 
 **Fait.** Trois agents de recherche, un par zone, ont suivi `outils/consigne-chercheur.md`, déposée avant leur départ.

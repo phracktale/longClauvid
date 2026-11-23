@@ -6,6 +6,10 @@ Cinq avaient d'abord été écartées ; une relecture contradictoire a levé deu
 Les quinze pistes alors gardées ont ensuite eu un contradicteur chargé de les attaquer :
 une repasse « à vérifier » (B004), un niveau de preuve baisse (B018), neuf décisions sont reformulées.
 
+Cinq pistes ont été déposées et relues le 2026-11-23, sur trois zones que la première recherche n'avait pas couvertes :
+quatre sont vérifiées, une reste à vérifier. Elles sont traitées dans la section « Dépôt du 2026-11-23 ».
+La banque compte donc 26 pistes : 18 vérifiées, dont 3 promues, 3 écartées, 5 à vérifier.
+
 « Vérifiée » ne veut pas dire « vraie ». Les sources ont été rouvertes, les erreurs relevées,
 et la piste reste une question à tester. Rien ici n'est un avis médical.
 
@@ -123,6 +127,36 @@ et deux scripts du même nom se sont écrasés. Le fichier de B002 n'était pas 
 Il a été réécrit avec les mêmes faits et les mêmes arguments, une citation étant raccourcie, et le contrôle des citations
 a été refait sur les quinze fichiers.
 
+## Dépôt du 2026-11-23 : ferroptose, acides biliaires, hypoxie
+
+Trois agents de recherche, un par zone, ont suivi `outils/consigne-chercheur.md`, déposée avant leur départ.
+Ils ont déposé cinq pistes. Chacune a eu un relecteur, le test « inexplorée », puis un contradicteur.
+
+| Piste | Sujet | Niveau | Décision | Pourquoi |
+| --- | --- | --- | --- | --- |
+| B022 | Ferroptose des lymphocytes mémoire | D | Vérifiée | Mise à l'écart levée après contradiction. Les lipides des lymphocytes des patients sont plus oxydés, mais GPX4 n'est pas déficitaire, et la ferroptose n'a été mesurée sur aucune cellule de patient. |
+| B023 | SLC7A11 du plasma à l'hôpital | C | À vérifier | L'étude qui porte le signal (PMID 38310391) n'est accessible que par son résumé, qui ne donne ni effectif de COVID long ni taille d'effet. |
+| B024 | Diarrhée aux acides biliaires dans le COVID long | D | Vérifiée | Hypothèse théorique : le seul appui direct est un cas d'un mois, sans marqueur dosé. Aucun jeu de données n'est confirmé pour le test. |
+| B025 | Acides biliaires du plasma dans l'EM/SFC | C | Vérifiée | Le niveau C vaut pour une baisse mesurée par une équipe, sur 17 patientes. Son explication par le microbiote n'a pas de donnée, et le profil mesuré ne lui ressemble pas. |
+| B026 | Voie HIF-2α et érythropoïétine dans le COVID long | C | Vérifiée | Appui mince : une érythropoïétine plus haute mais normale, dans une seule cohorte. L'activation de HIF-2α chez les patients est une hypothèse. |
+
+Les relecteurs ont contrôlé 148 affirmations : 117 sont confirmées, 6 inexactes, 1 contredite, 24 non trouvées.
+Toutes les citations des relecteurs et des contradicteurs sont retrouvées mot pour mot.
+
+- **B022 avait d'abord été écartée**, parce que sa source semblait aller contre elle. Son contradicteur a montré
+  que l'inhibiteur de ferroptose n'y est essayé que sur la prolifération des cellules, pas sur leur mort :
+  la source ne teste pas la ferroptose. C'est le cas de l'orexine (B003) ; la même suite est donnée.
+- **Les quatre avis des contradicteurs sont « tient en partie ».** Trois décisions de garder étaient encore trop fortes :
+  « aucun jeu de données n'est nommé » (B024), « retrouvée par deux équipes » (B025), et un énoncé qui promettait
+  des liens que la source ne rapporte pas (B026).
+- **Le test « inexplorée » a fait remonter un travail pour B026** : une protéomique du plasma de 2023, d'une autre équipe.
+  Pour les quatre autres pistes, il ne remonte que des revues et des textes d'hypothèse.
+- **Presque tout est lu par des résumés au dépôt**, mais les copies locales donnent le texte intégral
+  de 20 des 43 sources citées : la relecture a lu plus que le déposant.
+
+Limites propres à ce dépôt : la recherche est ciblée, trois pistes au plus par zone ; un relecteur dit n'avoir lu
+qu'en partie quatre textes intégraux (B025) ; les deux sources ajoutées à B026 n'ont pas de copie locale.
+
 ## Méthode
 
 1. **Copie locale des sources.** `outils/sources_banque.py` prend, par les interfaces officielles, le texte
@@ -168,7 +202,7 @@ une mesure déclarée des deux côtés.
 - Le décideur a vérifié lui-même, dans les copies, les constats qui changent un statut ou un niveau.
   Les autres constats reposent sur le contrôle mot pour mot de leur citation.
 - 43 sources ne sont lues que par leur résumé, dont les études ajoutées par le test « inexplorée ».
-- Les articles qui portent le signal de B004, de B008, de B009 et de B016 ne sont pas accessibles en entier : ces quatre pistes restent à vérifier.
+- Les articles qui portent le signal de B004, de B008, de B009, de B016 et de B023 ne sont pas accessibles en entier : ces cinq pistes restent à vérifier.
 - Le test « inexplorée » lit des titres et des résumés. Une absence ne prouve rien.
 - La page de la biobanque britannique est bloquée : ses effectifs actuels n'ont pas pu être contrôlés.
 

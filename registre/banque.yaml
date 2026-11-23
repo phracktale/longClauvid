@@ -2281,7 +2281,7 @@
     une étude sélectionnée sur la ferroptose. Relecture du 2026-11-23, grille statistique : doutes aux questions
     1, 2, 3, 4, 5, 6, 7 et 10. Sous-groupes de 4 à 6 personnes, une seule équipe, valeurs de p non corrigées ; une
     valeur de p tirée de 1 268 cellules d''un seul donneur par groupe.'
-  niveau: C
+  niveau: D
   sources:
   - titre: Oxidative stress is a shared characteristic of ME/CFS and Long COVID, PNAS 2025 (résumé)
     url: https://pubmed.ncbi.nlm.nih.gov/40627396/
@@ -2319,12 +2319,7 @@
     lu: page
   origine: agent biologie, zone ferroptose
   date: '2026-11-23'
-  statut: écartée
-  motif: La source du signal va contre la lecture que la piste en fait. GPX4 y est plus abondant chez les patients,
-    leurs lymphocytes T prolifèrent plus, et l'inhibiteur de ferroptose essayé sur leurs cellules n'a pas d'effet
-    significatif sur cette prolifération. L'oxydation des lipides des lymphocytes reste un résultat de l'étude ;
-    ce qui tombe est son attribution à la ferroptose. À rouvrir si une étude mesure la mort par ferroptose sur des
-    cellules de patients.
+  statut: vérifiée
   relecture:
     date: '2026-11-23'
     lecture: '9 sources rouvertes : 5 en texte intégral, 3 par leur résumé, 1 fiche de registre.'
@@ -2344,7 +2339,27 @@
       de patients, hors l''essai de liprostatine-1 de la source. La recherche remonte des revues et des textes d''hypothèse
       (PMID 37554293, PMID 38310391), et une étude de poumons de personnes décédées du COVID-19. Un essai enregistré
       porte sur la vitamine E et la CRP, pas sur ces maladies.'
-    decision: 'Écartée : voir le motif.'
+    decision: 'Gardée comme hypothèse théorique, niveau ramené de C à D, après correction de son titre : les lipides
+      des lymphocytes des patients sont plus oxydés, mais GPX4 n''est pas déficitaire, et la ferroptose n''a été
+      mesurée sur aucune cellule de patient. Le test reste à faire en mesurant la mort des cellules, pas leur prolifération.'
+    contradiction:
+      date: '2026-11-23'
+      avis: tient en partie
+      motif_initial: La source du signal va contre la lecture que la piste en fait. GPX4 y est plus abondant chez
+        les patients, leurs lymphocytes T prolifèrent plus, et l'inhibiteur de ferroptose essayé sur leurs cellules
+        n'a pas d'effet significatif sur cette prolifération. L'oxydation des lipides des lymphocytes reste un résultat
+        de l'étude ; ce qui tombe est son attribution à la ferroptose. À rouvrir si une étude mesure la mort par
+        ferroptose sur des cellules de patients.
+      constats:
+      - 'Les faits du motif sont exacts, à un près : la prolifération accrue ne vaut que pour les femmes ; chez
+        les hommes atteints d''EM/SFC, la source ne trouve pas de différence.'
+      - 'L''essai de la liprostatine-1 ne mesure que la prolifération, sur 6 patientes. Il ne mesure ni la survie
+        des cellules, ni leur mort, ni l''oxydation des lipides après traitement : il ne teste pas la ferroptose.'
+      - GPX4 plus abondant est mesuré sur un donneur par groupe, et peut être une réponse de compensation.
+      - '« Ce qui tombe est son attribution à la ferroptose » était trop fort : la source ne soutient pas cette
+        lecture, elle ne la contredit pas.'
+      suite: 'Mise à l''écart levée. Rien ne contredit la ferroptose chez les patients : elle est sans donnée, comme
+        l''orexine (B003). La piste est gardée au niveau D, comme hypothèse théorique.'
 - id: B023
   titre: Un taux plasmatique bas du transporteur SLC7A11 (système xc-) à l'hôpital annoncerait le COVID long
   domaine_source: COVID-19 aigu hospitalisé ; ferroptose (système cystine-glutamate xc-, GPX4, ACSL4)
@@ -2548,8 +2563,26 @@
     - Une revue de 2026 juge le lien entre acides biliaires et diarrhée après le COVID-19 insuffisamment étayé.
     inexploree: 'L''affirmation tient : aucun dosage du C4 ou du FGF19 dans le COVID long, aucun essai d''un chélateur.
       La recherche ne remonte rien de plus.'
-    decision: 'Gardée comme hypothèse théorique, niveau D : le seul appui direct est un cas, sans marqueur dosé.
-      Le test sur sérums conservés est simple, mais aucun jeu de données n''est nommé.'
+    decision: 'Gardée comme hypothèse théorique, niveau D : le seul appui direct est un cas d''un mois, sans marqueur
+      dosé et confondu par d''autres traitements. Le test demande des sérums de patients avec diarrhée persistante
+      ; aucun jeu de données n''est confirmé, et les seuils sont à fixer d''avance.'
+    attaque:
+      date: '2026-11-23'
+      avis: tient en partie
+      decision_initiale: 'Gardée comme hypothèse théorique, niveau D : le seul appui direct est un cas, sans marqueur
+        dosé. Le test sur sérums conservés est simple, mais aucun jeu de données n''est nommé.'
+      constats:
+      - Neuf des douze faits contrôlés sont confirmés.
+      - '« Aucun jeu de données n''est nommé » était inexact : la fiche en nomme trois, dont aucun n''est confirmé.
+        Aucune copie ne montre que des sérums de patients avec diarrhée persistante sont conservés.'
+      - 'Le cas dure environ un mois et finit sans récidive : il est loin des trois mois de l''énoncé. Son amélioration
+        est confondue avec l''albumine, les diurétiques et la nutrition par voie veineuse.'
+      - Le seuil de FGF19 ne vaut, selon ses auteurs, que pour un iléon normal ; le cas a des ulcères de l'iléon.
+        Aucun seuil de C4 n'est fixé pour le test.
+      - 'Question 9 de la grille : la malabsorption du cas est présumée, pas mesurée. Le doute n''est pas retenu
+        au sens de la règle, qui vise une mesure déclarée des deux côtés ; il dit seulement que le cas ne prouve
+        rien.'
+      suite: 'Décision reformulée : vérifiée, niveau D.'
 - id: B025
   titre: Le plasma des patients EM/SFC manque d'acides biliaires, ce qui pourrait refléter un déficit de leur transformation
     par le microbiote, avec moins de signal sur les récepteurs TGR5 et FXR
@@ -2662,9 +2695,30 @@
     - Le test proposé réutilise les données de l'étude qui a donné le signal, et n'a pas de seuil.
     inexploree: 'L''affirmation tient : aucune étude dédiée aux acides biliaires dans l''EM/SFC, aucun levier testé.
       L''acide ursodésoxycholique a été essayé dans le COVID long, sans bénéfice.'
-    decision: 'Gardée après corrections, au niveau C pour la baisse des acides biliaires du plasma, retrouvée par
-      deux équipes. Son explication par le microbiote et le récepteur TGR5 est une hypothèse sans donnée : les auteurs
-      de 2017 en proposent une autre.'
+    decision: 'Gardée après corrections, au niveau C pour une baisse des acides biliaires du plasma mesurée par
+      une équipe, sur 17 patientes. L''étude de 2023 ne la confirme que par une phrase de son résumé. Son explication
+      par le microbiote et le récepteur TGR5 est une hypothèse sans donnée, et le profil mesuré ne lui ressemble
+      pas : les acides primaires baissent aussi.'
+    attaque:
+      date: '2026-11-23'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections, au niveau C pour la baisse des acides biliaires du plasma, retrouvée
+        par deux équipes. Son explication par le microbiote et le récepteur TGR5 est une hypothèse sans donnée :
+        les auteurs de 2017 en proposent une autre.'
+      constats:
+      - Quinze des seize faits contrôlés sont confirmés.
+      - '« Retrouvée par deux équipes » était trop fort. En 2023, la baisse ne tient qu''à une phrase du résumé
+        : le texte ne nomme ni ne chiffre aucun acide biliaire. L''indépendance des deux équipes ne se lit pas dans
+        les copies.'
+      - En 2017, le lithocholate passe le seuil admis avec un test et pas avec l'autre (0,13 et 0,19, pour un seuil
+        de 0,15).
+      - 'Le profil va contre le mécanisme proposé : en 2017 les acides primaires baissent aussi, alors que dans
+        la maladie inflammatoire de l''intestin, seul appui du mécanisme, les primaires et le total sont inchangés.
+        En 2025, l''acide biliaire en hausse dérive d''un acide secondaire.'
+      - 'Le test ne peut pas réfuter la piste : il exige un ajustement sur l''activité physique, absente des modèles
+        de la cohorte ; seule la métagénomique y est déclarée déposée ; il n''a pas de seuil.'
+      suite: 'Décision reformulée : vérifiée, niveau C pour la seule baisse de 2017 ; le mécanisme par le microbiote
+        est au niveau D.'
 - id: B026
   titre: Dans le COVID long, la voie HIF-2α est activée (érythropoïétine et VEGF élevés), comme dans la maladie
     de von Hippel-Lindau où un inhibiteur de HIF-2α existe
@@ -2793,6 +2847,24 @@
       37301958, lue par son résumé). Une étude de 2004 a dosé l'érythropoïétine dans le syndrome de fatigue chronique
       (PMID 15016575, connue par son titre seul). Aucun essai enregistré.
     decision: 'Gardée après corrections, sur un appui mince : une érythropoïétine plus haute mais normale, dans
-      une seule cohorte. L''activation de HIF-2α chez les patients est une hypothèse. Les questions 5 et 9 de la
-      grille ne sont pas retenues au sens strict : l''effet n''est pas trop grand pour être cru, et la mesure n''est
-      pas déclarée des deux côtés.'
+      une seule cohorte. L''activation de HIF-2α chez les patients est une hypothèse, et la source ne rapporte ni
+      ajustement sur l''hémoglobine ni lien avec la sévérité. Une hémoglobine plus basse peut suffire à l''expliquer.
+      Les questions 5 et 9 de la grille ne sont pas retenues au sens strict : l''effet n''est pas trop grand pour
+      être cru, et la mesure n''est pas déclarée des deux côtés.'
+    attaque:
+      date: '2026-11-23'
+      avis: tient en partie
+      decision_initiale: 'Gardée après corrections, sur un appui mince : une érythropoïétine plus haute mais normale,
+        dans une seule cohorte. L''activation de HIF-2α chez les patients est une hypothèse. Les questions 5 et
+        9 de la grille ne sont pas retenues au sens strict : l''effet n''est pas trop grand pour être cru, et la
+        mesure n''est pas déclarée des deux côtés.'
+      constats:
+      - Sept des huit faits contrôlés sont confirmés ; la copie de la protéomique de 2023 n'était pas disponible
+        au contradicteur.
+      - L'énoncé promet une érythropoïétine plus haute à hémoglobine égale, qui croît avec la sévérité et les anticorps.
+        La source ne rapporte ni cet ajustement ni ces corrélations ; elle montre une hémoglobine qui baisse avec
+        la sévérité.
+      - Le VEGF élevé ne se retrouve pas dans la cohorte voisine, plus grande.
+      - L'appui de Cambridge vient d'un test avant correction pour comparaisons multiples, et ses auteurs lisent
+        la hausse du gène de HIF-2α comme une réponse au fer.
+      suite: 'Décision complétée : vérifiée, niveau C, sans le relever.'
