@@ -123,5 +123,7 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
   Les plans d'analyse des pistes promues, leurs premiers résultats et les décisions du porteur du projet
   sont dans la demande de fusion n° 15, fusionnée. Le dépôt des plans y est le commit `534e29d`
   (`0de5a88` avant la fusion par rebasage : c'est ce second numéro que cite un message de commit).
-- La contradiction des quinze pistes gardées, les lettres de B002 et le dépôt du 2026-11-23 sont sur la branche
-  `ccr-48b05551-3su41y`, dans une demande de fusion ouverte le 2026-11-23 avec l'accord du porteur du projet.
+- La contradiction des quinze pistes gardées, les lettres de B002, le dépôt du 2026-11-23 et la première carte
+  sont dans la demande de fusion n° 17, fusionnée le 2026-11-23 par le porteur du projet, avec un commit de fusion.
+  Le dépôt n'a pas de contrôle automatique côté GitHub : une demande de fusion ne se fusionne pas seule,
+  et le programme n'a pas le droit de la fusionner. C'est le porteur du projet qui clique.
