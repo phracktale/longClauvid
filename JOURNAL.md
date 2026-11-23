@@ -3,6 +3,28 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Cartographie : un premier pas, par un script
+
+**Fait.** `analyses/cartographie/cartographie.py` compte, pour chaque piste du registre et de la banque, les références
+de la bibliothèque #ApresJ20 dont le titre ou le résumé contient ses termes. La carte est dans `analyses/cartographie/CARTE.md`.
+Sur 10 466 références, 8 432 ont un résumé, et 1 258 sont retenues par au moins une piste.
+
+**Constat.** Trois pistes du registre sont denses : fibrine et complément (177 références), antigène persistant (175),
+auto-anticorps (147). Six pistes ont quatre références ou moins : WASF3, SMPDL3B, humanine, pyruvate déshydrogénase,
+cibinétide, RyR1. C'est le troisième critère d'une piste sous-exploitée, mesuré pour la première fois.
+Les 9 208 références hors carte sont surtout de la clinique : définition, soins, enfants, rééducation.
+
+**Choix.** Un script et aucun agent : des décomptes sur une copie locale, sans requête ni lecture par un modèle.
+Les termes sont écrits dans le script, et ceux de la banque sont repris du test « inexplorée ».
+Seuls des décomptes entrent au dépôt ; les titres et les résumés restent hors dépôt.
+
+**Écarté.** Extraire tout de suite les relations entre entités : il faut lire 1 258 résumés et mesurer la précision
+sur un échantillon relu à la main. Ce sera fait piste par piste.
+
+**Réserve.** Un terme dans un résumé ne dit pas que l'étude porte sur la piste : « interferon » ou « IL-13 » ramènent
+des panels de cytokines. La bibliothèque couvre le COVID long, pas l'EM/SFC d'avant 2020. Deux contrôles sont dans le script :
+un terme inventé ne trouve rien, le nom de la maladie trouve plus de la moitié des références.
+
 ## 2026-11-23 — Les cinq nouvelles pistes relues et contredites : quatre gardées, une à vérifier
 
 **Fait.** Chacune des cinq pistes a eu un relecteur, le test « inexplorée », puis un contradicteur : un défenseur

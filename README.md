@@ -29,6 +29,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/consigne-relecteur-de-plan.md` | La consigne remise à celui qui relit un plan d'analyse avant l'ouverture des données |
 | `outils/relecture_banque.py` | Prépare la relecture et recherche mot pour mot chaque citation du relecteur et des contradicteurs |
 | `analyses/banque/` | Le compte rendu de la relecture, les termes du test « inexplorée » et les calculs d'effectifs |
+| `analyses/cartographie/` | La carte de la bibliothèque #ApresJ20 au regard des pistes : un script, ses termes et ses décomptes |
 | `analyses/P15/`, `P16/`, `P17/` | Pour chaque piste promue : son plan d'analyse, ses calculs et ses lettres |
 | `REPRISE.md` | Où en est le projet et quoi faire ensuite, pour reprendre dans une nouvelle session |
 | `simulateurs/niveau1/` | Cohorte virtuelle : quel plan d'essai peut voir un effet limité à un sous-groupe |
@@ -53,7 +54,7 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 | Phase | État |
 | --- | --- |
 | 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 26 pistes en banque, relues : 18 vérifiées, dont 3 promues au registre, 3 écartées, 5 à vérifier |
-| 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
+| 1. Cartographie | Premier pas fait le 2026-11-23 : la sélection des articles, sur les 10 466 références de la bibliothèque #ApresJ20. L'extraction des relations et le graphe restent à faire |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
 | 4. Simulation | Niveaux 1 et 2 construits, deux modèles publiés reproduits ; niveau 3 à faire |

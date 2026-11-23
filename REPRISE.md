@@ -80,7 +80,10 @@ Une absence de réponse se constate à partir du 2027-01-22.
 6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
    Cinq pistes déposées, relues et contredites (B022 à B026) ; aucune n'est solide. Le tissu conjonctif est couvert par B018.
    Les agents de recherche suivent désormais `outils/consigne-chercheur.md`.
-7. **Cartographie** : la revue actuelle est ciblée. La bibliothèque #ApresJ20 permet de la rendre systématique.
+7. **Cartographie** : premier pas fait le 2026-11-23, `analyses/cartographie/CARTE.md`. Sur 10 466 références,
+   1 258 contiennent un terme d'une piste. Reste la phase 1 proprement dite : lire les références retenues,
+   en extraire les relations, mesurer la précision sur un échantillon relu à la main. C'est un travail de lecture
+   en nombre, pour un modèle moins coûteux, à lancer piste par piste en commençant par les plus denses (P08, P14, P01).
 8. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
    ni les trois nouvelles pistes, ni la correction de la fiche T03, ni la contradiction des pistes gardées.
