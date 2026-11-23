@@ -878,11 +878,12 @@
     - La revue de 2015 écrit que le D-lactate ne suit pas l'état clinique dans l'acidose vraie.
     - L'étude de 2009 n'a été relue que par son résumé.
     inexploree: 'L''affirmation tient : aucun dosage sanguin cas-témoins, aucune étude dans le COVID long, aucun
-      essai enregistré.'
-    decision: 'Gardée comme hypothèse théorique, niveau ramené de C à D : l''article de 2009, lu en entier, montre
-      plus de bactéries productrices de D-lactate dans les selles de patients choisis pour leurs troubles digestifs,
-      mais ne dose le D-lactate chez aucun patient. Aucune source ne le mesure dans le sang. Un dosage sur plasma
-      conservé suffirait à réfuter la piste.'
+      essai enregistré sur ClinicalTrials.gov. Corrigé le 2026-11-23 : l''essai ouvert de 2018 est enregistré au
+      registre australien et néo-zélandais.'
+    decision: 'Gardée comme hypothèse théorique, niveau D : aucune source ne dose le D-lactate chez des patients.
+      L''étude de selles de 2009, lue en entier, ne l''appuie pas : son signal est probablement artefactuel, et
+      ses patients sont choisis pour leurs troubles digestifs. Un dosage unique sur plasma conservé ne suffirait
+      pas à réfuter la piste, parce que le D-lactate fluctue : le test est à réécrire.'
     complement:
       date: '2026-11-23'
       lecture: 'L''article de 2009 est lu en entier, sur un PDF téléchargé par le porteur du projet : le site de
@@ -900,8 +901,32 @@
         par culture et entre deux groupes aussi différents, ne se croit pas tel quel.'
       - Le tableau donne les comptes par gramme et le texte par litre. Les comparaisons sont des tests t sur les
         logarithmes, sans ajustement.
-      - Un des auteurs est rattaché à un laboratoire d'analyse de selles. L'article ne porte ni déclaration de liens
-        d'intérêts ni financement.
+      - Un des auteurs est rattaché à « Bioscreen », sans autre précision dans l'article. L'article ne porte ni
+        déclaration de liens d'intérêts ni financement.
+    attaque:
+      date: '2026-11-23'
+      avis: tient en partie
+      decision_initiale: 'Gardée comme hypothèse théorique, niveau ramené de C à D : l''article de 2009, lu en entier,
+        montre plus de bactéries productrices de D-lactate dans les selles de patients choisis pour leurs troubles
+        digestifs, mais ne dose le D-lactate chez aucun patient. Aucune source ne le mesure dans le sang. Un dosage
+        sur plasma conservé suffirait à réfuter la piste.'
+      constats:
+      - Dix-neuf des vingt-trois faits contrôlés sont confirmés.
+      - '« Un dosage sur plasma conservé suffirait à réfuter la piste » était inexact. Selon les revues de 2015
+        et de 2017, le taux de D-lactate ne suit pas l''état clinique et les symptômes sont passagers : un taux
+        normal un jour donné ne réfute rien. Le test n''a ni seuil ni effectif, et il compare des moyennes alors
+        que la piste vise une partie des patients.'
+      - '« Aucun essai enregistré » était inexact : l''essai ouvert de 2018 est enregistré au registre australien
+        et néo-zélandais (ACTRN12614001077651). La recherche n''avait porté que sur ClinicalTrials.gov.'
+      - 'Le signal de 2009 a des doutes aux questions 5 et 9 de la grille, sans contre-analyse ni réplication :
+        il est probablement artefactuel. La piste est gardée comme hypothèse sans donnée, pas sur la foi de ce signal.'
+      - Les parts de 52 % et de 12 % données dans le texte de 2009 ne se retrouvent pas avec les moyennes de son
+        tableau, qui donnent environ 69 % et 5 % (calcul fait à la relecture). L'article ne dit pas comment elles
+        sont calculées.
+      - 'Un constat de la lecture du 2026-11-23 venait de la mémoire du lecteur et non de l''article : le rattachement
+        d''un auteur à un « laboratoire d''analyse de selles ». L''article écrit seulement « Bioscreen ». Le constat
+        est corrigé.'
+      suite: 'Décision reformulée : vérifiée, niveau D. Le test est à réécrire avant toute demande d''échantillons.'
 - id: B009
   titre: Une partie des patients EM/SFC manque de vasopressine, comme dans le diabète insipide central partiel
   domaine_source: Déficit en arginine-vasopressine (diabète insipide central) ; tachycardie posturale

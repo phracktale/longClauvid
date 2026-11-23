@@ -3,6 +3,28 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — B008 : l'article lu en entier ne dose le D-lactate chez aucun patient
+
+**Fait.** Le porteur du projet a téléchargé l'article de 2009, que le site de la revue refuse aux programmes.
+Le modèle principal l'a lu ; un contradicteur a ensuite attaqué la décision. Toutes ses citations sont retrouvées.
+
+**Constat.** L'étude compte des bactéries dans les selles de 108 patients choisis pour leurs troubles digestifs,
+contre 177 témoins définis par ce qu'ils déclarent. Elle dose le D-lactate dans le milieu de culture de trois souches,
+jamais chez un patient. Un compte est mille fois plus haut chez les patients, et deux pourcentages du texte ne se retrouvent
+pas avec les moyennes du tableau.
+
+**Décision.** La piste sort de « à vérifier ». Elle est gardée comme hypothèse théorique, au niveau D au lieu de C.
+Le signal de 2009 est probablement artefactuel : la piste n'est pas gardée sur sa foi.
+
+**Corrigé après contradiction.** « Un dosage suffirait à réfuter » : le D-lactate fluctue. « Aucun essai enregistré » :
+l'essai de 2018 l'est au registre australien et néo-zélandais, qui n'avait pas été interrogé. Et un constat du lecteur,
+sur le métier d'un laboratoire, venait de sa mémoire et non de l'article.
+
+**Réserve.** Le lecteur et le décideur sont ici le même programme. C'est le contradicteur qui a relevé l'erreur de mémoire.
+
+**Fait.** Une troisième demande de copie est partie, pour B023, à l'adresse d'établissement que PubMed publie
+pour le dernier auteur dans un autre article. C'est la dix-huitième demande.
+
 ## 2026-11-23 — Deux demandes de copie aux auteurs, pour B009
 
 **Fait.** Sur instruction du porteur du projet, une copie des deux articles qui portent la piste B009 a été demandée
