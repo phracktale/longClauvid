@@ -46,6 +46,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 | Bibliothèque de l'association #ApresJ20 | 10 466 références, copie locale à refaire dans chaque session | `outils/bibliotheque_apresj20.py` |
 
 Douze demandes sont parties le 2026-11-22 : huit pour les lots 1 et 2, quatre pour les pistes P15 à P17.
+Une treizième est partie le 2026-11-23, pour P16, à l'auteur correspondant de la prépublication de DecodeME.
 Une absence de réponse se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
@@ -68,15 +69,15 @@ Une absence de réponse se constate à partir du 2027-01-22.
    les quatre lettres partent après fusion. Elles sont parties le même jour (`DEMANDES.md` de P15, P16 et P17).
    Reste à lire les tests 2 à 4 de P16 quand les équipes auront répondu, et la réponse des auteurs de 2019 pour P15.
    Pour DecodeME, la demande d'accès n'est pas ouverte au projet : elle exige un demandeur employé par un établissement
-   de recherche (lu le 2026-11-23, `analyses/P16/DEMANDES.md`). Voie la moins coûteuse : la même lettre, à l'auteur
-   correspondant de la prépublication. À décider par le porteur du projet.
+   de recherche (lu le 2026-11-23, `analyses/P16/DEMANDES.md`). La même lettre est partie le 2026-11-23
+   à l'auteur correspondant de la prépublication.
    La réplication de P15 sur d'autres personnes est faite, sur les trois jeux qui se lisent.
    Deux autres jeux demanderaient de réaligner 223 bibliothèques : non engagé.
    Autre premier pas peu coûteux, pour B002 : demander aux auteurs des lipidomiques déjà faites si les plasmalogènes
    ont été mesurés et si un groupe de personnes rétablies existe. Celle de 2025 décrit un sens contraire à la piste.
    Les deux lettres sont rédigées, non envoyées : `analyses/banque/DEMANDES.md`. Elles attendent la relecture
    du porteur du projet.
-4. **Relever les réponses** aux douze demandes et les inscrire aux journaux des envois.
+4. **Relever les réponses** aux treize demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
@@ -128,4 +129,5 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 - La contradiction des quinze pistes gardées, les lettres de B002, le dépôt du 2026-11-23 et la première carte
   sont dans la demande de fusion n° 17, fusionnée le 2026-11-23 par le porteur du projet, avec un commit de fusion.
   Le dépôt n'a pas de contrôle automatique côté GitHub : une demande de fusion ne se fusionne pas seule,
-  et le programme n'a pas le droit de la fusionner. C'est le porteur du projet qui clique.
+  Le programme la fusionne quand le porteur du projet le lui demande, avec un commit de fusion : un rebasage
+  l'obligerait à forcer la mise à jour de la branche, ce que la session refuse.
