@@ -145,8 +145,8 @@ L'auteur correspondant de l'article a répondu à la lettre du 2026-11-22. Sa r�
 Deux choses restent à faire, sans l'auteur :
 
 - **Dire si l'écart est « proche » ou « grossier ».** Avec la lecture à deux crans, 8 lignes sur 12 de la figure 5 sont retrouvées
-  à 2 points près. Avec la lecture à un cran, aucune : l'écart va jusqu'à 30 points. L'aléa d'un tirage sur 10 000 simulations
-  ne fait pas 30 points. La lecture à un cran, qui est celle de l'équation de l'article, n'est donc pas celle des figures.
+  à 2 points près. Avec la lecture à un cran, aucune : l'écart atteint 33 points. L'aléa d'un tirage sur 10 000 simulations
+  ne fait pas un tel écart. La lecture à un cran, qui est celle de l'équation de l'article, n'est donc pas celle des figures.
 - **Lire l'article de 2021 que l'auteur indique**, où le traitement est maintenu pendant une durée qui fait partie
   de l'optimisation (International Journal of Molecular Sciences, volume 22, article 8546). Il n'est pas encore lu.
 

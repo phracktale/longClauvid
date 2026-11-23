@@ -12,7 +12,7 @@ ne porte aucune restriction ; le programme l'a lue.
 puis relâchés : c'est ce que fait le simulateur. Un traitement peut déplacer un nœud d'un cran ou de deux, et la réponse
 ne dit pas quelle définition a servi aux figures. Pour l'auteur, des taux proches suffisent, le procédé étant aléatoire.
 
-**Lecture.** Avec un cran, l'écart aux taux publiés va jusqu'à 30 points : l'aléa n'explique pas cela. Avec deux crans,
+**Lecture.** Avec un cran, l'écart aux taux publiés atteint 33 points : l'aléa n'explique pas cela. Avec deux crans,
 8 lignes sur 12 sont à 2 points près. Les figures n'utilisent donc pas la lecture à un cran que donne l'équation de l'article.
 C'est une déduction du projet, pas une confirmation de l'auteur.
 
