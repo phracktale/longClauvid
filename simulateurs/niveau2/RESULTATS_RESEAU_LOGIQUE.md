@@ -147,11 +147,34 @@ Deux choses restent à faire, sans l'auteur :
 - **Dire si l'écart est « proche » ou « grossier ».** Avec la lecture à deux crans, 8 lignes sur 12 de la figure 5 sont retrouvées
   à 2 points près. Avec la lecture à un cran, aucune : l'écart atteint 33 points. L'aléa d'un tirage sur 10 000 simulations
   ne fait pas un tel écart. La lecture à un cran, qui est celle de l'équation de l'article, n'est donc pas celle des figures.
-- **Lire l'article de 2021 que l'auteur indique**, où le traitement est maintenu pendant une durée qui fait partie
-  de l'optimisation (International Journal of Molecular Sciences, volume 22, article 8546). Il n'est pas encore lu.
+- **Lire l'article de 2021 que l'auteur indique** : fait le 2026-11-23, voir la section 4 ter.
 
 L'essai de l'étanercept puis de la mifépristone (NCT04254627) n'a pas de publication. L'auteur a donné une indication
 de ses résultats, non publics : elle n'est pas reprise ici.
+
+## 4 ter. Ce que dit l'article de 2021
+
+L'article que l'auteur indique ([PMID 34445252](https://pubmed.ncbi.nlm.nih.gov/34445252/), en accès libre) a été lu
+le 2026-11-23, par ses passages de méthode et de résultats sur les traitements, pas en entier. Il porte sur un réseau plus grand,
+qui ajoute la barrière entre le sang et le cerveau : ses taux ne se comparent pas à ceux de 2015.
+
+- **La règle d'un traitement y est écrite sans ambiguïté.** Un traitement vaut −1, 0 ou +1 pour chaque nœud. Tant qu'il est appliqué,
+  l'état visé au pas suivant est l'état présent plus cette valeur, borné aux valeurs extrêmes. C'est donc un cran par pas de temps.
+- **Un traitement y est maintenu**, d'un pas de début à un pas de fin : par exemple du pas 1 au pas 43. Maintenu plusieurs pas,
+  un traitement d'un cran par pas amène le nœud à sa valeur extrême. Cela rapproche les deux lectures de la section 4 :
+  « deux crans » en une fois ressemble à « un cran » tenu deux pas.
+- **Le taux rapporté est celui du meilleur traitement trouvé.** Un algorithme génétique fait évoluer 1 000 traitements candidats
+  pendant 1 000 générations, les classe par leur taux de retour à l'état sain sur 1 000 simulations, et garde le meilleur
+  de 100 recherches. Un taux choisi parce qu'il est le plus haut surestime le taux réel : c'était la seconde cause possible
+  de la section 4, et l'article décrit bien ce procédé. Il ne chiffre pas ce biais.
+- **L'ordre des traitements y est retrouvé, avec une étape de plus** : augmenter la testostérone, puis freiner les cytokines Th1,
+  puis bloquer le récepteur du cortisol, avec un recouvrement entre les phases. Ce traitement à trois cibles ramène à l'état sain
+  dans 37 % des simulations.
+- **Limite dite par les auteurs** : le modèle n'a pas de cinétique. Il dit si une suite d'interventions est logiquement possible,
+  pas sa dose ni sa durée réelle.
+
+Conséquence pour l'hypothèse H6 : l'effet d'ordre est retrouvé par la même équipe dans un second modèle. Ce n'est pas
+une réplication indépendante, et cela reste un argument de plausibilité.
 
 ## 5. Suite donnée par les auteurs
 
