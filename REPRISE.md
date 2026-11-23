@@ -67,7 +67,9 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Le porteur du projet a décidé le 2026-11-22 : l'appui de 2019 est retiré de P15, P17 reste au registre,
    les quatre lettres partent après fusion. Elles sont parties le même jour (`DEMANDES.md` de P15, P16 et P17).
    Reste à lire les tests 2 à 4 de P16 quand les équipes auront répondu, et la réponse des auteurs de 2019 pour P15.
-   Pour DecodeME, la voie qui répond est peut-être le formulaire de demande d'accès de sa page pour les chercheurs.
+   Pour DecodeME, la demande d'accès n'est pas ouverte au projet : elle exige un demandeur employé par un établissement
+   de recherche (lu le 2026-11-23, `analyses/P16/DEMANDES.md`). Voie la moins coûteuse : la même lettre, à l'auteur
+   correspondant de la prépublication. À décider par le porteur du projet.
    La réplication de P15 sur d'autres personnes est faite, sur les trois jeux qui se lisent.
    Deux autres jeux demanderaient de réaligner 223 bibliothèques : non engagé.
    Autre premier pas peu coûteux, pour B002 : demander aux auteurs des lipidomiques déjà faites si les plasmalogènes

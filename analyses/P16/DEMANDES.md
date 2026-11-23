@@ -71,3 +71,28 @@ Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répond
 | 2026-11-22 | Équipe de DecodeME | Lettre envoyée, à l'adresse de contact de sa page d'accès |
 | 2026-11-22 | Auteur correspondant de l'étude de 23andMe | Lettre envoyée, à l'adresse que publie la prépublication |
 | 2026-11-22 | Équipe de DecodeME | Réponse automatique, dans la minute : la boîte s'adresse d'abord aux participants et prévient qu'elle ne pourra pas répondre aux messages reçus. Rien sur le fond |
+| 2026-11-23 | Équipe de DecodeME | Voie de la demande d'accès lue et écartée : voir ci-dessous |
+
+## La demande d'accès de DecodeME n'est pas ouverte au projet
+
+Lu le 2026-11-23 sur la [page d'accès](https://institute-genetics-cancer.ed.ac.uk/decodeme-the-worlds-largest-mecfs-study/researcher-access/data-access-policy-and-application-form) :
+ce n'est pas un formulaire en ligne. C'est un document à remplir et à envoyer par courriel à un comité d'accès,
+avec une politique d'accès en huit points (version 3).
+
+- Le demandeur doit être employé par un établissement scientifique, universitaire ou commercial, dont le service
+  juridique peut signer un contrat de transfert de données avec l'université d'Édimbourg. Un demandeur qui ne remplit pas
+  cette condition est écarté sans que son projet soit lu.
+- Le dossier demande un curriculum vitæ et des publications, un projet de deux pages, un plan d'analyse,
+  un financement, un avis éthique et un plan d'association des patients.
+- Il vise les données individuelles et les échantillons. Le formulaire rappelle que les statistiques résumées
+  sont en accès libre : c'est le fichier déjà lu pour le test 1, qui donne les variants un par un, pas les allèles HLA.
+
+Le porteur du projet, développeur indépendant, ne remplit pas la première condition. Les tests 2 et 3 ne demandent
+d'ailleurs qu'un chiffre par allèle, pas des données individuelles : cette voie n'est pas faite pour eux.
+
+Ce qui reste possible :
+
+1. Écrire à l'auteur correspondant de la prépublication de DecodeME, et non à la boîte générale. Même lettre.
+2. Attendre l'analyse HLA que les auteurs disent vouloir refaire, avec un typage imputé pour les cas et les témoins ensemble.
+3. Passer par une personne employée d'un établissement de recherche, qui ferait la demande en son nom.
+
