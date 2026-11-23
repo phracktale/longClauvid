@@ -75,5 +75,6 @@ pour les envois ci-dessous.
 | 2026-11-22 | David Kaufman, Avik Roy et C. Gunnar Gottschalk, rapamycine | Lettre envoyée |
 | 2026-11-22 | Travis Craddock, modèle logique | Lettre envoyée à son adresse actuelle |
 | 2026-11-22 | Équipe de Brave-LC | Lettre envoyée au contact central de l'essai, relevé sur sa fiche de registre |
+| 2026-11-23 | Travis Craddock, modèle logique | Réponse sur le fond, lue avec l'accord du porteur du projet : le code n'est plus disponible ; les traitements de 2015 sont appliqués à un seul instant puis relâchés ; un cran ou deux, les deux définitions existent. Détail : `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`, section 4 bis |
 | 2026-11-22 | Michael J. Peluso, outSMART-LC | Réponse automatique : réponses retardées par un déplacement. Rien sur le fond |
 | 2026-11-22 | Relevé de la boîte du projet | Aucune autre réponse. La lettre à Bergen, envoyée par le porteur du projet, n'apparaît pas dans cette boîte : ni son envoi ni une réponse n'ont pu y être contrôlés |

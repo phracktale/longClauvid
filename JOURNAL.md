@@ -3,6 +3,27 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Modèle de Craddock : l'auteur a répondu, le code n'existe plus
+
+**Fait.** L'auteur correspondant de l'article de 2015 a répondu. Le porteur du projet a dit que la réponse
+ne porte aucune restriction ; le programme l'a lue.
+
+**Constat.** Le code de simulation n'est plus disponible. Les traitements de 2015 sont appliqués à un seul instant,
+puis relâchés : c'est ce que fait le simulateur. Un traitement peut déplacer un nœud d'un cran ou de deux, et la réponse
+ne dit pas quelle définition a servi aux figures. Pour l'auteur, des taux proches suffisent, le procédé étant aléatoire.
+
+**Lecture.** Avec un cran, l'écart aux taux publiés atteint 33 points : l'aléa n'explique pas cela. Avec deux crans,
+8 lignes sur 12 sont à 2 points près. Les figures n'utilisent donc pas la lecture à un cran que donne l'équation de l'article.
+C'est une déduction du projet, pas une confirmation de l'auteur.
+
+**Non vérifié.** L'auteur attribue la différence entre les figures de 2014 et de 2015 à un erratum de 2014.
+Une première recherche ne l'a pas retrouvé.
+
+**Écarté.** Reprendre l'indication qu'il donne sur les résultats d'un essai non publié : il la dit non publique,
+et un résultat confié avant publication n'entre pas au dépôt. Sa lettre ne pose pourtant aucune condition.
+
+**Suite.** Lire l'article de 2021 qu'il indique, où le traitement est maintenu pendant une durée optimisée.
+
 ## 2026-11-23 — P17 : une réponse sous embargo, que le programme ne lit pas
 
 **Fait.** L'auteur correspondant de la prépublication de P17 a répondu au porteur du projet. Il demande que ses données

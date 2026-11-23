@@ -130,6 +130,29 @@ Les taux publiés tombent entre les deux lectures. Deux causes possibles, non d�
 
 L'effet d'ordre ne dépend pas de la lecture : l'ordre inverse donne 0 % dans les deux cas.
 
+## 4 bis. Ce que l'auteur a répondu, le 2026-11-23
+
+L'auteur correspondant de l'article a répondu à la lettre du 2026-11-22. Sa réponse n'est pas reprise mot pour mot.
+
+| Question | Sa réponse | Ce que cela change ici |
+| --- | --- | --- |
+| Un cran, ou la valeur extrême ? | Les deux définitions existent : un traitement peut déplacer un nœud d'un cran ou de deux. Il ne dit pas laquelle a servi aux figures de 2015 | L'ambiguïté de la section 4 reste entière : les deux colonnes du tableau sont des lectures permises |
+| Maintenu, ou relâché ? | En 2015, tous les traitements sont appliqués à un seul instant, sur l'état malade, puis le réseau évolue librement | C'est ce que fait le simulateur pour la figure 5 |
+| Le code ? | Il n'est plus disponible, après plusieurs déménagements du laboratoire | Les taux publiés ne peuvent pas être refaits à l'identique |
+| Des taux un peu différents ? | Attendu, parce que le procédé est aléatoire. Des résultats proches sont, pour lui, cohérents ; un écart grossier serait à lui signaler | Voir ci-dessous |
+| La figure de 2014 ? | Selon lui, un erratum de l'article de 2014 corrige une arête mal étiquetée | Non vérifié : l'erratum n'a pas été retrouvé par une première recherche |
+
+Deux choses restent à faire, sans l'auteur :
+
+- **Dire si l'écart est « proche » ou « grossier ».** Avec la lecture à deux crans, 8 lignes sur 12 de la figure 5 sont retrouvées
+  à 2 points près. Avec la lecture à un cran, aucune : l'écart atteint 33 points. L'aléa d'un tirage sur 10 000 simulations
+  ne fait pas un tel écart. La lecture à un cran, qui est celle de l'équation de l'article, n'est donc pas celle des figures.
+- **Lire l'article de 2021 que l'auteur indique**, où le traitement est maintenu pendant une durée qui fait partie
+  de l'optimisation (International Journal of Molecular Sciences, volume 22, article 8546). Il n'est pas encore lu.
+
+L'essai de l'étanercept puis de la mifépristone (NCT04254627) n'a pas de publication. L'auteur a donné une indication
+de ses résultats, non publics : elle n'est pas reprise ici.
+
 ## 5. Suite donnée par les auteurs
 
 La séquence prédite a été portée en clinique : un essai ouvert de phase 1 sur 20 anciens
@@ -147,7 +170,8 @@ une baisse de la neuro-inflammation avec la combinaison
   La prédiction reste à vérifier chez des patients.
 - **Pour un futur essai.** Le modèle désigne un repère plutôt qu'un délai : ne freiner
   le récepteur qu'une fois l'ACTH retombée à un niveau bas et stable.
-- **À demander aux auteurs.** Le code de simulation, pour lever l'incertitude de la section 4.
+- **Demandé à l'auteur, qui a répondu le 2026-11-23.** Le code de simulation n'existe plus : voir la section 4 bis.
+  L'incertitude de la section 4 ne sera pas levée par le code.
 
 ## 7. Limites
 
