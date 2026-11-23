@@ -2278,7 +2278,9 @@
     ne sont pas des médicaments humains. La vitamine E, qui a rétabli les cellules de souris à forte dose, a augmenté
     le cancer de la prostate dans un essai de 35 533 hommes en bonne santé (400 UI par jour, risque relatif 1,17,
     intervalle à 99 % de 1,004 à 1,36, SELECT). Rien ici ne permet d''en conseiller. Aucune des sources lues n''est
-    une étude sélectionnée sur la ferroptose.'
+    une étude sélectionnée sur la ferroptose. Relecture du 2026-11-23, grille statistique : doutes aux questions
+    1, 2, 3, 4, 5, 6, 7 et 10. Sous-groupes de 4 à 6 personnes, une seule équipe, valeurs de p non corrigées ; une
+    valeur de p tirée de 1 268 cellules d''un seul donneur par groupe.'
   niveau: C
   sources:
   - titre: Oxidative stress is a shared characteristic of ME/CFS and Long COVID, PNAS 2025 (résumé)
@@ -2317,7 +2319,32 @@
     lu: page
   origine: agent biologie, zone ferroptose
   date: '2026-11-23'
-  statut: à vérifier
+  statut: écartée
+  motif: La source du signal va contre la lecture que la piste en fait. GPX4 y est plus abondant chez les patients,
+    leurs lymphocytes T prolifèrent plus, et l'inhibiteur de ferroptose essayé sur leurs cellules n'a pas d'effet
+    significatif sur cette prolifération. L'oxydation des lipides des lymphocytes reste un résultat de l'étude ;
+    ce qui tombe est son attribution à la ferroptose. À rouvrir si une étude mesure la mort par ferroptose sur des
+    cellules de patients.
+  relecture:
+    date: '2026-11-23'
+    lecture: '9 sources rouvertes : 5 en texte intégral, 3 par leur résumé, 1 fiche de registre.'
+    affirmations: '32 affirmations contrôlées : 27 confirmées, 2 inexactes, 1 contredite, 2 non trouvées.'
+    corrections:
+    - 'Le titre est contredit par la source : dans l''étude de 2025, GPX4 est plus abondant chez les patients, pas
+      déficitaire. La mesure porte sur un donneur par groupe.'
+    - 'Le test proposé a déjà été fait en partie : dans cette étude, la liprostatine-1, un inhibiteur de la ferroptose,
+      n''a pas d''effet significatif sur la prolifération des lymphocytes T de patientes EM/SFC ou COVID long.'
+    - Les lymphocytes T des patientes prolifèrent plus, ce qui va à l'inverse d'une mort cellulaire.
+    - '« Un glutathion plus haut chez les patients COVID long » ne vaut pas pour les médianes : la différence n''y
+      est pas significative.'
+    - Chez la souris, la vitamine E n'a rétabli qu'en partie les lymphocytes CD8 spécifiques du virus, sur 3 souris
+      par groupe.
+    - Quatre sources que la fiche dit lues par leur résumé ont une copie en texte intégral.
+    inexploree: 'L''affirmation tient pour la ferroptose elle-même : aucune étude ne la mesure sur des cellules
+      de patients, hors l''essai de liprostatine-1 de la source. La recherche remonte des revues et des textes d''hypothèse
+      (PMID 37554293, PMID 38310391), et une étude de poumons de personnes décédées du COVID-19. Un essai enregistré
+      porte sur la vitamine E et la CRP, pas sur ces maladies.'
+    decision: 'Écartée : voir le motif.'
 - id: B023
   titre: Un taux plasmatique bas du transporteur SLC7A11 (système xc-) à l'hôpital annoncerait le COVID long
   domaine_source: COVID-19 aigu hospitalisé ; ferroptose (système cystine-glutamate xc-, GPX4, ACSL4)
@@ -2361,7 +2388,10 @@
     lien avec l''issue (Peleman 2023) ; 40 % n''ont aucune signature de mort cellulaire ; le résumé ne dit rien
     du COVID long. Chez la souris exposée à la protéine spike, GPX4 monte ou baisse selon la région du cerveau et
     le délai (Yehia 2026, échantillon limité, de l''aveu des auteurs). Aucun levier n''est proposé : les inhibiteurs
-    ou activateurs du système xc- n''ont pas été examinés ici et rien ne permet d''en conseiller.'
+    ou activateurs du système xc- n''ont pas été examinés ici et rien ne permet d''en conseiller. Relecture du 2026-11-23,
+    grille statistique : doutes aux questions 1, 2, 3, 4, 5, 7, 9 et 10. Le signal tient à une phrase de résumé,
+    sans effectif de COVID long, sans taille d''effet ni ajustement ; le COVID long y est établi par un appel téléphonique
+    à trois mois.'
   niveau: C
   sources:
   - titre: Role of Ferroptosis in the Progression of COVID-19 and the Development of Long COVID, Current Medicinal
@@ -2383,6 +2413,22 @@
   origine: agent biologie, zone ferroptose
   date: '2026-11-23'
   statut: à vérifier
+  relecture:
+    date: '2026-11-23'
+    lecture: '4 sources rouvertes : 2 en texte intégral, 1 par son résumé, 1 fiche de registre.'
+    affirmations: '22 affirmations contrôlées : 17 confirmées, 5 non trouvées.'
+    corrections:
+    - 'Dans le résumé qui porte le signal, SLC7A11 et GPX4 sont liés négativement aux cytokines de l''inflammation
+      : le taux bas peut refléter la gravité de la phase aiguë.'
+    - '« Sans lien avec l''issue » est incomplet pour l''étude de réanimation : son groupe à signature de ferroptose,
+      4 patients, a une mortalité à 90 jours plus haute (rapport de cotes 19,7, de 1,36 à 283,6).'
+    - Ni l'étude de réanimation ni l'étude chez la souris ne mesurent SLC7A11.
+    - « SLC7A11 monte sous stress » n'est dans aucune copie.
+    inexploree: 'L''affirmation tient : aucune autre mesure de SLC7A11 dans ces maladies, aucun essai enregistré.
+      La recherche ne remonte que des revues et des textes d''hypothèse.'
+    decision: 'Relecture incomplète : l''étude qui porte le signal (PMID 38310391) n''est accessible que par son
+      résumé, qui ne donne ni effectif de COVID long ni taille d''effet. La piste reste à vérifier jusqu''à la lecture
+      de son texte.'
 - id: B024
   titre: Une diarrhée par malabsorption des acides biliaires, avec FGF19 bas et C4 haut, pourrait expliquer une
     partie des diarrhées persistantes du COVID long
@@ -2437,7 +2483,9 @@
     ; ce n''est pas un avis médical. L''acide ursodésoxycholique n''a pas amélioré le COVID long dans un essai contrôlé
     de 396 adultes (récupération 68,2 % contre 68,2 % sous placebo, 14 jours, PMID 41771135), mais cet essai n''a
     pas choisi ses patients sur ce mécanisme et ce médicament n''est pas un chélateur. Série sur la malabsorption
-    après gastro-entérite : 25 patients, sans groupe témoin, rétrospective (PMID 21389860).'
+    après gastro-entérite : 25 patients, sans groupe témoin, rétrospective (PMID 21389860). Relecture du 2026-11-23,
+    grille statistique : doutes aux questions 1, 2, 3, 4, 6, 7, 9 et 10. Un seul patient porte le signal direct,
+    sans aucun marqueur dosé ; le seuil de FGF19 vient d''un échantillon sans validation.'
   niveau: D
   sources:
   - titre: A case of COVID-19 diarrhea relieved by bile acid sequestrant administration, Clinical Journal of Gastroenterology
@@ -2481,7 +2529,27 @@
     lu: page
   origine: agent biologie, zone acides biliaires
   date: '2026-11-23'
-  statut: à vérifier
+  statut: vérifiée
+  relecture:
+    date: '2026-11-23'
+    lecture: '10 sources rouvertes : 2 en texte intégral, 7 par leur résumé, 1 fiche de registre.'
+    affirmations: '32 affirmations contrôlées : 23 confirmées, 2 inexactes, 7 non trouvées.'
+    corrections:
+    - 'Le cas clinique n''est pas un cas de phase aiguë : la diarrhée commence au 30e jour, et ses auteurs la rattachent
+      à un syndrome post-COVID.'
+    - 'Ce cas est une entérite sévère, avec des ulcères saignants de l''iléon et du côlon. Ni le C4 ni le FGF19
+      n''y sont dosés : la malabsorption est présumée sur la réponse au chélateur.'
+    - L'essai de l'acide ursodésoxycholique traite 14 jours et mesure la récupération à 8 semaines.
+    - 'L''étude sur le récepteur FXR est une étude de cellules, et elle conclut que ce récepteur est une cible prometteuse
+      : le risque que la fiche en tire est une inférence du déposant.'
+    - 'L''essai NCT06825819 exclut les personnes qui ont un trouble digestif chronique : il ne testera pas la piste.'
+    - 'La fiche tait un appui : dans une série de 25 patients après une gastro-entérite, 72 % voient leur diarrhée
+      disparaître sous cholestyramine.'
+    - Une revue de 2026 juge le lien entre acides biliaires et diarrhée après le COVID-19 insuffisamment étayé.
+    inexploree: 'L''affirmation tient : aucun dosage du C4 ou du FGF19 dans le COVID long, aucun essai d''un chélateur.
+      La recherche ne remonte rien de plus.'
+    decision: 'Gardée comme hypothèse théorique, niveau D : le seul appui direct est un cas, sans marqueur dosé.
+      Le test sur sérums conservés est simple, mais aucun jeu de données n''est nommé.'
 - id: B025
   titre: Le plasma des patients EM/SFC manque d'acides biliaires, ce qui pourrait refléter un déficit de leur transformation
     par le microbiote, avec moins de signal sur les récepteurs TGR5 et FXR
@@ -2533,7 +2601,9 @@
     : un agoniste de FXR comme l''acide obéticholique a été retiré après démangeaisons, changements du cholestérol
     et inquiétudes pour le foie, sans bénéfice clinique confirmé (PMID 42961163) ; le FXR augmente aussi l''ACE2
     des cellules d''intestin (PMID 37697930). Rien ici ne justifie un essai de traitement ; ce n''est pas un avis
-    médical.'
+    médical. Relecture du 2026-11-23, grille statistique : doutes aux questions 1, 2, 3, 4, 5, 6, 7 et 10. Aucune
+    taille d''effet sur les acides biliaires n''est lisible ; le pilote de 2017 compte 17 patientes, avec un seuil
+    de fausses découvertes admis à 15 %.'
   niveau: C
   sources:
   - titre: Multi-'omics of gut microbiome-host interactions in short- and long-term myalgic encephalomyelitis/chronic
@@ -2573,7 +2643,28 @@
     lu: page
   origine: agent biologie, zone acides biliaires
   date: '2026-11-23'
-  statut: à vérifier
+  statut: vérifiée
+  relecture:
+    date: '2026-11-23'
+    lecture: '9 sources rouvertes : 5 en texte intégral, lus en partie, 3 par leur résumé, 1 fiche de registre.'
+    affirmations: '26 affirmations contrôlées : 21 confirmées, 5 non trouvées.'
+    corrections:
+    - 'Le sens de 2017 est connu : acides biliaires primaires et secondaires baissent ensemble. Les auteurs y voient
+      une atteinte possible du foie ou un effet des médicaments, pas un défaut du microbiote.'
+    - 'Aucune source sur l''EM/SFC ne mesure le rapport des acides secondaires aux primaires, ni le récepteur TGR5
+      : le mécanisme de la piste n''a pas de donnée.'
+    - En 2023, la baisse ne tient qu'à une phrase du résumé ; le texte ne l'analyse pas, et ses ajustements n'incluent
+      ni l'activité physique ni le poids.
+    - L'étude de 2025 vient de la même équipe et de la même cohorte que celle de 2023. Elle rapporte un acide biliaire
+      en hausse, le glycodéoxycholate 3-sulfate.
+    - Les copies des trois études sur l'EM/SFC sont des textes intégraux, que la fiche dit lus par leur résumé.
+      Le relecteur ne les a lus qu'en partie.
+    - Le test proposé réutilise les données de l'étude qui a donné le signal, et n'a pas de seuil.
+    inexploree: 'L''affirmation tient : aucune étude dédiée aux acides biliaires dans l''EM/SFC, aucun levier testé.
+      L''acide ursodésoxycholique a été essayé dans le COVID long, sans bénéfice.'
+    decision: 'Gardée après corrections, au niveau C pour la baisse des acides biliaires du plasma, retrouvée par
+      deux équipes. Son explication par le microbiote et le récepteur TGR5 est une hypothèse sans donnée : les auteurs
+      de 2017 en proposent une autre.'
 - id: B026
   titre: Dans le COVID long, la voie HIF-2α est activée (érythropoïétine et VEGF élevés), comme dans la maladie
     de von Hippel-Lindau où un inhibiteur de HIF-2α existe
@@ -2627,7 +2718,10 @@
     le symptôme à soigner ici, et une hypoxie ; son usage demande une surveillance étroite et des ajustements de
     dose (guide de 2025), et aucun essai du COVID long ou de l''EM/SFC n''a été trouvé. Il n''est pas proposé comme
     traitement : seule la mesure sur plasmas existants est proposée. Un levier opposé existe (les inhibiteurs des
-    prolyl-hydroxylases, qui activent HIF) ; il irait dans le sens contraire et n''est pas évoqué.'
+    prolyl-hydroxylases, qui activent HIF) ; il irait dans le sens contraire et n''est pas évoqué. Relecture du
+    2026-11-23, grille statistique : doutes aux questions 1, 2, 3, 4, 5, 6, 7, 9 et 10. Quarante et un patients
+    contre 24 témoins d''avant la pandémie, une seule équipe, aucune taille d''effet lisible ; l''activation de
+    HIF-2α n''est montrée que sur des cellules en culture.'
   niveau: C
   sources:
   - titre: SARS-CoV-2 spike S1-mediated HIF-2α activation in retinal endothelial cells suggests a mechanism contributing
@@ -2666,6 +2760,39 @@
       Journal of Molecular Sciences 2025 (résumé)'
     url: https://pubmed.ncbi.nlm.nih.gov/40362439/
     lu: page
+  - titre: Plasma proteome of Long-COVID patients indicates HIF-mediated vasculo-proliferative disease with impact
+      on brain and heart function, Journal of Translational Medicine 2023 (résumé ; ajoutée à la relecture)
+    url: https://pubmed.ncbi.nlm.nih.gov/37301958/
+    lu: page
+  - titre: Autonomic function and serum erythropoietin levels in chronic fatigue syndrome, Journal of Psychosomatic
+      Research 2004 (titre seul ; ajoutée à la relecture)
+    url: https://pubmed.ncbi.nlm.nih.gov/15016575/
+    lu: extrait
   origine: agent biologie, zone hypoxie hif
   date: '2026-11-23'
-  statut: à vérifier
+  statut: vérifiée
+  relecture:
+    date: '2026-11-23'
+    lecture: '9 sources rouvertes : 6 en texte intégral, 2 par leur résumé, 1 page bloquée.'
+    affirmations: '36 affirmations contrôlées : 29 confirmées, 2 inexactes, 5 non trouvées.'
+    corrections:
+    - L'érythropoïétine plus haute des patients reste dans l'intervalle de référence, et aucune valeur n'est donnée
+      dans le texte.
+    - 'L''activation de HIF-2α n''est pas mesurée chez les patients : elle est montrée sur des cellules en culture,
+      à une dose de protéine S1 supérieure aux taux du plasma, et sa dépendance à HIF-2α repose sur le seul belzutifan.'
+    - Le plasma des patients n'altère pas la barrière de façon significative par rapport à celui des témoins.
+    - Dans la cohorte plus large de la même ville, le VEGF ne diffère pas entre 100 patients et 90 personnes rétablies.
+      C'est la cohorte que le test propose de réutiliser, et l'hémoglobine y manque chez 52 patients sur 102.
+    - '« Un seul article » est inexact : l''article principal cite d''autres études qui rapportent une érythropoïétine
+      plus haute.'
+    - La cohorte finlandaise compte 54 patients à symptômes persistants ; les 111 incluent 57 personnes rétablies.
+    - 'La fiche tait un appui : une étude de Cambridge rapporte une expression plus haute des gènes de HIF-2α et
+      du récepteur de l''érythropoïétine chez les patients à symptômes persistants.'
+    inexploree: Deux travaux manquaient. Une protéomique du plasma de 2023, d'une autre équipe, conclut à un état
+      de prolifération vasculaire lié à la voie HIF-1 dans le COVID long, avec le VEGF-A validé par dosage (PMID
+      37301958, lue par son résumé). Une étude de 2004 a dosé l'érythropoïétine dans le syndrome de fatigue chronique
+      (PMID 15016575, connue par son titre seul). Aucun essai enregistré.
+    decision: 'Gardée après corrections, sur un appui mince : une érythropoïétine plus haute mais normale, dans
+      une seule cohorte. L''activation de HIF-2α chez les patients est une hypothèse. Les questions 5 et 9 de la
+      grille ne sont pas retenues au sens strict : l''effet n''est pas trop grand pour être cru, et la mesure n''est
+      pas déclarée des deux côtés.'
