@@ -40,6 +40,9 @@ Le décideur a vérifié lui-même, dans les copies locales, les constats qui ch
 - Réécrire les titres, les énoncés et les tests, comme les contradicteurs le demandent : le texte déposé ne se réécrit pas.
   Un test se réécrit dans un plan d'analyse, au moment de promouvoir la piste.
 - Modifier les pistes P15 à P17 du registre : leurs fiches disent déjà l'essentiel de ce que l'attaque relève.
+  Révisé le 2026-11-23 pour P15, par décision du porteur du projet : la fiche précise que les deux groupes
+  de patients ne sont pas comparés l'un à l'autre, et que les prélèvements des témoins sont anciens.
+  Le porteur du projet a aussi validé le niveau C de B018.
 
 **Incident.** Les quinze contradicteurs écrivaient leurs fichiers de travail dans le même dossier temporaire.
 Deux scripts du même nom se sont écrasés : le fichier de B002 n'était pas sur le disque alors que son auteur le disait écrit.

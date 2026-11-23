@@ -115,4 +115,4 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
   sont dans la demande de fusion n° 15, fusionnée. Le dépôt des plans y est le commit `534e29d`
   (`0de5a88` avant la fusion par rebasage : c'est ce second numéro que cite un message de commit).
 - La contradiction des quinze pistes gardées, faite dans la nuit du 2026-11-22, est sur la branche
-  `ccr-48b05551-3su41y`, poussée. Sa demande de fusion reste à ouvrir.
+  `ccr-48b05551-3su41y`, dans une demande de fusion ouverte le 2026-11-23 avec l'accord du porteur du projet.
