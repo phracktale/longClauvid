@@ -138,3 +138,18 @@ Trois réserves :
 Une conséquence pour la rapamycine : le retrait randomisé dure 60 jours, soit 43 jours
 après le repère. La règle exige un écart qui persiste au moins trois mois. Ce retrait ne pourra
 donc ni soutenir ni affaiblir H6 : il restera descriptif, sauf suivi prolongé.
+
+### 2026-11-23 : Brave-LC prévoit une visite après l'arrêt
+
+Le tableau de la section 1 écrivait « non trouvé » pour le suivi après l'arrêt de Brave-LC. L'équipe de l'essai a répondu
+à la demande du 2026-11-22 : le traitement de 16 semaines s'arrête à la visite 7, vers le jour 112, et une visite 8 est prévue
+vers le jour 180. Les participants arrêtent le produit de l'étude et gardent leurs autres traitements. Cette visite sert
+à mesurer la persistance de l'effet et les événements indésirables tardifs.
+
+La source est un courriel de l'équipe, pas encore un document public : elle annonce que le protocole complet sera déposé
+au registre. À confirmer sur le registre quand il y sera. La règle de décision n'est pas modifiée.
+
+Ce que cela change : la visite a lieu environ 68 jours après l'arrêt, bien après le repère de 3 jours de la naltrexone.
+La règle exige un écart qui persiste au moins trois mois. Comme pour le retrait de la rapamycine, cette visite
+ne pourra donc ni soutenir ni affaiblir H6 : elle restera descriptive. La paire 6 et 7 ne revient pas dans ce lot.
+

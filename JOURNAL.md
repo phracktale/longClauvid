@@ -3,6 +3,24 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Brave-LC prévoit une visite après l'arrêt de la naltrexone
+
+**Fait.** L'équipe de l'essai a répondu à la demande du lot 2. Le porteur du projet a autorisé la lecture de la réponse.
+Le traitement s'arrête vers le jour 112 ; une visite est prévue vers le jour 180, pour mesurer la persistance de l'effet.
+
+**Correction.** Le plan du lot 2, la confrontation des hypothèses 6 et 7 et le document de cadrage écrivaient
+qu'aucune évaluation après l'arrêt n'avait été trouvée. La correction est datée dans les trois fichiers ; dans le plan,
+elle est en bas, et la règle de décision n'est pas modifiée.
+
+**Conséquence.** La visite a lieu environ 68 jours après l'arrêt. La règle du lot exige un écart qui persiste
+au moins trois mois : la visite sera descriptive, et la paire des hypothèses 6 et 7 ne revient pas dans le lot.
+
+**Réserve.** La source est un courriel, pas un document public. Elle est à confirmer quand le protocole sera déposé
+au registre, ce que l'équipe annonce. « Non trouvé » avait été écrit après la lecture de la seule fiche de registre.
+
+**Écarté.** Assouplir la règle des trois mois pour faire entrer cette visite : une règle déposée ne se corrige pas
+quand une donnée arrive.
+
 ## 2026-11-23 — Modèle de Craddock : l'article de 2021 est lu, une seconde lettre est rédigée
 
 **Fait.** L'article de 2021 indiqué par l'auteur est lu pour ses passages de méthode et de résultats sur les traitements.

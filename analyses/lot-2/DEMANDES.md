@@ -12,7 +12,7 @@ Les adresses ne sont pas recopiées ici : la section « Destinataires » renvoie
 | Équipe de REVERSE-LC, université Vanderbilt | Baricitinib | Les résultats de la visite à 12 mois, six mois après l'arrêt, seront-ils publiés par bras ? Une signature interféron est-elle mesurée ? | Envoyée le 2026-11-22 |
 | Équipe d'outSMART-LC, université de Californie à San Francisco | AER002 | L'antigène plasmatique a-t-il été dosé avant et après la perfusion ? Que deviennent, sur un an, les patients devenus négatifs ? | Envoyée le 2026-11-22 |
 | Auteurs de l'étude sur la rapamycine | Étude ouverte, puis essai avec retrait randomisé | Le retrait randomisé est-il en cours, et ses résultats seront-ils publiés par bras ? Que deviennent les patients qui ont arrêté ? | Envoyée le 2026-11-22 |
-| Équipe de Brave-LC | Naltrexone | Une évaluation est-elle prévue après les 16 semaines ? Sinon, peut-elle être ajoutée ? | Envoyée le 2026-11-22 |
+| Équipe de Brave-LC | Naltrexone | Une évaluation est-elle prévue après les 16 semaines ? Sinon, peut-elle être ajoutée ? | Envoyée le 2026-11-22 ; réponse le 2026-11-23 : oui, une visite est prévue vers le jour 180 |
 | Auteurs de Craddock et al. 2015 | Modèle logique | Le code de simulation, pour retrouver les taux publiés (voir `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`) | Envoyée le 2026-11-22 |
 
 L'ordre conseillé est celui du tableau : la première demande porte sur des sérums déjà
@@ -75,6 +75,7 @@ pour les envois ci-dessous.
 | 2026-11-22 | David Kaufman, Avik Roy et C. Gunnar Gottschalk, rapamycine | Lettre envoyée |
 | 2026-11-22 | Travis Craddock, modèle logique | Lettre envoyée à son adresse actuelle |
 | 2026-11-22 | Équipe de Brave-LC | Lettre envoyée au contact central de l'essai, relevé sur sa fiche de registre |
+| 2026-11-23 | Équipe de Brave-LC | Réponse sur le fond, lue avec l'accord du porteur du projet : le traitement s'arrête à la visite 7, vers le jour 112 ; une visite 8, vers le jour 180, mesure la persistance de l'effet après l'arrêt. Le protocole complet doit être déposé au registre. Détail : bas de `PLAN.md` |
 | 2026-11-23 | Travis Craddock, modèle logique | Réponse sur le fond, lue avec l'accord du porteur du projet : le code n'est plus disponible ; les traitements de 2015 sont appliqués à un seul instant puis relâchés ; un cran ou deux, les deux définitions existent. Détail : `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`, section 4 bis |
 | 2026-11-22 | Michael J. Peluso, outSMART-LC | Réponse automatique : réponses retardées par un déplacement. Rien sur le fond |
 | 2026-11-22 | Relevé de la boîte du projet | Aucune autre réponse. La lettre à Bergen, envoyée par le porteur du projet, n'apparaît pas dans cette boîte : ni son envoi ni une réponse n'ont pu y être contrôlés |

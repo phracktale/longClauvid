@@ -134,7 +134,7 @@ L'hypothèse 6 se confronte aux autres par une même observation : ce que devien
 | 3 et 6 | Rapamycine, [étude ouverte](https://pmc.ncbi.nlm.nih.gov/articles/PMC12538759/) | Aucun dans l'étude publiée ; l'essai suivant prévoit un retrait randomisé, poursuite ou placebo pendant 60 jours | Les résultats de ce retrait, par bras |
 | 4 et 6 | Anticorps anti-spike, [AER002](https://classic.clinicaltrials.gov/show/NCT05877508), une perfusion | Jusqu'à un an ([fiche](https://reaganudall.org/clinical-trial/anti-sars-cov-2-monoclonal-antibodies-long-covid-covid-19)) | Le dosage de l'antigène dans le temps |
 
-La paire 6 et 7 quitte ce lot : les deux essais de la naltrexone s'arrêtent à 16 semaines, sans évaluation après l'arrêt ([protocole canadien](https://pubmed.ncbi.nlm.nih.gov/38740499/), [Brave-LC](https://clinicaltrials.gov/study/NCT07916259)). Le résultat du pilote va dans le sens de l'hypothèse 6, mais l'hypothèse 1 le prédit aussi : seule la mesure sur les sérums du suivi les départage.
+La paire 6 et 7 quitte ce lot : les deux essais de la naltrexone s'arrêtent à 16 semaines, sans évaluation après l'arrêt ([protocole canadien](https://pubmed.ncbi.nlm.nih.gov/38740499/), [Brave-LC](https://clinicaltrials.gov/study/NCT07916259)). Le résultat du pilote va dans le sens de l'hypothèse 6, mais l'hypothèse 1 le prédit aussi : seule la mesure sur les sérums du suivi les départage. Corrigé le 23 novembre 2026 : l'équipe de Brave-LC répond qu'une visite est prévue environ 68 jours après l'arrêt. C'est moins que les trois mois qu'exige la règle du lot : la paire reste hors du lot, et la visite sera descriptive.
 
 ### Lot 3 : treize paires attendent une nouvelle collecte
 
