@@ -42,7 +42,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 | P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Ce résultat est retiré des appuis de la piste, qui ne repose plus que sur les vésicules du COVID long. Une lettre aux auteurs de 2019 est partie le 2026-11-22 | `analyses/P15/RESULTATS.md` |
 | P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres parties le 2026-11-22. DecodeME a répondu par un message automatique : sa boîte ne répond pas aux messages reçus | `analyses/P16/RESULTATS.md` |
 | P17, ADN mitochondrial | Plan déposé. Le test n'est pas faisable aujourd'hui : 18 % de puissance au mieux. La piste reste au registre. Une lettre partie le 2026-11-22 | `analyses/P17/PLAN.md` |
-| Lot 2, suivi après l'arrêt des traitements | Six demandes envoyées ; une réponse automatique, rien sur le fond | `analyses/lot-2/` |
+| Lot 2, suivi après l'arrêt des traitements | Six demandes envoyées ; une réponse automatique, et une réponse sur le fond le 2026-11-23, pour le modèle logique | `analyses/lot-2/` |
 | Lot 1, échantillons déjà collectés | Deux demandes envoyées, aucune réponse | `analyses/lot-1/` |
 | Fiche T03, metformine | Corrigée : deux essais sur un COVID long installé, sans bénéfice montré | `registre/transpositions.yaml` |
 | Simulateurs | Niveaux 1 et 2 construits, deux modèles publiés reproduits | `simulateurs/` |
@@ -97,7 +97,10 @@ Une absence de réponse se constate à partir du 2027-01-22.
    n'est pas établi. Avant de lire une autre piste, corriger le terme « complement », traiter les doublons,
    ajouter le verbe « détecté dans » et sortir les méta-analyses des revues. Restent aussi : une relecture
    de l'échantillon par une personne, la normalisation des entités, le graphe.
-8. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
+8. **Taux publiés du modèle de Craddock** : l'auteur a répondu le 2026-11-23. Le code n'existe plus, et sa réponse
+   ne dit pas si les figures de 2015 utilisent un cran ou deux (`simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`, section 4 bis).
+   Reste à lire l'article de 2021 qu'il indique, où le traitement est maintenu, et à retrouver l'erratum de 2014.
+   Il a aussi donné une indication non publique sur un essai : elle n'entre pas au dépôt.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
    ni les trois nouvelles pistes, ni la correction de la fiche T03, ni la contradiction des pistes gardées.
 
