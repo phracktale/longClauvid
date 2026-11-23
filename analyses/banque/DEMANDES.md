@@ -84,3 +84,22 @@ Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répond
 | 2026-11-23 | Les deux destinataires | Lettres rédigées, puis relues par le porteur du projet : « bon pour envoi » |
 | 2026-11-23 | Auteur correspondant de la lipidomique de 2024 | Lettre envoyée, à l'adresse d'établissement que PubMed publie pour le dernier auteur |
 | 2026-11-23 | Auteur correspondant de l'étude multi-omique de 2025 | Lettre envoyée, à l'adresse d'établissement donnée par l'article ; des trois auteurs correspondants, c'est le dernier auteur |
+
+## Demandes de copie aux auteurs d'articles sous abonnement
+
+Quatre des six articles à lire en entier sont sous abonnement. Sur instruction du porteur du projet, le 2026-11-23,
+une copie est demandée à leurs auteurs quand PubMed publie une adresse. La lettre dit que la piste reste « à vérifier »
+tant que l'article n'est pas lu en entier, et que la copie ne sera pas redistribuée : elle n'entrera pas au dépôt.
+
+| Piste | Article | État |
+| --- | --- | --- |
+| B009 | [PMID 41475665](https://pubmed.ncbi.nlm.nih.gov/41475665/), Endocrine Practice 2026 | Demande envoyée le 2026-11-23, à l'adresse que PubMed publie |
+| B009 | [PMID 27401397](https://pubmed.ncbi.nlm.nih.gov/27401397/), Journal of Cardiology 2017 | Demande envoyée le 2026-11-23, à l'adresse que PubMed publie |
+| B023 | [PMID 38310391](https://pubmed.ncbi.nlm.nih.gov/38310391/), Current Medicinal Chemistry 2025 | Non envoyée : PubMed ne publie aucune adresse, et la page de l'éditeur refuse les programmes |
+| B008 | [PMID 19567398](https://pubmed.ncbi.nlm.nih.gov/19567398/), In Vivo 2009 | Non envoyée : PubMed ne publie aucune adresse, et le site de la revue refuse les programmes |
+
+Pour les deux dernières, une personne peut ouvrir la page de l'article et y lire l'adresse de l'auteur correspondant :
+[l'article de 2009](https://iv.iiarjournals.org/content/23/4/621), volume 23, numéro 4, pages 621 à 628, et
+[l'article de 2025](https://doi.org/10.2174/0109298673281662231208102354). Les archives de la revue de 2009
+sont peut-être en accès libre : à vérifier en ouvrant la page.
+
