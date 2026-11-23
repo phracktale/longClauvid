@@ -1005,9 +1005,10 @@
     url: https://pubmed.ncbi.nlm.nih.gov/41475665/
     lu: page
   - titre: Down-regulation of renin-aldosterone and antidiuretic hormone systems in patients with ME/CFS, Journal
-      of Cardiology 2017 (résumé)
+      of Cardiology 2017 (résumé ; texte intégral lu le 2026-11-24 sur la copie envoyée par son auteur)
     url: https://pubmed.ncbi.nlm.nih.gov/27401397/
     lu: page
+    texte: https://doi.org/10.1016/j.jjcc.2016.06.003
   - titre: Arginine-vasopressin deficiency due to long COVID-associated infundibulo-neurohypophysitis, Archives
       of Endocrinology and Metabolism 2025 (résumé)
     url: https://pubmed.ncbi.nlm.nih.gov/40215290/
@@ -1033,7 +1034,7 @@
     lu: page
   origine: agent biologie
   date: '2026-11-22'
-  statut: à vérifier
+  statut: vérifiée
   relecture:
     date: '2026-11-22'
     lecture: '7 sources rouvertes : 3 en texte intégral, 3 par leur résumé, 1 page bloquée.'
@@ -1049,8 +1050,29 @@
     inexploree: 'Une étude manquait : en 1993, une épreuve de charge et de restriction en eau chez 9 patients atteints
       de fatigue post-virale et 8 témoins trouvait une vasopressine de base basse et une sécrétion erratique (PMID
       8475696). Aucun test de stimulation de la copeptine, aucun essai enregistré.'
-    decision: 'Relecture incomplète : les deux études qui portent le signal ne sont accessibles que par leur résumé.
-      La piste reste à vérifier jusqu''à la lecture de leur texte.'
+    decision: 'Gardée après lecture de l''article de 2017, au niveau C : une vasopressine plus basse chez 18 patients
+      que chez 15 témoins, dans une étude d''un seul auteur, avec un essai de desmopressine sans placebo. L''article
+      de 2026 n''est lu que par son résumé : la piste est « vérifiée » parce que l''une des deux études qui portent
+      le même signal est lue en entier. Sa contradiction interne, une vasopressine indétectable et une copeptine
+      normale, reste à lire dans le texte.'
+    complement:
+      date: '2026-11-24'
+      lecture: L'article de 2017 est lu en entier, sur la copie que son auteur a envoyée au projet le 2026-11-23,
+        sans condition. La lecture est faite par le modèle principal, qui décide aussi. L'article de 2026 reste
+        lu par son résumé ; une copie est demandée.
+      constats:
+      - 'La vasopressine du plasma est plus basse chez 18 patients que chez 15 témoins sains appariés sur l''âge
+        et le sexe : 2,2 contre 3,3 pg/mL en moyenne, p = 0,02. L''étude a donc un groupe témoin.'
+      - L'osmolalité du sérum est la même dans les deux groupes. L'apport en eau et en sel n'est pas relevé, ce
+        que l'auteur donne comme une limite ; le sang est prélevé le matin ou l'après-midi, sans heure fixe.
+      - 'L''aldostérone est plus basse elle aussi (p = 0,004), et la rénine tend à l''être (p = 0,06) : l''article
+        décrit un frein de plusieurs systèmes, pas un déficit propre à la vasopressine.'
+      - 'L''essai de la desmopressine n''a ni placebo ni groupe témoin : 10 patients, 5 jours. Un patient arrête
+        au premier jour pour des nausées et des palpitations ; 5 s''améliorent au test debout. L''auteur écrit qu''un
+        effet placebo est possible.'
+      - Un seul auteur, un seul cabinet, des patients qui se plaignent tous d'intolérance à la station debout. Les
+        comparaisons sont des tests t, sans correction pour comparaisons multiples.
+      - L'article déclare un financement public japonais et aucun lien d'intérêts.
 - id: B010
   titre: L'endothéline-1 reste élevée après l'infection ; ses récepteurs se bloquent par des médicaments de l'hypertension
     artérielle pulmonaire
