@@ -91,8 +91,11 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Les agents de recherche suivent désormais `outils/consigne-chercheur.md`.
 7. **Cartographie** : premier pas fait le 2026-11-23, `analyses/cartographie/CARTE.md`. Sur 10 466 références,
    1 258 contiennent un terme d'une piste. Reste la phase 1 proprement dite : lire les références retenues,
-   en extraire les relations, mesurer la précision sur un échantillon relu à la main. C'est un travail de lecture
-   en nombre, pour un modèle moins coûteux, à lancer piste par piste en commençant par les plus denses (P08, P14, P01).
+   en extraire les relations, mesurer la précision sur un échantillon relu à la main. Fait le 2026-11-23 pour P08, P14
+   et P01 : `analyses/cartographie/LECTURE.md`. Précision de 27 sur 30, relue par un programme : le seuil de 90 %
+   n'est pas établi. Avant de lire une autre piste, corriger le terme « complement », traiter les doublons,
+   ajouter le verbe « détecté dans » et sortir les méta-analyses des revues. Restent aussi : une relecture
+   de l'échantillon par une personne, la normalisation des entités, le graphe.
 8. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
    ni les trois nouvelles pistes, ni la correction de la fiche T03, ni la contradiction des pistes gardées.

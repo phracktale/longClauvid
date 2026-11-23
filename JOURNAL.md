@@ -3,6 +3,25 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Cartographie : 477 résumés lus pour trois pistes
+
+**Fait.** Quinze lecteurs, d'un modèle moins coûteux, ont lu les résumés retenus pour P01, P08 et P14, avec une consigne
+déposée avant la lecture. Ils rendent 327 relations ; toutes leurs citations sont retrouvées mot pour mot.
+Le compte rendu est dans `analyses/cartographie/LECTURE.md`.
+
+**Constat.** La carte par termes surestimait la piste de l'antigène persistant : 104 résumés sur 167 ne la citent
+qu'en passant, et 35 études la mesurent ou la testent chez des patients. Les auto-anticorps et la fibrine sont réellement
+denses, avec 77 et 86 études. Un décompte par termes ne se compare donc pas d'une piste à l'autre.
+
+**Précision.** Sur 30 relations tirées au sort et relues par le modèle principal, 27 disent ce que dit leur citation.
+C'est le seuil de 90 % du protocole, avec une marge de 74 % à 97 % : le critère n'est pas établi, et la relecture
+n'a pas été faite à la main par une personne.
+
+**Choix.** Laisser les défauts dans les décomptes : un terme qui ramène le verbe « to complement », des doublons,
+un verbe manquant, les méta-analyses rangées avec les revues. Ils sont listés et se corrigent avant la piste suivante.
+
+**Écarté.** Construire le graphe maintenant : les entités ne sont pas normalisées, et la précision n'est pas acquise.
+
 ## 2026-11-23 — B002 : les deux lettres sont parties
 
 **Fait.** Après le « bon pour envoi » du porteur du projet, les deux lettres sont parties de la boîte du projet,
