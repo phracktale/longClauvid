@@ -54,12 +54,12 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 26 pistes en banque, relues : 18 vérifiées, dont 3 promues au registre, 3 écartées, 5 à vérifier |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 26 pistes en banque, relues : 19 vérifiées, dont 3 promues au registre, 3 écartées, 4 à vérifier |
 | 1. Cartographie | Premier pas fait le 2026-11-23 : la sélection des articles, sur les 10 466 références de la bibliothèque #ApresJ20. Les résumés de trois pistes sont lus : 477 résumés, 327 relations, précision de 27 sur 30 sur un échantillon relu par un programme. Le critère de 90 % n'est pas établi, et le graphe reste à faire |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
 | 4. Simulation | Niveaux 1 et 2 construits, deux modèles publiés reproduits ; niveau 3 à faire |
-| 5. Validation | Cinq plans d'analyse déposés (lots 1 et 2, pistes P15 à P17) ; dix-sept demandes envoyées les 2026-11-22 et 23, aucune réponse sur le fond ; premiers tests faits sur des données publiques pour P15 et P16 |
+| 5. Validation | Cinq plans d'analyse déposés (lots 1 et 2, pistes P15 à P17) ; dix-huit demandes envoyées les 2026-11-22 et 23, aucune réponse sur le fond ; premiers tests faits sur des données publiques pour P15 et P16 |
 | 6. Passage clinique | Exige une équipe habilitée et un comité d'éthique |
 
 ## Résultats à ce jour
@@ -86,8 +86,8 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 - **Transpositions.** Onze processus partagés avec des maladies mieux maîtrisées, dont trois
   fiches sur le VIH. Les transpositions déjà essayées dans le COVID long ont échoué chez
   des patients non sélectionnés. Détail : `registre/transpositions.yaml`.
-- **Banque.** Les 26 pistes déposées ont été relues contre leurs sources : 18 sont vérifiées,
-  3 écartées, 5 restent à vérifier. Cinq d'entre elles datent du 2026-11-23 : ferroptose,
+- **Banque.** Les 26 pistes déposées ont été relues contre leurs sources : 19 sont vérifiées,
+  3 écartées, 4 restent à vérifier. Cinq d'entre elles datent du 2026-11-23 : ferroptose,
   acides biliaires, hypoxie ; quatre sont de niveau D ou tiennent à une seule petite étude. « Vérifiée » ne veut pas dire « vraie ». Les chiffres recopiés
   étaient presque toujours exacts ; l'affirmation « inexplorée » était fausse ou incomplète
   pour 16 pistes. Cinq mises à l'écart ont eu un contradicteur : deux ont été levées.

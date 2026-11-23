@@ -8,7 +8,8 @@ une repasse « à vérifier » (B004), un niveau de preuve baisse (B018), neuf d
 
 Cinq pistes ont été déposées et relues le 2026-11-23, sur trois zones que la première recherche n'avait pas couvertes :
 quatre sont vérifiées, une reste à vérifier. Elles sont traitées dans la section « Dépôt du 2026-11-23 ».
-La banque compte donc 26 pistes : 18 vérifiées, dont 3 promues, 3 écartées, 5 à vérifier.
+L'article qui porte B008 a été lu en entier le 2026-11-23, sur un PDF fourni par le porteur du projet : la piste est gardée
+au niveau D. La banque compte donc 26 pistes : 19 vérifiées, dont 3 promues, 3 écartées, 4 à vérifier.
 
 « Vérifiée » ne veut pas dire « vraie ». Les sources ont été rouvertes, les erreurs relevées,
 et la piste reste une question à tester. Rien ici n'est un avis médical.
@@ -26,7 +27,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B005 | Catécholamines du liquide céphalo-rachidien | C | Vérifiée | Gardée après corrections : un déficit des métabolites des catéchols, mesuré par une seule équipe, à répliquer hors du NIH. Son recentrage sur la noradrénaline repose sur une étude de 2026 lue par son résumé ; la lecture « synucléine » reste la moins étayée, sans être écartée. |
 | B006 | Auto-anticorps contre la sélénoprotéine P | C | Vérifiée | Gardée après corrections : le dosage par un laboratoire indépendant est le test qui manque. |
 | B007 | Cibinétide et petites fibres nerveuses | C | Vérifiée | Gardée après corrections, avec un test à refaire : mesurer d'abord, sur une cohorte suivie, si les fibres de la cornée remontent quand les symptômes s'améliorent. Dans l'essai de 2017, ni les fibres de la peau ni les symptômes ne s'améliorent plus que sous placebo. |
-| B008 | D-lactate d'origine intestinale | C | À vérifier | Relecture incomplète : l'étude de 2009 qui porte le signal n'est accessible que par son résumé, le site de la revue étant bloqué. La piste reste à vérifier jusqu'à la lecture de son texte ; un dosage sur plasma conservé suffirait à la réfuter. |
+| B008 | D-lactate d'origine intestinale | D | Vérifiée | Gardée comme hypothèse théorique, niveau D : aucune source ne dose le D-lactate chez des patients. L'étude de selles de 2009, lue en entier, ne l'appuie pas : son signal est probablement artefactuel, et ses patients sont choisis pour leurs troubles digestifs. Un dosage unique sur plasma conservé ne suffirait pas à réfuter la piste, parce que le D-lactate fluctue : le test est à réécrire. |
 | B009 | Déficit en vasopressine | C | À vérifier | Relecture incomplète : les deux études qui portent le signal ne sont accessibles que par leur résumé. La piste reste à vérifier jusqu'à la lecture de leur texte. |
 | B010 | Endothéline-1 | B | Vérifiée | Gardée après corrections. La question utile est devenue : l'endothéline-1 distingue-t-elle les patients des personnes infectées et rétablies ? |
 | B011 | Humanine et MOTS-c | C | Vérifiée | Gardée après corrections, sur un autre appui que celui de la fiche : le résultat sur les vésicules extracellulaires, à répliquer. |
@@ -157,6 +158,17 @@ Toutes les citations des relecteurs et des contradicteurs sont retrouvées mot p
 Limites propres à ce dépôt : la recherche est ciblée, trois pistes au plus par zone ; un relecteur dit n'avoir lu
 qu'en partie quatre textes intégraux (B025) ; les deux sources ajoutées à B026 n'ont pas de copie locale.
 
+## B008, après la lecture de son article
+
+L'étude de 2009 qui portait la piste n'était accessible que par son résumé. Lue en entier le 2026-11-23, elle ne dose
+le D-lactate chez aucun patient : elle compte des bactéries dans les selles de patients choisis pour leurs troubles digestifs,
+et dose le D-lactate dans le milieu de culture de trois souches. La piste passe de « à vérifier » à « vérifiée »,
+et son niveau de C à D : c'est une hypothèse sans donnée chez les patients.
+
+Son contradicteur rend l'avis « tient en partie ». Deux phrases étaient inexactes : « un dosage suffirait à réfuter »,
+alors que le D-lactate fluctue, et « aucun essai enregistré », alors que l'essai de 2018 l'est dans un autre registre
+que celui qui avait été interrogé. Le signal de 2009 est probablement artefactuel ; la piste n'est pas gardée sur sa foi.
+
 ## Méthode
 
 1. **Copie locale des sources.** `outils/sources_banque.py` prend, par les interfaces officielles, le texte
@@ -202,7 +214,9 @@ une mesure déclarée des deux côtés.
 - Le décideur a vérifié lui-même, dans les copies, les constats qui changent un statut ou un niveau.
   Les autres constats reposent sur le contrôle mot pour mot de leur citation.
 - 43 sources ne sont lues que par leur résumé, dont les études ajoutées par le test « inexplorée ».
-- Les articles qui portent le signal de B004, de B008, de B009, de B016 et de B023 ne sont pas accessibles en entier : ces cinq pistes restent à vérifier.
+- Les articles qui portent le signal de B004, de B009, de B016 et de B023 ne sont pas accessibles en entier : ces quatre pistes restent à vérifier.
+- Pour B008, l'article fourni par une personne a été lu par le modèle principal, qui décide aussi : relecteur et décideur
+  ne sont pas séparés. Son contradicteur a relevé un constat venu de la mémoire du lecteur, corrigé depuis.
 - Le test « inexplorée » lit des titres et des résumés. Une absence ne prouve rien.
 - La page de la biobanque britannique est bloquée : ses effectifs actuels n'ont pas pu être contrôlés.
 
