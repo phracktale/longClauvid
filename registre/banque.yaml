@@ -832,12 +832,16 @@
     Un essai ouvert ne sépare pas l''effet du traitement de l''effet placebo. L''acidose D-lactique vraie survient
     surtout chez des personnes au grêle court : la transposition à un intestin entier reste à prouver. Relecture
     du 2026-11-22, grille statistique : doutes aux questions 1, 2, 3, 4, 6, 7 et 10. Un seul groupe de recherche,
-    des cultures de selles, un essai sans témoin ; le test proposé n''a pas de seuil.'
-  niveau: C
+    des cultures de selles, un essai sans témoin ; le test proposé n''a pas de seuil. Lecture du texte intégral,
+    le 2026-11-23 : doutes de plus aux questions 5 et 9. Un écart de mille fois sur un compte de culture ; des témoins
+    définis par ce qu''ils déclarent.'
+  niveau: D
   sources:
-  - titre: Increased d-lactic Acid intestinal bacteria in patients with chronic fatigue syndrome, In Vivo 2009 (résumé)
+  - titre: Increased d-lactic Acid intestinal bacteria in patients with chronic fatigue syndrome, In Vivo 2009 (résumé
+      ; texte intégral lu le 2026-11-23 sur un PDF fourni par le porteur du projet)
     url: https://pubmed.ncbi.nlm.nih.gov/19567398/
     lu: page
+    texte: https://iv.iiarjournals.org/content/23/4/621
   - titre: 'Examining clinical similarities between ME/CFS and D-lactic acidosis: a systematic review, Journal of
       Translational Medicine 2017 (résumé)'
     url: https://pubmed.ncbi.nlm.nih.gov/28592308/
@@ -862,7 +866,7 @@
     lu: page
   origine: agent biologie
   date: '2026-11-22'
-  statut: à vérifier
+  statut: vérifiée
   relecture:
     date: '2026-11-22'
     lecture: '7 sources rouvertes : 5 en texte intégral, 1 par son résumé, 1 page bloquée.'
@@ -875,9 +879,29 @@
     - L'étude de 2009 n'a été relue que par son résumé.
     inexploree: 'L''affirmation tient : aucun dosage sanguin cas-témoins, aucune étude dans le COVID long, aucun
       essai enregistré.'
-    decision: 'Relecture incomplète : l''étude de 2009 qui porte le signal n''est accessible que par son résumé,
-      le site de la revue étant bloqué. La piste reste à vérifier jusqu''à la lecture de son texte ; un dosage sur
-      plasma conservé suffirait à la réfuter.'
+    decision: 'Gardée comme hypothèse théorique, niveau ramené de C à D : l''article de 2009, lu en entier, montre
+      plus de bactéries productrices de D-lactate dans les selles de patients choisis pour leurs troubles digestifs,
+      mais ne dose le D-lactate chez aucun patient. Aucune source ne le mesure dans le sang. Un dosage sur plasma
+      conservé suffirait à réfuter la piste.'
+    complement:
+      date: '2026-11-23'
+      lecture: 'L''article de 2009 est lu en entier, sur un PDF téléchargé par le porteur du projet : le site de
+        la revue refuse les programmes. La lecture est faite par le modèle principal, qui décide aussi.'
+      constats:
+      - Le D-lactate n'est dosé chez aucun patient, ni dans le sang, ni dans l'urine, ni dans les selles. Il est
+        mesuré dans le milieu de culture de trois souches, dont deux isolées de selles.
+      - 'Les auteurs le disent eux-mêmes : il faut doser le D-lactate et le L-lactate dans les liquides biologiques
+        des patients pour savoir si le D-lactate joue un rôle.'
+      - 'Étude rétrospective : 108 patients d''un seul médecin, dont les selles ont été analysées parce qu''ils
+        avaient des troubles digestifs résistants aux traitements. Les 177 témoins sont des personnes qui déclarent
+        peu ou pas de troubles cognitifs ; rien d''autre n''est dit d''eux.'
+      - 'Les entérocoques et les streptocoques font 52 % de la flore aérobie des patients contre 12 % chez les témoins.
+        Le streptocoque compté est environ mille fois plus abondant chez les patients : un écart de cette taille,
+        par culture et entre deux groupes aussi différents, ne se croit pas tel quel.'
+      - Le tableau donne les comptes par gramme et le texte par litre. Les comparaisons sont des tests t sur les
+        logarithmes, sans ajustement.
+      - Un des auteurs est rattaché à un laboratoire d'analyse de selles. L'article ne porte ni déclaration de liens
+        d'intérêts ni financement.
 - id: B009
   titre: Une partie des patients EM/SFC manque de vasopressine, comme dans le diabète insipide central partiel
   domaine_source: Déficit en arginine-vasopressine (diabète insipide central) ; tachycardie posturale

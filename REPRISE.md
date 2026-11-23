@@ -49,7 +49,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 | Bibliothèque de l'association #ApresJ20 | 10 466 références, copie locale à refaire dans chaque session | `outils/bibliotheque_apresj20.py` |
 
 Douze demandes sont parties le 2026-11-22 : huit pour les lots 1 et 2, quatre pour les pistes P15 à P17.
-Cinq autres sont parties le 2026-11-23 : deux demandes de copie d'article pour B009, une pour P16, à l'auteur correspondant de la prépublication de DecodeME,
+Six autres sont parties le 2026-11-23 : trois demandes de copie d'article pour B009 et B023, une pour P16, à l'auteur correspondant de la prépublication de DecodeME,
 et deux pour B002, aux auteurs de deux études déjà faites dans le COVID long.
 Une absence de réponse se constate à partir du 2027-01-22.
 
@@ -85,7 +85,7 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Autre premier pas peu coûteux, pour B002 : demander aux auteurs des lipidomiques déjà faites si les plasmalogènes
    ont été mesurés et si un groupe de personnes rétablies existe. Celle de 2025 décrit un sens contraire à la piste.
    Les deux lettres sont parties le 2026-11-23 : `analyses/banque/DEMANDES.md`.
-4. **Relever les réponses** aux dix-sept demandes et les inscrire aux journaux des envois.
+4. **Relever les réponses** aux dix-huit demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
