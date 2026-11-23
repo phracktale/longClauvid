@@ -76,6 +76,16 @@ RECHERCHES = {
              '"mitochondrial DNA copy number" OR "mtDNA copy number" OR "Mendelian randomization"'),
     "B021": ([r"antibiotic", r"doxycycline", r"azithromycin", r"minocycline", r"moxifloxacin", r"levofloxacin"],
              "antibiotic OR antibiotics OR doxycycline OR azithromycin OR minocycline"),
+    "B022": ([r"ferropto", r"\bGPX4\b", r"lipid peroxid", r"glutathione peroxidase"],
+             'ferroptosis OR GPX4 OR "lipid peroxidation" OR ferrostatin OR liproxstatin'),
+    "B023": ([r"SLC7A11", r"\bxCT\b", r"system xc", r"ferropto"],
+             'SLC7A11 OR xCT OR "system xc" OR ferroptosis'),
+    "B024": ([r"bile acid", r"\bFGF19\b", r"cholestyramine", r"colesevelam", r"7.?alpha.?hydroxy"],
+             '"bile acid" OR FGF19 OR cholestyramine OR colesevelam OR "bile acid diarrhea"'),
+    "B025": ([r"bile acid", r"\bTGR5\b", r"\bFXR\b", r"deoxychol", r"lithochol", r"ursodeoxychol"],
+             '"bile acids" OR TGR5 OR FXR OR "secondary bile acid" OR ursodeoxycholic'),
+    "B026": ([r"\bHIF", r"hypoxia.inducible", r"erythropoietin", r"\bVEGF", r"belzutifan"],
+             '"hypoxia-inducible" OR "HIF-2" OR "HIF-1" OR belzutifan OR roxadustat OR erythropoietin'),
 }
 
 

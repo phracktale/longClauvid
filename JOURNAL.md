@@ -3,6 +3,135 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Cartographie : un premier pas, par un script
+
+**Fait.** `analyses/cartographie/cartographie.py` compte, pour chaque piste du registre et de la banque, les références
+de la bibliothèque #ApresJ20 dont le titre ou le résumé contient ses termes. La carte est dans `analyses/cartographie/CARTE.md`.
+Sur 10 466 références, 8 432 ont un résumé, et 1 258 sont retenues par au moins une piste.
+
+**Constat.** Trois pistes du registre sont denses : fibrine et complément (177 références), antigène persistant (175),
+auto-anticorps (147). Six pistes ont quatre références ou moins : WASF3, SMPDL3B, humanine, pyruvate déshydrogénase,
+cibinétide, RyR1. C'est le troisième critère d'une piste sous-exploitée, mesuré pour la première fois.
+Les 9 208 références hors carte sont surtout de la clinique : définition, soins, enfants, rééducation.
+
+**Choix.** Un script et aucun agent : des décomptes sur une copie locale, sans requête ni lecture par un modèle.
+Les termes sont écrits dans le script, et ceux de la banque sont repris du test « inexplorée ».
+Seuls des décomptes entrent au dépôt ; les titres et les résumés restent hors dépôt.
+
+**Écarté.** Extraire tout de suite les relations entre entités : il faut lire 1 258 résumés et mesurer la précision
+sur un échantillon relu à la main. Ce sera fait piste par piste.
+
+**Réserve.** Un terme dans un résumé ne dit pas que l'étude porte sur la piste : « interferon » ou « IL-13 » ramènent
+des panels de cytokines. La bibliothèque couvre le COVID long, pas l'EM/SFC d'avant 2020. Deux contrôles sont dans le script :
+un terme inventé ne trouve rien, le nom de la maladie trouve plus de la moitié des références.
+
+## 2026-11-23 — Les cinq nouvelles pistes relues et contredites : quatre gardées, une à vérifier
+
+**Fait.** Chacune des cinq pistes a eu un relecteur, le test « inexplorée », puis un contradicteur : un défenseur
+pour la piste écartée, un attaquant pour chacune des trois gardées. Sur 148 affirmations, 117 sont confirmées.
+Toutes les citations sont retrouvées mot pour mot.
+
+**Décision.**
+
+- Ferroptose (B022) : d'abord écartée, puis gardée au niveau D. La source ne contredit pas la ferroptose,
+  elle ne la teste pas : l'inhibiteur n'y est essayé que sur la prolifération.
+- SLC7A11 (B023) : à vérifier. L'étude qui porte le signal n'est lue que par son résumé (PMID 38310391).
+- Diarrhée aux acides biliaires (B024) : gardée au niveau D. Un cas d'un mois, sans marqueur dosé.
+- Acides biliaires dans l'EM/SFC (B025) : gardée au niveau C pour la baisse de 2017 ; le mécanisme n'a pas de donnée.
+- HIF-2α et érythropoïétine (B026) : gardée au niveau C, sur un appui mince.
+
+**Motif, pour B022.** La mise à l'écart répétait l'erreur faite pour l'orexine : écrire « la source va contre »
+là où elle ne mesure pas. Le contradicteur l'a relevée, et la même suite est donnée.
+
+**Écarté.**
+
+- Écarter B024 ou B026 pour un doute à la question 9 de la grille : il porte sur un diagnostic présumé
+  ou des critères non écrits, pas sur une mesure déclarée des deux côtés.
+- Garder « retrouvée par deux équipes » pour B025 : la seconde étude n'en dit qu'une phrase, dans son résumé.
+
+**Réserve.** Quatre des cinq pistes sont de niveau D ou tiennent à une seule petite étude. Aucune n'a de test prêt.
+Le dépôt n'ajoute pas de piste solide : il dit que ces trois zones sont presque vides de mesures chez les patients.
+
+## 2026-11-23 — Trois zones non couvertes explorées : cinq pistes déposées, aucune relue
+
+**Fait.** Trois agents de recherche, un par zone, ont suivi `outils/consigne-chercheur.md`, déposée avant leur départ.
+Ils ont déposé cinq pistes, intégrées à la banque au statut « à vérifier » : B022 et B023 pour la ferroptose,
+B024 et B025 pour les acides biliaires, B026 pour l'hypoxie et la voie HIF. Le contrôle à l'intégration est formel :
+champs présents, chaque source avec son adresse et son mode de lecture. Aucune source n'a été rouverte.
+
+**Écarté par les agents, d'après leurs comptes rendus.** Ferroptose : la peroxydation des lipides après l'effort,
+pour un signal ancien et trois résultats nuls ; la coenzyme Q10, déjà essayée sans sélection des patients ;
+le sélénium et le fer, déjà en banque. Hypoxie : l'oxygène hyperbare, dont les essais sont enregistrés ;
+les variants d'altitude, sans donnée ; HIF-1α, connu par des revues seulement. Ces motifs ne sont pas sourcés
+dans le dépôt : ils évitent de refaire la recherche, ils ne prouvent rien.
+
+**Limites déclarées.** Presque toutes les sources sont lues par leur résumé ; deux textes intégraux seulement.
+Europe PMC a renvoyé des erreurs sur plusieurs requêtes. Les recherches sont ciblées, non systématiques.
+
+**Constat.** La consigne des deux premiers agents n'avait pas été conservée. Celle-ci est écrite d'après le protocole
+et la forme des 21 premières pistes ; elle limite chaque agent à trois pistes.
+
+## 2026-11-23 — B002 : deux lettres rédigées, non envoyées
+
+**Fait.** Deux brouillons de lettre sont déposés dans `analyses/banque/DEMANDES.md`, pour les auteurs de la lipidomique
+de 2024 et de l'étude multi-omique de 2025. Chacune pose deux questions : les plasmalogènes ont-ils été mesurés,
+et par rapport à quel groupe ?
+
+**Choix.** Demander une réponse d'une ligne plutôt que des données : la question est de savoir si le test de la piste
+peut se faire sur l'existant. La seconde lettre dit que le résultat publié va, au niveau des voies, à l'inverse de la piste.
+
+**Réserve.** L'étude de 2024 n'est lue que par son résumé. Rien ne part sans la relecture du porteur du projet.
+
+## 2026-11-22 — Les quinze pistes gardées ont été attaquées : une repasse « à vérifier », un niveau baisse
+
+**Fait.** Chacune des quinze pistes gardées a eu un contradicteur, chargé de l'attaquer. Sa consigne,
+`outils/consigne-contradicteur-piste-gardee.md`, a été déposée avant sa lecture : celle du dépôt ne faisait que défendre
+une piste écartée. Un avis « ne tient pas », quatorze « tient en partie », aucun « tient ». Les 158 arguments
+et 233 des 237 faits contrôlés portent une citation ; toutes sont retrouvées mot pour mot. Quatre faits « non trouvés »
+n'en portent pas : une absence ne se cite pas.
+
+**Constat.** Sur les 237 faits des relectures, 195 sont confirmés, 19 sont inexacts et 3 sont contredits.
+Six phrases trop fortes venaient du décideur lui-même, comme pour les mises à l'écart. Aucun des quinze tests proposés
+n'est prêt : il manque un seuil, un sens attendu ou un jeu de données dont l'existence soit montrée.
+
+**Décision.**
+
+- Canal RyR1 du muscle (B004) : statut ramené de « vérifiée » à « à vérifier ». Le résultat qui porte la piste
+  vient d'un article de 2008 lu par son seul résumé (PMID 18268335).
+- Hypermobilité articulaire (B018) : niveau ramené de B à C. Deux des « trois équipes » n'en font qu'une,
+  et les deux études indépendantes mesurent un diagnostic codé, pas l'hypermobilité.
+- Les treize autres pistes gardent leur statut et leur niveau. Neuf décisions sont reformulées, les deux ci-dessus comprises ;
+  six sont maintenues telles quelles.
+
+**Motif.** La règle du résumé seul avait été appliquée de façon inégale : B008, B009 et B016 attendaient pour la raison
+qui vaut pour B004. Pour B018, la même lecture avait ramené B013 à C : deux études qui ne mesurent pas la même chose
+ne se répliquent pas.
+
+**Choix.** La décision d'origine reste dans chaque piste, à côté de l'avis du contradicteur, dans le champ `relecture.attaque`.
+Le décideur a vérifié lui-même, dans les copies locales, les constats qui changent un statut ou un niveau.
+
+**Écarté.**
+
+- Suivre le contradicteur sur la question 9 de la grille pour B013 et B017 : la maladie y est déclarée par la personne,
+  mais le génotype et les marqueurs du sang sont mesurés. La règle vise une mesure déclarée des deux côtés.
+- Ramener B007 et B019 à « à vérifier » : une de leurs deux sources n'est lue que par son résumé, mais l'autre,
+  lue en entier, porte le même signal. C'est la limite de la règle, écrite comme telle dans le compte rendu.
+- Réécrire les titres, les énoncés et les tests, comme les contradicteurs le demandent : le texte déposé ne se réécrit pas.
+  Un test se réécrit dans un plan d'analyse, au moment de promouvoir la piste.
+- Modifier les pistes P15 à P17 du registre : leurs fiches disent déjà l'essentiel de ce que l'attaque relève.
+  Révisé le 2026-11-23 pour P15, par décision du porteur du projet : la fiche précise que les deux groupes
+  de patients ne sont pas comparés l'un à l'autre, et que les prélèvements des témoins sont anciens.
+  Le porteur du projet a aussi validé le niveau C de B018.
+
+**Incident.** Les quinze contradicteurs écrivaient leurs fichiers de travail dans le même dossier temporaire.
+Deux scripts du même nom se sont écrasés : le fichier de B002 n'était pas sur le disque alors que son auteur le disait écrit.
+Il a été réécrit avec les mêmes faits et les mêmes arguments, une citation étant raccourcie ; le contrôle des citations
+a été refait sur les quinze fichiers. Désormais chaque agent nomme ses fichiers de travail d'après sa piste.
+
+**Réserve.** Le contradicteur est un programme du même type que le relecteur et le décideur, d'un modèle moins coûteux.
+Une consigne d'attaque pousse à trouver : aucun avis n'est « tient ». Les constats qui ne changent ni statut ni niveau
+reposent sur le contrôle mot pour mot de leur citation, pas sur une seconde lecture.
+
 ## 2026-11-22 — Quatre lettres envoyées pour les pistes promues
 
 **Fait.** Sur instruction du porteur du projet, les quatre lettres sont parties de la boîte du projet,
