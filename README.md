@@ -23,6 +23,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/grille-statistique.md` | Dix questions pour relire une piste de la banque |
 | `outils/sources_banque.py` | Copie locale des sources de la banque, en texte intégral quand une interface officielle le donne |
 | `outils/consigne-chercheur.md` | La consigne remise à l'agent de recherche qui dépose des pistes en banque |
+| `outils/consigne-lecteur.md` | La consigne remise au lecteur d'un lot de résumés, pour la cartographie |
 | `outils/consigne-relecteur.md` | La consigne remise au relecteur d'une piste, telle quelle |
 | `outils/consigne-contradicteur.md` | La consigne remise à celui qui défend une piste écartée |
 | `outils/consigne-contradicteur-piste-gardee.md` | La consigne remise à celui qui attaque une piste gardée |
