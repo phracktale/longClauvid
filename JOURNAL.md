@@ -3,6 +3,17 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — B002 : deux lettres rédigées, non envoyées
+
+**Fait.** Deux brouillons de lettre sont déposés dans `analyses/banque/DEMANDES.md`, pour les auteurs de la lipidomique
+de 2024 et de l'étude multi-omique de 2025. Chacune pose deux questions : les plasmalogènes ont-ils été mesurés,
+et par rapport à quel groupe ?
+
+**Choix.** Demander une réponse d'une ligne plutôt que des données : la question est de savoir si le test de la piste
+peut se faire sur l'existant. La seconde lettre dit que le résultat publié va, au niveau des voies, à l'inverse de la piste.
+
+**Réserve.** L'étude de 2024 n'est lue que par son résumé. Rien ne part sans la relecture du porteur du projet.
+
 ## 2026-11-22 — Les quinze pistes gardées ont été attaquées : une repasse « à vérifier », un niveau baisse
 
 **Fait.** Chacune des quinze pistes gardées a eu un contradicteur, chargé de l'attaquer. Sa consigne,

@@ -71,6 +71,8 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Deux autres jeux demanderaient de réaligner 223 bibliothèques : non engagé.
    Autre premier pas peu coûteux, pour B002 : demander aux auteurs des lipidomiques déjà faites si les plasmalogènes
    ont été mesurés et si un groupe de personnes rétablies existe. Celle de 2025 décrit un sens contraire à la piste.
+   Les deux lettres sont rédigées, non envoyées : `analyses/banque/DEMANDES.md`. Elles attendent la relecture
+   du porteur du projet.
 4. **Relever les réponses** aux douze demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
