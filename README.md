@@ -52,7 +52,7 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 
 | Phase | État |
 | --- | --- |
-| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 21 pistes en banque, relues : 14 vérifiées, dont 3 promues au registre, 3 écartées, 4 à vérifier |
+| 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 26 pistes en banque ; 21 relues : 14 vérifiées, dont 3 promues au registre, 3 écartées, 4 à vérifier ; 5 déposées le 2026-11-23, non relues |
 | 1. Cartographie | À faire : la revue actuelle est ciblée, pas systématique |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |

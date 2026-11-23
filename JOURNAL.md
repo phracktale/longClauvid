@@ -3,6 +3,25 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Trois zones non couvertes explorées : cinq pistes déposées, aucune relue
+
+**Fait.** Trois agents de recherche, un par zone, ont suivi `outils/consigne-chercheur.md`, déposée avant leur départ.
+Ils ont déposé cinq pistes, intégrées à la banque au statut « à vérifier » : B022 et B023 pour la ferroptose,
+B024 et B025 pour les acides biliaires, B026 pour l'hypoxie et la voie HIF. Le contrôle à l'intégration est formel :
+champs présents, chaque source avec son adresse et son mode de lecture. Aucune source n'a été rouverte.
+
+**Écarté par les agents, d'après leurs comptes rendus.** Ferroptose : la peroxydation des lipides après l'effort,
+pour un signal ancien et trois résultats nuls ; la coenzyme Q10, déjà essayée sans sélection des patients ;
+le sélénium et le fer, déjà en banque. Hypoxie : l'oxygène hyperbare, dont les essais sont enregistrés ;
+les variants d'altitude, sans donnée ; HIF-1α, connu par des revues seulement. Ces motifs ne sont pas sourcés
+dans le dépôt : ils évitent de refaire la recherche, ils ne prouvent rien.
+
+**Limites déclarées.** Presque toutes les sources sont lues par leur résumé ; deux textes intégraux seulement.
+Europe PMC a renvoyé des erreurs sur plusieurs requêtes. Les recherches sont ciblées, non systématiques.
+
+**Constat.** La consigne des deux premiers agents n'avait pas été conservée. Celle-ci est écrite d'après le protocole
+et la forme des 21 premières pistes ; elle limite chaque agent à trois pistes.
+
 ## 2026-11-23 — B002 : deux lettres rédigées, non envoyées
 
 **Fait.** Deux brouillons de lettre sont déposés dans `analyses/banque/DEMANDES.md`, pour les auteurs de la lipidomique
