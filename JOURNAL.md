@@ -3,6 +3,18 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Le programme fusionne lui-même ses demandes de fusion
+
+**Décision du porteur du projet.** Le programme est autorisé à fusionner ses demandes de fusion sans redemander,
+pour travailler de façon autonome. La règle est écrite dans `REPRISE.md`, section 2.
+
+**Conditions.** Les contrôles passent sur le dernier commit ; la demande ne contient que le travail de la session ;
+rien n'y attend une décision. Un envoi de lettre, une promotion ou une mise à l'écart gardent leur accord préalable.
+
+**Constat.** Le dépôt n'a pas de contrôle automatique côté GitHub : « fusionnées automatiquement, une fois les contrôles
+passés » voulait dire que le programme lance `verifier.py` puis fusionne. La fusion se fait avec un commit de fusion ;
+le rebasage est abandonné, parce qu'il oblige à forcer la mise à jour de la branche.
+
 ## 2026-11-23 — P16 : la lettre repart, vers l'auteur correspondant de DecodeME
 
 **Fait.** Sur instruction du porteur du projet, la lettre sur les allèles DRB1*11:04 et DQA1*03:01 est partie

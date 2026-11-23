@@ -23,7 +23,10 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
   Les lettres y sont signées « [name] ».
 - Rien n'est un avis médical. Les candidats sont des hypothèses pour des essais.
 - Un résultat confié sous embargo n'entre pas dans le dépôt.
-- Les demandes de fusion sont fusionnées automatiquement depuis le 2026-11-22, une fois les contrôles passés.
+- Le programme est autorisé à fusionner lui-même ses demandes de fusion, sans redemander : décision du porteur
+  du projet, le 2026-11-23. Trois conditions : `python3 verifier.py` passe sur le dernier commit, la demande ne contient
+  que le travail de la session, et rien n'y attend une décision du porteur du projet. Un envoi de lettre, une promotion
+  au registre ou une mise à l'écart restent soumis à son accord avant d'être faits.
 - Les lettres partent de la boîte du projet, après relecture du porteur du projet.
   Tout envoi se consigne dans le fichier `DEMANDES.md` du lot.
 - Économie de moyens : un script pour récupérer des données en masse, un modèle moins coûteux
@@ -95,7 +98,8 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 
 ## 5. Façon de travailler
 
-- Une branche par changement, une demande de fusion, fusion par rebasage, puis retour sur `main`.
+- Une branche par changement, une demande de fusion, fusion avec un commit de fusion, puis la branche est avancée
+  jusqu'à `main`. Le rebasage est abandonné le 2026-11-23 : il oblige à forcer la mise à jour de la branche.
 - Avant chaque commit : `python3 verifier.py`.
 - Une correction se date et se motive ; on ne réécrit pas l'histoire. Les plans d'analyse
   se modifient en bas de fichier, jamais dans la règle de décision. Le texte déposé en banque
@@ -129,5 +133,5 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 - La contradiction des quinze pistes gardées, les lettres de B002, le dépôt du 2026-11-23 et la première carte
   sont dans la demande de fusion n° 17, fusionnée le 2026-11-23 par le porteur du projet, avec un commit de fusion.
   Le dépôt n'a pas de contrôle automatique côté GitHub : une demande de fusion ne se fusionne pas seule,
-  Le programme la fusionne quand le porteur du projet le lui demande, avec un commit de fusion : un rebasage
-  l'obligerait à forcer la mise à jour de la branche, ce que la session refuse.
+  Le programme la fusionne lui-même, selon la règle de la section 2. Si le garde-fou de la session refuse la fusion
+  malgré cette règle, il le dit et le porteur du projet clique.
