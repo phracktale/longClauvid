@@ -23,6 +23,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/grille-statistique.md` | Dix questions pour relire une piste de la banque |
 | `outils/sources_banque.py` | Copie locale des sources de la banque, en texte intégral quand une interface officielle le donne |
 | `outils/consigne-chercheur.md` | La consigne remise à l'agent de recherche qui dépose des pistes en banque |
+| `outils/consigne-lecteur.md` | La consigne remise au lecteur d'un lot de résumés, pour la cartographie |
 | `outils/consigne-relecteur.md` | La consigne remise au relecteur d'une piste, telle quelle |
 | `outils/consigne-contradicteur.md` | La consigne remise à celui qui défend une piste écartée |
 | `outils/consigne-contradicteur-piste-gardee.md` | La consigne remise à celui qui attaque une piste gardée |
@@ -54,11 +55,11 @@ python3 outils/sources_banque.py bilan           # après « telecharger » : ce
 | Phase | État |
 | --- | --- |
 | 0. Cadrage | Registre ouvert le 2026-11-22 : 7 hypothèses, 17 pistes, 5 endotypes, 11 transpositions, 21 confrontations, 152 sources ; 26 pistes en banque, relues : 18 vérifiées, dont 3 promues au registre, 3 écartées, 5 à vérifier |
-| 1. Cartographie | Premier pas fait le 2026-11-23 : la sélection des articles, sur les 10 466 références de la bibliothèque #ApresJ20. L'extraction des relations et le graphe restent à faire |
+| 1. Cartographie | Premier pas fait le 2026-11-23 : la sélection des articles, sur les 10 466 références de la bibliothèque #ApresJ20. Les résumés de trois pistes sont lus : 477 résumés, 327 relations, précision de 27 sur 30 sur un échantillon relu par un programme. Le critère de 90 % n'est pas établi, et le graphe reste à faire |
 | 2. Détection | Première série de 11 transpositions ; détection systématique à faire |
 | 3. Confrontation | Première matrice : 21 paires, sans relecture contradictoire |
 | 4. Simulation | Niveaux 1 et 2 construits, deux modèles publiés reproduits ; niveau 3 à faire |
-| 5. Validation | Cinq plans d'analyse déposés (lots 1 et 2, pistes P15 à P17) ; treize demandes envoyées les 2026-11-22 et 23, aucune réponse sur le fond ; premiers tests faits sur des données publiques pour P15 et P16 |
+| 5. Validation | Cinq plans d'analyse déposés (lots 1 et 2, pistes P15 à P17) ; quinze demandes envoyées les 2026-11-22 et 23, aucune réponse sur le fond ; premiers tests faits sur des données publiques pour P15 et P16 |
 | 6. Passage clinique | Exige une équipe habilitée et un comité d'éthique |
 
 ## Résultats à ce jour

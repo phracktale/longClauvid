@@ -49,7 +49,8 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 | Bibliothèque de l'association #ApresJ20 | 10 466 références, copie locale à refaire dans chaque session | `outils/bibliotheque_apresj20.py` |
 
 Douze demandes sont parties le 2026-11-22 : huit pour les lots 1 et 2, quatre pour les pistes P15 à P17.
-Une treizième est partie le 2026-11-23, pour P16, à l'auteur correspondant de la prépublication de DecodeME.
+Trois autres sont parties le 2026-11-23 : une pour P16, à l'auteur correspondant de la prépublication de DecodeME,
+et deux pour B002, aux auteurs de deux études déjà faites dans le COVID long.
 Une absence de réponse se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
@@ -61,6 +62,9 @@ Une absence de réponse se constate à partir du 2027-01-22.
    de la revue PNAS (PMID 18268335). Pour B023, déposée le 2026-11-23 : PMID 38310391.
    Une personne avec un accès de bibliothèque suffit.
    Deux lectures de plus préciseraient deux pistes gardées : PMID 42205163 pour B005, PMID 33367564 pour B019.
+   Où les trouver, relevé le 2026-11-23 : deux sont en accès libre sur Europe PMC pour une personne, mais refusés
+   aux programmes (PMID 18268335 sous PMC2538898, PMID 37166330 sous PMC10485569). Les quatre autres sont sous abonnement,
+   à lire par leur DOI ; l'étude de 2009 n'a ni DOI ni copie : il faut le site de la revue In Vivo.
 2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
    Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
    le niveau de B018 revient à C, neuf décisions sont reformulées. Aucun des quinze tests proposés n'est prêt :
@@ -78,9 +82,8 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Deux autres jeux demanderaient de réaligner 223 bibliothèques : non engagé.
    Autre premier pas peu coûteux, pour B002 : demander aux auteurs des lipidomiques déjà faites si les plasmalogènes
    ont été mesurés et si un groupe de personnes rétablies existe. Celle de 2025 décrit un sens contraire à la piste.
-   Les deux lettres sont rédigées, non envoyées : `analyses/banque/DEMANDES.md`. Elles attendent la relecture
-   du porteur du projet.
-4. **Relever les réponses** aux treize demandes et les inscrire aux journaux des envois.
+   Les deux lettres sont parties le 2026-11-23 : `analyses/banque/DEMANDES.md`.
+4. **Relever les réponses** aux quinze demandes et les inscrire aux journaux des envois.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
@@ -88,8 +91,11 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Les agents de recherche suivent désormais `outils/consigne-chercheur.md`.
 7. **Cartographie** : premier pas fait le 2026-11-23, `analyses/cartographie/CARTE.md`. Sur 10 466 références,
    1 258 contiennent un terme d'une piste. Reste la phase 1 proprement dite : lire les références retenues,
-   en extraire les relations, mesurer la précision sur un échantillon relu à la main. C'est un travail de lecture
-   en nombre, pour un modèle moins coûteux, à lancer piste par piste en commençant par les plus denses (P08, P14, P01).
+   en extraire les relations, mesurer la précision sur un échantillon relu à la main. Fait le 2026-11-23 pour P08, P14
+   et P01 : `analyses/cartographie/LECTURE.md`. Précision de 27 sur 30, relue par un programme : le seuil de 90 %
+   n'est pas établi. Avant de lire une autre piste, corriger le terme « complement », traiter les doublons,
+   ajouter le verbe « détecté dans » et sortir les méta-analyses des revues. Restent aussi : une relecture
+   de l'échantillon par une personne, la normalisation des entités, le graphe.
 8. **Taux publiés du modèle de Craddock** : en attente du code demandé à son auteur.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
    ni les trois nouvelles pistes, ni la correction de la fiche T03, ni la contradiction des pistes gardées.
