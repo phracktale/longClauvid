@@ -94,7 +94,7 @@ tant que l'article n'est pas lu en entier, et que la copie ne sera pas redistrib
 | Piste | Article | État |
 | --- | --- | --- |
 | B009 | [PMID 41475665](https://pubmed.ncbi.nlm.nih.gov/41475665/), Endocrine Practice 2026 | Demande envoyée le 2026-11-23, à l'adresse que PubMed publie |
-| B009 | [PMID 27401397](https://pubmed.ncbi.nlm.nih.gov/27401397/), Journal of Cardiology 2017 | Demande envoyée le 2026-11-23, à l'adresse que PubMed publie |
+| B009 | [PMID 27401397](https://pubmed.ncbi.nlm.nih.gov/27401397/), Journal of Cardiology 2017 | Demande envoyée le 2026-11-23, à l'adresse que PubMed publie. L'auteur a envoyé son article le même jour, sans condition ; il est lu |
 | B023 | [PMID 38310391](https://pubmed.ncbi.nlm.nih.gov/38310391/), Current Medicinal Chemistry 2025 | Demande envoyée le 2026-11-23 au dernier auteur, à l'adresse d'établissement que PubMed publie pour lui dans un autre article de 2024. La lettre demande de la transmettre s'il n'est pas l'auteur correspondant |
 | B008 | [PMID 19567398](https://pubmed.ncbi.nlm.nih.gov/19567398/), In Vivo 2009 | Sans objet : le porteur du projet a téléchargé l'article le 2026-11-23, il est lu |
 

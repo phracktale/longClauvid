@@ -1051,10 +1051,9 @@
       de fatigue post-virale et 8 témoins trouvait une vasopressine de base basse et une sécrétion erratique (PMID
       8475696). Aucun test de stimulation de la copeptine, aucun essai enregistré.'
     decision: 'Gardée après lecture de l''article de 2017, au niveau C : une vasopressine plus basse chez 18 patients
-      que chez 15 témoins, dans une étude d''un seul auteur, avec un essai de desmopressine sans placebo. L''article
-      de 2026 n''est lu que par son résumé : la piste est « vérifiée » parce que l''une des deux études qui portent
-      le même signal est lue en entier. Sa contradiction interne, une vasopressine indétectable et une copeptine
-      normale, reste à lire dans le texte.'
+      que chez 15 témoins, dans une étude d''un seul auteur, avec un essai de desmopressine sans placebo. C''est
+      cette étude, lue en entier, qui porte le signal. L''étude de 2026, lue par son résumé, ne le confirme pas
+      : sa copeptine est normale chez les 13 patients testés, ce qui va contre la prédiction du test.'
     complement:
       date: '2026-11-24'
       lecture: L'article de 2017 est lu en entier, sur la copie que son auteur a envoyée au projet le 2026-11-23,
@@ -1072,7 +1071,34 @@
         effet placebo est possible.'
       - Un seul auteur, un seul cabinet, des patients qui se plaignent tous d'intolérance à la station debout. Les
         comparaisons sont des tests t, sans correction pour comparaisons multiples.
-      - L'article déclare un financement public japonais et aucun lien d'intérêts.
+      - L'article déclare une subvention et aucun lien d'intérêts.
+    attaque:
+      date: '2026-11-24'
+      avis: tient en partie
+      decision_initiale: 'Gardée après lecture de l''article de 2017, au niveau C : une vasopressine plus basse
+        chez 18 patients que chez 15 témoins, dans une étude d''un seul auteur, avec un essai de desmopressine sans
+        placebo. L''article de 2026 n''est lu que par son résumé : la piste est « vérifiée » parce que l''une des
+        deux études qui portent le même signal est lue en entier. Sa contradiction interne, une vasopressine indétectable
+        et une copeptine normale, reste à lire dans le texte.'
+      constats:
+      - 'Les constats de la lecture de l''article de 2017 sont confirmés, à un près : « financement public japonais
+        » n''est pas dans l''article, qui ne nomme qu''une subvention. Le constat est corrigé.'
+      - '« Les deux mesures se contredisent », écrit pour l''étude de 2026, était inexact : d''après son résumé,
+        la copeptine est dosée chez 13 patients quand le dosage de la vasopressine n''était plus disponible. Ce
+        ne sont pas les mêmes patients.'
+      - '« Les deux études portent le même signal » était inexact : le résumé de 2026 ne montre pas de témoins,
+        et sa copeptine est normale. Le signal de la piste est porté par l''étude de 2017 seule.'
+      - La copeptine normale des 13 patients de 2026 va contre la prédiction du test, qui attend une copeptine basse.
+        Le même résumé ne rapporte aucune anomalie de l'hypothalamus ni de l'hypophyse.
+      - 'L''étude de 1993 trouve plus d''eau dans le corps des patients : cela s''accorde mal avec un manque de
+        volume.'
+      - 'Le seuil du test existe dans la source de référence : une copeptine au-dessus de 4,9 pmol/L après sérum
+        salé hypertonique écarte un déficit, chez des patients qui urinent trop. Il n''est pas écrit dans la fiche,
+        et il vaut pour une autre population.'
+      - Le texte déposé écrit encore « un cas » de déficit dans le COVID long, alors que la source en compte trois,
+        et « le signal n'est lu que par deux résumés », ce qui n'est plus vrai pour 2017.
+      suite: 'Décision reformulée : vérifiée, niveau C. La piste repose sur l''étude de 2017 seule ; celle de 2026
+        pèse plutôt contre elle, sous réserve de la lecture de son texte.'
 - id: B010
   titre: L'endothéline-1 reste élevée après l'infection ; ses récepteurs se bloquent par des médicaments de l'hypertension
     artérielle pulmonaire
