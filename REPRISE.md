@@ -81,6 +81,10 @@ Une absence de réponse se constate à partir du 2027-01-22.
    ont été mesurés et si un groupe de personnes rétablies existe. Celle de 2025 décrit un sens contraire à la piste.
    Les deux lettres sont parties le 2026-11-23 : `analyses/banque/DEMANDES.md`.
 4. **Relever les réponses** aux dix-huit demandes et les inscrire aux journaux des envois.
+   Une réponse est arrivée pour P17 le 2026-11-23, sous embargo : l'auteur refuse que ses données soient données
+   à une IA ou rendues publiques avant la publication de son étude. **Ne pas ouvrir ce fil ni ses pièces jointes.**
+   Le détail de ce qui est permis est dans `analyses/P17/DEMANDES.md`. Au relevé des réponses, ne lire que les fils
+   dont le porteur du projet a dit qu'ils peuvent l'être.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
