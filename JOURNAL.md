@@ -3,6 +3,17 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — P16 : la lettre repart, vers l'auteur correspondant de DecodeME
+
+**Fait.** Sur instruction du porteur du projet, la lettre sur les allèles DRB1*11:04 et DQA1*03:01 est partie
+de la boîte du projet vers l'auteur correspondant de la prépublication, à l'université. C'est la treizième demande.
+
+**Choix.** Des trois auteurs correspondants, écrire au chercheur : les deux autres représentent les patients
+et une association. L'adresse vient du fichier source de la prépublication. Aucun nom ni adresse n'entre dans le dépôt.
+
+**Choix.** Dire dès la première phrase pourquoi la lettre arrive par cette voie : la boîte générale ne répond pas,
+et la procédure d'accès vise des données individuelles.
+
 ## 2026-11-23 — DecodeME : la demande d'accès n'est pas ouverte au projet
 
 **Constat.** La page d'accès de DecodeME ne propose pas de formulaire en ligne, mais un dossier à envoyer à un comité.

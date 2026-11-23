@@ -72,6 +72,7 @@ Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répond
 | 2026-11-22 | Auteur correspondant de l'étude de 23andMe | Lettre envoyée, à l'adresse que publie la prépublication |
 | 2026-11-22 | Équipe de DecodeME | Réponse automatique, dans la minute : la boîte s'adresse d'abord aux participants et prévient qu'elle ne pourra pas répondre aux messages reçus. Rien sur le fond |
 | 2026-11-23 | Équipe de DecodeME | Voie de la demande d'accès lue et écartée : voir ci-dessous |
+| 2026-11-23 | Auteur correspondant de la prépublication de DecodeME | Même lettre envoyée, sur instruction du porteur du projet. Un paragraphe d'ouverture dit que la boîte générale ne répond pas et que la procédure d'accès vise des données individuelles. L'adresse vient du fichier source de la prépublication, par l'interface de medRxiv ; des trois auteurs correspondants, c'est celui de l'université |
 
 ## La demande d'accès de DecodeME n'est pas ouverte au projet
 
@@ -92,7 +93,7 @@ d'ailleurs qu'un chiffre par allèle, pas des données individuelles : cette voi
 
 Ce qui reste possible :
 
-1. Écrire à l'auteur correspondant de la prépublication de DecodeME, et non à la boîte générale. Même lettre.
+1. Écrire à l'auteur correspondant de la prépublication de DecodeME, et non à la boîte générale. Même lettre. Fait le 2026-11-23.
 2. Attendre l'analyse HLA que les auteurs disent vouloir refaire, avec un typage imputé pour les cas et les témoins ensemble.
 3. Passer par une personne employée d'un établissement de recherche, qui ferait la demande en son nom.
 
