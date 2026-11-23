@@ -3,6 +3,14 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-24 — Règle de lecture des réponses reçues
+
+**Décision du porteur du projet.** Quand il signale une réponse arrivée dans la boîte du projet, le programme la lit,
+sauf s'il dit « sous condition ». Une réponse qu'il n'a pas signalée ne se lit pas.
+
+**Motif.** La boîte est connectée au programme, et une réponse peut poser une condition, comme celle de P17.
+Seul le porteur du projet, qui l'a lue, sait si elle en pose une. La règle évite de lui reposer la question à chaque réponse.
+
 ## 2026-11-23 — Brave-LC prévoit une visite après l'arrêt de la naltrexone
 
 **Fait.** L'équipe de l'essai a répondu à la demande du lot 2. Le porteur du projet a autorisé la lecture de la réponse.

@@ -29,6 +29,9 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
   au registre ou une mise à l'écart restent soumis à son accord avant d'être faits.
 - Les lettres partent de la boîte du projet, après relecture du porteur du projet.
   Tout envoi se consigne dans le fichier `DEMANDES.md` du lot.
+- Réponses reçues dans la boîte du projet : quand le porteur du projet signale une réponse, le programme la lit,
+  sauf s'il dit « sous condition ». Une réponse qu'il n'a pas signalée ne se lit pas. Décision du 2026-11-24,
+  après la réponse sous embargo de P17.
 - Économie de moyens : un script pour récupérer des données en masse, un modèle moins coûteux
   pour lire et trier, le modèle principal pour décider et rédiger.
 - Réponses en français, courtes, sourcées, sans adoucir.
@@ -84,7 +87,7 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Une réponse est arrivée pour P17 le 2026-11-23, sous embargo : l'auteur refuse que ses données soient données
    à une IA ou rendues publiques avant la publication de son étude. **Ne pas ouvrir ce fil ni ses pièces jointes.**
    Le détail de ce qui est permis est dans `analyses/P17/DEMANDES.md`. Au relevé des réponses, ne lire que les fils
-   dont le porteur du projet a dit qu'ils peuvent l'être.
+   que le porteur du projet a signalés, selon la règle de la section 2.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
