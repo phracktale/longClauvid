@@ -3,6 +3,14 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — B002 : les deux lettres sont parties
+
+**Fait.** Après le « bon pour envoi » du porteur du projet, les deux lettres sont parties de la boîte du projet,
+telles qu'elles étaient déposées. Ce sont les quatorzième et quinzième demandes.
+
+**Choix.** Quand un article donne plusieurs adresses, écrire à l'adresse d'établissement du dernier auteur.
+Les adresses viennent de PubMed et du texte d'Europe PMC. Aucun nom ni adresse n'entre dans le dépôt.
+
 ## 2026-11-23 — Le programme fusionne lui-même ses demandes de fusion
 
 **Décision du porteur du projet.** Le programme est autorisé à fusionner ses demandes de fusion sans redemander,

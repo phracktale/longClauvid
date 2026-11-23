@@ -1,7 +1,7 @@
 # Piste B002 : deux demandes aux auteurs d'études déjà faites dans le COVID long
 
-État au 2026-11-23 : **aucune lettre envoyée.** Ce sont deux brouillons, à relire par le porteur du projet.
-Une lettre part de la boîte du projet, après cette relecture ; l'envoi se consigne en bas de ce fichier.
+État au 2026-11-23 : **deux lettres envoyées.** Elles sont parties de la boîte du projet, après la relecture
+du porteur du projet, telles qu'elles sont écrites ici, avec son nom à la place de « [name] ».
 Aucune adresse électronique n'est reprise ici.
 
 La piste B002 n'est pas promue : elle reste en banque, vérifiée, au niveau C. Ces demandes ne testent rien.
@@ -9,8 +9,8 @@ Elles disent seulement si le test peut se faire sur des données qui existent d�
 
 | Destinataire | Ce qui est demandé | État |
 | --- | --- | --- |
-| Auteur correspondant de la lipidomique de 2024 ([PMID 38368647](https://pubmed.ncbi.nlm.nih.gov/38368647/)) | Les plasmalogènes font-ils partie des lipides mesurés ? Un groupe de personnes rétablies ou non infectées existe-t-il ? | Brouillon |
-| Auteur correspondant de l'étude multi-omique de 2025 ([PMID 40842862](https://pubmed.ncbi.nlm.nih.gov/40842862/)) | Les plasmalogènes sont-ils mesurés par la métabolomique ? Dans quel sens varient-ils ? | Brouillon |
+| Auteur correspondant de la lipidomique de 2024 ([PMID 38368647](https://pubmed.ncbi.nlm.nih.gov/38368647/)) | Les plasmalogènes font-ils partie des lipides mesurés ? Un groupe de personnes rétablies ou non infectées existe-t-il ? | Envoyée le 2026-11-23 |
+| Auteur correspondant de l'étude multi-omique de 2025 ([PMID 40842862](https://pubmed.ncbi.nlm.nih.gov/40842862/)) | Les plasmalogènes sont-ils mesurés par la métabolomique ? Dans quel sens varient-ils ? | Envoyée le 2026-11-23 |
 
 ## Pourquoi ces deux questions
 
@@ -77,4 +77,10 @@ Thank you for your time, and for depositing the data.
 
 ## Journal des envois
 
-Aucun envoi à ce jour.
+Une ligne par envoi ou par réponse : date, destinataire, ce qui a été répondu.
+
+| Date | Destinataire | Événement |
+| --- | --- | --- |
+| 2026-11-23 | Les deux destinataires | Lettres rédigées, puis relues par le porteur du projet : « bon pour envoi » |
+| 2026-11-23 | Auteur correspondant de la lipidomique de 2024 | Lettre envoyée, à l'adresse d'établissement que PubMed publie pour le dernier auteur |
+| 2026-11-23 | Auteur correspondant de l'étude multi-omique de 2025 | Lettre envoyée, à l'adresse d'établissement donnée par l'article ; des trois auteurs correspondants, c'est le dernier auteur |
