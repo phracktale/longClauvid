@@ -3,6 +3,21 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — Modèle de Craddock : l'article de 2021 est lu, une seconde lettre est rédigée
+
+**Fait.** L'article de 2021 indiqué par l'auteur est lu pour ses passages de méthode et de résultats sur les traitements.
+Le compte rendu est à la section 4 ter de `simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`.
+
+**Constat.** La règle y est écrite : un cran par pas de temps, tant que le traitement est appliqué, et le traitement est maintenu.
+Le taux rapporté est celui du meilleur traitement trouvé par un algorithme génétique : un taux choisi parce qu'il est le plus haut
+surestime le taux réel. C'était l'une des deux causes avancées pour l'écart aux taux de 2015.
+
+**Fait.** Une seconde lettre à l'auteur est rédigée, non envoyée. Elle lui signale l'écart qu'il demande à connaître :
+les taux publiés se retrouvent si un frein va à la valeur extrême et une stimulation d'un seul cran. Elle demande
+la référence de l'erratum de 2014, et s'il autorise à citer son indication sur l'essai non publié.
+
+**Réserve.** L'article de 2021 porte sur un autre réseau, plus grand : il éclaire la règle, pas les taux de 2015.
+
 ## 2026-11-23 — Modèle de Craddock : l'auteur a répondu, le code n'existe plus
 
 **Fait.** L'auteur correspondant de l'article de 2015 a répondu. Le porteur du projet a dit que la réponse

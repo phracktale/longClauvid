@@ -167,3 +167,32 @@ Thank you for running a trial for children and young adults.
 
 [name]
 ```
+
+## Modèle logique : seconde lettre à Travis Craddock, après sa réponse
+
+État au 2026-11-23 : rédigée, non envoyée. Elle attend la relecture du porteur du projet.
+
+Objet : Re: Reproducing Craddock et al. 2015 (PLoS ONE): treatment rule and code
+
+```text
+Dear Travis,
+
+Thank you for taking the time to answer in such detail, and for pointing me to the 2021 paper. I have read its methods: one level per time step while a treatment is applied, held from a start to a stop time. That settles how to read the rule.
+
+You asked me to tell you if something looked grossly different. Here is where I stand on Figure 5 of the 2015 paper, with treatments applied at a single time point and then released, as you describe, over 10,000 runs:
+
+- If every intervention shifts its target by one level, none of the twelve rows is reproduced: my rates are lower by 8 to 33 points (for example 24.4% against the published 56.50% for CORT-, GR-, T1Cyt-).
+- If every intervention shifts its target by two levels, eight rows match within 2 points.
+- The four other rows are the ones that raise TEST or T2Cyt. They are off by 8 to 18 points with a two-level raise, and match within about 1 point if the raise is one level while the decreases stay at two levels.
+
+So the published rates look consistent with "inhibition to the extreme value, supplementation by one level". Does that ring a bell? I would rather ask than guess.
+
+Two small things:
+
+1. Could you give me the reference of the erratum to the 2014 paper? I could not find it, and I would like to cite it for the T1Cell edge.
+2. You kindly mentioned unpublished results of the etanercept and mifepristone trial. I have not put them in the registry, since they are not public. Tell me if I may mention them, and in what words; otherwise I will wait for the publication.
+
+Thank you again. The code and the comparison table are public: https://github.com/phracktale/longClauvid/blob/main/simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md
+
+[name]
+```
