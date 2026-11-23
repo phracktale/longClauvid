@@ -22,6 +22,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `outils/bibliotheque_apresj20.py` | Copie locale de la bibliothèque de l'association #ApresJ20, pour y chercher sans la solliciter |
 | `outils/grille-statistique.md` | Dix questions pour relire une piste de la banque |
 | `outils/sources_banque.py` | Copie locale des sources de la banque, en texte intégral quand une interface officielle le donne |
+| `outils/consigne-chercheur.md` | La consigne remise à l'agent de recherche qui dépose des pistes en banque |
 | `outils/consigne-relecteur.md` | La consigne remise au relecteur d'une piste, telle quelle |
 | `outils/consigne-contradicteur.md` | La consigne remise à celui qui défend une piste écartée |
 | `outils/consigne-contradicteur-piste-gardee.md` | La consigne remise à celui qui attaque une piste gardée |
