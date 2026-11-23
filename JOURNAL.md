@@ -3,6 +3,22 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — P17 : une réponse sous embargo, que le programme ne lit pas
+
+**Fait.** L'auteur correspondant de la prépublication de P17 a répondu au porteur du projet. Il demande que ses données
+ne soient pas données à une IA, ni rendues publiques avant la publication de son étude. Le porteur du projet l'a rapporté ;
+le programme n'a ouvert ni le message ni ses pièces jointes.
+
+**Décision.** Rien de cette réponse n'entre dans le dépôt. Le programme ne lit pas ce fil. La réponse du porteur
+du projet confirme les deux engagements et pose deux questions : l'usage des données après publication, et l'emploi
+d'un modèle à poids ouverts tournant sur sa machine avant.
+
+**Constat.** La boîte du projet est connectée au programme. Une réponse confiée sous condition s'y trouve donc
+à sa portée : c'est au porteur du projet de la sortir de la boîte. Le relevé des réponses ne peut plus se faire
+en lisant tous les fils sans distinction.
+
+**Écarté.** Lire le message pour consigner précisément ce qui est permis : ce serait faire ce que l'auteur refuse.
+
 ## 2026-11-23 — B004 et B016 : articles lus en entier, deux pistes gardées, un niveau baisse
 
 **Fait.** Le porteur du projet a téléchargé les deux articles, en accès libre pour une personne et refusés aux programmes.
