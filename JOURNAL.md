@@ -3,6 +3,20 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — DecodeME : la demande d'accès n'est pas ouverte au projet
+
+**Constat.** La page d'accès de DecodeME ne propose pas de formulaire en ligne, mais un dossier à envoyer à un comité.
+Sa politique écarte d'emblée un demandeur qui n'est pas employé par un établissement scientifique capable de signer
+un contrat avec l'université d'Édimbourg. Le dossier vise les données individuelles et les échantillons.
+
+**Conséquence.** Les tests 2 et 3 de P16 ne seront pas lus par cette voie. Ils ne demandent qu'un chiffre par allèle.
+
+**Écarté.** Remplir le dossier malgré tout : le projet n'a ni établissement, ni avis éthique, ni financement à déclarer,
+et la politique dit que le projet d'un demandeur non admissible n'est pas lu.
+
+**Suite.** Trois voies sont notées dans `analyses/P16/DEMANDES.md`. La moins coûteuse : la même lettre, adressée
+à l'auteur correspondant de la prépublication plutôt qu'à la boîte générale. Elle attend la décision du porteur du projet.
+
 ## 2026-11-23 — Cartographie : un premier pas, par un script
 
 **Fait.** `analyses/cartographie/cartographie.py` compte, pour chaque piste du registre et de la banque, les références
