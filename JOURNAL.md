@@ -3,6 +3,33 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-24 — B009 : l'auteur a envoyé son article, la piste est gardée au niveau C
+
+**Fait.** L'auteur de l'étude de 2017 a envoyé son article le jour de la demande, sans condition.
+Le modèle principal l'a lu ; un contradicteur a attaqué la décision. Toutes ses citations sont retrouvées.
+
+**Constat.** La vasopressine est plus basse chez 18 patients que chez 15 témoins, p = 0,02. L'aldostérone l'est aussi.
+L'essai de desmopressine porte sur 10 patients, sans placebo.
+
+**Décision.** La piste sort de « à vérifier » : gardée au niveau C, sur l'étude de 2017 seule.
+
+**Erreur du décideur, relevée par le contradicteur.** Le statut avait d'abord été motivé par « deux études portent
+le même signal, et l'une est lue en entier ». C'est faux : l'étude de 2026 ne le porte pas, sa copeptine est normale.
+Le statut tient quand même, pour une raison plus simple : l'étude qui porte le signal est lue en entier.
+
+**Corrigé.** « Les deux mesures de 2026 se contredisent » : elles viennent de patients différents.
+« Financement public japonais » : l'article ne nomme qu'une subvention ; le reste venait de la mémoire du lecteur.
+
+**Constat.** Une seule piste reste à vérifier, B023.
+
+## 2026-11-24 — Règle de lecture des réponses reçues
+
+**Décision du porteur du projet.** Quand il signale une réponse arrivée dans la boîte du projet, le programme la lit,
+sauf s'il dit « sous condition ». Une réponse qu'il n'a pas signalée ne se lit pas.
+
+**Motif.** La boîte est connectée au programme, et une réponse peut poser une condition, comme celle de P17.
+Seul le porteur du projet, qui l'a lue, sait si elle en pose une. La règle évite de lui reposer la question à chaque réponse.
+
 ## 2026-11-23 — Brave-LC prévoit une visite après l'arrêt de la naltrexone
 
 **Fait.** L'équipe de l'essai a répondu à la demande du lot 2. Le porteur du projet a autorisé la lecture de la réponse.

@@ -10,7 +10,8 @@ Cinq pistes ont été déposées et relues le 2026-11-23, sur trois zones que la
 quatre sont vérifiées, une reste à vérifier. Elles sont traitées dans la section « Dépôt du 2026-11-23 ».
 Les articles qui portent B004, B008 et B016 ont été lus en entier le 2026-11-23, sur des PDF fournis par le porteur du projet :
 les trois pistes sont gardées, B004 et B008 au niveau D, B016 au niveau C.
-La banque compte donc 26 pistes : 21 vérifiées, dont 3 promues, 3 écartées, 2 à vérifier.
+L'article de 2017 qui porte B009 a été envoyé par son auteur et lu le 2026-11-24 : la piste est gardée au niveau C.
+La banque compte donc 26 pistes : 22 vérifiées, dont 3 promues, 3 écartées, 1 à vérifier.
 
 « Vérifiée » ne veut pas dire « vraie ». Les sources ont été rouvertes, les erreurs relevées,
 et la piste reste une question à tester. Rien ici n'est un avis médical.
@@ -29,7 +30,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B006 | Auto-anticorps contre la sélénoprotéine P | C | Vérifiée | Gardée après corrections : le dosage par un laboratoire indépendant est le test qui manque. |
 | B007 | Cibinétide et petites fibres nerveuses | C | Vérifiée | Gardée après corrections, avec un test à refaire : mesurer d'abord, sur une cohorte suivie, si les fibres de la cornée remontent quand les symptômes s'améliorent. Dans l'essai de 2017, ni les fibres de la peau ni les symptômes ne s'améliorent plus que sous placebo. |
 | B008 | D-lactate d'origine intestinale | D | Vérifiée | Gardée comme hypothèse théorique, niveau D : aucune source ne dose le D-lactate chez des patients. L'étude de selles de 2009, lue en entier, ne l'appuie pas : son signal est probablement artefactuel, et ses patients sont choisis pour leurs troubles digestifs. Un dosage unique sur plasma conservé ne suffirait pas à réfuter la piste, parce que le D-lactate fluctue : le test est à réécrire. |
-| B009 | Déficit en vasopressine | C | À vérifier | Relecture incomplète : les deux études qui portent le signal ne sont accessibles que par leur résumé. La piste reste à vérifier jusqu'à la lecture de leur texte. |
+| B009 | Déficit en vasopressine | C | Vérifiée | Gardée après lecture de l'article de 2017, au niveau C : une vasopressine plus basse chez 18 patients que chez 15 témoins, dans une étude d'un seul auteur, avec un essai de desmopressine sans placebo. C'est cette étude, lue en entier, qui porte le signal. L'étude de 2026, lue par son résumé, ne le confirme pas : sa copeptine est normale chez les 13 patients testés, ce qui va contre la prédiction du test. |
 | B010 | Endothéline-1 | B | Vérifiée | Gardée après corrections. La question utile est devenue : l'endothéline-1 distingue-t-elle les patients des personnes infectées et rétablies ? |
 | B011 | Humanine et MOTS-c | C | Vérifiée | Gardée après corrections, sur un autre appui que celui de la fiche : le résultat sur les vésicules extracellulaires, à répliquer. |
 | B012 | Répartition du fer | C | Vérifiée | Gardée après corrections. Le sens de l'anomalie n'étant pas tranché, rien ici ne permet de donner du fer. |
@@ -186,6 +187,18 @@ et « ne dit rien du traitement ».
 
 Les deux avis sont « tient en partie ». Leurs citations sont retrouvées mot pour mot.
 
+## B009, après la lecture de l'article de 2017
+
+L'auteur de l'étude de 2017 a envoyé son article au projet, sans condition. L'étude a bien un groupe témoin : la vasopressine
+est plus basse chez 18 patients que chez 15 témoins (2,2 contre 3,3 pg/mL, p = 0,02). L'aldostérone l'est aussi :
+l'article décrit plusieurs systèmes freinés, pas un déficit propre à la vasopressine. Son essai de desmopressine n'a pas de placebo.
+La piste passe de « à vérifier » à « vérifiée », au niveau C.
+
+Son contradicteur rend l'avis « tient en partie ». Il a fait tomber la raison donnée d'abord pour ce statut : les deux études
+ne portent pas le même signal. Celle de 2026, lue par son résumé, a une copeptine normale chez 13 patients, ce qui va contre
+la prédiction du test. La piste repose donc sur l'étude de 2017 seule. Une phrase de la première relecture était inexacte :
+la vasopressine et la copeptine de 2026 ne se contredisent pas, elles sont mesurées chez des patients différents.
+
 ## Méthode
 
 1. **Copie locale des sources.** `outils/sources_banque.py` prend, par les interfaces officielles, le texte
@@ -231,8 +244,8 @@ une mesure déclarée des deux côtés.
 - Le décideur a vérifié lui-même, dans les copies, les constats qui changent un statut ou un niveau.
   Les autres constats reposent sur le contrôle mot pour mot de leur citation.
 - 43 sources ne sont lues que par leur résumé, dont les études ajoutées par le test « inexplorée ».
-- Les articles qui portent le signal de B009 et de B023 ne sont pas accessibles en entier : ces deux pistes restent à vérifier.
-  Une copie a été demandée à leurs auteurs.
+- L'article qui porte le signal de B023 n'est pas accessible en entier : cette piste reste à vérifier. Une copie a été demandée
+  à son auteur, comme pour l'article de 2026 de B009.
 - Pour B004, B008 et B016, l'article fourni par une personne a été lu par le modèle principal, qui décide aussi : relecteur et décideur
   ne sont pas séparés. Son contradicteur a relevé un constat venu de la mémoire du lecteur, corrigé depuis.
 - Le test « inexplorée » lit des titres et des résumés. Une absence ne prouve rien.

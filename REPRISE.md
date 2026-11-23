@@ -29,6 +29,9 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
   au registre ou une mise à l'écart restent soumis à son accord avant d'être faits.
 - Les lettres partent de la boîte du projet, après relecture du porteur du projet.
   Tout envoi se consigne dans le fichier `DEMANDES.md` du lot.
+- Réponses reçues dans la boîte du projet : quand le porteur du projet signale une réponse, le programme la lit,
+  sauf s'il dit « sous condition ». Une réponse qu'il n'a pas signalée ne se lit pas. Décision du 2026-11-24,
+  après la réponse sous embargo de P17.
 - Économie de moyens : un script pour récupérer des données en masse, un modèle moins coûteux
   pour lire et trier, le modèle principal pour décider et rédiger.
 - Réponses en français, courtes, sourcées, sans adoucir.
@@ -37,7 +40,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 
 | Chantier | État | Détail |
 | --- | --- | --- |
-| Banque d'hypothèses | 26 pistes relues : 18 vérifiées, 3 promues, 3 écartées, 2 à vérifier (B009 et B023) ; cinq datent du 2026-11-23 (B022 à B026) ; chaque piste a eu un contradicteur, qui défend une mise à l'écart ou attaque une piste gardée | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
+| Banque d'hypothèses | 26 pistes relues : 19 vérifiées, 3 promues, 3 écartées, 1 à vérifier (B023) ; cinq datent du 2026-11-23 (B022 à B026) ; chaque piste a eu un contradicteur, qui défend une mise à l'écart ou attaque une piste gardée | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
 | Registre | 17 pistes : P15, P16 et P17 viennent de la banque | `registre/pistes.yaml` |
 | P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Ce résultat est retiré des appuis de la piste, qui ne repose plus que sur les vésicules du COVID long. Une lettre aux auteurs de 2019 est partie le 2026-11-22 | `analyses/P15/RESULTATS.md` |
 | P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres parties le 2026-11-22. DecodeME a répondu par un message automatique : sa boîte ne répond pas aux messages reçus | `analyses/P16/RESULTATS.md` |
@@ -55,12 +58,12 @@ Une absence de réponse se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
 
-1. **Lire en entier trois articles** que les programmes ne peuvent pas ouvrir : deux pistes en dépendent.
-   Pour B009 : PMID 41475665 et PMID 27401397. Pour B023 : PMID 38310391. Tous trois sont sous abonnement ;
-   une copie a été demandée à leurs auteurs le 2026-11-23 (`analyses/banque/DEMANDES.md`).
-   Les articles de B004, B008 et B016 ont été fournis par le porteur du projet et lus le 2026-11-23.
-   Un PDF fourni par une personne se dépose dans la conversation : son texte sert de copie locale, hors dépôt,
-   et il est à redéposer si une session future doit le relire.
+1. **Lire en entier deux articles** que les programmes ne peuvent pas ouvrir, sous abonnement : PMID 38310391,
+   dont dépend B023, la seule piste encore « à vérifier », et PMID 41475665, le second article de B009.
+   Une copie a été demandée à leurs auteurs le 2026-11-23 (`analyses/banque/DEMANDES.md`).
+   Quatre articles ont déjà été lus : ceux de B004, B008 et B016, fournis par le porteur du projet,
+   et celui de 2017 pour B009, envoyé par son auteur. Un PDF se dépose dans la conversation ou arrive par la boîte :
+   son texte sert de copie locale, hors dépôt, et il est à redéposer si une session future doit le relire.
    Deux lectures de plus préciseraient deux pistes gardées : PMID 42205163 pour B005, PMID 33367564 pour B019.
 2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
    Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
@@ -84,7 +87,7 @@ Une absence de réponse se constate à partir du 2027-01-22.
    Une réponse est arrivée pour P17 le 2026-11-23, sous embargo : l'auteur refuse que ses données soient données
    à une IA ou rendues publiques avant la publication de son étude. **Ne pas ouvrir ce fil ni ses pièces jointes.**
    Le détail de ce qui est permis est dans `analyses/P17/DEMANDES.md`. Au relevé des réponses, ne lire que les fils
-   dont le porteur du projet a dit qu'ils peuvent l'être.
+   que le porteur du projet a signalés, selon la règle de la section 2.
    La lettre à Bergen n'est pas dans la boîte du projet : le porteur du projet la suit de son côté.
 5. **Sous-lot 1b** : trouver une équipe habilitée pour les dosages sur échantillons conservés.
 6. **Zones non couvertes** : fait le 2026-11-23 pour la ferroptose, les acides biliaires, l'hypoxie et HIF.
