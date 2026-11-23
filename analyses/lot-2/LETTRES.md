@@ -170,7 +170,7 @@ Thank you for running a trial for children and young adults.
 
 ## Modèle logique : seconde lettre à Travis Craddock, après sa réponse
 
-État au 2026-11-23 : rédigée, non envoyée. Elle attend la relecture du porteur du projet.
+État au 2026-11-23 : envoyée, en réponse à son message, après l'accord du porteur du projet.
 
 Objet : Re: Reproducing Craddock et al. 2015 (PLoS ONE): treatment rule and code
 

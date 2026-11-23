@@ -100,8 +100,8 @@ Une absence de réponse se constate à partir du 2027-01-22.
 8. **Taux publiés du modèle de Craddock** : l'auteur a répondu le 2026-11-23. Le code n'existe plus, et sa réponse
    ne dit pas si les figures de 2015 utilisent un cran ou deux (`simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`, section 4 bis).
    L'article de 2021 qu'il indique est lu (section 4 ter) : un cran par pas de temps, traitement maintenu, et un taux
-   qui est celui du meilleur traitement trouvé. Reste à retrouver l'erratum de 2014. Une seconde lettre à l'auteur est rédigée,
-   non envoyée : `analyses/lot-2/LETTRES.md`.
+   qui est celui du meilleur traitement trouvé. Reste à retrouver l'erratum de 2014. Une seconde lettre à l'auteur est partie
+   le 2026-11-23 : `analyses/lot-2/LETTRES.md`.
    Il a aussi donné une indication non publique sur un essai : elle n'entre pas au dépôt.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
    ni les trois nouvelles pistes, ni la correction de la fiche T03, ni la contradiction des pistes gardées.
