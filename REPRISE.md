@@ -37,7 +37,7 @@ quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin 
 
 | Chantier | État | Détail |
 | --- | --- | --- |
-| Banque d'hypothèses | 26 pistes relues : 16 vérifiées, 3 promues, 3 écartées, 4 à vérifier ; cinq datent du 2026-11-23 (B022 à B026) ; chaque piste a eu un contradicteur, qui défend une mise à l'écart ou attaque une piste gardée | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
+| Banque d'hypothèses | 26 pistes relues : 18 vérifiées, 3 promues, 3 écartées, 2 à vérifier (B009 et B023) ; cinq datent du 2026-11-23 (B022 à B026) ; chaque piste a eu un contradicteur, qui défend une mise à l'écart ou attaque une piste gardée | `registre/banque.yaml`, `analyses/banque/RELECTURE.md` |
 | Registre | 17 pistes : P15, P16 et P17 viennent de la banque | `registre/pistes.yaml` |
 | P15, humanine et MOTS-c | Plan déposé, tests faits. Jeu de 2019 : lecture « indécidable » ; l'écart vient de cinq bibliothèques de témoins sains chargées d'ARN ribosomique. Trois autres jeux de données : signal non retrouvé. Ce résultat est retiré des appuis de la piste, qui ne repose plus que sur les vésicules du COVID long. Une lettre aux auteurs de 2019 est partie le 2026-11-22 | `analyses/P15/RESULTATS.md` |
 | P16, région HLA | Plan déposé. Test 1 fait : il échoue. Tests 2 à 4 non lus ; deux lettres parties le 2026-11-22. DecodeME a répondu par un message automatique : sa boîte ne répond pas aux messages reçus | `analyses/P16/RESULTATS.md` |
@@ -55,19 +55,13 @@ Une absence de réponse se constate à partir du 2027-01-22.
 
 ## 4. À faire, dans l'ordre
 
-1. **Lire en entier cinq articles** que les programmes ne peuvent pas ouvrir : quatre pistes en dépendent.
-   Un sixième, celui de B008, a été fourni par le porteur du projet et lu le 2026-11-23.
-   Le porteur du projet a donné son accord le 2026-11-22 pour les quatre premiers ; c'est le travail d'une personne.
-   Pour B009 : PMID 41475665 et PMID 27401397.
-   Pour B016 : l'article de la revue Sleep (PMID 37166330). Pour B004, depuis sa contradiction : l'article de 2008
-   de la revue PNAS (PMID 18268335). Pour B023, déposée le 2026-11-23 : PMID 38310391.
-   Une personne avec un accès de bibliothèque suffit.
+1. **Lire en entier trois articles** que les programmes ne peuvent pas ouvrir : deux pistes en dépendent.
+   Pour B009 : PMID 41475665 et PMID 27401397. Pour B023 : PMID 38310391. Tous trois sont sous abonnement ;
+   une copie a été demandée à leurs auteurs le 2026-11-23 (`analyses/banque/DEMANDES.md`).
+   Les articles de B004, B008 et B016 ont été fournis par le porteur du projet et lus le 2026-11-23.
+   Un PDF fourni par une personne se dépose dans la conversation : son texte sert de copie locale, hors dépôt,
+   et il est à redéposer si une session future doit le relire.
    Deux lectures de plus préciseraient deux pistes gardées : PMID 42205163 pour B005, PMID 33367564 pour B019.
-   Où les trouver, relevé le 2026-11-23 : deux sont en accès libre sur Europe PMC pour une personne, mais refusés
-   aux programmes (PMID 18268335 sous PMC2538898, PMID 37166330 sous PMC10485569). Les quatre autres sont sous abonnement,
-   à lire par leur DOI ; l'étude de 2009 n'a ni DOI ni copie : il faut le site de la revue In Vivo.
-   Une copie a été demandée aux auteurs le 2026-11-23 pour B009 et B023 (`analyses/banque/DEMANDES.md`).
-   Un PDF fourni par une personne se dépose dans la conversation : son texte sert de copie locale, hors dépôt.
 2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
    Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
    le niveau de B018 revient à C, neuf décisions sont reformulées. Aucun des quinze tests proposés n'est prêt :

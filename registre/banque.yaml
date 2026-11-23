@@ -426,9 +426,11 @@
   niveau: D
   sources:
   - titre: 'Remodeling of ryanodine receptor complex causes leaky channels: a molecular mechanism for decreased
-      exercise capacity, PNAS 2008 (résumé)'
+      exercise capacity, PNAS 2008 (résumé ; texte intégral lu le 2026-11-23 sur un PDF fourni par le porteur du
+      projet)'
     url: https://pubmed.ncbi.nlm.nih.gov/18268335/
     lu: page
+    texte: https://europepmc.org/articles/PMC2538898
   - titre: 'Rycal S48168 (ARM210) for RYR1-related myopathies: a phase one, open-label, dose-escalation trial, EClinicalMedicine
       2024 (résumé)'
     url: https://pubmed.ncbi.nlm.nih.gov/38318125/
@@ -449,7 +451,7 @@
     lu: page
   origine: agent biologie
   date: '2026-11-22'
-  statut: à vérifier
+  statut: vérifiée
   relecture:
     date: '2026-11-22'
     lecture: '5 sources rouvertes : 3 en texte intégral, 2 par leur résumé.'
@@ -468,9 +470,11 @@
       du réticulum de patients atteints de syndrome de fatigue chronique, une altération de l''ouverture des canaux
       à ryanodine (PMID 12899875, lue par son résumé, sans effectif). Elle n''a pas été répliquée. Aucune étude
       dans le COVID long, aucun essai enregistré.'
-    decision: 'À vérifier : le résultat de 2008 qui porte la piste n''est lu que par son résumé. Hypothèse théorique,
-      niveau D. La mesure centrale du test n''a pas pu être faite comme prévu dans l''essai d''ARM210 : sa faisabilité
-      sur biopsie est à établir avant de solliciter une équipe.'
+    decision: 'Gardée comme hypothèse théorique, niveau D. L''article de 2008, lu en entier, montre que l''effort
+      intense appauvrit le canal RyR1 en calstabine 1 chez 12 cyclistes entraînés, et que l''effet a disparu le
+      lendemain : c''est un résultat sur le muscle sain, d''une équipe liée à un fabricant. Aucune source lue en
+      entier ne mesure RyR1 dans le muscle de patients EM/SFC ou COVID long. Le test, qui prélève un jour après
+      l''effort, ne peut pas réfuter la piste tel qu''il est écrit.'
     attaque:
       date: '2026-11-22'
       avis: ne tient pas
@@ -493,6 +497,48 @@
         : c''est un précédent plus lointain que la décision ne le disait.'
       suite: 'Statut ramené de « vérifiée » à « à vérifier » : la règle appliquée à B008, B009 et B016 vaut ici.
         L''article de 2008 (PMID 18268335) s''ajoute aux articles à lire en entier.'
+    complement:
+      date: '2026-11-23'
+      lecture: 'L''article est lu en entier, sur un PDF téléchargé par le porteur du projet : Europe PMC le donne
+        aux personnes et le refuse aux programmes. La lecture est faite par le modèle principal, qui décide aussi.'
+      constats:
+      - 'Le résultat chez l''humain porte sur des cyclistes entraînés : 12 personnes qui font trois heures d''effort
+        intense, trois jours de suite, et 6 témoins assis dans la même salle. Après l''effort, le canal RyR1 de
+        leur muscle est plus phosphorylé, plus nitrosylé et appauvri en calstabine 1.'
+      - Aucun patient n'est étudié. L'article décrit l'effet d'un effort intense sur un muscle sain.
+      - Chez la souris, seul l'effort intense remodèle le canal, et le canal ne récupère qu'en partie après trois
+        jours de repos.
+      - La mesure que le test propose, la calstabine 1 liée à RyR1, a été faite ici sur des biopsies de cuisse humaine,
+        à partir de 100 microgrammes de muscle. Elle a donc marché en 2008 dans le laboratoire d'origine, et échoué
+        en 2024 dans l'essai d'ARM210.
+      - Deux auteurs, dont celui qui a présenté l'article à la revue, détiennent des parts d'une société qui développe
+        des médicaments ciblant le canal ; un troisième en est consultant.
+    attaque_apres_lecture:
+      date: '2026-11-23'
+      avis: tient en partie
+      decision_initiale: 'Gardée comme hypothèse théorique, niveau D. L''article de 2008, lu en entier, montre que
+        l''effort intense appauvrit le canal RyR1 en calstabine 1 chez 12 cyclistes entraînés : c''est un résultat
+        sur le muscle sain, d''une équipe liée à un fabricant. Aucune source ne mesure le canal chez des patients.
+        La mesure a marché en 2008 et échoué en 2024 : sa faisabilité reste à établir.'
+      constats:
+      - 'Les constats de la lecture de l''article de 2008 sont confirmés : 12 cyclistes entraînés et 6 témoins,
+        trois heures d''effort trois jours de suite, mesure sur 100 microgrammes de muscle, liens des auteurs avec
+        une société.'
+      - « Aucune source ne mesure le canal chez des patients » était trop large. Le résumé de 2003 décrit les canaux
+        à ryanodine chez des patients atteints de syndrome de fatigue chronique, et l'essai d'ARM210 porte sur des
+        patients d'une autre maladie. Ce qui manque, c'est une mesure de RyR1 lue en entier dans le muscle de patients
+        EM/SFC ou COVID long.
+      - 'En 2008, chez l''humain, la calstabine 1 n''est déjà plus appauvrie de façon significative le matin qui
+        suit l''effort. Le test de la piste prélève un jour après l''effort : un résultat nul y est attendu même
+        si la piste est vraie.'
+      - L'effort de 2008 qui remodèle le canal dure neuf heures de vélo sur trois jours ; celui de l'étude d'Appelman
+        est un test maximal de 8 à 12 minutes.
+      - 'Deux constats de la première contradiction ne tiennent pas. L''analyse sur deux participants de l''essai
+        d''ARM210 utilise une autre méthode que celle du test, et ses auteurs demandent un plus grand échantillon.
+        Et « l''inactivité suffit à rendre le canal fuyant » dépasse les sources : l''étude chez le porcelet porte
+        sur un diaphragme mis au repos complet, et Appelman écrit que ses anomalies ne reflètent pas l''inactivité.'
+      suite: 'Décision reformulée : vérifiée, niveau D. Le test ne peut réfuter la piste que si les témoins sains
+        montrent eux-mêmes l''effet après l''effort : il est à réécrire avec ce témoin positif.'
 - id: B005
   titre: Le liquide céphalo-rachidien des patients montre un déficit central en catécholamines, du même type que
     dans les synucléinopathies
@@ -1662,8 +1708,9 @@
     manquaient. Chez l''enfant, l''association disparaît après ajustement sur l''obésité. Comparer des patients
     observants à des non-observants expose au biais de l''utilisateur en bonne santé. Relecture du 2026-11-22, grille
     statistique : doutes aux questions 1, 3, 5, 7, 9 et 10. L''obésité est mal mesurée dans les dossiers ; une personne
-    suivie pour apnée consulte plus et reçoit plus de codes.'
-  niveau: B
+    suivie pour apnée consulte plus et reçoit plus de codes. Lecture du texte intégral, le 2026-11-23 : les doutes
+    aux questions 5 et 9 de la grille restent entiers.'
+  niveau: C
   solidite_statistique: 'Environ 2,2 millions de personnes infectées : 1,7 million d''adultes dans N3C, 330 000
     dans PCORnet, 102 000 enfants dans PEDSnet. Rapports de cotes bruts de 1,41 à 3,93 selon le réseau. Après ajustement
     : 75 % de risque en plus dans N3C, 12 % dans PCORnet ; les intervalles de confiance n''ont pas pu être lus.
@@ -1673,10 +1720,10 @@
   sources:
   - titre: 'Risk of post-acute sequelae of SARS-CoV-2 infection associated with pre-coronavirus disease obstructive
       sleep apnea diagnoses: an electronic health record-based analysis from the RECOVER initiative (Sleep, 2023),
-      résumé par Europe PMC'
+      résumé par Europe PMC (résumé ; texte intégral lu le 2026-11-23 sur un PDF fourni par le porteur du projet)'
     url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37166330%20AND%20SRC:MED&resultType=core&format=json
     lu: page
-    texte: https://pmc.ncbi.nlm.nih.gov/articles/PMC10485569/
+    texte: https://europepmc.org/articles/PMC10485569
   - titre: Obstructive sleep apnea associated with increased risks for long COVID (communiqué du NIH)
     url: https://www.ninds.nih.gov/news-events/news/press-releases/obstructive-sleep-apnea-associated-increased-risks-long-covid
     lu: page
@@ -1703,7 +1750,7 @@
     lu: extrait
   origine: agent statistique
   date: '2026-11-22'
-  statut: à vérifier
+  statut: vérifiée
   relecture:
     date: '2026-11-22'
     lecture: '5 sources rouvertes : 3 en texte intégral, 1 par son résumé, 1 page bloquée.'
@@ -1723,9 +1770,11 @@
       Chez 100 patients COVID long testés à domicile, l''apnée est fréquente (53 %) et sans lien avec l''intensité
       des symptômes (PMID 42897409) : c''est une fréquence, pas un risque. Un essai de pression positive contre
       appareil factice dans la fatigue chronique a été arrêté avant son terme (NCT01368718).'
-    decision: 'Mise à l''écart levée après contradiction. L''association est retrouvée par deux méthodes différentes
-      ; sa taille est instable et la confusion par l''obésité n''est pas écartée. La piste reste à vérifier : l''article
-      qui porte le signal n''est accessible aux programmes que par son résumé.'
+    decision: 'Gardée après lecture de l''article, au niveau C. L''association est de même sens dans deux réseaux
+      de dossiers médicaux et dans une enquête, mais elle est fragile : 1,12 et 1,75 selon le réseau, un rapport
+      de 0,91 dans l''un d''eux quand l''ajustement change, un COVID long défini en partie par le recours aux soins,
+      et une enquête déclarée des deux côtés. La confusion par l''obésité n''est pas écartée. L''analyse du traitement
+      de l''apnée, sur lequel repose le test, a été faite et n''est pas rapportée.'
     contradiction:
       date: '2026-11-22'
       avis: tient en partie
@@ -1747,6 +1796,57 @@
       suite: 'Mise à l''écart levée. La grille avait été appliquée à la lettre, alors que la même situation avait
         été jugée autrement pour l''hypermobilité (B018) : deux façons de mesurer, un même sens. Les deux pistes
         sont maintenant traitées de la même façon.'
+    complement:
+      date: '2026-11-23'
+      lecture: 'L''article est lu en entier, sur un PDF téléchargé par le porteur du projet : Europe PMC le donne
+        aux personnes et le refuse aux programmes. La lecture est faite par le modèle principal, qui décide aussi.'
+      constats:
+      - 'Les chiffres venus d''une lecture en ligne non contrôlée sont confirmés : rapports de cotes ajustés de
+        1,75 (1,71 à 1,80) dans le réseau N3C et de 1,12 (1,08 à 1,16) dans PCORnet ; COVID long probable chez 4,9
+        % et 16,6 % des patients.'
+      - Avant ajustement, les deux réseaux donnent 3,93 et 1,41. L'ajustement sur l'obésité et les autres maladies
+        fait le plus baisser l'association, et les auteurs écrivent qu'elle peut tenir en partie à cette confusion.
+      - 'Le résumé dit les analyses de sensibilité concordantes. Le texte dit autre chose pour PCORnet : en ajustant
+        sur l''hypertension et le diabète plutôt que sur le score de comorbidité, il donne 1,03 (1,00 à 1,07) et
+        0,91 (0,88 à 0,95), et écrit que l''association « n''est plus significative ». Le second chiffre est de
+        sens contraire ; la phrase ne dit pas clairement à quelle analyse chacun correspond.'
+      - 'Chez l''enfant, l''association disparaît après ajustement : 1,05 (0,89 à 1,24).'
+      - 'Le COVID long n''est pas défini de la même façon : dans N3C, un modèle entraîné sur les patients d''une
+        consultation spécialisée ; dans PCORnet, tout nouveau diagnostic parmi 25 familles de codes dans les six
+        mois.'
+      - 'Les auteurs relèvent un biais de surveillance possible : une personne suivie pour son apnée consulte plus,
+        et a plus de chances de recevoir un diagnostic.'
+      - 'Le traitement de l''apnée a fait l''objet d''une analyse exploratoire, que les auteurs ont choisi de ne
+        pas poursuivre ni rapporter : les prescriptions d''appareil ne remontent pas bien dans ces bases. La sévérité
+        de l''apnée est inconnue, et la vaccination n''est pas ajustée.'
+      - 'La divergence relevée à la contradiction est levée : la race et l''ethnie sont bien des variables d''ajustement
+        ; c''est leur complétude qui varie d''un réseau à l''autre.'
+    attaque:
+      date: '2026-11-23'
+      avis: tient en partie
+      decision_initiale: 'Gardée après lecture de l''article, au niveau B : l''association est retrouvée dans deux
+        réseaux de dossiers médicaux et dans une enquête d''une autre équipe. Elle est fragile : sa taille va de
+        1,12 à 1,75 selon le réseau, elle disparaît dans l''un des deux quand on change l''ajustement, et la confusion
+        par l''obésité et le biais de surveillance ne sont pas écartés. L''article ne dit rien du traitement de
+        l''apnée, sur lequel repose le test de la piste.'
+      niveau_initial: B
+      constats:
+      - Seize des vingt faits contrôlés sont confirmés, dont tous les chiffres de la lecture.
+      - '« Elle disparaît dans l''un des deux réseaux » était inexact : l''article donne un rapport de 0,91 (0,88
+        à 0,95), qui est un renversement de sens, dans une phrase qui parle d''absence de signification.'
+      - '« L''article ne dit rien du traitement » était inexact : une analyse exploratoire a été faite et n''est
+        pas rapportée.'
+      - 'Dans le réseau où l''effet est le plus fort, le COVID long est défini par un modèle entraîné sur la fréquentation
+        d''une consultation spécialisée : il mesure en partie le recours aux soins.'
+      - L'enquête qui retrouve l'association est déclarée des deux côtés, et elle définit l'apnée par la somnolence,
+        qui est aussi un symptôme du COVID long. Elle ne vaut pas une contre-analyse.
+      - 'Le test ne peut pas atteindre son critère : avec 2 033 personnes par groupe, l''intervalle d''un rapport
+        de 1 va d''environ 0,86 à 1,16, plus large que la zone de 0,9 à 1,1 (calcul du contradicteur, non refait).
+        Aucun jeu de données ne joint l''observance de l''appareil au COVID long.'
+      suite: Décision reformulée, niveau ramené de B à C. Deux réseaux d'une même étude donnent des tailles différentes
+        et, dans une analyse, des sens opposés ; la seule confirmation indépendante est déclarée des deux côtés.
+        La piste est gardée parce que l'association de l'analyse principale est de même sens dans trois jeux de
+        données.
 - id: B017
   titre: L'EM/SFC porte une signature sanguine de résistance à l'insuline et d'atteinte du foie que l'inactivité
     n'explique pas
