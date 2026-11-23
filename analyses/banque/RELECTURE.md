@@ -8,8 +8,9 @@ une repasse « à vérifier » (B004), un niveau de preuve baisse (B018), neuf d
 
 Cinq pistes ont été déposées et relues le 2026-11-23, sur trois zones que la première recherche n'avait pas couvertes :
 quatre sont vérifiées, une reste à vérifier. Elles sont traitées dans la section « Dépôt du 2026-11-23 ».
-L'article qui porte B008 a été lu en entier le 2026-11-23, sur un PDF fourni par le porteur du projet : la piste est gardée
-au niveau D. La banque compte donc 26 pistes : 19 vérifiées, dont 3 promues, 3 écartées, 4 à vérifier.
+Les articles qui portent B004, B008 et B016 ont été lus en entier le 2026-11-23, sur des PDF fournis par le porteur du projet :
+les trois pistes sont gardées, B004 et B008 au niveau D, B016 au niveau C.
+La banque compte donc 26 pistes : 21 vérifiées, dont 3 promues, 3 écartées, 2 à vérifier.
 
 « Vérifiée » ne veut pas dire « vraie ». Les sources ont été rouvertes, les erreurs relevées,
 et la piste reste une question à tester. Rien ici n'est un avis médical.
@@ -23,7 +24,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B001 | Kinases de la pyruvate déshydrogénase | C | Vérifiée | Gardée après corrections : le signal de 2016 est fidèlement rapporté, le test sur échantillons conservés est faisable. |
 | B002 | Peroxysomes et plasmalogènes | C | Vérifiée | Gardée après corrections. Demander les plasmalogènes aux auteurs des lipidomiques déjà faites reste le premier pas le moins coûteux, mais rien ne montre que leurs données suffisent au test : l'une n'a pas de groupe rétabli nommé, l'autre décrit un métabolisme des lipides éthers renforcé, de sens contraire. |
 | B003 | Orexine de l'hypothalamus | D | Vérifiée | Gardée comme hypothèse théorique, après correction de son énoncé : la baisse décrite chez l'animal est aiguë, et aucun dosage cas-témoins n'existe chez les patients. Le test sur liquide céphalo-rachidien conservé reste à faire, avec des témoins ponctionnés. |
-| B004 | Canal calcique RyR1 du muscle | D | À vérifier | À vérifier : le résultat de 2008 qui porte la piste n'est lu que par son résumé. Hypothèse théorique, niveau D. La mesure centrale du test n'a pas pu être faite comme prévu dans l'essai d'ARM210 : sa faisabilité sur biopsie est à établir avant de solliciter une équipe. |
+| B004 | Canal calcique RyR1 du muscle | D | Vérifiée | Gardée comme hypothèse théorique, niveau D. L'article de 2008, lu en entier, montre que l'effort intense appauvrit le canal RyR1 en calstabine 1 chez 12 cyclistes entraînés, et que l'effet a disparu le lendemain : c'est un résultat sur le muscle sain, d'une équipe liée à un fabricant. Aucune source lue en entier ne mesure RyR1 dans le muscle de patients EM/SFC ou COVID long. Le test, qui prélève un jour après l'effort, ne peut pas réfuter la piste tel qu'il est écrit. |
 | B005 | Catécholamines du liquide céphalo-rachidien | C | Vérifiée | Gardée après corrections : un déficit des métabolites des catéchols, mesuré par une seule équipe, à répliquer hors du NIH. Son recentrage sur la noradrénaline repose sur une étude de 2026 lue par son résumé ; la lecture « synucléine » reste la moins étayée, sans être écartée. |
 | B006 | Auto-anticorps contre la sélénoprotéine P | C | Vérifiée | Gardée après corrections : le dosage par un laboratoire indépendant est le test qui manque. |
 | B007 | Cibinétide et petites fibres nerveuses | C | Vérifiée | Gardée après corrections, avec un test à refaire : mesurer d'abord, sur une cohorte suivie, si les fibres de la cornée remontent quand les symptômes s'améliorent. Dans l'essai de 2017, ni les fibres de la peau ni les symptômes ne s'améliorent plus que sous placebo. |
@@ -35,7 +36,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B013 | Région HLA de classe II | C | Vérifiée | Gardée après corrections : quatre tests fixés d'avance peuvent trancher, mais un seul se lit sur un fichier public. Les études norvégiennes désignent la région HLA-DQ dans l'EM/SFC seulement. |
 | B014 | FOXP4 et sous-type pulmonaire | B | Écartée | L'hypothèse d'un sous-type pulmonaire n'est pas soutenue par la source du signal, et son analyse par symptôme va contre elle : le variant est associé au COVID long avec un code de fatigue (2 644 cas) comme au COVID long avec un code d'asthme (1 060 cas). Limites : chaque symptôme est testé à part, les groupes se chevauchent, le code de fatigue est générique, et les rapports de cotes ne sont donnés que dans une figure. À rouvrir si une cohorte sépare une forme respiratoire d'une forme à fatigue dominante. |
 | B015 | Grossesse au moment de l'infection | C | Écartée | Signal probablement artefactuel tant qu'une étude assez puissante ne l'a pas retrouvé hors des dossiers médicaux. Dans ces dossiers, la grossesse n'est repérée que par l'accouchement (question 8 de la grille), et l'ampleur de l'effet va de 0,32 à 0,86 selon la définition du cas (questions 5 et 9). La seule cohorte prospective donne 0,96 (0,63–1,48) : elle ne confirme pas, sans pouvoir exclure. À rouvrir si une cohorte prospective plus grande retrouve l'effet, notamment au troisième trimestre. |
-| B016 | Apnée du sommeil avant l'infection | B | À vérifier | Mise à l'écart levée après contradiction. L'association est retrouvée par deux méthodes différentes ; sa taille est instable et la confusion par l'obésité n'est pas écartée. La piste reste à vérifier : l'article qui porte le signal n'est accessible aux programmes que par son résumé. |
+| B016 | Apnée du sommeil avant l'infection | C | Vérifiée | Gardée après lecture de l'article, au niveau C. L'association est de même sens dans deux réseaux de dossiers médicaux et dans une enquête, mais elle est fragile : 1,12 et 1,75 selon le réseau, un rapport de 0,91 dans l'un d'eux quand l'ajustement change, un COVID long défini en partie par le recours aux soins, et une enquête déclarée des deux côtés. La confusion par l'obésité n'est pas écartée. L'analyse du traitement de l'apnée, sur lequel repose le test, a été faite et n'est pas rapportée. |
 | B017 | Résistance à l'insuline avant l'EM/SFC | C | Vérifiée | Gardée après corrections : le test sur les cas incidents d'UK Biobank est le plus direct pour dire si la signature précède la maladie. Le nombre de cas incidents reste à établir. |
 | B018 | Hypermobilité articulaire | C | Vérifiée | Gardée après corrections. L'association est retrouvée avec une hypermobilité non déclarée par le patient, dans deux études à diagnostics codés que leurs limites empêchent de tenir pour une réplication. Le test suivant est une mesure à l'examen, avant l'infection ; aucune cohorte n'est nommée pour le faire. |
 | B019 | Interleukines 5 et 13 avant une mononucléose | C | Vérifiée | Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est rare. Le test de réplication a un seuil et un effectif calculé, mais rien ne montre que la cohorte nommée dose les deux cytokines ni qu'elle compte assez de cas. |
@@ -169,6 +170,22 @@ Son contradicteur rend l'avis « tient en partie ». Deux phrases étaient inexa
 alors que le D-lactate fluctue, et « aucun essai enregistré », alors que l'essai de 2018 l'est dans un autre registre
 que celui qui avait été interrogé. Le signal de 2009 est probablement artefactuel ; la piste n'est pas gardée sur sa foi.
 
+## B004 et B016, après la lecture de leur article
+
+**B004, canal RyR1.** L'article de 2008 montre l'effet chez 12 cyclistes entraînés, après neuf heures d'effort sur trois jours,
+et cet effet a disparu le lendemain. Aucun patient n'y est étudié. La piste passe de « à vérifier » à « vérifiée », au niveau D.
+Son test prélève un jour après un effort de quelques minutes : il ne peut pas réfuter la piste tel qu'il est écrit.
+Le contradicteur a aussi fait tomber deux constats de la première contradiction, sur l'inactivité et sur une analyse
+à deux participants : un contradicteur se trompe aussi.
+
+**B016, apnée du sommeil.** Le texte confirme les chiffres que le projet tenait d'une lecture non contrôlée : 1,75 et 1,12.
+Il montre ce que le résumé taisait : dans un des deux réseaux, un autre ajustement donne 0,91, de sens contraire ;
+le COVID long y est défini en partie par le recours aux soins ; l'analyse du traitement de l'apnée a été faite et n'est pas rapportée.
+La piste passe à « vérifiée », et son niveau de B à C. Deux phrases du décideur étaient inexactes : « disparaît », pour un renversement,
+et « ne dit rien du traitement ».
+
+Les deux avis sont « tient en partie ». Leurs citations sont retrouvées mot pour mot.
+
 ## Méthode
 
 1. **Copie locale des sources.** `outils/sources_banque.py` prend, par les interfaces officielles, le texte
@@ -214,8 +231,9 @@ une mesure déclarée des deux côtés.
 - Le décideur a vérifié lui-même, dans les copies, les constats qui changent un statut ou un niveau.
   Les autres constats reposent sur le contrôle mot pour mot de leur citation.
 - 43 sources ne sont lues que par leur résumé, dont les études ajoutées par le test « inexplorée ».
-- Les articles qui portent le signal de B004, de B009, de B016 et de B023 ne sont pas accessibles en entier : ces quatre pistes restent à vérifier.
-- Pour B008, l'article fourni par une personne a été lu par le modèle principal, qui décide aussi : relecteur et décideur
+- Les articles qui portent le signal de B009 et de B023 ne sont pas accessibles en entier : ces deux pistes restent à vérifier.
+  Une copie a été demandée à leurs auteurs.
+- Pour B004, B008 et B016, l'article fourni par une personne a été lu par le modèle principal, qui décide aussi : relecteur et décideur
   ne sont pas séparés. Son contradicteur a relevé un constat venu de la mémoire du lecteur, corrigé depuis.
 - Le test « inexplorée » lit des titres et des résumés. Une absence ne prouve rien.
 - La page de la biobanque britannique est bloquée : ses effectifs actuels n'ont pas pu être contrôlés.

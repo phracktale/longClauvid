@@ -3,6 +3,30 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-23 — B004 et B016 : articles lus en entier, deux pistes gardées, un niveau baisse
+
+**Fait.** Le porteur du projet a téléchargé les deux articles, en accès libre pour une personne et refusés aux programmes.
+Le modèle principal les a lus ; un contradicteur a attaqué chaque décision. Toutes les citations sont retrouvées.
+
+**Décision, B004.** Gardée comme hypothèse théorique, niveau D. L'effet est montré chez 12 cyclistes entraînés,
+après neuf heures d'effort, et il a disparu le lendemain. Aucun patient n'est étudié.
+
+**Décision, B016.** Gardée, niveau ramené de B à C. Le texte confirme 1,75 et 1,12, et montre un rapport de 0,91
+dans un réseau quand l'ajustement change. La seule confirmation indépendante est une enquête déclarée des deux côtés.
+
+**Motif, pour le niveau de B016.** Deux cohortes suffisent à la lettre pour le niveau B. La même lecture à la lettre
+avait été refusée pour B018 : une confirmation qui ne tient pas seule ne relève pas un niveau.
+
+**Écarté.** Écarter B016 comme signal probablement artefactuel : la grille le permettrait, pour un doute aux questions 5 et 9.
+L'association de l'analyse principale est de même sens dans trois jeux de données, et une mise à l'écart de cette piste
+a déjà été levée une fois. Elle est gardée, avec ses réserves écrites.
+
+**Erreurs du décideur, relevées par les contradicteurs.** « Disparaît » pour un renversement de sens ; « ne dit rien
+du traitement » alors qu'une analyse a été faite et non rapportée ; « aucune source ne mesure le canal chez des patients »,
+trop large. Deux constats de la première contradiction de B004 tombent aussi.
+
+**Constat.** Il ne reste que deux pistes à vérifier, B009 et B023 : trois articles sous abonnement, demandés à leurs auteurs.
+
 ## 2026-11-23 — B008 : l'article lu en entier ne dose le D-lactate chez aucun patient
 
 **Fait.** Le porteur du projet a téléchargé l'article de 2009, que le site de la revue refuse aux programmes.
