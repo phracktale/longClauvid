@@ -26,7 +26,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B002 | Peroxysomes et plasmalogènes | C | Vérifiée | Gardée après corrections. Demander les plasmalogènes aux auteurs des lipidomiques déjà faites reste le premier pas le moins coûteux, mais rien ne montre que leurs données suffisent au test : l'une n'a pas de groupe rétabli nommé, l'autre décrit un métabolisme des lipides éthers renforcé, de sens contraire. |
 | B003 | Orexine de l'hypothalamus | D | Vérifiée | Gardée comme hypothèse théorique, après correction de son énoncé : la baisse décrite chez l'animal est aiguë, et aucun dosage cas-témoins n'existe chez les patients. Le test sur liquide céphalo-rachidien conservé reste à faire, avec des témoins ponctionnés. |
 | B004 | Canal calcique RyR1 du muscle | D | Vérifiée | Gardée comme hypothèse théorique, niveau D. L'article de 2008, lu en entier, montre que l'effort intense appauvrit le canal RyR1 en calstabine 1 chez 12 cyclistes entraînés, et que l'effet a disparu le lendemain : c'est un résultat sur le muscle sain, d'une équipe liée à un fabricant. Aucune source lue en entier ne mesure RyR1 dans le muscle de patients EM/SFC ou COVID long. Le test, qui prélève un jour après l'effort, ne peut pas réfuter la piste tel qu'il est écrit. |
-| B005 | Catécholamines du liquide céphalo-rachidien | C | Vérifiée | Gardée après corrections, recentrée sur la noradrénaline : un indice de cette voie est plus bas dans le liquide céphalo-rachidien de 15 patients EM/SFC et de 30 patients COVID long que chez 36 volontaires sains, dans une étude de 2026 lue en entier. Les patients EM/SFC sont très probablement ceux de l'étude de 2024 ; dans le COVID long, l'écart ne vaut que pour les 9 patients avec malaise post-effort. Aucune correction pour comparaisons multiples, aucun ajustement sur l'âge, une seule équipe : à répliquer hors du NIH. La lecture « synucléine » n'est ni testée ni écartée. |
+| B005 | Catécholamines du liquide céphalo-rachidien | C | Vérifiée | Gardée après corrections, recentrée sur la noradrénaline : un indice de cette voie est plus bas dans le liquide céphalo-rachidien de 15 patients EM/SFC et de 30 patients COVID long que chez 36 volontaires sains, dans une étude de 2026 lue en entier. Les patients EM/SFC sont très probablement ceux de l'étude de 2024 ; dans le COVID long, l'écart ne vaut que pour les 9 patients avec malaise post-effort. L'article n'ajuste pas sur l'âge ; refait sur ses données publiques, l'écart tient après ajustement sur l'âge et le sexe (analyses/banque/B005/). Aucune correction pour comparaisons multiples, une seule équipe : à répliquer hors du NIH. La lecture « synucléine » n'est ni testée ni écartée. |
 | B006 | Auto-anticorps contre la sélénoprotéine P | C | Vérifiée | Gardée après corrections : le dosage par un laboratoire indépendant est le test qui manque. |
 | B007 | Cibinétide et petites fibres nerveuses | C | Vérifiée | Gardée après corrections, avec un test à refaire : mesurer d'abord, sur une cohorte suivie, si les fibres de la cornée remontent quand les symptômes s'améliorent. Dans l'essai de 2017, ni les fibres de la peau ni les symptômes ne s'améliorent plus que sous placebo. |
 | B008 | D-lactate d'origine intestinale | D | Vérifiée | Gardée comme hypothèse théorique, niveau D : aucune source ne dose le D-lactate chez des patients. L'étude de selles de 2009, lue en entier, ne l'appuie pas : son signal est probablement artefactuel, et ses patients sont choisis pour leurs troubles digestifs. Un dosage unique sur plasma conservé ne suffirait pas à réfuter la piste, parce que le D-lactate fluctue : le test est à réécrire. |
@@ -228,6 +228,17 @@ l'IL-5 sur le même plan que l'IL-13. Avec l'accord du porteur du projet, les de
 l'ancien titre est gardé dans le champ `relecture.titre_initial` de chaque piste. Deux champs de B019 disent
 encore « valeurs de p non rapportées » et « nombre de cytokines non rapporté » : ils ne sont pas réécrits,
 la relecture les corrige dans son champ.
+
+## B005 : la comparaison de 2026 refaite sur ses données publiques
+
+Les auteurs de l'étude de 2026 publient leurs données individuelles. Le plan a été déposé avant le calcul :
+`analyses/banque/B005/PLAN.md`. Les écarts publiés sont retrouvés à l'identique. Ajusté sur l'âge et le sexe,
+ce que l'article ne faisait pas, l'écart de l'indice de la noradrénaline tient : −13,16 pmol/mL (−22,71 à −3,61)
+dans l'EM/SFC, −8,75 (−16,33 à −1,17) dans le COVID long. Le DOPAC seul reste un peu bas dans l'EM/SFC, à la limite.
+Un second programme a refait le calcul avec son propre code et retrouve tous les chiffres ; il a corrigé quatre phrases
+du compte rendu. Le détail est dans `analyses/banque/B005/RESULTATS.md`.
+
+Ce calcul contrôle une analyse sur les mêmes patients : il ne réplique rien. La piste reste vérifiée, au niveau C.
 
 ## Méthode
 

@@ -640,9 +640,10 @@
     decision: 'Gardée après corrections, recentrée sur la noradrénaline : un indice de cette voie est plus bas dans
       le liquide céphalo-rachidien de 15 patients EM/SFC et de 30 patients COVID long que chez 36 volontaires sains,
       dans une étude de 2026 lue en entier. Les patients EM/SFC sont très probablement ceux de l''étude de 2024
-      ; dans le COVID long, l''écart ne vaut que pour les 9 patients avec malaise post-effort. Aucune correction
-      pour comparaisons multiples, aucun ajustement sur l''âge, une seule équipe : à répliquer hors du NIH. La lecture
-      « synucléine » n''est ni testée ni écartée.'
+      ; dans le COVID long, l''écart ne vaut que pour les 9 patients avec malaise post-effort. L''article n''ajuste
+      pas sur l''âge ; refait sur ses données publiques, l''écart tient après ajustement sur l''âge et le sexe (analyses/banque/B005/).
+      Aucune correction pour comparaisons multiples, une seule équipe : à répliquer hors du NIH. La lecture « synucléine
+      » n''est ni testée ni écartée.'
     attaque:
       date: '2026-11-22'
       avis: tient en partie
@@ -730,6 +731,24 @@
       titre: Le liquide céphalo-rachidien des patients montre un déficit central en catécholamines, du même type
         que dans les synucléinopathies
       motif: 'Titre réécrit avec l''accord du porteur du projet : il disait plus que les sources lues en entier.'
+    reanalyse:
+      date: '2026-11-24'
+      dossier: analyses/banque/B005/
+      constats:
+      - Les auteurs publient leurs données individuelles avec leur code. Le plan a été déposé avant le calcul ;
+        les écarts publiés sont retrouvés à l'identique.
+      - 'Ajusté sur l''âge et le sexe, l''écart de l''indice de la noradrénaline tient : −13,16 pmol/mL (−22,71
+        à −3,61) pour 15 patients EM/SFC, −8,75 (−16,33 à −1,17) pour 30 patients COVID long, intervalles à 97,5
+        %.'
+      - Les dix patients sous médicament agissant sur la noradrénaline sont quatre dans l'EM/SFC et six dans le
+        COVID long. Sans eux, l'écart de l'EM/SFC tient ; celui du COVID long bouge peu mais son intervalle contient
+        zéro.
+      - Le DOPAC seul est un peu plus bas dans l'EM/SFC, à la limite et sans correction (p = 0,043), pas dans le
+        COVID long. L'indice de la dopamine, dominé par le HVA, ne peut pas montrer un si petit écart.
+      - 'Un second programme a refait le calcul avec son propre code et retrouve tous les chiffres. Sur les rangs,
+        hors plan, l''écart du COVID long frôle zéro : c''est le moins net des deux.'
+      suite: 'Résultat descriptif, sur les mêmes patients et la même équipe : ce n''est pas une réplication. Statut
+        et niveau inchangés.'
 - id: B006
   titre: Des auto-anticorps contre la sélénoprotéine P privent les tissus de sélénium et freinent l'activation de
     l'hormone thyroïdienne
