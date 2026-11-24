@@ -61,11 +61,11 @@ Une absence de réponse se constate à partir du 2027-01-22.
 1. **Lire en entier deux articles** que les programmes ne peuvent pas ouvrir, sous abonnement : PMID 38310391,
    dont dépend B023, la seule piste encore « à vérifier », et PMID 41475665, le second article de B009.
    Une copie a été demandée à leurs auteurs le 2026-11-23 (`analyses/banque/DEMANDES.md`).
-   Quatre articles ont déjà été lus : ceux de B004, B008 et B016, fournis par le porteur du projet,
+   Six articles ont déjà été lus : ceux de B004, B005, B008, B016 et B019, fournis par le porteur du projet,
    et celui de 2017 pour B009, envoyé par son auteur. Un PDF se dépose dans la conversation ou arrive par la boîte :
    son texte sert de copie locale, hors dépôt, et il est à redéposer si une session future doit le relire.
-   Deux lectures de plus préciseraient deux pistes gardées : PMID 42205163 pour B005, PMID 33367564 pour B019.
-   Les deux sont gratuits pour une personne sur Europe PMC, et refusés aux programmes : PMC13202209 et PMC8664491.
+   B005 et B019 ont été relues le 2026-11-24 après lecture de leur article : toutes deux restent vérifiées, niveau C.
+   Leurs titres disent plus que leurs sources : les réécrire attend la décision du porteur du projet.
 2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
    Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
    le niveau de B018 revient à C, neuf décisions sont reformulées. Aucun des quinze tests proposés n'est prêt :

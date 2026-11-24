@@ -3,6 +3,22 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-24 — B005 et B019 : deux articles lus en entier, deux pistes gardées au niveau C
+
+**Fait.** Le porteur du projet a fourni les deux articles. Le modèle principal les a lus ; un contradicteur par piste
+a attaqué la lecture. Les deux avis sont « tient en partie », et toutes les citations sont retrouvées.
+
+**B005.** Recentrée sur la noradrénaline : l'indice de cette voie est plus bas chez les patients, celui de la dopamine est normal.
+Les patients EM/SFC sont très probablement ceux de 2024 : la piste reste sans réplication hors du NIH.
+Trois constats de ma lecture étaient faux ou trop forts ; le contradicteur les a corrigés, dont une affirmation des auteurs
+reprise sans contrôle.
+
+**B019.** Le signal d'avant la maladie est porté par l'IL-13 et l'IL-6 ; l'IL-5 n'est qu'en tendance.
+
+**Choix.** Les titres et les champs écrits au dépôt des deux pistes ne sont pas réécrits : la relecture les corrige
+dans son propre champ. Écarté : les réécrire d'office, ce qui effacerait la trace de ce qui avait été déposé.
+La réécriture est proposée au porteur du projet.
+
 ## 2026-11-24 — Quatre travaux faits sans attendre de réponse
 
 **Modèle de Craddock.** La règle soumise à l'auteur est essayée : un frein de deux crans, une stimulation d'un cran.
