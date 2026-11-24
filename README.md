@@ -18,6 +18,7 @@ les confronte entre elles et les simule avant qu'une équipe clinique ne les tes
 | `registre/` | Sources, pistes, endotypes, transpositions, confrontations et hypothèses, un fichier par hypothèse |
 | `registre/banque.yaml` | La banque d'hypothèses à vérifier, alimentée par des agents de recherche ; chaque piste relue porte ses corrections et sa décision |
 | `analyses/` | Les plans d'analyse, déposés avant toute donnée, et les demandes aux équipes |
+| `CITATION.cff`, `.zenodo.json` | Comment citer le dépôt, et ce qu'il faut pour lui obtenir un identifiant DOI |
 | `outils/valider_registre.py` | Refuse une hypothèse sans prédiction réfutable ou une affirmation sans source |
 | `outils/bibliotheque_apresj20.py` | Copie locale de la bibliothèque de l'association #ApresJ20, pour y chercher sans la solliciter |
 | `outils/grille-statistique.md` | Dix questions pour relire une piste de la banque |

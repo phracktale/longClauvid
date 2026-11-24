@@ -125,6 +125,11 @@ def en_un_temps(traitement, crans):
     return [{cible: sens * crans for cible, sens in traitement.items()}]
 
 
+def frein_extreme(traitement):
+    """Lecture mixte : un frein descend de deux crans, une stimulation monte d'un seul."""
+    return [{cible: -2 if sens < 0 else 1 for cible, sens in traitement.items()}]
+
+
 def main():
     print("1. ÉTATS STABLES (4 782 969 états essayés)")
     trouves = etats_stables(RESEAU)
@@ -153,11 +158,17 @@ def main():
         print(f"   {publie:3d} % | {retour_au_sain(a_la_suite(cibles, 1)):6.1%} |"
               f" {retour_au_sain(a_la_suite(cibles, 2)):6.1%}   {', '.join(cibles)}")
 
-    print("\n4. FIGURE 5 : un seul temps, plusieurs cibles (publié | 1 cran | 2 crans)")
+    print("\n4. FIGURE 5 : un seul temps, plusieurs cibles"
+          " (publié | 1 cran | 2 crans | frein de 2 crans, stimulation de 1)")
+    ecarts = []
     for publie, traitement in FIGURE_5:
         cibles = ", ".join(f"{cible}{'+' if sens > 0 else '-'}" for cible, sens in traitement.items())
+        mixte = retour_au_sain(frein_extreme(traitement))
+        ecarts.append(abs(100 * mixte - publie))
         print(f"   {publie:5.2f} % | {retour_au_sain(en_un_temps(traitement, 1)):6.1%} |"
-              f" {retour_au_sain(en_un_temps(traitement, 2)):6.1%}   {cibles}")
+              f" {retour_au_sain(en_un_temps(traitement, 2)):6.1%} | {mixte:6.1%}   {cibles}")
+    print(f"   lecture mixte : {sum(ecart <= 2 for ecart in ecarts)} lignes sur {len(ecarts)} à 2 points près,"
+          f" écart maximal {max(ecarts):.1f} point")
 
 
 if __name__ == "__main__":

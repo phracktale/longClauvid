@@ -3,6 +3,26 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-24 — Quatre travaux faits sans attendre de réponse
+
+**Modèle de Craddock.** La règle soumise à l'auteur est essayée : un frein de deux crans, une stimulation d'un cran.
+Elle rend 11 lignes sur 12 de la figure 5 à 2 points près, contre 8 pour deux crans partout et 0 pour un cran.
+La douzième ligne demande l'inverse pour le même nœud : aucune règle simple ne rend les douze.
+
+**Erratum de 2014.** Retrouvé à la seconde recherche, par les liens de correction de PubMed. L'article a deux errata ;
+le second remplace la figure du réseau, « qui contenait un certain nombre d'erreurs ». Cela confirme ce que disait l'auteur.
+La figure corrigée n'a pas été relue arête par arête. La première recherche avait cherché par nom d'auteur :
+les errata sont signés par la revue.
+
+**Contrôle automatique.** Le dépôt n'en avait aucun côté GitHub. Un fichier lance désormais `verifier.py`
+à chaque demande de fusion. Choix : un seul travail, sans donnée extérieure.
+
+**Dépôt citable.** `CITATION.cff` et `.zenodo.json` sont ajoutés. L'auteur déclaré est « Projet longClauvid » :
+la règle du projet exclut le nom du porteur du projet. L'identifiant DOI demande encore de relier le dépôt à Zenodo
+et de publier une version : c'est un geste du porteur du projet.
+
+**Constat.** Les articles de B005 et de B019 sont gratuits pour une personne et refusés aux programmes.
+
 ## 2026-11-24 — B009 : l'auteur a envoyé son article, la piste est gardée au niveau C
 
 **Fait.** L'auteur de l'étude de 2017 a envoyé son article le jour de la demande, sans condition.
