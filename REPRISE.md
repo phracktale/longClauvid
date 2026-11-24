@@ -66,6 +66,8 @@ Une absence de réponse se constate à partir du 2027-01-22.
    son texte sert de copie locale, hors dépôt, et il est à redéposer si une session future doit le relire.
    B005 et B019 ont été relues le 2026-11-24 après lecture de leur article : toutes deux restent vérifiées, niveau C.
    Leurs titres ont été réécrits le même jour, à la demande du porteur du projet ; l'ancien est gardé dans `relecture.titre_initial`.
+   Pour B005, la comparaison de 2026 est refaite sur les données publiques des auteurs : l'écart tient après ajustement
+   sur l'âge et le sexe (`analyses/banque/B005/`). Ce n'est pas une réplication : il manque toujours une cohorte hors du NIH.
 2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
    Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
    le niveau de B018 revient à C, neuf décisions sont reformulées. Aucun des quinze tests proposés n'est prêt :

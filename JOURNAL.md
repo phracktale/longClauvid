@@ -3,6 +3,20 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-24 — B005 : la comparaison de 2026 refaite sur les données publiques des auteurs
+
+**Fait.** Les auteurs publient leurs données individuelles avec leur code. Le plan a été déposé avant tout calcul
+sur les dosages, puis le calcul lancé. Les chiffres publiés sont retrouvés. Ajusté sur l'âge et le sexe,
+l'écart de l'indice de la noradrénaline tient, pour l'EM/SFC comme pour le COVID long.
+
+**Relecture.** Un second programme a refait le calcul avec son propre code : mêmes chiffres. Il a corrigé quatre phrases
+qui disaient plus que les chiffres, dont une explication fausse de ma main sur le classement des patients.
+Deux analyses qu'il a proposées sont ajoutées au script, marquées hors plan.
+
+**Choix.** Le niveau de la piste ne monte pas : mêmes patients, même équipe. Le classeur des auteurs n'est pas copié
+au dépôt, faute de licence ; le script le lit depuis leur dépôt. Écarté : ajouter `statsmodels` aux dépendances
+pour une régression de quinze lignes, écrite avec `numpy`.
+
 ## 2026-11-24 — B005 et B019 : deux articles lus en entier, deux pistes gardées au niveau C
 
 **Fait.** Le porteur du projet a fourni les deux articles. Le modèle principal les a lus ; un contradicteur par piste

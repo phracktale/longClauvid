@@ -108,6 +108,15 @@ def main(chemin):
     covid.loc[est_covid & (malaise == 0), "Cohort"] = "PASC sans malaise"
     afficher("2.4 COVID long, avec et sans malaise post-effort",
              regression(covid, INDICE, ["PASC avec malaise", "PASC sans malaise"], 0.95), 0.95)
+
+    print("\n--- Hors plan : ajouté après la relecture indépendante du calcul, descriptif ---")
+    d["somme_dopamine"] = d["CSF_DA"] + d["CSF_DOPAC"] + d["CSF_HVA"]
+    afficher("H.1 Indice de la voie de la dopamine (dopamine + DOPAC + HVA)",
+             regression(d, "somme_dopamine", deux, 0.95), 0.95)
+    print("  Moyennes, tous groupes : HVA %.1f ; DOPAC %.2f" % (d["CSF_HVA"].mean(), d["CSF_DOPAC"].mean()))
+    rangs = d[d["Cohort"].isin([TEMOINS] + deux)].dropna(subset=[INDICE]).copy()
+    rangs["rang"] = rangs[INDICE].rank()
+    afficher("H.2 Test principal refait sur les rangs de l'indice", regression(rangs, "rang", deux, 0.975), 0.975)
     return 0
 
 
