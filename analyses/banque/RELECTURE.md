@@ -40,7 +40,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B016 | Apnée du sommeil avant l'infection | C | Vérifiée | Gardée après lecture de l'article, au niveau C. L'association est de même sens dans deux réseaux de dossiers médicaux et dans une enquête, mais elle est fragile : 1,12 et 1,75 selon le réseau, un rapport de 0,91 dans l'un d'eux quand l'ajustement change, un COVID long défini en partie par le recours aux soins, et une enquête déclarée des deux côtés. La confusion par l'obésité n'est pas écartée. L'analyse du traitement de l'apnée, sur lequel repose le test, a été faite et n'est pas rapportée. |
 | B017 | Résistance à l'insuline avant l'EM/SFC | C | Vérifiée | Gardée après corrections : le test sur les cas incidents d'UK Biobank est le plus direct pour dire si la signature précède la maladie. Le nombre de cas incidents reste à établir. |
 | B018 | Hypermobilité articulaire | C | Vérifiée | Gardée après corrections. L'association est retrouvée avec une hypermobilité non déclarée par le patient, dans deux études à diagnostics codés que leurs limites empêchent de tenir pour une réplication. Le test suivant est une mesure à l'examen, avant l'infection ; aucune cohorte n'est nommée pour le faire. |
-| B019 | Interleukines 5 et 13 avant une mononucléose | C | Vérifiée | Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est rare. L'article de 2021, lu en entier, compare 18 formes sévères à 58 personnes rétablies, sur seize cytokines et sans correction : l'IL-13 (p < 0,01) et l'IL-6 (p = 0,01) sont plus basses avant la maladie ; l'IL-5 ne l'est qu'en tendance (p = 0,02). Les auteurs jugent les écarts modestes. Aucune réplication ; la cohorte nommée pour le test n'a ni assez de cas ni dosage montré de ces cytokines. |
+| B019 | Interleukines 13 et 6 avant une mononucléose | C | Vérifiée | Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est rare. L'article de 2021, lu en entier, compare 18 formes sévères à 58 personnes rétablies, sur seize cytokines et sans correction : l'IL-13 (p < 0,01) et l'IL-6 (p = 0,01) sont plus basses avant la maladie ; l'IL-5 ne l'est qu'en tendance (p = 0,02). Les auteurs jugent les écarts modestes. Aucune réplication ; la cohorte nommée pour le test n'a ni assez de cas ni dosage montré de ces cytokines. |
 | B020 | Nombre de copies d'ADN mitochondrial | C | Vérifiée | Gardée après corrections : la randomisation mendélienne est à refaire sur un autre jeu de cas, mais aucun jeu public et indépendant n'est assez grand aujourd'hui. |
 | B021 | Antibiotiques à Taïwan | C | Écartée | Signal probablement artefactuel : effet invraisemblable, un risque divisé par dix à vingt-cinq, sur 16 à 30 cas par antibiotique ; moment de la prise non décrit ; maladie définie par un code seul (questions 5, 8 et 9 de la grille). La contre-analyse proposée n'est pas faite. L'essai randomisé de la doxycycline est négatif, mais il traite une fatigue installée et ne teste pas la prévention. À rouvrir si une émulation d'essai cible est publiée. |
 
@@ -223,10 +223,11 @@ Les auteurs jugent les écarts modestes, et en grande partie effacés à six moi
 Le contradicteur confirme tous les constats de la lecture. Il ajoute que le groupe sévère avait déjà plus de symptômes
 avant la mononucléose, et que la cohorte nommée pour le test compte 49 cas pour 73 requis.
 
-**Ce qui reste écrit au dépôt des pistes et que les sources ne portent plus.** Le titre de B005 dit « du même type
-que dans les synucléinopathies » ; celui de B019 met l'IL-5 sur le même plan que l'IL-13. Deux champs de B019 disent
-encore « valeurs de p non rapportées » et « nombre de cytokines non rapporté ». Ces textes ne sont pas réécrits :
-la relecture les corrige dans son champ, et la réécriture attend la décision du porteur du projet.
+**Titres réécrits.** Le titre de B005 disait « du même type que dans les synucléinopathies » ; celui de B019 mettait
+l'IL-5 sur le même plan que l'IL-13. Avec l'accord du porteur du projet, les deux sont réécrits le 2026-11-24 ;
+l'ancien titre est gardé dans le champ `relecture.titre_initial` de chaque piste. Deux champs de B019 disent
+encore « valeurs de p non rapportées » et « nombre de cytokines non rapporté » : ils ne sont pas réécrits,
+la relecture les corrige dans son champ.
 
 ## Méthode
 
