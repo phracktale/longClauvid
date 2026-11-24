@@ -19,6 +19,9 @@ reprise sans contrôle.
 dans son propre champ. Écarté : les réécrire d'office, ce qui effacerait la trace de ce qui avait été déposé.
 La réécriture est proposée au porteur du projet.
 
+**Suite, le même jour.** Le porteur du projet a demandé la réécriture des deux titres. Elle est faite ;
+l'ancien titre de chaque piste est gardé dans son champ `relecture.titre_initial`.
+
 ## 2026-11-24 — Quatre travaux faits sans attendre de réponse
 
 **Modèle de Craddock.** La règle soumise à l'auteur est essayée : un frein de deux crans, une stimulation d'un cran.

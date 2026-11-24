@@ -540,8 +540,8 @@
       suite: 'Décision reformulée : vérifiée, niveau D. Le test ne peut réfuter la piste que si les témoins sains
         montrent eux-mêmes l''effet après l''effort : il est à réécrire avec ce témoin positif.'
 - id: B005
-  titre: Le liquide céphalo-rachidien des patients montre un déficit central en catécholamines, du même type que
-    dans les synucléinopathies
+  titre: Le liquide céphalo-rachidien des patients montre un déficit de la voie de la noradrénaline ; la voie de
+    la dopamine y est normale
   domaine_source: Maladie de Parkinson, atrophie multisystématisée, insuffisance autonome pure
   processus_commun: Taux de DOPA, de DOPAC et de DHPG dans le liquide céphalo-rachidien
   enonce: 'Le déficit central en catécholamines mesuré au NIH dans l''EM/SFC post-infectieuse et le neuro-COVID
@@ -725,6 +725,11 @@
       suite: 'Décision reformulée : vérifiée, niveau C. Le titre, écrit au dépôt de la piste, dit plus que les sources
         : le déficit porte sur la voie de la noradrénaline. Le test est à réécrire sur cet indice, avec un seuil,
         hors du NIH.'
+    titre_initial:
+      date: '2026-11-24'
+      titre: Le liquide céphalo-rachidien des patients montre un déficit central en catécholamines, du même type
+        que dans les synucléinopathies
+      motif: 'Titre réécrit avec l''accord du porteur du projet : il disait plus que les sources lues en entier.'
 - id: B006
   titre: Des auto-anticorps contre la sélénoprotéine P privent les tissus de sélénium et freinent l'activation de
     l'hormone thyroïdienne
@@ -2196,7 +2201,8 @@
       suite: 'Décision reformulée, niveau ramené de B à C : la réplication par une équipe indépendante porte sur
         un diagnostic codé, pas sur l''hypermobilité elle-même. La même règle avait ramené B013 à C.'
 - id: B019
-  titre: Des taux bas d'interleukines 5 et 13 avant une mononucléose précèdent l'EM/SFC sévère
+  titre: Des taux bas d'interleukine 13 et d'interleukine 6 avant une mononucléose précèdent l'EM/SFC sévère ; l'interleukine
+    5 n'est basse qu'en tendance
   domaine_source: Cohorte prospective d'étudiants, avec prise de sang avant la maladie
   processus_commun: Cytokines de type 2 (IL-5, IL-13) basses avant l'infection
   enonce: Un tonus bas des cytokines de type 2, mesuré avant l'infection, prédispose à une forme sévère de fatigue
@@ -2336,6 +2342,10 @@
       suite: 'Décision reformulée : vérifiée, niveau C. Le signal est porté par l''IL-13 ; l''IL-5 est plus faible.
         Le test doit fixer d''avance le traitement des valeurs sous le seuil de détection, et nommer une cohorte
         qui dose ces cytokines.'
+    titre_initial:
+      date: '2026-11-24'
+      titre: Des taux bas d'interleukines 5 et 13 avant une mononucléose précèdent l'EM/SFC sévère
+      motif: 'Titre réécrit avec l''accord du porteur du projet : il disait plus que les sources lues en entier.'
 - id: B020
   titre: Un nombre de copies d'ADN mitochondrial génétiquement plus élevé est associé à moins d'EM/SFC
   domaine_source: Randomisation mendélienne sur les statistiques résumées de DecodeME
