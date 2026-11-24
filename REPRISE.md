@@ -1,6 +1,6 @@
 # Reprendre le projet dans une nouvelle session
 
-État au 2026-11-23. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
+État au 2026-11-24. Ce fichier sert à repartir sans rien perdre : il dit où en est le projet,
 quelles règles s'appliquent et quoi faire ensuite. Il se met à jour à la fin de chaque session de travail.
 
 **Pour reprendre : ouvrir le dépôt, lire ce fichier, puis `JOURNAL.md` pour le détail des décisions.**
@@ -98,8 +98,11 @@ Une absence de réponse se constate à partir du 2027-01-22.
    1 258 contiennent un terme d'une piste. Reste la phase 1 proprement dite : lire les références retenues,
    en extraire les relations, mesurer la précision sur un échantillon relu à la main. Fait le 2026-11-23 pour P08, P14
    et P01 : `analyses/cartographie/LECTURE.md`. Précision de 27 sur 30, relue par un programme : le seuil de 90 %
-   n'est pas établi. Avant de lire une autre piste, corriger le terme « complement », traiter les doublons,
-   ajouter le verbe « détecté dans » et sortir les méta-analyses des revues. Restent aussi : une relecture
+   n'est pas établi. Ces défauts sont corrigés le 2026-11-24, puis P09 et P07 sont lues : 29 relations justes sur 31,
+   soit 56 sur 61 pour les deux lectures (92 %, de 82 % à 96 %) ; le seuil n'est toujours pas établi.
+   La bibliothèque ne contient aucune mesure du sodium ou du calcium du muscle : sa carte ne dit rien de P07.
+   Avant de lire une autre piste : un verbe pour les corrélations négatives, dire contre qui la mesure est faite,
+   vérifier le terme « pregnan » de B015, resserrer les termes de P07. Restent aussi : une relecture
    de l'échantillon par une personne, la normalisation des entités, le graphe.
 8. **Taux publiés du modèle de Craddock** : l'auteur a répondu le 2026-11-23. Le code n'existe plus, et sa réponse
    ne dit pas si les figures de 2015 utilisent un cran ou deux (`simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`, section 4 bis).

@@ -64,7 +64,46 @@ Le champ « sens » est moins fiable que la relation : dans l'échantillon, deux
 - **Des résumés tronqués** ou réduits à une phrase : le type et la pertinence viennent alors du titre.
 
 Ces défauts sont laissés tels quels dans les décomptes : les termes et la consigne ne se corrigent pas après la lecture.
-Ils sont à corriger avant de lire une autre piste.
+Ils sont à corriger avant de lire une autre piste. Ils l'ont été le 2026-11-24, sauf le mélange des trois objets de P14,
+que la consigne traite par une règle sans que ses termes soient changés.
+
+## Seconde lecture, le 2026-11-24 : P09 et P07, avec la consigne corrigée
+
+Les défauts ci-dessus sont corrigés avant cette lecture, et la consigne corrigée est déposée avant qu'elle soit rendue
+(commit `a13ba64`). Ce qui change : le terme « complement » n'attrape plus le verbe anglais (14 faux positifs sur 86) ;
+178 références enregistrées deux fois sont retirées, sur 10 475 ; un type « méta-analyse », deux verbes de détection
+et un champ « population » sont ajoutés ; les résumés de moins de 300 caractères ne sont plus mis en lot.
+Les décomptes de la première lecture ne sont pas refaits. Quatre lecteurs ont lu 117 résumés.
+
+| Piste | Résumés lus | Objet principal | Mesuré parmi d'autres choses | Cité en passant | Mesures chez des patients ou essais, pertinents | Relations |
+| --- | --- | --- | --- | --- | --- | --- |
+| P09, sérotonine et tryptophane | 63 | 20 | 18 | 25 | 25 | 31 |
+| P07, sodium et calcium du muscle | 54 | 1 | 1 | 52 | 0 | 0 |
+
+- **P07 : la bibliothèque ne contient aucune mesure du sodium ou du calcium du muscle.** Ses termes, « skeletal muscle »
+  et « muscle biopsy », ramènent des études du muscle qui ne mesurent pas ces ions. Contre-épreuve par programme :
+  trois résumés seulement contiennent « sodium » ou « calcium ». Un seul porte sur la piste, et c'est une revue,
+  qui cite une mesure par IRM faite dans l'EM/SFC. Les 58 références de la carte ne disent donc rien de P07.
+- **P09 : 25 études de mesure ou essais pertinents**, 40 % de bruit. Les 31 relations portent surtout sur la voie
+  de la kynurénine ; trois seulement mesurent la sérotonine elle-même. Aucune n'est notée « contredit ».
+- Population des 31 relations : 22 dans le COVID long, 5 dans le COVID-19 aigu, 4 autres. Le champ fait son office.
+
+**Précision.** Les 31 relations ont toutes été relues par le modèle principal, contre leur citation ; toutes les citations
+sont retrouvées mot pour mot. Vingt-neuf disent ce que dit la citation. Les deux erreurs : une relation dont les entités
+sont inversées (« PASC risk decreased_in SSRIs ») ; une « association » entre la sérotonine et les patients, tirée
+d'une phrase qui dit seulement que des taux sortent des valeurs de référence. Aucune des trois erreurs de la première
+lecture ne revient. Vingt-neuf sur 31 font 94 %, de 79 % à 98 % (intervalle de Wilson à 95 %, calculé par programme).
+Sur les deux lectures réunies, 56 sur 61 : 92 %, de 82 % à 96 %. **Le critère de 90 % n'est toujours pas établi** :
+la borne basse reste sous le seuil, et le relecteur est encore un programme.
+
+Ce qui reste à corriger :
+
+- `associated_with` porte encore la moitié des relations (15 sur 31). Il cache le sens d'une corrélation :
+  il manque un verbe pour « corrélé négativement ».
+- La seconde entité est parfois un groupe de patients là où il faudrait une comparaison : la consigne ne dit pas
+  contre qui la mesure est faite.
+- Le terme « pregnan » de B015 attrape sans doute « pregnancy » : ses 72 références sont à vérifier avant lecture.
+- Les termes de P07 sont à resserrer sur les ions eux-mêmes, ou la piste est à noter « non couverte par la bibliothèque ».
 
 ## Limites
 

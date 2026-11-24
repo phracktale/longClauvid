@@ -3,6 +3,22 @@
 Une entrée par décision : ce qui a été choisi, pourquoi, et ce qui a été écarté.
 Les entrées les plus récentes sont en haut.
 
+## 2026-11-24 — Cartographie : défauts corrigés, P09 et P07 lues, le seuil de 90 % toujours pas établi
+
+**Fait.** Les défauts de la première lecture sont corrigés dans les scripts et dans la consigne des lecteurs,
+déposée avant que la seconde lecture soit rendue. Quatre lecteurs ont lu 117 résumés ; le modèle principal
+a relu les 31 relations contre leur citation.
+
+**Résultat.** Vingt-neuf relations justes sur 31. Avec la première lecture, 56 sur 61 : 92 %, de 82 % à 96 %.
+La borne basse reste sous le seuil du protocole, et le relecteur est un programme.
+
+**Constat.** La bibliothèque ne contient aucune mesure du sodium ou du calcium du muscle. Les 58 références
+que la carte attribue à P07 sont du bruit : ses termes désignent le muscle, pas les ions.
+
+**Choix.** Les décomptes de la première lecture ne sont pas refaits avec les termes corrigés : une lecture se lit
+avec la consigne qu'elle a suivie. Écarté : relire P08 pour montrer l'effet de la correction du terme « complement »,
+ce qui coûterait cinq lecteurs pour un gain connu d'avance.
+
 ## 2026-11-24 — B005 et B019 : deux articles lus en entier, deux pistes gardées au niveau C
 
 **Fait.** Le porteur du projet a fourni les deux articles. Le modèle principal les a lus ; un contradicteur par piste
