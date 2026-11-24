@@ -46,7 +46,11 @@ PISTES = {
     "P06": ("SMPDL3B", [r"SMPDL3B", r"sphingomyelin", r"PI-PLC"]),
     "P07": ("Surcharge sodium–calcium du muscle", [r"intracellular sodium", r"sodium MRI", r"23Na",
                                                    r"muscle biops", r"skeletal muscle"]),
-    "P08": ("Fibrine, spike et complément", [r"fibrin", r"microclot", r"\bcomplement\b"]),
+    # « complement » est aussi un verbe anglais : on écarte « to complement », « could complement », « complement our »…
+    # Corrigé le 2026-11-24 : l'ancien motif, \bcomplement\b, ramenait 14 faux positifs sur 86.
+    "P08": ("Fibrine, spike et complément", [
+        r"fibrin", r"microclot", r"complement (activation|system|pathway|cascade)",
+        r"(?<!\bto )(?<!could )(?<!will )(?<!ly )\bcomplement\b(?! (to|our|of about|biomedical|future)\b)"]),
     "P09": ("Sérotonine et tryptophane", [r"serotonin", r"tryptophan", r"kynurenin"]),
     "P10": ("Hormones sexuelles", [r"testosterone", r"estradiol", r"estrogen", r"oestrogen", r"sex hormone"]),
     "P11": ("Modèles à états stables multiples", [r"bistab", r"multistab", r"stable state", r"attractor",
@@ -85,6 +89,23 @@ def annee(reference):
     return trouve.group(0) if trouve else ""
 
 
+def cle(reference):
+    """Ce qui identifie une référence : son DOI, sinon son titre sans casse ni ponctuation."""
+    doi = (reference.get("DOI") or "").strip().lower()
+    return doi or re.sub(r"[^a-z0-9]+", " ", (reference.get("title") or "").lower()).strip()
+
+
+def sans_doublons(references):
+    """Garde la première de chaque référence enregistrée plusieurs fois. Une référence sans DOI ni titre est gardée."""
+    vues, gardees = set(), []
+    for reference in references:
+        if cle(reference) and cle(reference) in vues:
+            continue
+        vues.add(cle(reference))
+        gardees.append(reference)
+    return gardees
+
+
 def compter(references, motifs):
     """Renvoie les références dont le titre ou le résumé contient au moins un des motifs."""
     expression = re.compile("|".join(motifs), re.IGNORECASE)
@@ -101,7 +122,8 @@ def main():
     if not BIBLIOTHEQUE.is_file():
         sys.exit("Copie locale absente : lancer d'abord outils/bibliotheque_apresj20.py telecharger")
     bibliotheque = json.loads(BIBLIOTHEQUE.read_text(encoding="utf-8"))
-    references = bibliotheque["references"]
+    toutes_les_references = bibliotheque["references"]
+    references = sans_doublons(toutes_les_references)
 
     # Deux contrôles : un terme inventé ne trouve rien, le nom de la maladie trouve beaucoup.
     assert not compter(references, [r"zzqxjv"]), "contrôle négatif : un terme inventé a trouvé des références"
@@ -151,7 +173,8 @@ def main():
         "",
         "| Étape | Références |",
         "| --- | --- |",
-        f"| Dans la bibliothèque | {len(references)} |",
+        f"| Dans la bibliothèque | {len(toutes_les_references)} |",
+        f"| Une fois retirées les références enregistrées deux fois | {len(references)} |",
         f"| Avec un résumé | {avec_resume} |",
         f"| Retenues par au moins une piste du registre ou de la banque | {len(retenues)} |",
         f"| Retenues par aucune | {len(hors_carte)} |",
