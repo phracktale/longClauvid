@@ -1,0 +1,24 @@
+# Comment citer ce dépôt. Le porteur du projet n'y est pas nommé : c'est une règle du projet.
+cff-version: 1.2.0
+message: "Pour citer ce travail, citez le dépôt et la date de la version utilisée."
+title: "longClauvid : registre ouvert d'hypothèses sur le COVID long et l'EM/SFC"
+type: dataset
+authors:
+  - name: "Projet longClauvid"
+repository-code: "https://github.com/phracktale/longClauvid"
+url: "https://github.com/phracktale/longClauvid"
+abstract: >-
+  Registre ouvert et sourcé d'hypothèses sur le COVID long et l'encéphalomyélite myalgique
+  (EM/SFC) : pistes, hypothèses réfutables, confrontations, plans d'analyse déposés avant
+  les données, simulateurs et relectures contradictoires. Une partie du travail est faite
+  avec un programme d'intelligence artificielle ; chaque affirmation renvoie à sa source.
+  Rien n'y est un avis médical.
+keywords:
+  - COVID long
+  - EM/SFC
+  - encéphalomyélite myalgique
+  - hypothèses
+  - science ouverte
+license:
+  - MIT
+  - CC-BY-4.0

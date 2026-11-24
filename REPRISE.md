@@ -65,6 +65,7 @@ Une absence de réponse se constate à partir du 2027-01-22.
    et celui de 2017 pour B009, envoyé par son auteur. Un PDF se dépose dans la conversation ou arrive par la boîte :
    son texte sert de copie locale, hors dépôt, et il est à redéposer si une session future doit le relire.
    Deux lectures de plus préciseraient deux pistes gardées : PMID 42205163 pour B005, PMID 33367564 pour B019.
+   Les deux sont gratuits pour une personne sur Europe PMC, et refusés aux programmes : PMC13202209 et PMC8664491.
 2. **Faire relire la banque par une personne du métier**, et réécrire le test d'une piste avant de la promouvoir.
    Les quinze pistes gardées ont été attaquées par un programme le 2026-11-22 : B004 repasse « à vérifier »,
    le niveau de B018 revient à C, neuf décisions sont reformulées. Aucun des quinze tests proposés n'est prêt :
@@ -103,7 +104,8 @@ Une absence de réponse se constate à partir du 2027-01-22.
 8. **Taux publiés du modèle de Craddock** : l'auteur a répondu le 2026-11-23. Le code n'existe plus, et sa réponse
    ne dit pas si les figures de 2015 utilisent un cran ou deux (`simulateurs/niveau2/RESULTATS_RESEAU_LOGIQUE.md`, section 4 bis).
    L'article de 2021 qu'il indique est lu (section 4 ter) : un cran par pas de temps, traitement maintenu, et un taux
-   qui est celui du meilleur traitement trouvé. Reste à retrouver l'erratum de 2014. Une seconde lettre à l'auteur est partie
+   qui est celui du meilleur traitement trouvé. L'erratum de 2014 est retrouvé : il remplace la figure du réseau.
+   La règle « frein de deux crans, stimulation d'un cran » rend 11 lignes sur 12 de la figure 5. Une seconde lettre à l'auteur est partie
    le 2026-11-23 : `analyses/lot-2/LETTRES.md`.
    Il a aussi donné une indication non publique sur un essai : elle n'entre pas au dépôt.
 9. **Version partagée du document de cadrage**, hors dépôt : elle n'a ni la section sur la banque,
@@ -115,7 +117,8 @@ Abandonné par le porteur du projet le 2026-11-22 : la recherche de l'étude PHO
 
 - Une branche par changement, une demande de fusion, fusion avec un commit de fusion, puis la branche est avancée
   jusqu'à `main`. Le rebasage est abandonné le 2026-11-23 : il oblige à forcer la mise à jour de la branche.
-- Avant chaque commit : `python3 verifier.py`.
+- Avant chaque commit : `python3 verifier.py`. Depuis le 2026-11-24, GitHub le lance aussi à chaque demande de fusion
+  (`.github/workflows/verifier.yml`).
 - Une correction se date et se motive ; on ne réécrit pas l'histoire. Les plans d'analyse
   se modifient en bas de fichier, jamais dans la règle de décision. Le texte déposé en banque
   ne se réécrit pas : la relecture s'ajoute.

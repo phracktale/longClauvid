@@ -1,0 +1,12 @@
+{
+  "title": "longClauvid : registre ouvert d'hypothèses sur le COVID long et l'EM/SFC",
+  "upload_type": "dataset",
+  "description": "Registre ouvert et sourcé d'hypothèses sur le COVID long et l'encéphalomyélite myalgique (EM/SFC) : pistes, hypothèses réfutables, confrontations, plans d'analyse déposés avant les données, simulateurs et relectures contradictoires. Une partie du travail est faite avec un programme d'intelligence artificielle ; chaque affirmation renvoie à sa source. Rien n'y est un avis médical.",
+  "creators": [{"name": "Projet longClauvid"}],
+  "keywords": ["COVID long", "EM/SFC", "encéphalomyélite myalgique", "hypothèses", "science ouverte"],
+  "license": "CC-BY-4.0",
+  "language": "fra",
+  "related_identifiers": [
+    {"identifier": "https://github.com/phracktale/longClauvid", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

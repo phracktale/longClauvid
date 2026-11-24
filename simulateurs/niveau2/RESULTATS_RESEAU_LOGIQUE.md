@@ -140,7 +140,7 @@ L'auteur correspondant de l'article a répondu à la lettre du 2026-11-22. Sa r�
 | Maintenu, ou relâché ? | En 2015, tous les traitements sont appliqués à un seul instant, sur l'état malade, puis le réseau évolue librement | C'est ce que fait le simulateur pour la figure 5 |
 | Le code ? | Il n'est plus disponible, après plusieurs déménagements du laboratoire | Les taux publiés ne peuvent pas être refaits à l'identique |
 | Des taux un peu différents ? | Attendu, parce que le procédé est aléatoire. Des résultats proches sont, pour lui, cohérents ; un écart grossier serait à lui signaler | Voir ci-dessous |
-| La figure de 2014 ? | Selon lui, un erratum de l'article de 2014 corrige une arête mal étiquetée | Non vérifié : l'erratum n'a pas été retrouvé par une première recherche |
+| La figure de 2014 ? | Selon lui, un erratum de l'article de 2014 corrige une arête mal étiquetée | Retrouvé le 2026-11-24 : l'article de 2014 a deux errata. Le second ([PLoS ONE 2014, 9(6), e100355](https://doi.org/10.1371/journal.pone.0100355)) dit que la figure 1 du réseau contenait « un certain nombre d'erreurs » et la remplace. La figure corrigée est une image, qui n'a pas été relue arête par arête |
 
 Deux choses restent à faire, sans l'auteur :
 
@@ -151,6 +151,21 @@ Deux choses restent à faire, sans l'auteur :
 
 L'essai de l'étanercept puis de la mifépristone (NCT04254627) n'a pas de publication. L'auteur a donné une indication
 de ses résultats, non publics : elle n'est pas reprise ici.
+
+### La lecture mixte, essayée le 2026-11-24
+
+La seconde lettre à l'auteur lui soumet une règle : un frein va à la valeur extrême, une stimulation ne monte que d'un cran.
+Elle est maintenant dans le simulateur (`frein_extreme`, quatrième colonne de la sortie de `craddock_2015.py`).
+
+| Lecture | Lignes de la figure 5 retrouvées à 2 points près | Écart maximal |
+| --- | --- | --- |
+| Un cran partout | 0 sur 12 | 33 points |
+| Deux crans partout | 8 sur 12 | 18 points |
+| Frein de deux crans, stimulation d'un cran | 11 sur 12 | 8 points |
+
+La ligne qui résiste est « GR−, T2Cyt+ » : 7,99 % publié, 0,0 % avec la lecture mixte, 7,8 % avec deux crans partout.
+Elle demande donc une stimulation de deux crans pour T2Cyt, quand deux autres lignes en demandent un seul pour le même nœud.
+Aucune règle simple ne rend les douze lignes. La lecture mixte est la meilleure des trois, sans être confirmée par l'auteur.
 
 ## 4 ter. Ce que dit l'article de 2021
 
