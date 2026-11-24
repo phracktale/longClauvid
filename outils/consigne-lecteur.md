@@ -34,16 +34,28 @@ et une liste de références : `numero`, `titre`, `annee`, `doi`, `resume`.
 | secondaire | L'article le mesure ou le teste parmi d'autres choses |
 | en passant | Le terme apparaît, mais l'article ne mesure ni ne teste rien sur ce sujet |
 
-**Le type**, un parmi six : « mesure chez des patients », « essai », « modèle animal ou cellulaire », « revue »,
-« hypothèse », « autre ».
+**Le type**, un parmi sept : « mesure chez des patients », « essai », « méta-analyse », « modèle animal ou cellulaire »,
+« revue », « hypothèse », « autre ». Une méta-analyse regroupe des mesures et donne un chiffre ; une revue,
+même systématique, qui ne donne aucun chiffre groupé reste une « revue ».
 
 **Les relations**, de zéro à trois, seulement si la pertinence est « centrale » ou « secondaire », et seulement
 celles qui touchent le sujet de la piste. Une relation dit : telle entité, telle relation, telle entité.
 Les entités sont des noms courts en anglais, tels que le résumé les écrit (une molécule, une cellule, un symptôme,
 un groupe de patients). La relation est un verbe parmi : `increased_in`, `decreased_in`, `unchanged_in`,
-`associated_with`, `not_associated_with`, `causes`, `improves`, `does_not_improve`, `predicts`, `binds`.
-Chaque relation porte une citation, et son **sens** pour la piste : « soutient », « contredit » ou « neutre ».
+`detected_in`, `not_detected_in`, `associated_with`, `not_associated_with`, `causes`, `improves`,
+`does_not_improve`, `predicts`, `binds`.
+Chaque relation porte une citation, sa **population** et son **sens** pour la piste.
+La population est celle où la mesure est faite : « COVID long », « EM/SFC », « COVID-19 aigu » ou « autre ».
+Le sens est « soutient », « contredit » ou « neutre » ; dans le doute, « neutre ».
 Une revue ou un texte d'hypothèse n'a pas de relation : elle ne rapporte pas de mesure.
+
+Quatre règles pour les relations, tirées des erreurs de la première lecture :
+
+1. L'entité est ce qui est mesuré, pas le sujet de la piste. Un antigène, un ARN viral et un anticorps
+   sont trois entités : écris celle que le résumé nomme.
+2. Un écart que le résumé dit non significatif s'écrit `unchanged_in` ou `not_associated_with`, jamais une hausse.
+3. Une observation sur un seul patient se note avec « single patient » comme seconde entité, pas comme une règle générale.
+4. La citation nomme les deux entités de la relation. Si aucune phrase ne le fait, n'écris pas la relation.
 
 ## Le fichier à écrire
 
@@ -54,14 +66,18 @@ Une revue ou un texte d'hypothèse n'a pas de relation : elle ne rapporte pas de
   "lot": "nom du fichier du lot",
   "lectures": [
     {"numero": 123, "pertinence": "centrale | secondaire | en passant",
-     "type": "mesure chez des patients | essai | modèle animal ou cellulaire | revue | hypothèse | autre",
+     "type": "mesure chez des patients | essai | méta-analyse | modèle animal ou cellulaire | revue | hypothèse | autre",
      "relations": [
        {"entite_1": "fibrin", "relation": "increased_in", "entite_2": "long COVID patients",
+        "population": "COVID long | EM/SFC | COVID-19 aigu | autre",
         "sens": "soutient | contredit | neutre", "citation": "passage copié tel quel"}
      ]}
   ]
 }
 ```
+
+Consigne corrigée le 2026-11-24, après la première lecture (`analyses/cartographie/LECTURE.md`) : un type
+« méta-analyse », deux verbes de détection, le champ « population » et les quatre règles ci-dessus.
 
 Termine par un résumé de cinq lignes au plus : nombre de références lues, répartition des pertinences,
 nombre de relations, et ce qui t'a posé un doute.
