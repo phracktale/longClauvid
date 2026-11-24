@@ -26,7 +26,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B002 | Peroxysomes et plasmalogènes | C | Vérifiée | Gardée après corrections. Demander les plasmalogènes aux auteurs des lipidomiques déjà faites reste le premier pas le moins coûteux, mais rien ne montre que leurs données suffisent au test : l'une n'a pas de groupe rétabli nommé, l'autre décrit un métabolisme des lipides éthers renforcé, de sens contraire. |
 | B003 | Orexine de l'hypothalamus | D | Vérifiée | Gardée comme hypothèse théorique, après correction de son énoncé : la baisse décrite chez l'animal est aiguë, et aucun dosage cas-témoins n'existe chez les patients. Le test sur liquide céphalo-rachidien conservé reste à faire, avec des témoins ponctionnés. |
 | B004 | Canal calcique RyR1 du muscle | D | Vérifiée | Gardée comme hypothèse théorique, niveau D. L'article de 2008, lu en entier, montre que l'effort intense appauvrit le canal RyR1 en calstabine 1 chez 12 cyclistes entraînés, et que l'effet a disparu le lendemain : c'est un résultat sur le muscle sain, d'une équipe liée à un fabricant. Aucune source lue en entier ne mesure RyR1 dans le muscle de patients EM/SFC ou COVID long. Le test, qui prélève un jour après l'effort, ne peut pas réfuter la piste tel qu'il est écrit. |
-| B005 | Catécholamines du liquide céphalo-rachidien | C | Vérifiée | Gardée après corrections : un déficit des métabolites des catéchols, mesuré par une seule équipe, à répliquer hors du NIH. Son recentrage sur la noradrénaline repose sur une étude de 2026 lue par son résumé ; la lecture « synucléine » reste la moins étayée, sans être écartée. |
+| B005 | Catécholamines du liquide céphalo-rachidien | C | Vérifiée | Gardée après corrections, recentrée sur la noradrénaline : un indice de cette voie est plus bas dans le liquide céphalo-rachidien de 15 patients EM/SFC et de 30 patients COVID long que chez 36 volontaires sains, dans une étude de 2026 lue en entier. Les patients EM/SFC sont très probablement ceux de l'étude de 2024 ; dans le COVID long, l'écart ne vaut que pour les 9 patients avec malaise post-effort. Aucune correction pour comparaisons multiples, aucun ajustement sur l'âge, une seule équipe : à répliquer hors du NIH. La lecture « synucléine » n'est ni testée ni écartée. |
 | B006 | Auto-anticorps contre la sélénoprotéine P | C | Vérifiée | Gardée après corrections : le dosage par un laboratoire indépendant est le test qui manque. |
 | B007 | Cibinétide et petites fibres nerveuses | C | Vérifiée | Gardée après corrections, avec un test à refaire : mesurer d'abord, sur une cohorte suivie, si les fibres de la cornée remontent quand les symptômes s'améliorent. Dans l'essai de 2017, ni les fibres de la peau ni les symptômes ne s'améliorent plus que sous placebo. |
 | B008 | D-lactate d'origine intestinale | D | Vérifiée | Gardée comme hypothèse théorique, niveau D : aucune source ne dose le D-lactate chez des patients. L'étude de selles de 2009, lue en entier, ne l'appuie pas : son signal est probablement artefactuel, et ses patients sont choisis pour leurs troubles digestifs. Un dosage unique sur plasma conservé ne suffirait pas à réfuter la piste, parce que le D-lactate fluctue : le test est à réécrire. |
@@ -40,7 +40,7 @@ Le détail de chaque piste est dans `registre/banque.yaml`, champ `relecture`.
 | B016 | Apnée du sommeil avant l'infection | C | Vérifiée | Gardée après lecture de l'article, au niveau C. L'association est de même sens dans deux réseaux de dossiers médicaux et dans une enquête, mais elle est fragile : 1,12 et 1,75 selon le réseau, un rapport de 0,91 dans l'un d'eux quand l'ajustement change, un COVID long défini en partie par le recours aux soins, et une enquête déclarée des deux côtés. La confusion par l'obésité n'est pas écartée. L'analyse du traitement de l'apnée, sur lequel repose le test, a été faite et n'est pas rapportée. |
 | B017 | Résistance à l'insuline avant l'EM/SFC | C | Vérifiée | Gardée après corrections : le test sur les cas incidents d'UK Biobank est le plus direct pour dire si la signature précède la maladie. Le nombre de cas incidents reste à établir. |
 | B018 | Hypermobilité articulaire | C | Vérifiée | Gardée après corrections. L'association est retrouvée avec une hypermobilité non déclarée par le patient, dans deux études à diagnostics codés que leurs limites empêchent de tenir pour une réplication. Le test suivant est une mesure à l'examen, avant l'infection ; aucune cohorte n'est nommée pour le faire. |
-| B019 | Interleukines 5 et 13 avant une mononucléose | C | Vérifiée | Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est rare. Le test de réplication a un seuil et un effectif calculé, mais rien ne montre que la cohorte nommée dose les deux cytokines ni qu'elle compte assez de cas. |
+| B019 | Interleukines 5 et 13 avant une mononucléose | C | Vérifiée | Gardée après corrections, comme signal fragile : le sang prélevé avant la maladie est rare. L'article de 2021, lu en entier, compare 18 formes sévères à 58 personnes rétablies, sur seize cytokines et sans correction : l'IL-13 (p < 0,01) et l'IL-6 (p = 0,01) sont plus basses avant la maladie ; l'IL-5 ne l'est qu'en tendance (p = 0,02). Les auteurs jugent les écarts modestes. Aucune réplication ; la cohorte nommée pour le test n'a ni assez de cas ni dosage montré de ces cytokines. |
 | B020 | Nombre de copies d'ADN mitochondrial | C | Vérifiée | Gardée après corrections : la randomisation mendélienne est à refaire sur un autre jeu de cas, mais aucun jeu public et indépendant n'est assez grand aujourd'hui. |
 | B021 | Antibiotiques à Taïwan | C | Écartée | Signal probablement artefactuel : effet invraisemblable, un risque divisé par dix à vingt-cinq, sur 16 à 30 cas par antibiotique ; moment de la prise non décrit ; maladie définie par un code seul (questions 5, 8 et 9 de la grille). La contre-analyse proposée n'est pas faite. L'essai randomisé de la doxycycline est négatif, mais il traite une fatigue installée et ne teste pas la prévention. À rouvrir si une émulation d'essai cible est publiée. |
 
@@ -198,6 +198,35 @@ Son contradicteur rend l'avis « tient en partie ». Il a fait tomber la raison 
 ne portent pas le même signal. Celle de 2026, lue par son résumé, a une copeptine normale chez 13 patients, ce qui va contre
 la prédiction du test. La piste repose donc sur l'étude de 2017 seule. Une phrase de la première relecture était inexacte :
 la vasopressine et la copeptine de 2026 ne se contredisent pas, elles sont mesurées chez des patients différents.
+
+## B005 et B019, après la lecture de leur article
+
+Le porteur du projet a téléchargé les deux articles, gratuits pour une personne et refusés aux programmes.
+Le modèle principal les a lus ; un contradicteur a attaqué chaque lecture. Toutes leurs citations sont retrouvées mot pour mot.
+Les deux avis sont « tient en partie ». Les deux pistes restent « vérifiées », au niveau C, avec une décision reformulée.
+
+**B005.** L'étude de 2026 mesure un indice de la voie de la noradrénaline plus bas que chez 36 volontaires sains :
+−15,9 pmol/mL (−26,1 à −5,7) chez 15 patients EM/SFC, −9,62 (−17,9 à −1,4) chez 30 patients COVID long.
+Dans le COVID long, l'écart ne vaut que pour les 9 patients avec malaise post-effort. La voie de la dopamine est normale.
+Les patients EM/SFC sont très probablement ceux de l'étude de 2024 : ce n'est pas une réplication indépendante.
+Aucune correction pour comparaisons multiples, aucun ajustement sur l'âge.
+
+Le contradicteur a corrigé trois constats de la lecture. Les auteurs écrivent que le MHPG n'avait jamais été rapporté
+dans ces maladies : une étude de 1992, déjà dans les sources de la piste, l'avait dosé. Le profil n'est pas « d'un autre type »
+que celui de la maladie de Parkinson : il lui ressemble pour la noradrénaline, pas pour la dopamine.
+Les données des questionnaires ne sont pas en annexe : les corrélations ne peuvent pas être refaites sans les demander.
+Il relève aussi que les auteurs concluent à l'absence de déficit en dopamine après avoir rapporté un DOPAC bas en 2024, sans l'expliquer.
+
+**B019.** L'article de 2021 compare, avant la maladie, 18 formes sévères à 58 personnes rétablies, sur seize cytokines,
+sans correction. L'IL-13 (p < 0,01) et l'IL-6 (p = 0,01) sont plus basses ; l'IL-5 ne l'est qu'en tendance (p = 0,02).
+Les auteurs jugent les écarts modestes, et en grande partie effacés à six mois.
+Le contradicteur confirme tous les constats de la lecture. Il ajoute que le groupe sévère avait déjà plus de symptômes
+avant la mononucléose, et que la cohorte nommée pour le test compte 49 cas pour 73 requis.
+
+**Ce qui reste écrit au dépôt des pistes et que les sources ne portent plus.** Le titre de B005 dit « du même type
+que dans les synucléinopathies » ; celui de B019 met l'IL-5 sur le même plan que l'IL-13. Deux champs de B019 disent
+encore « valeurs de p non rapportées » et « nombre de cytokines non rapporté ». Ces textes ne sont pas réécrits :
+la relecture les corrige dans son champ, et la réécriture attend la décision du porteur du projet.
 
 ## Méthode
 
