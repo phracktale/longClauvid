@@ -597,9 +597,11 @@
     url: https://pubmed.ncbi.nlm.nih.gov/42614190/
     lu: page
   - titre: 'Central noradrenergic deficiency in post-infectious chronic fatigue: neurobehavioral correlates, Brain
-      communications 2026 (résumé ; ajoutée à la relecture)'
+      communications 2026 (résumé ; ajoutée à la relecture ; texte intégral lu le 2026-11-24 sur un PDF fourni par
+      le porteur du projet)'
     url: https://pubmed.ncbi.nlm.nih.gov/42205163/
     lu: page
+    texte: https://europepmc.org/articles/PMC13202209
   - titre: 'Plasma and cerebrospinal fluid monoamine metabolism in patients with chronic fatigue syndrome: preliminary
       findings, Biological psychiatry 1992 (résumé ; ajoutée à la relecture)'
     url: https://pubmed.ncbi.nlm.nih.gov/1282370/
@@ -657,6 +659,38 @@
         peut pas servir seule de cohorte de réplication.'
       suite: 'Décision reformulée : vérifiée, niveau C. La source du signal, l''étude de 2024, est lue en entier.
         L''étude de 2026 (PMID 42205163) est à lire en entier avant de recentrer la piste.'
+    complement:
+      date: '2026-11-24'
+      lecture: 'L''article est lu en entier, sur un PDF téléchargé par le porteur du projet : Europe PMC le donne
+        aux personnes et le refuse aux programmes. La lecture est faite par le modèle principal, qui décide aussi.'
+      constats:
+      - 'C''est une analyse rétrospective, dans un seul centre : 40 volontaires sains, 16 patients EM/SFC post-infectieuse,
+        34 patients COVID long à symptômes neurologiques et 32 patients atteints de la maladie de Parkinson.'
+      - 'Les patients EM/SFC viennent du protocole de l''étude de 2024 (NCT02669212) : pour l''EM/SFC, ce n''est
+        pas une réplication indépendante. Le groupe COVID long, lui, dépasse la série de 7 patients de 2024.'
+      - L'indice de la voie de la noradrénaline est une somme de trois dosages (noradrénaline, DHPG, MHPG), que
+        les auteurs disent nouvelle. Le MHPG y domine ; il n'avait jamais été rapporté dans ces maladies.
+      - 'Cet indice est plus bas que chez les volontaires sains : −15,9 pmol/mL (−26,1 à −5,7) dans l''EM/SFC, −9,62
+        (−17,9 à −1,4) dans le COVID long, −19,4 (−27,5 à −11,3) dans la maladie de Parkinson.'
+      - 'Dans le COVID long, l''écart ne vaut que pour les 9 patients avec malaise post-effort : −18,3 (−31,3 à
+        −5,3). Les 13 patients sans malaise post-effort ne diffèrent pas des volontaires sains.'
+      - L'indice de la voie de la dopamine ne diffère pas des volontaires sains dans les deux maladies ; il est
+        abaissé dans la maladie de Parkinson. Le profil n'est donc pas « du même type » que celui de cette maladie.
+      - Les auteurs n'évoquent pas la synucléine. Ils supposent un manque d'ATP pour le stockage de la noradrénaline,
+        et le disent spéculatif. Ils notent qu'un MHPG bas est décrit dans deux autres synucléinopathies.
+      - 'Aucune correction pour comparaisons multiples, aucun calcul d''effectif : ce n''était pas l''analyse principale
+        des protocoles.'
+      - Les volontaires sains sont plus âgés que les patients EM/SFC (49,2 contre 38,7 ans). L'article dit avoir
+        vérifié l'effet du sexe, sans montrer les données ; le texte lu ne rapporte pas d'ajustement sur l'âge.
+      - Dix patients prenaient, au moment de la ponction, un médicament qui agit sur la noradrénaline. L'indice
+        reste plus bas que chez les volontaires sains avec ou sans ces patients ; les chiffres sont dans les annexes,
+        non lues.
+      - Chez les 38 patients réunis, l'indice suit la durée de serrage de la main (rho = 0,62 ; 0,35 à 0,80). Il
+        ne suit ni la douleur, ni la cognition, ni l'anxiété, ni la dépression.
+      - 'Les données individuelles sont en annexe de l''article et le code est public : la comparaison peut être
+        refaite.'
+      - Financement interne du NIH. L'auteur correspondant a fondé une société après son départ du NIH ; les auteurs
+        n'y voient pas de lien d'intérêts.
 - id: B006
   titre: Des auto-anticorps contre la sélénoprotéine P privent les tissus de sélénium et freinent l'activation de
     l'hormone thyroïdienne
@@ -2162,10 +2196,11 @@
     : comparaisons multiples sur un petit effectif.'
   sources:
   - titre: 'Risks for developing ME/CFS in college students following infectious mononucleosis: a prospective cohort
-      study (Clinical Infectious Diseases, DOI 10.1093/cid/ciaa1886), résumé'
+      study (Clinical Infectious Diseases, DOI 10.1093/cid/ciaa1886), résumé (texte intégral lu le 2026-11-24 sur
+      un PDF fourni par le porteur du projet)'
     url: https://research.luriechildrens.org/en/risks-for-developing-mecfs-in-college-students-following-infectious-mononucleosis-a-prospective-cohort-study
     lu: page
-    texte: https://pubmed.ncbi.nlm.nih.gov/33367564/
+    texte: https://europepmc.org/articles/PMC8664491
   - titre: Predictors for Developing Severe Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Following Infectious
       Mononucleosis (Journal of Rehabilitation Therapy, 2022)
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8959090
@@ -2218,6 +2253,28 @@
       suite: 'Décision reformulée : vérifiée, niveau C. La piste reste « vérifiée » parce que l''article de 2022,
         qui porte l''IL-5 et l''IL-13, est lu en entier. L''article de 2021 (PMID 33367564) est à lire en entier
         pour la comparaison de départ.'
+    complement:
+      date: '2026-11-24'
+      lecture: 'L''article est lu en entier, sur un PDF téléchargé par le porteur du projet : Europe PMC le donne
+        aux personnes et le refuse aux programmes. La lecture est faite par le modèle principal, qui décide aussi.'
+      constats:
+      - Seize cytokines sont dosées dans le plasma, en double. Pour les questionnaires, les auteurs fixent leur
+        seuil à 0,01 à cause des comparaisons multiples. Pour les cytokines, aucune correction n'est décrite.
+      - 'Avant la maladie, 18 formes sévères sont comparées à 58 personnes rétablies. L''IL-6 (p = 0,01) et l''IL-13
+        (p < 0,01) sont plus basses. Pour l''IL-5, p = 0,02 : les auteurs écrivent « proche de la significativité
+        ».'
+      - L'IL-5 n'atteint donc pas le seuil de 0,01 que l'article se donne ailleurs. Le titre de la piste, qui la
+        met sur le même plan que l'IL-13, dit plus que cette comparaison.
+      - Dans l'EM/SFC non sévère (29 personnes), l'IL-5 d'avant la maladie est « plus basse en tendance » (p < 0,03).
+      - L'IL-13 reste plus basse pendant la mononucléose (p < 0,01) et à six mois (p < 0,04). Les auteurs jugent
+        les écarts modestes, et en grande partie effacés à six mois.
+      - 'Le groupe des formes sévères avait déjà plus de symptômes avant la mononucléose : « avant la maladie »
+        ne veut pas dire « sans symptômes ».'
+      - Les valeurs sous le seuil de détection sont remplacées par la moitié de la plus petite valeur mesurée ;
+        leur proportion n'est pas donnée.
+      - 'Le tableau des cytokines donne des médianes par groupe. La copie tirée du PDF mélange ses colonnes : aucune
+        valeur n''en est reprise ici.'
+      - Financement public américain (NIAID) ; aucun lien d'intérêts déclaré.
 - id: B020
   titre: Un nombre de copies d'ADN mitochondrial génétiquement plus élevé est associé à moins d'EM/SFC
   domaine_source: Randomisation mendélienne sur les statistiques résumées de DecodeME
